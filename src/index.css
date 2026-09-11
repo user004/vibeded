@@ -1,111 +1,77 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
+  color-scheme: dark;
+  font-family: var(--font-sans);
+  line-height: var(--font-lineheight-3);
+  font-weight: var(--font-weight-4);
+  background:
+    radial-gradient(circle at top, color-mix(in srgb, var(--green-6) 24%, transparent), transparent 42%),
+    linear-gradient(180deg, var(--gray-12), var(--gray-11));
+  color: var(--stone-1);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  --app-shell-max-width: 90rem;
+  --surface-1: color-mix(in srgb, var(--gray-12) 92%, var(--gray-10));
+  --surface-2: color-mix(in srgb, var(--gray-11) 88%, var(--green-12));
+  --surface-3: color-mix(in srgb, var(--gray-10) 82%, var(--green-11));
+  --surface-highlight: color-mix(in srgb, var(--green-5) 24%, transparent);
+  --text-1: var(--gray-0);
+  --text-2: color-mix(in srgb, var(--gray-2) 84%, var(--green-1));
+  --text-muted: color-mix(in srgb, var(--gray-4) 78%, var(--gray-2));
+  --border-subtle: color-mix(in srgb, var(--gray-7) 42%, transparent);
+  --border-strong: color-mix(in srgb, var(--green-4) 42%, var(--lime-4));
+  --accent-1: var(--green-3);
+  --accent-2: var(--lime-3);
+  --accent-3: var(--teal-3);
+  --accent-4: var(--mint-3);
+  --accent-5: var(--cyan-3);
+  --accent-soft: color-mix(in srgb, var(--accent-1) 16%, var(--surface-2));
+  --accent-softer: color-mix(in srgb, var(--accent-1) 10%, var(--surface-2));
+  --accent-panel: linear-gradient(135deg, color-mix(in srgb, var(--accent-1) 12%, transparent), transparent 55%);
+  --shadow-grounded:
+    0 0 0 1px color-mix(in srgb, var(--gray-12) 18%, transparent),
+    var(--shadow-6);
+  --card-radius: var(--radius-4);
+  --card-padding: clamp(var(--size-4), 2vw, var(--size-6));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
-body {
-  margin: 0;
-}
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+html {
+  block-size: 100%;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
+body {
+  min-block-size: 100%;
   margin: 0;
+  background:
+    radial-gradient(circle at 20% 0%, color-mix(in srgb, var(--green-8) 18%, transparent), transparent 28%),
+    radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--lime-8) 16%, transparent), transparent 26%),
+    linear-gradient(180deg, var(--gray-12), var(--gray-11));
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+body,
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+button {
+  cursor: pointer;
+}
+
+img {
+  max-inline-size: 100%;
+  display: block;
+}
+
+#root {
+  min-block-size: 100vh;
 }

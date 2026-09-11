@@ -1,0 +1,46 @@
+.tier {
+  --tier-bg: var(--gray-6);
+  --tier-text: var(--gray-0);
+  display: inline-grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: var(--border-size-1) solid color-mix(in srgb, var(--tier-bg) 70%, white);
+  border-radius: var(--radius-3);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--tier-bg) 82%, white), var(--tier-bg));
+  color: var(--tier-text);
+  font-size: var(--font-size-0);
+  font-weight: var(--font-weight-7);
+  line-height: 1;
+  box-shadow: var(--shadow-3);
+  transform: rotate(45deg);
+
+  & > span {
+    transform: rotate(-45deg);
+  }
+}
+
+.tier[data-tier='1'] {
+  --tier-bg: var(--gray-6);
+  --tier-text: var(--gray-0);
+}
+
+.tier[data-tier='2'] {
+  --tier-bg: var(--yellow-5);
+  --tier-text: var(--gray-12);
+}
+
+.tier[data-tier='3'] {
+  --tier-bg: var(--blue-6);
+  --tier-text: var(--gray-0);
+}
+
+.tier[data-tier='4'] {
+  --tier-bg: var(--purple-6);
+  --tier-text: var(--gray-0);
+}
+
+.tier[data-tier='5'] {
+  --tier-bg: var(--red-9);
+  --tier-text: var(--gray-0);
+}

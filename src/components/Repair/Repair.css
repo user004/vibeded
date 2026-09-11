@@ -1,0 +1,25 @@
+.repair {
+  display: grid;
+  gap: var(--size-2);
+}
+
+.repair__title {
+  margin: 0;
+  color: var(--text-1);
+  font-size: var(--font-size-2);
+}
+
+.repair__list {
+  display: grid;
+  gap: var(--size-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repair__item {
+  padding: var(--size-2) var(--size-3);
+  border-radius: var(--radius-3);
+  background: var(--accent-softer);
+  color: var(--text-2);
+}

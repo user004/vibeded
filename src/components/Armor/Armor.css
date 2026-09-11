@@ -1,0 +1,58 @@
+.armor-card {
+  display: grid;
+  gap: var(--size-4);
+}
+
+.armor-card__header {
+  display: grid;
+  gap: var(--size-2);
+}
+
+.armor-card__title {
+  margin: 0;
+  color: var(--accent-1);
+  font-size: var(--font-size-5);
+  line-height: var(--font-lineheight-1);
+}
+
+.armor-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-2);
+}
+
+.armor-card__chip {
+  padding: var(--size-1) var(--size-3);
+  border-radius: var(--radius-round);
+  background: var(--accent-soft);
+  color: var(--text-1);
+  font-size: var(--font-size-0);
+  letter-spacing: var(--font-letterspacing-3);
+  text-transform: uppercase;
+}
+
+.armor-card__stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: var(--size-3);
+}
+
+.armor-card__stat {
+  display: grid;
+  gap: var(--size-1);
+  padding: var(--size-3);
+  border-radius: var(--radius-3);
+  background: var(--accent-softer);
+}
+
+.armor-card__stat-label {
+  color: var(--text-muted);
+  font-size: var(--font-size-0);
+  text-transform: uppercase;
+}
+
+.armor-card__stat-value,
+.armor-card__text {
+  margin: 0;
+  color: var(--text-2);
+}
