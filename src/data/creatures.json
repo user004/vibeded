@@ -1,0 +1,2309 @@
+[
+  {
+    "name": "C.K.U.",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Monitoring Station",
+      "Rocky Chamber"
+    ],
+    "loot": [
+      "Raw Pond Jockey Meat",
+      "Roby's Diode",
+      "Roby's Scrap Parts"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Calico",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Koi Fish Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Dagon",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Monitoring Station"
+    ],
+    "loot": [
+      "Koi Fish Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Larva",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area"
+    ],
+    "loot": [
+      "Acid Gland",
+      "Larva Spike"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Lawn Mite",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Ominent Onboarding Facility",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Snackbar Front Area"
+    ],
+    "loot": [
+      "Mite Fang",
+      "Mite Fuzz"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Mosquito",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Mosquito Beak",
+      "Mosquito Blood Sack"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Orb Weaver Jr.",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Boom Stick Stash",
+      "Ceremony Area",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Orb Weaver Cave",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Spider Den Anthill",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Orb Weaver Chunk",
+      "Web Fiber"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Oriole",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Koi Fish Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Red Soldier Ant",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Entrance Area",
+      "Fire Pit",
+      "Picnic Table Area",
+      "Red Anthills",
+      "Snackbar Front Area",
+      "War-Torn Anthill"
+    ],
+    "loot": [
+      "Acid Gland",
+      "Red Ant Head",
+      "Red Ant Mandibles",
+      "Red Ant Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Spiderling",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Spider Den Anthill"
+    ],
+    "loot": [
+      "Orb Weaver Chunk",
+      "Web Fiber"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Sunny",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Koi Fish Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Water Flea",
+    "category": "Angry",
+    "tier": 1,
+    "environments": [
+      "Gnarly Grotto",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Algae",
+      "Water Flea Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Bombardier Beetle",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Snackbar Front Area"
+    ],
+    "loot": [
+      "Blistering Boiler",
+      "Boiling Gland",
+      "Bombardier Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "CHOP.R",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Monitoring Station",
+      "Rocky Chamber"
+    ],
+    "loot": [
+      "Cooked Tadpole Meat",
+      "Pond Jockey Roast",
+      "Roby's Diode",
+      "Roby's Scrap Parts"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Cockroach Queen",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Fire Pit",
+      "Gnarly Grotto",
+      "Minor Caves",
+      "Toxic Anthill"
+    ],
+    "loot": [
+      "Apple Bits",
+      "Billy Hog Bite",
+      "Cookie Sandwich Bits",
+      "Everlasting Hogstopper",
+      "Fresh Apple Bits",
+      "Fresh Billy Hog Bite",
+      "Fresh Cookie Sandwich Bits",
+      "Roach Chunk",
+      "Roach Head",
+      "Roach Milk",
+      "Rotten Food",
+      "Spoiled Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Diving Bell Spider",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Grotto",
+      "Rocky Chamber",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Diving Bell Spider Chunk",
+      "Web Fiber"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Northern Scorpion",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Axl Fight",
+      "Ceremony Area",
+      "Croquet Court",
+      "Greenhouse",
+      "Entrance Area",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area"
+    ],
+    "loot": [
+      "Northern Scorpion Chunk",
+      "Northern Scorpion Pincer",
+      "Northern Scorpion Stinger",
+      "Scorpion Venom",
+      "Stabby Stinger"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Northern Scorpion Jr.",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Axl Fight",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Ice Cream Cart",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pinch Whacker Stash",
+      "Snackbar Front Area"
+    ],
+    "loot": [
+      "Northern Scorpion Chunk",
+      "Scorpion Venom"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Northern Scorpling",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Axl Fight",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Ice Cream Cart",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Pinch Whacker Stash",
+      "Snackbar Front Area"
+    ],
+    "loot": [
+      "Northern Scorpion Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Orb Weaver",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Boom Stick Stash",
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Orb Weaver Chunk",
+      "Orb Weaver Fang",
+      "Web Fiber"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "SAUC.R",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Monitoring Station"
+    ],
+    "loot": [
+      "Spicy Shard",
+      "Roby's Diode",
+      "Roby's Scrap Parts"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Stinkbug",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Stinkbug Gas Sack",
+      "Stinkbug Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Wolf Spider",
+    "category": "Angry",
+    "tier": 2,
+    "environments": [
+      "Ceremony Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Gnarly Grotto",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Spider Venom",
+      "Wolf Spider Chunk",
+      "Wolf Spider Fang"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Ancient Pond Jockey Swarm",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Galleries",
+      "Monitoring Station",
+      "Rocky Chamber",
+      "Touchdown Zone"
+    ],
+    "loot": [
+      "Algae",
+      "Raw Pond Jockey Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Black Soldier Ant",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Black Anthills",
+      "Carrot Cave",
+      "Gnarly Bark",
+      "Pergola Area",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Black Ant Head",
+      "Black Ant Mandibles",
+      "Black Ant Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Green Shield Bug",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark"
+    ],
+    "loot": [
+      "Green Shield Bug Parts",
+      "Stinkbug Gas Sack",
+      "Super Stink Sack"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Pincher Earwig",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Grotto",
+      "Greenhouse Surroundings",
+      "Minor Caves",
+      "O.R.C. Stashes",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Scarecrow",
+      "Sinkhole Anthill",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Earwig Head",
+      "Earwig Part",
+      "Earwig Pincer",
+      "Pincer Pincher"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Pond Jockey Swarm",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Grotto",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Algae",
+      "Raw Pond Jockey Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Praying Mantis Nymph",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Cleaving Claw",
+      "Praying Mantis Chunk",
+      "Praying Mantis Claw",
+      "Praying Mantis Head"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Rust Beetle",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Gnarly Bark",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Minor Caves",
+      "Pumpkin Patch",
+      "Sinkhole Anthill",
+      "Wither Sting Stash"
+    ],
+    "loot": [
+      "Boiling Gland",
+      "Rust Beetle Parts"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Spiny Water Flea",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Gnarly Grotto",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Algae",
+      "Water Flea Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Striped Bark Scorpion Jr.",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Gnarly Bark",
+      "Gnarly Grotto",
+      "Pergola Area"
+    ],
+    "loot": [
+      "Scorpion Venom",
+      "Striped Scorpion Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Striped Bark Scorpling",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Gnarly Bark",
+      "Gnarly Grotto"
+    ],
+    "loot": [
+      "Striped Scorpion Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Tick",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark"
+    ],
+    "loot": [
+      "Feasting Fangs",
+      "Tick Fang"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Tiger Mosquito",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark",
+      "Pergola Area",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Mosquito Blood Sack",
+      "Tiger Mosquito Beak"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Toe Biter",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark",
+      "Gnarly Grotto",
+      "Skunk Pond",
+      "Rocky Chamber",
+      "Touchdown Zone"
+    ],
+    "loot": [
+      "Toe Biter Claw",
+      "Toe Biter Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Toe Biter Nymph",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark",
+      "Gnarly Grotto",
+      "Skunk Pond",
+      "Rocky Chamber",
+      "Touchdown Zone"
+    ],
+    "loot": [
+      "Toe Biter Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Wasp",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Pollen",
+      "Wasp Leg",
+      "Wasp Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Wasp Drone",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Pollen",
+      "Wasp Leg",
+      "Wasp Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Whipper Earwig",
+    "category": "Angry",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Grotto",
+      "Boom Stick Stash",
+      "Greenhouse Surroundings",
+      "Minor Caves",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Scarecrow",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Earwig Head",
+      "Earwig Part",
+      "Earwig Pincer",
+      "Pincer Pincher"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Papa Toe Biter",
+    "category": "Angry",
+    "tier": 4,
+    "environments": [
+      "Gnarly Bark"
+    ],
+    "loot": [
+      "Toe Biter Claw",
+      "Toe Biter Egg",
+      "Toe Biter Head",
+      "Toe Biter Shell",
+      "Toe Biter Venom",
+      "Tickled Toenail"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Striped Bark Scorpion",
+    "category": "Angry",
+    "tier": 4,
+    "environments": [
+      "Gnarly Bark",
+      "Pergola Area"
+    ],
+    "loot": [
+      "Scorpion Venom",
+      "Stabby Stinger",
+      "Striped Scorpion Chunk",
+      "Striped Scorpion Pincer",
+      "Striped Scorpion Stinger"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Toe Biter Leviathan",
+    "category": "Angry",
+    "tier": 4,
+    "environments": [
+      "Rocky Chamber"
+    ],
+    "loot": [
+      "Toe Biter Claw",
+      "Toe Biter Head",
+      "Toe Biter Shell",
+      "Toe Biter Venom",
+      "Tickled Toenail"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Axl",
+    "category": "Bosses",
+    "tier": 5,
+    "environments": [
+      "Pine Hill"
+    ],
+    "loot": [
+      "Nightstalker's Bane",
+      "Tarantula Chunk",
+      "Tarantula Fang",
+      "Tarantula Talon",
+      "Tarantula Venom"
+    ],
+    "summonedWith": "Poached Roach Roast"
+  },
+  {
+    "name": "King Dozer",
+    "category": "Bosses",
+    "tier": 5,
+    "environments": [
+      "Greenhouse Surroundings"
+    ],
+    "loot": [
+      "King Dozer's Light",
+      "Lizard Horn",
+      "Lizard Scale",
+      "Searing Stone"
+    ],
+    "summonedWith": "Goopy Gobbler"
+  },
+  {
+    "name": "Masked Stranger",
+    "category": "Bosses",
+    "tier": 5,
+    "environments": [
+      "Network Center"
+    ],
+    "loot": [],
+    "summonedWith": "Reaching the end of the Network Center"
+  },
+  {
+    "name": "O.R.C. Broodmother & Masked Fighter",
+    "category": "Bosses",
+    "tier": 5,
+    "environments": [
+      "Ominent Field Archives"
+    ],
+    "loot": [
+      "Broodmother Chunk"
+    ],
+    "summonedWith": "Activating the GROW.R in the Ominent Field Archives"
+  },
+  {
+    "name": "Aphid",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Gnarly Bark",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Aphid Honeydew",
+      "Raw Aphid Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Baby Garden Snail",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Garden Snail Fragment",
+      "Garden Snail Eyestalk",
+      "Garden Snail Slime",
+      "Raw Snail Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Caterpillar",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Axl Fight",
+      "Bridge Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Gnarly Bark",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Caterpillar Goop",
+      "Raw Caterpillar Meat",
+      "Spine Nub"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Gnat",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area"
+    ],
+    "loot": [
+      "Apple Bits",
+      "Billy Hog Bite",
+      "Cookie Sandwich Bits",
+      "Gnat Fuzz",
+      "Raw Gnat Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Grub",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Stolen Optical Disk Stash",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Grub Sludge",
+      "Grub Hide",
+      "Raw Grub Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Weevil",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area"
+    ],
+    "loot": [
+      "Mushroom Chunk",
+      "Raw Weevil Meat",
+      "Weevil Nose"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Crow",
+    "category": "Harmless",
+    "tier": 3,
+    "environments": [
+      "Ceremony Area",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Statue Area"
+    ],
+    "loot": [
+      "Crow Feather",
+      "Crow Feather Piece"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Garden Snail",
+    "category": "Harmless",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Garden Snail Fragment",
+      "Garden Snail Eyestalk",
+      "Garden Snail Slime",
+      "Raw Snail Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Woolly Aphid",
+    "category": "Harmless",
+    "tier": 3,
+    "environments": [
+      "Croquet Court",
+      "Gnarly Bark",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Aphid Honeydew",
+      "Woolly Aphid Fuzz",
+      "Raw Woolly Aphid Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Bee",
+    "category": "Neutral",
+    "tier": 1,
+    "environments": [
+      "Sparsely In Most Areas"
+    ],
+    "loot": [
+      "Bee Fuzz",
+      "Bee Stinger",
+      "Pollen"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Blue Butterfly",
+    "category": "Neutral",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Gnarly Grotto",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Blue Butterfly Chunk",
+      "Blue Butterfly Scales",
+      "Blue Butterfly Wing",
+      "Shivering Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Ladybug",
+    "category": "Neutral",
+    "tier": 1,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Ladybug Head",
+      "Ladybug Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Red Worker Ant",
+    "category": "Neutral",
+    "tier": 1,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Picnic Table Area",
+      "Red Anthills",
+      "Snackbar Front Area",
+      "War-Torn Anthill"
+    ],
+    "loot": [
+      "Red Ant Egg",
+      "Red Ant Head",
+      "Red Ant Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Black Worker Ant",
+    "category": "Neutral",
+    "tier": 2,
+    "environments": [
+      "Black Anthills",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Black Ant Egg",
+      "Black Ant Head",
+      "Black Ant Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Cockroach",
+    "category": "Neutral",
+    "tier": 2,
+    "environments": [
+      "Bridge Area",
+      "Axl Fight",
+      "Minor Caves",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Grotto",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Toxic Anthill",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Apple Bits",
+      "Billy Hog Bite",
+      "Cookie Sandwich Bits",
+      "Roach Chunk",
+      "Roach Head",
+      "Rotten Food",
+      "Spoiled Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Cockroach Nymph",
+    "category": "Neutral",
+    "tier": 2,
+    "environments": [
+      "Bridge Area",
+      "Axl Fight",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Grotto",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Toxic Anthill"
+    ],
+    "loot": [
+      "Roach Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Cricket",
+    "category": "Neutral",
+    "tier": 2,
+    "environments": [
+      "Gnarly Bark",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Cricket Drumstick",
+      "Cricket Head",
+      "Cricket Part",
+      "Fabulous Femur"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Firefly",
+    "category": "Neutral",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Gnarly Bark",
+      "Greenhouse",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Firefly Shell",
+      "Glow Goo"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Garter Snake",
+    "category": "Neutral",
+    "tier": 3,
+    "environments": [
+      "Croquet Court"
+    ],
+    "loot": [
+      "Snake Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Potato Beetle",
+    "category": "Neutral",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Greenhouse Surroundings",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Potato Beetle Head",
+      "Potato Beetle Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Green Shield Bug",
+    "category": "O.G.R.R.",
+    "tier": 1,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Bridge Area"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Green Shield Bug Parts",
+      "Super Stink Sack"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Striped Bark Scorpion",
+    "category": "O.G.R.R.",
+    "tier": 1,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Gnarly Bark"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Scorpion Venom",
+      "Stabby Stinger",
+      "Striped Scorpion Chunk",
+      "Striped Scorpion Pincer",
+      "Striped Scorpion Stinger"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Tiger Mosquito",
+    "category": "O.G.R.R.",
+    "tier": 1,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Mosquito Blood Sack",
+      "Tiger Mosquito Beak"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Toe Biter",
+    "category": "O.G.R.R.",
+    "tier": 1,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Pergola Area",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Toe Biter Claw",
+      "Toe Biter Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Blue Butterfly",
+    "category": "O.G.R.R.",
+    "tier": 2,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Ice Cream Cart"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Blue Butterfly Chunk",
+      "Blue Butterfly Scales",
+      "Blue Butterfly Wing",
+      "Shivering Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Cricket",
+    "category": "O.G.R.R.",
+    "tier": 2,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Pumpkin Patch"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Cricket Drumstick",
+      "Cricket Head",
+      "Cricket Part",
+      "Fabulous Femur"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Ladybug",
+    "category": "O.G.R.R.",
+    "tier": 2,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Picnic Table Area"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Ladybug Head",
+      "Ladybug Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Northern Scorpion",
+    "category": "O.G.R.R.",
+    "tier": 2,
+    "environments": [
+      "Greenhouse",
+      "Unleashing the O.G.R.Rs",
+      "Statue Area"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Northern Scorpion Chunk",
+      "Northern Scorpion Pincer",
+      "Northern Scorpion Stinger",
+      "Scorpion Venom",
+      "Stabby Stinger"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Pincher Earwig",
+    "category": "O.G.R.R.",
+    "tier": 3,
+    "environments": [
+      "Scarecrow",
+      "Unleashing the O.G.R.Rs",
+      "Lake of Tang Cave"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Earwig Head",
+      "Earwig Part",
+      "Earwig Pincer",
+      "Pincer Pincher"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Praying Mantis Nymph",
+    "category": "O.G.R.R.",
+    "tier": 3,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Entrance Area"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Cleaving Claw",
+      "Praying Mantis Chunk",
+      "Praying Mantis Claw",
+      "Praying Mantis Head"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Rust Beetle",
+    "category": "O.G.R.R.",
+    "tier": 3,
+    "environments": [
+      "Candy Processing Facility",
+      "Unleashing the O.G.R.Rs",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Boiling Gland",
+      "Rust Beetle Parts"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Wasp",
+    "category": "O.G.R.R.",
+    "tier": 3,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Greenhouse Surroundings"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Pollen",
+      "Wasp Leg",
+      "Wasp Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Wasp Drone",
+    "category": "O.G.R.R.",
+    "tier": 3,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Greenhouse Surroundings"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Pollen",
+      "Wasp Leg",
+      "Wasp Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Whipper Earwig",
+    "category": "O.G.R.R.",
+    "tier": 3,
+    "environments": [
+      "Scarecrow",
+      "Unleashing the O.G.R.Rs",
+      "Lake of Tang Cave"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Earwig Head",
+      "Earwig Part",
+      "Earwig Pincer",
+      "Pincer Pincher"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Wolf Spider",
+    "category": "O.G.R.R.",
+    "tier": 3,
+    "environments": [
+      "Unleashing the O.G.R.Rs",
+      "Fire Pit"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Spider Venom",
+      "Wolf Spider Chunk",
+      "Wolf Spider Fang"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.G.R.R. Toe Biter Leviathan",
+    "category": "O.G.R.R.",
+    "tier": 5,
+    "environments": [
+      "Monitoring Station"
+    ],
+    "loot": [
+      "Buffin' Gland",
+      "Infused Ooze",
+      "Toe Biter Claw",
+      "Toe Biter Head",
+      "Toe Biter Shell",
+      "Toe Biter Venom",
+      "Tickled Toenail"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Green Shield Bug",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Bridge Area"
+    ],
+    "loot": [
+      "Green Shield Bug Parts",
+      "O.R.C. Receiver",
+      "Super Stink Sack"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Larva",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Greenhouse MIX.R",
+      "Network Center",
+      "Picnic O.R.C. Waves",
+      "Skunk Pond Area MIX.R",
+      "Snackbar Front Area",
+      "Statue Area"
+    ],
+    "loot": [
+      "Acid Gland",
+      "Larva Spike",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Red Soldier Ant",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Croquet Court MIX.R",
+      "Greenhouse MIX.R",
+      "Network Center",
+      "Picnic O.R.C. Waves",
+      "Skunk Pond Area MIX.R",
+      "Snackbar Front Area",
+      "Spider Den Anthill",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Acid Gland",
+      "O.R.C. Receiver",
+      "Red Ant Head",
+      "Red Ant Mandibles",
+      "Red Ant Part"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Spiderling",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Croquet Court MIX.R",
+      "Garden O.R.C. Waves",
+      "Network Center",
+      "Picnic O.R.C. Waves",
+      "Skunk Pond Area MIX.R",
+      "Statue Area"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Web Fiber"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Striped Bark Scorpion Jr.",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Gnarly Bark",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Scorpion Venom",
+      "Striped Scorpion Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Striped Bark Scorpling",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Striped Scorpion Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Tiger Mosquito",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Pergola Area"
+    ],
+    "loot": [
+      "Mosquito Blood Sack",
+      "O.R.C. Receiver",
+      "Tiger Mosquito Beak"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Toe Biter",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Rime Rend Stash",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Toe Biter Claw",
+      "Toe Biter Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Toe Biter Leviathan",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Koi Fish Scale Stash",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Toe Biter Claw",
+      "Toe Biter Head",
+      "Toe Biter Shell",
+      "Toe Biter Venom",
+      "Tickled Toenail"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Toe Biter Nymph",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Rime Rend Stash",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Toe Biter Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Weaver Jr.",
+    "category": "O.R.C.",
+    "tier": 1,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court MIX.R",
+      "Garden O.R.C. Waves",
+      "Network Center",
+      "O.R.C. Stashes",
+      "Picnic O.R.C. Waves",
+      "Pine Hill",
+      "Statue Area"
+    ],
+    "loot": [
+      "Orb Weaver Chunk",
+      "O.R.C. Receiver",
+      "Web Fiber"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Bee",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Ice Cream Cart Surroundings",
+      "Picnic O.R.C. Waves",
+      "Statue Area",
+      "Pergola Area",
+      "Pumpkin Patch",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "Bee Fuzz",
+      "Bee Stinger",
+      "O.R.C. Receiver",
+      "Pollen"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Blue Butterfly",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Fire Pit",
+      "Ceremony Area",
+      "Garden O.R.C. Waves",
+      "Gnarly Bark",
+      "Gum Stash",
+      "Picnic O.R.C. Waves",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "Blue Butterfly Chunk",
+      "Blue Butterfly Scales",
+      "Blue Butterfly Wing",
+      "O.R.C. Receiver",
+      "Shivering Scale"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Bombardier Beetle",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Fire Pit",
+      "Picnic O.R.C. Waves",
+      "Pine Hill",
+      "Statue Area"
+    ],
+    "loot": [
+      "Blistering Boiler",
+      "Boiling Gland",
+      "Bombardier Part",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Cockroach",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Fire Pit",
+      "Network Center"
+    ],
+    "loot": [
+      "Apple Bits",
+      "Billy Hog Bite",
+      "Cookie Sandwich Bits",
+      "O.R.C. Receiver",
+      "Roach Chunk",
+      "Roach Head",
+      "Rotten Food",
+      "Spoiled Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Cockroach Nymph",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Candy Stash",
+      "Garden O.R.C. Waves",
+      "Greenhouse MIX.R",
+      "Fire Pit",
+      "Network Center"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Roach Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Cockroach Queen",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Network Center"
+    ],
+    "loot": [
+      "Apple Bits",
+      "Billy Hog Bite",
+      "Cookie Sandwich Bits",
+      "Everlasting Hogstopper",
+      "Fresh Apple Bits",
+      "Fresh Billy Hog Bite",
+      "Fresh Cookie Sandwich Bits",
+      "O.R.C. Receiver",
+      "Roach Chunk",
+      "Roach Head",
+      "Roach Rage",
+      "Rotten Food",
+      "Spoiled Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Ladybug",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Croquet Court MIX.R",
+      "Picnic O.R.C. Waves",
+      "Picnic Table Area"
+    ],
+    "loot": [
+      "Ladybug Head",
+      "Ladybug Part",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Mosquito",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Ceremony Area",
+      "Fire Pit",
+      "Picnic O.R.C. Waves",
+      "Pumpkin Patch",
+      "Statue Area"
+    ],
+    "loot": [
+      "Mosquito Beak",
+      "Mosquito Blood Sack",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Northern Scorpion",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Croquet Court MIX.R",
+      "Garden O.R.C. Waves",
+      "Statue Area"
+    ],
+    "loot": [
+      "Northern Scorpion Chunk",
+      "Northern Scorpion Pincer",
+      "Northern Scorpion Stinger",
+      "O.R.C. Receiver",
+      "Scorpion Venom",
+      "Stabby Stinger"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Northern Scorpion Jr.",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Croquet Court MIX.R",
+      "Ice Cream Cart Surroundings",
+      "O.R.C. Stashes",
+      "Picnic O.R.C. Waves",
+      "Statue Area"
+    ],
+    "loot": [
+      "Northern Scorpion Chunk",
+      "O.R.C. Receiver",
+      "Scorpion Venom"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Northern Scorpling",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Croquet Court MIX.R",
+      "Greenhouse MIX.R",
+      "Garden O.R.C. Waves",
+      "Ice Cream Cart Surroundings",
+      "Picnic O.R.C. Waves",
+      "O.R.C. Stashes",
+      "Statue Area"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Northern Scorpion Chunk"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Praying Mantis Nymph",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Croquet Court MIX.R",
+      "Statue Area",
+      "Pumpkin Patch"
+    ],
+    "loot": [
+      "Cleaving Claw",
+      "O.R.C. Receiver",
+      "Praying Mantis Chunk",
+      "Praying Mantis Claw",
+      "Praying Mantis Head"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Stinkbug",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Entrance Area",
+      "Fire Pit",
+      "Statue Area"
+    ],
+    "loot": [
+      "Stinkbug Gas Sack",
+      "Stinkbug Part",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Weaver",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Ceremony Area",
+      "Croquet Court MIX.R",
+      "Gnarly Bark",
+      "Greenhouse MIX.R",
+      "Hatchery Anthill",
+      "Milk Molar Stash",
+      "Picnic O.R.C. Waves",
+      "Pine Hill",
+      "Skunk Pond Area MIX.R",
+      "Statue Area"
+    ],
+    "loot": [
+      "Orb Weaver Chunk",
+      "Orb Weaver Fang",
+      "O.R.C. Receiver",
+      "Web Fiber"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Weevil",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Croquet Court MIX.R",
+      "Garden O.R.C. Waves",
+      "Greenhouse MIX.R",
+      "Network Center",
+      "Picnic O.R.C. Waves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Unstable Goo",
+      "Weevil Nose"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Wolf Spider",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Boom Stick Stash",
+      "Greenhouse MIX.R",
+      "Network Center"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Spider Venom",
+      "Wolf Spider Chunk",
+      "Wolf Spider Fang"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Black Soldier Ant",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Greenhouse MIX.R",
+      "Gum Stash",
+      "Pumpkin Patch",
+      "Sinkhole Anthill",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "Black Ant Head",
+      "Black Ant Mandibles",
+      "Black Ant Part",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Cricket",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Greenhouse"
+    ],
+    "loot": [
+      "Cricket Drumstick",
+      "Cricket Head",
+      "Cricket Part",
+      "Fabulous Femur",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Firefly",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Bridge Area",
+      "Garden O.R.C. Waves",
+      "Greenhouse MIX.R",
+      "Skunk Pond",
+      "Skunk Pond Area MIX.R",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Firefly Shell",
+      "Glow Goo"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Pincher Earwig",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "O.R.C. Stashes",
+      "Garden O.R.C. Waves",
+      "Greenhouse",
+      "Greenhouse MIX.R",
+      "Greenhouse Surroundings"
+    ],
+    "loot": [
+      "Earwig Head",
+      "Earwig Part",
+      "Earwig Pincer",
+      "Pincer Pincher",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Potato Beetle",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Greenhouse MIX.R",
+      "Gum Stash",
+      "Greenhouse Surroundings",
+      "Pumpkin Patch",
+      "Sinkhole Anthill",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Potato Beetle Head",
+      "Potato Beetle Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Rust Beetle",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Greenhouse MIX.R",
+      "Greenhouse Surroundings",
+      "Skunk Pond Area MIX.R",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Boiling Gland",
+      "Rust Beetle Parts"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Wasp",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Gnarly Bark",
+      "Greenhouse MIX.R",
+      "Pumpkin Patch"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Pollen",
+      "Wasp Leg",
+      "Wasp Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Wasp Drone",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Greenhouse MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Pollen",
+      "Wasp Leg",
+      "Wasp Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Whipper Earwig",
+    "category": "O.R.C.",
+    "tier": 3,
+    "environments": [
+      "Garden O.R.C. Waves",
+      "Greenhouse",
+      "Greenhouse MIX.R",
+      "Greenhouse Surroundings"
+    ],
+    "loot": [
+      "Earwig Head",
+      "Earwig Part",
+      "Earwig Pincer",
+      "Pincer Pincher",
+      "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Striped Bark Scorpion",
+    "category": "O.R.C.",
+    "tier": 4,
+    "environments": [
+      "Gnarly Bark",
+      "Cut Lass Stash",
+      "Skunk Pond Area MIX.R"
+    ],
+    "loot": [
+      "O.R.C. Receiver",
+      "Scorpion Venom",
+      "Stabby Stinger",
+      "Striped Scorpion Chunk",
+      "Striped Scorpion Pincer",
+      "Striped Scorpion Stinger"
+    ],
+    "summonedWith": null
+  }
+]

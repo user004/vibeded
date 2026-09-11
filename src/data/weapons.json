@@ -1,0 +1,2841 @@
+[
+  {
+    "name": "Toenail Cutlass",
+    "category": "One-Handed",
+    "tier": 4,
+    "status": [
+      "Infection"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Toenail"
+      },
+      {
+        "quantity": 1,
+        "name": "Gold Foil"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Toenail"
+          },
+          {
+            "quantity": 1,
+            "name": "Pupa Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Gold Foil"
+          },
+          {
+            "quantity": 1,
+            "name": "Crushed Quartz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Axl's Talon",
+    "category": "One-Handed",
+    "tier": 3,
+    "status": [
+      "Venom Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Tarantula Venom"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Tarantula Talon"
+          },
+          {
+            "quantity": 3,
+            "name": "Tarantula Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Tarantula Venom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ash Maw",
+    "category": "One-Handed",
+    "tier": 3,
+    "status": [
+      "Sizzling Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Lizard Scale"
+      },
+      {
+        "quantity": 2,
+        "name": "Spicy Shard"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Lizard Horn"
+          },
+          {
+            "quantity": 1,
+            "name": "Searing Stone"
+          },
+          {
+            "quantity": 2,
+            "name": "Lizard Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Ant Sword",
+    "category": "One-Handed",
+    "tier": 3,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Black Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Black Ant Mandibles"
+          },
+          {
+            "quantity": 3,
+            "name": "Black Ant Part"
+          },
+          {
+            "quantity": 4,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rusty Spear",
+    "category": "One-Handed",
+    "tier": 3,
+    "status": [
+      "Infection"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Rust"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 6,
+            "name": "Rust"
+          },
+          {
+            "quantity": 3,
+            "name": "Spiky Bur"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crystal Trident",
+    "category": "One-Handed",
+    "tier": 3,
+    "status": [
+      "Fin Fury"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Phantom Quartz Shard"
+      },
+      {
+        "quantity": 1,
+        "name": "Diving Bell Spider Chunk"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Phantom Quartz Shard"
+          },
+          {
+            "quantity": 3,
+            "name": "Eelgrass Strand"
+          },
+          {
+            "quantity": 2,
+            "name": "Diving Bell Spider Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Sunken Bone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tiger Mosquito Rapier",
+    "category": "One-Handed",
+    "tier": 3,
+    "status": [
+      "Life Steal"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Tiger Mosquito Beak"
+      },
+      {
+        "quantity": 1,
+        "name": "Mosquito Blood Sack"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Tiger Mosquito Beak"
+          },
+          {
+            "quantity": 4,
+            "name": "Rust"
+          },
+          {
+            "quantity": 4,
+            "name": "Mosquito Blood Sack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stinger Spear",
+    "category": "One-Handed",
+    "tier": 2,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Bee Stinger"
+      },
+      {
+        "quantity": 2,
+        "name": "Bee Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Bee Stinger"
+          },
+          {
+            "quantity": 5,
+            "name": "Bee Fuzz"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mosquito Needle",
+    "category": "One-Handed",
+    "tier": 2,
+    "status": [
+      "Life Steal"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Mosquito Beak"
+      },
+      {
+        "quantity": 1,
+        "name": "Mosquito Blood Sack"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Mosquito Beak"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Mosquito Blood Sack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Roach Club",
+    "category": "One-Handed",
+    "tier": 2,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Roach Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Roach Head"
+          },
+          {
+            "quantity": 3,
+            "name": "Roach Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pebblet Spear",
+    "category": "One-Handed",
+    "tier": 1,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Pebblet"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Sprig"
+          },
+          {
+            "quantity": 1,
+            "name": "Crude Rope"
+          },
+          {
+            "quantity": 1,
+            "name": "Pebblet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crimson Saber",
+    "category": "One-Handed",
+    "tier": 1,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Red Ant Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Red Ant Mandibles"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Red Ant Mandibles"
+          },
+          {
+            "quantity": 3,
+            "name": "Red Ant Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Grub Hide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Larvalance",
+    "category": "One-Handed",
+    "tier": 1,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Larva Spike"
+      },
+      {
+        "quantity": 2,
+        "name": "Red Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Larva Spike"
+          },
+          {
+            "quantity": 4,
+            "name": "Red Ant Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cut Lass",
+    "category": "One-Handed",
+    "tier": 4,
+    "status": [
+      "Infection"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Toenail"
+      },
+      {
+        "quantity": 1,
+        "name": "O.R.C. Receiver"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Toenail Cutlass"
+          },
+          {
+            "quantity": 1,
+            "name": "Hyper Beam"
+          },
+          {
+            "quantity": 2,
+            "name": "Gold Foil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crimson Avenger",
+    "category": "One-Handed",
+    "tier": 2,
+    "status": [
+      "Spider Criticals"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Red Ant Mandibles"
+      },
+      {
+        "quantity": 1,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Crimson Saber"
+          },
+          {
+            "quantity": 2,
+            "name": "Orb Weaver Fang"
+          },
+          {
+            "quantity": 2,
+            "name": "Unstable Goo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gloom Skewer",
+    "category": "One-Handed",
+    "tier": 2,
+    "status": [
+      "Gaping Wound"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Larva Spike"
+      },
+      {
+        "quantity": 2,
+        "name": "Red Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Larvalance"
+          },
+          {
+            "quantity": 2,
+            "name": "Gloom Sap"
+          },
+          {
+            "quantity": 1,
+            "name": "O.R.C. Receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pinch Whacker",
+    "category": "One-Handed",
+    "tier": 2,
+    "status": [
+      "Finale Short Circuit"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "O.R.C. Receiver"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Volatile Capacitor"
+          },
+          {
+            "quantity": 2,
+            "name": "O.R.C. Receiver"
+          },
+          {
+            "quantity": 3,
+            "name": "Unstable Goo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Horned Heater",
+    "category": "Shield",
+    "tier": 3,
+    "status": [
+      "Major Threat",
+      "Sizzling Block"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Lizard Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Pinecone Piece"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Lizard Horn"
+          },
+          {
+            "quantity": 2,
+            "name": "Ashen Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Pinecone Piece"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shellshocker",
+    "category": "Shield",
+    "tier": 3,
+    "status": [
+      "Major Threat",
+      "Shell Shock"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Garden Snail Fragment"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Garden Snail Fragment"
+          },
+          {
+            "quantity": 2,
+            "name": "Garden Snail Eyestalk"
+          },
+          {
+            "quantity": 3,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Ant Shield",
+    "category": "Shield",
+    "tier": 3,
+    "status": [
+      "Tangy Parry"
+    ],
+    "repair": [
+      {
+        "quantity": 3,
+        "name": "Black Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Black Ant Part"
+          },
+          {
+            "quantity": 3,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Koi Scale Shield",
+    "category": "Shield",
+    "tier": 3,
+    "status": [
+      "Parry Stun"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Koi Fish Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Eelgrass Strand"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Koi Fish Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Sunken Bone"
+          },
+          {
+            "quantity": 2,
+            "name": "Eelgrass Strand"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bombuckler",
+    "category": "Shield",
+    "tier": 2,
+    "status": [
+      "Spicy Parry"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Bombardier Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Bombardier Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 3,
+            "name": "Spine Nub"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ladyguard",
+    "category": "Shield",
+    "tier": 2,
+    "status": [
+      "Major Threat"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Ladybug Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Ladybug Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          },
+          {
+            "quantity": 3,
+            "name": "Sap"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weevil Shield",
+    "category": "Shield",
+    "tier": 1,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Raw Weevil Meat"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Raw Weevil Meat"
+          },
+          {
+            "quantity": 2,
+            "name": "Grub Hide"
+          },
+          {
+            "quantity": 1,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crimson Buckler",
+    "category": "Shield",
+    "tier": 1,
+    "status": [
+      "Aggressively Perfect Block"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Red Ant Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Mite Fang"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Red Ant Part"
+          },
+          {
+            "quantity": 4,
+            "name": "Mite Fang"
+          },
+          {
+            "quantity": 2,
+            "name": "Grub Hide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Aegis",
+    "category": "Shield",
+    "tier": 2,
+    "status": [
+      "Major Threat",
+      "Parry Buggie Heal"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Ladybug Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Caterpillar Goop"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Ladyguard"
+          },
+          {
+            "quantity": 1,
+            "name": "Sturdy Shell"
+          },
+          {
+            "quantity": 2,
+            "name": "O.R.C. Receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toe Biter Scythe",
+    "category": "Two-Handed",
+    "tier": 4,
+    "status": [
+      "Chilling Venom"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Toe Biter Claw"
+      },
+      {
+        "quantity": 1,
+        "name": "Pond Moss"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Toe Biter Claw"
+          },
+          {
+            "quantity": 2,
+            "name": "Toe Biter Shell"
+          },
+          {
+            "quantity": 3,
+            "name": "Pond Moss"
+          },
+          {
+            "quantity": 2,
+            "name": "Cattail Fluff"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spicy Coaltana",
+    "category": "Two-Handed",
+    "tier": 3,
+    "status": [
+      "Sizzling Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "EverChar Coal Chunk"
+      },
+      {
+        "quantity": 2,
+        "name": "Spicy Shard"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Spicy Glob"
+          },
+          {
+            "quantity": 5,
+            "name": "EverChar Coal Chunk"
+          },
+          {
+            "quantity": 4,
+            "name": "Wolf Spider Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mantis Blade",
+    "category": "Two-Handed",
+    "tier": 3,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Praying Mantis Claw"
+      },
+      {
+        "quantity": 2,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Praying Mantis Claw"
+          },
+          {
+            "quantity": 4,
+            "name": "Praying Mantis Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sour Katanga",
+    "category": "Two-Handed",
+    "tier": 3,
+    "status": [
+      "Tang Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 4,
+        "name": "Sour Lump"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Sour Glob"
+          },
+          {
+            "quantity": 3,
+            "name": "Broodmother Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ticky Maul",
+    "category": "Two-Handed",
+    "tier": 3,
+    "status": [
+      "Finale Life Steal"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Tick Fang"
+      },
+      {
+        "quantity": 1,
+        "name": "Cattail Fluff"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 6,
+            "name": "Tick Fang"
+          },
+          {
+            "quantity": 1,
+            "name": "Fire Brick"
+          },
+          {
+            "quantity": 3,
+            "name": "Spiky Bur"
+          },
+          {
+            "quantity": 4,
+            "name": "Cattail Fluff"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Prod Smacker",
+    "category": "Two-Handed",
+    "tier": 3,
+    "status": [
+      "Shockwave"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Roby's Scrap Parts"
+      },
+      {
+        "quantity": 1,
+        "name": "O.R.C. Receiver"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Volatile Capacitor"
+          },
+          {
+            "quantity": 1,
+            "name": "Roby's Diode"
+          },
+          {
+            "quantity": 3,
+            "name": "Roby's Scrap Parts"
+          },
+          {
+            "quantity": 1,
+            "name": "O.R.C. Receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Red Ant Club",
+    "category": "Two-Handed",
+    "tier": 2,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Red Ant Mandibles"
+      },
+      {
+        "quantity": 1,
+        "name": "Red Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Red Ant Mandibles"
+          },
+          {
+            "quantity": 4,
+            "name": "Red Ant Part"
+          },
+          {
+            "quantity": 3,
+            "name": "Sap"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Warhammerlet",
+    "category": "Two-Handed",
+    "tier": 1,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Pebblet"
+      },
+      {
+        "quantity": 1,
+        "name": "Sap"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Sprig"
+          },
+          {
+            "quantity": 3,
+            "name": "Sap"
+          },
+          {
+            "quantity": 2,
+            "name": "Pebblet"
+          },
+          {
+            "quantity": 1,
+            "name": "Acid Gland"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boom Stick",
+    "category": "Two-Handed",
+    "tier": 3,
+    "status": [
+      "Charged Blastwave"
+    ],
+    "repair": [
+      {
+        "quantity": 4,
+        "name": "Spicy Shard"
+      },
+      {
+        "quantity": 1,
+        "name": "Gunpowder Clump"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Spicy Glob"
+          },
+          {
+            "quantity": 1,
+            "name": "Blistering Boiler"
+          },
+          {
+            "quantity": 1,
+            "name": "Hyper Beam"
+          },
+          {
+            "quantity": 3,
+            "name": "Gunpowder Clump"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fellfeast",
+    "category": "Two-Handed",
+    "tier": 3,
+    "status": [
+      "Charged Life Steal"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Tick Fang"
+      },
+      {
+        "quantity": 1,
+        "name": "O.R.C. Receiver"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Ticky Maul"
+          },
+          {
+            "quantity": 1,
+            "name": "Insulating Larva Spike"
+          },
+          {
+            "quantity": 1,
+            "name": "Hyper Beam"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Striped Slashers",
+    "category": "Dual Wield",
+    "tier": 4,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Striped Scorpion Pincer"
+      },
+      {
+        "quantity": 1,
+        "name": "Pupa Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Striped Scorpion Pincer"
+          },
+          {
+            "quantity": 4,
+            "name": "Striped Scorpion Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Pupa Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Woolly Whoppers",
+    "category": "Dual Wield",
+    "tier": 3,
+    "status": [
+      "Chilling Gale"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Woolly Aphid Fuzz"
+      },
+      {
+        "quantity": 2,
+        "name": "Mint Chunk"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Raw Woolly Aphid Meat"
+          },
+          {
+            "quantity": 4,
+            "name": "Woolly Aphid Fuzz"
+          },
+          {
+            "quantity": 4,
+            "name": "Mint Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ice Sickles",
+    "category": "Dual Wield",
+    "tier": 3,
+    "status": [
+      "Chilling Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Mint Chunk"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Mint Glob"
+          },
+          {
+            "quantity": 2,
+            "name": "Northern Scorpion Pincer"
+          },
+          {
+            "quantity": 6,
+            "name": "Northern Scorpion Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wolfsbane Fangs",
+    "category": "Dual Wield",
+    "tier": 3,
+    "status": [
+      "Venom Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wolf Spider Fang"
+      },
+      {
+        "quantity": 1,
+        "name": "Spider Venom"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Wolf Spider Fang"
+          },
+          {
+            "quantity": 4,
+            "name": "Wolf Spider Chunk"
+          },
+          {
+            "quantity": 4,
+            "name": "Spider Venom"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dusk Blades",
+    "category": "Dual Wield",
+    "tier": 3,
+    "status": [
+      "Desperate Defense"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Earwig Pincer"
+      },
+      {
+        "quantity": 1,
+        "name": "Woolly Aphid Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Earwig Pincer"
+          },
+          {
+            "quantity": 2,
+            "name": "Earwig Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Raw Woolly Aphid Meat"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Northern Shredders",
+    "category": "Dual Wield",
+    "tier": 2,
+    "status": [
+      "Critical Hit Venom"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Northern Scorpion Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Spine Nub"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Northern Scorpion Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Scorpion Venom"
+          },
+          {
+            "quantity": 3,
+            "name": "Spine Nub"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weaver Daggers",
+    "category": "Dual Wield",
+    "tier": 2,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Orb Weaver Fang"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Orb Weaver Fang"
+          },
+          {
+            "quantity": 4,
+            "name": "Orb Weaver Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mitey Claws",
+    "category": "Dual Wield",
+    "tier": 1,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Red Ant Mandibles"
+      },
+      {
+        "quantity": 1,
+        "name": "Red Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Mite Fang"
+          },
+          {
+            "quantity": 3,
+            "name": "Mite Fuzz"
+          },
+          {
+            "quantity": 4,
+            "name": "Red Ant Part"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ice Breakers",
+    "category": "Dual Wield",
+    "tier": 3,
+    "status": [
+      "Chilling Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Woolly Aphid Fuzz"
+      },
+      {
+        "quantity": 4,
+        "name": "Mint Chunk"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Woolly Whoppers"
+          },
+          {
+            "quantity": 1,
+            "name": "Shivering Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Mint Glob"
+          },
+          {
+            "quantity": 2,
+            "name": "O.R.C. Receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crimson Reapers",
+    "category": "Dual Wield",
+    "tier": 3,
+    "status": [
+      "Reaping Blades"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Earwig Pincer"
+      },
+      {
+        "quantity": 1,
+        "name": "Mosquito Blood Sack"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Dusk Blades"
+          },
+          {
+            "quantity": 1,
+            "name": "Pincer Pincher"
+          },
+          {
+            "quantity": 3,
+            "name": "Mosquito Blood Sack"
+          },
+          {
+            "quantity": 2,
+            "name": "Unstable Goo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wolf Stringer",
+    "category": "Bow",
+    "tier": 3,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Wolf Spider Fang"
+          },
+          {
+            "quantity": 3,
+            "name": "Wolf Spider Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Spider Venom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Splinter Arrow",
+    "category": "Bow",
+    "tier": 3,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Wooden Splinter"
+          },
+          {
+            "quantity": 2,
+            "name": "Woolly Aphid Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sour Arrow",
+    "category": "Bow",
+    "tier": 3,
+    "status": [
+      "Tang Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 10,
+            "name": "Feather Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Sour Lump"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cricket Lute Bow",
+    "category": "Bow",
+    "tier": 3,
+    "status": [
+      "Soothing Sonata"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Cricket Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Cricket Drumstick"
+          },
+          {
+            "quantity": 2,
+            "name": "Cricket Part"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          },
+          {
+            "quantity": 1,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Super Gas Arrow",
+    "category": "Bow",
+    "tier": 3,
+    "status": [
+      "Woozy"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Wooden Splinter"
+          },
+          {
+            "quantity": 1,
+            "name": "Super Stink Sack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Harpoon Gun",
+    "category": "Bow",
+    "tier": 3,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Horsetail Stem"
+      },
+      {
+        "quantity": 1,
+        "name": "Eelgrass Strand"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Sunken Bone"
+          },
+          {
+            "quantity": 2,
+            "name": "Horsetail Stem"
+          },
+          {
+            "quantity": 2,
+            "name": "Eelgrass Strand"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Harpoon Bolt",
+    "category": "Bow",
+    "tier": 3,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Sunken Bone"
+          },
+          {
+            "quantity": 3,
+            "name": "Eelgrass Strand"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spider Stringer",
+    "category": "Bow",
+    "tier": 2,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Orb Weaver Fang"
+          },
+          {
+            "quantity": 3,
+            "name": "Orb Weaver Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Feather Arrow",
+    "category": "Bow",
+    "tier": 2,
+    "status": [
+      "Critical Hit Chance"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Crow Feather Piece"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Venom Arrow",
+    "category": "Bow",
+    "tier": 2,
+    "status": [
+      "Venom Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Feather Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Spider Venom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mint Arrow",
+    "category": "Bow",
+    "tier": 2,
+    "status": [
+      "Chilling Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 10,
+            "name": "Feather Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Mint Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spicy Arrow",
+    "category": "Bow",
+    "tier": 2,
+    "status": [
+      "Sizzling Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 10,
+            "name": "Feather Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Spicy Shard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Disruptor Arrow",
+    "category": "Bow",
+    "tier": 2,
+    "status": [
+      "O"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Feather Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "O.R.C. Receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hearty Arrow",
+    "category": "Bow",
+    "tier": 2,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 10,
+            "name": "Feather Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Mosquito Blood Sack"
+          },
+          {
+            "quantity": 1,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cupid's Arrow",
+    "category": "Bow",
+    "tier": 2,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Feather Arrow"
+          },
+          {
+            "quantity": 5,
+            "name": "Smoochies Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sprig Bow",
+    "category": "Bow",
+    "tier": 1,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Sprig"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Sprig"
+          },
+          {
+            "quantity": 4,
+            "name": "Gnat Fuzz"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arrow",
+    "category": "Bow",
+    "tier": 1,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Mite Fuzz"
+          },
+          {
+            "quantity": 5,
+            "name": "Thistle Needle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gas Arrow",
+    "category": "Bow",
+    "tier": 1,
+    "status": [
+      "Woozy"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Stinkbug Gas Sack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pollen Arrow",
+    "category": "Bow",
+    "tier": 1,
+    "status": [
+      "Stun Flying Creature",
+      "Pollen Slow"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Pollen"
+          },
+          {
+            "quantity": 5,
+            "name": "Arrow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Discord",
+    "category": "Bow",
+    "tier": 3,
+    "status": [
+      "Song of Discord"
+    ],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Cricket Part"
+      },
+      {
+        "quantity": 2,
+        "name": "Gloom Sap"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Cricket Lute Bow"
+          },
+          {
+            "quantity": 1,
+            "name": "Fabulous Femur"
+          },
+          {
+            "quantity": 3,
+            "name": "Gloom Sap"
+          },
+          {
+            "quantity": 2,
+            "name": "O.R.C. Receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bushwacker",
+    "category": "Bow",
+    "tier": 2,
+    "status": [],
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wolf Spider Fang"
+      },
+      {
+        "quantity": 1,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Spider Stringer"
+          },
+          {
+            "quantity": 1,
+            "name": "Nifty Needle"
+          },
+          {
+            "quantity": 2,
+            "name": "O.R.C. Receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Fang Greatbow",
+    "category": "Greatbow",
+    "tier": 3,
+    "status": [
+      "Greater Draw"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Tarantula Fang"
+          },
+          {
+            "quantity": 2,
+            "name": "Tarantula Chunk"
+          },
+          {
+            "quantity": 1,
+            "name": "Tarantula Venom"
+          },
+          {
+            "quantity": 5,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Arrow",
+    "category": "Greatbow",
+    "tier": 3,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Northern Scorpion Chunk"
+          },
+          {
+            "quantity": 1,
+            "name": "Crow Feather Piece"
+          },
+          {
+            "quantity": 1,
+            "name": "Pinecone Piece"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Venom Arrow",
+    "category": "Greatbow",
+    "tier": 3,
+    "status": [
+      "Venom Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Great Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Scorpion Venom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Spicy Arrow",
+    "category": "Greatbow",
+    "tier": 3,
+    "status": [
+      "Sizzling Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Great Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Spicy Shard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Mint Arrow",
+    "category": "Greatbow",
+    "tier": 3,
+    "status": [
+      "Chilling Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Great Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Mint Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Sour Arrow",
+    "category": "Greatbow",
+    "tier": 3,
+    "status": [
+      "Tang Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Great Arrow"
+          },
+          {
+            "quantity": 1,
+            "name": "Sour Lump"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Cupid's Arrow",
+    "category": "Greatbow",
+    "tier": 3,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Great Arrow"
+          },
+          {
+            "quantity": 5,
+            "name": "Smoochies Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acid Ruin",
+    "category": "Candy Staves",
+    "tier": 3,
+    "status": [
+      "Tang Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 4,
+        "name": "Sour Lump"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Sour Glob"
+          },
+          {
+            "quantity": 2,
+            "name": "Earwig Pincer"
+          },
+          {
+            "quantity": 4,
+            "name": "Spiky Bur"
+          },
+          {
+            "quantity": 4,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scorching Orb",
+    "category": "Candy Staves",
+    "tier": 2,
+    "status": [
+      "Sizzling Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Spicy Shard"
+      },
+      {
+        "quantity": 1,
+        "name": "Bombardier Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Spicy Shard"
+          },
+          {
+            "quantity": 3,
+            "name": "Bombardier Part"
+          },
+          {
+            "quantity": 1,
+            "name": "Boiling Gland"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Glacial Sting",
+    "category": "Candy Staves",
+    "tier": 2,
+    "status": [
+      "Chilling Attack"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Mint Chunk"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Mint Chunk"
+          },
+          {
+            "quantity": 1,
+            "name": "Northern Scorpion Stinger"
+          },
+          {
+            "quantity": 2,
+            "name": "Pine Needle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wither Sting",
+    "category": "Candy Staves",
+    "tier": 3,
+    "status": [
+      "Tang Attack",
+      "Puckered Recovery"
+    ],
+    "repair": [
+      {
+        "quantity": 4,
+        "name": "Sour Lump"
+      },
+      {
+        "quantity": 1,
+        "name": "Key Lime Chunk"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Acid Ruin"
+          },
+          {
+            "quantity": 1,
+            "name": "Pucker Charm"
+          },
+          {
+            "quantity": 3,
+            "name": "Key Lime Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rime Rend",
+    "category": "Candy Staves",
+    "tier": 3,
+    "status": [
+      "Chilling Attack",
+      "Critical Freezing"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Mint Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Gold Foil"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Glacial Sting"
+          },
+          {
+            "quantity": 1,
+            "name": "Suspicious Mint"
+          },
+          {
+            "quantity": 2,
+            "name": "Gold Foil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heatwave",
+    "category": "Candy Staves",
+    "tier": 2,
+    "status": [
+      "Sizzling Attack",
+      "Finale Warmth"
+    ],
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Spicy Shard"
+      },
+      {
+        "quantity": 1,
+        "name": "Boiling Gland"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Scorching Orb"
+          },
+          {
+            "quantity": 1,
+            "name": "Blistering Boiler"
+          },
+          {
+            "quantity": 2,
+            "name": "Unstable Goo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Splody Rounds",
+    "category": "Turret Ammo",
+    "tier": 3,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Spiky Bur"
+          },
+          {
+            "quantity": 2,
+            "name": "Gunpowder Clump"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "'Merica Rounds",
+    "category": "Turret Ammo",
+    "tier": 3,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Acorn Shell"
+          },
+          {
+            "quantity": 2,
+            "name": "Gunpowder Clump"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pointy Rounds",
+    "category": "Turret Ammo",
+    "tier": 2,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 20,
+            "name": "Thistle Needle"
+          },
+          {
+            "quantity": 1,
+            "name": "Crow Feather Piece"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sappy Rounds",
+    "category": "Turret Ammo",
+    "tier": 2,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Sap"
+          },
+          {
+            "quantity": 2,
+            "name": "Salt Shard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Burny Rounds",
+    "category": "Turret Ammo",
+    "tier": 2,
+    "status": [
+      "Sizzling Attack"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "EverChar Coal Chunk"
+          },
+          {
+            "quantity": 1,
+            "name": "Boiling Gland"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocky Rounds",
+    "category": "Turret Ammo",
+    "tier": 1,
+    "status": [],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 25,
+            "name": "Pebblet"
+          },
+          {
+            "quantity": 3,
+            "name": "Acid Gland"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Groundy Rounds",
+    "category": "Turret Ammo",
+    "tier": 1,
+    "status": [
+      "Stun Flying Creature"
+    ],
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Web Fiber"
+          },
+          {
+            "quantity": 2,
+            "name": "Pollen"
+          }
+        ]
+      }
+    ]
+  }
+]

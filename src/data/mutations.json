@@ -1,0 +1,793 @@
+[
+  {
+    "name": "Ambush",
+    "category": "Combat",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Ambush attacks deal 5 more stun against creatures. Ambush attacks have a 100% critical hit chance. Ambush attacks give 50% more critical hit damage when using daggers.",
+        "obtained": "Land 30 ambush attacks."
+      },
+      {
+        "rank": 2,
+        "effect": "Ambush attacks deal 5 more stun against creatures. Ambush attacks have a 100% critical hit chance. Ambush attacks give 80% more critical hit damage when using daggers.",
+        "obtained": "Land 80 ambush attacks."
+      },
+      {
+        "rank": 3,
+        "effect": "Ambush attacks deal 5 more stun against creatures. Ambush attacks have a 100% critical hit chance. Ambush attacks give 100% more critical hit damage when using daggers.",
+        "obtained": "Land 150 ambush attacks."
+      }
+    ]
+  },
+  {
+    "name": "Frenzy",
+    "category": "Combat",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Attacks deal 20% more damage for 5 seconds. Removes the ability to perfect block for 5 seconds. Every attacks grant an effect that heals 1 health every 1 second for 5 seconds.",
+        "obtained": "Defeat the Mysterious Stranger."
+      }
+    ]
+  },
+  {
+    "name": "Guard Dog",
+    "category": "Combat",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases damage against wave creatures by 10%.",
+        "obtained": "Complete 1 MIX.R event."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases damage against wave creatures by 25%.",
+        "obtained": "Complete 4 MIX.R events."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases damage against wave creatures by 50%.",
+        "obtained": "Complete 9 MIX.R events."
+      }
+    ]
+  },
+  {
+    "name": "Pheromone Shot",
+    "category": "Combat",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "When landing a perfect charged attack with a Bow or Greatbow: Nearby Buggies will deal 35% more damage for 15 seconds. Nearby Buggies will be targeted 100% more often in combat for 15 seconds.",
+        "obtained": "Defeat Axl."
+      }
+    ]
+  },
+  {
+    "name": "Blazin' Belcher",
+    "category": "Combat",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Perfect blocks have a 25% chance to give a buff that causes the next melee attack to deal 25 Spicy damage and create a small Sizzle AoE.",
+        "obtained": "Defeat King Dozer."
+      }
+    ]
+  },
+  {
+    "name": "Bardic Inspiration",
+    "category": "Combat",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Attacks with Bows and Greatbows have a 20% chance to buff the player and nearby allies damage by 15% for 10 seconds. Perfect shots with Bows and Greatbows will buff the player and nearby allies critical hit chance by 5% for 10 seconds. Dodges have a 20% chance to buff the player and nearby allies stamina regeneration by 25% for 10 seconds.",
+        "obtained": "Kill 10 Crickets."
+      }
+    ]
+  },
+  {
+    "name": "Natural Explorer",
+    "category": "Exploration",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases movement speed by 15%. Gets disabled during combat.",
+        "obtained": "Discover 20 Sites & Wonders."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases movement speed by 20%. Gets disabled during combat.",
+        "obtained": "Discover 50 Sites & Wonders."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases movement speed by 25%. Gets disabled during combat.",
+        "obtained": "Discover 80 Sites & Wonders."
+      }
+    ]
+  },
+  {
+    "name": "Coup de Grass",
+    "category": "Exploration",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases Critical Hit Chance by 2%.",
+        "obtained": "Discover the 4 Leaf Clover."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases Critical Hit Chance by 4%.",
+        "obtained": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "Trapper PEEP.R",
+    "category": "Exploration",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases critical hit damage by 20%.",
+        "obtained": "Collect 25 Gold Cards"
+      },
+      {
+        "rank": 2,
+        "effect": "Increases critical hit damage by 40%.",
+        "obtained": "Collect 50 Gold Cards"
+      },
+      {
+        "rank": 3,
+        "effect": "Increases critical hit damage by 60%.",
+        "obtained": "Collect 75 Gold Cards"
+      }
+    ]
+  },
+  {
+    "name": "Hauling Hero",
+    "category": "Exploration",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Haul 5 more Grass Planks or Weed Stems.",
+        "obtained": "Reach Coziness Level 2"
+      },
+      {
+        "rank": 2,
+        "effect": "Haul 10 more Grass Planks or Weed Stems.",
+        "obtained": "Reach Coziness Level 3"
+      },
+      {
+        "rank": 3,
+        "effect": "Haul 15 more Grass Planks or Weed Stems.",
+        "obtained": "Reach Coziness Level 4"
+      }
+    ]
+  },
+  {
+    "name": "Buzzin' Buggies",
+    "category": "Exploration",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Reduces stamina drain of sprinting with Buggies by 20%.",
+        "obtained": "Discover 5 Critter CAPZ."
+      },
+      {
+        "rank": 2,
+        "effect": "Reduces stamina drain of sprinting with Buggies by 40%.",
+        "obtained": "Discover 15 Critter CAPZ."
+      },
+      {
+        "rank": 3,
+        "effect": "Reduces stamina drain of sprinting with Buggies by 60%. Phase 3: Reduces the delay of stamina regeneration on Buggies by 20% when not exhausted and 200% when exhausted.",
+        "obtained": "Discover 30 Critter CAPZ."
+      }
+    ]
+  },
+  {
+    "name": "Merteen",
+    "category": "Exploration",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases swim speed by 10%. Reduces Oxygen drain by 0%.",
+        "obtained": "Discover 3 Sites & Wonders in Skunk Pond."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases swim speed by 15%. Reduces Oxygen drain by 15%.",
+        "obtained": "Discover 6 Sites & Wonders in Skunk Pond."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases swim speed by 20%. Reduces Oxygen drain by 25%. Phase 3: Reduces Chill buildup by 50% when underwater.",
+        "obtained": "Discover 10 Sites & Wonders in Skunk Pond."
+      }
+    ]
+  },
+  {
+    "name": "Cardio Fan",
+    "category": "Survival",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Stamina regenerates 15% faster. Decreases the exhaustion timer by 10%.",
+        "obtained": "Deplete stamina 100 times."
+      },
+      {
+        "rank": 2,
+        "effect": "Stamina regenerates 20% faster. Decreases the exhaustion timer by 20%.",
+        "obtained": "Deplete stamina 250 times."
+      },
+      {
+        "rank": 3,
+        "effect": "Stamina regenerates 30% faster. Decreases the exhaustion timer by 30%.",
+        "obtained": "Deplete stamina 500 times. Note: Can be progressed by Buggies"
+      }
+    ]
+  },
+  {
+    "name": "Reliable Friend",
+    "category": "Survival",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases revive speed of players and Buggies by 25%.",
+        "obtained": "Revive 5 players or Buggies."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases revive speed of players and Buggies by 40%.",
+        "obtained": "Revive 15 players or Buggies."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases revive speed of players and Buggies by 50%.",
+        "obtained": "Revive 30 players or Buggies."
+      }
+    ]
+  },
+  {
+    "name": "Fresh Defense",
+    "category": "Survival",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Reduces sizzle buildup by 25%. Reduces sizzling damage by 25%. Reduces gas damage by 25%.",
+        "obtained": "Eat 1 Mint Shard."
+      },
+      {
+        "rank": 2,
+        "effect": "Reduces sizzle buildup by 40%. Reduces sizzling damage by 40%. Reduces gas damage by 40%.",
+        "obtained": "Eat 5 Mint Shards."
+      },
+      {
+        "rank": 3,
+        "effect": "Reduces sizzle buildup by 50%. Reduces sizzling damage by 50%. Reduces gas damage by 50%.",
+        "obtained": "Eat 10 Mint Shards."
+      }
+    ]
+  },
+  {
+    "name": "Spicy Safety",
+    "category": "Survival",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Reduces chill rate by 25%. Reduces freeze damage taken by 25%.",
+        "obtained": "Eat 1 Spicy Shard."
+      },
+      {
+        "rank": 2,
+        "effect": "Reduces chill rate by 40%. Reduces freeze damage taken by 40%.",
+        "obtained": "Eat 5 Spicy Shards."
+      },
+      {
+        "rank": 3,
+        "effect": "Reduces chill rate by 50%. Reduces freeze damage taken by 50%. Phase 3: Reduces frozen shatter damage taken by 25%.",
+        "obtained": "Eat 10 Spicy Shards."
+      }
+    ]
+  },
+  {
+    "name": "Sour Sensation",
+    "category": "Survival",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Reduces Tang rate by 25%.",
+        "obtained": "Eat 1 Sour Lump."
+      },
+      {
+        "rank": 2,
+        "effect": "Reduces Tang rate by 40%.",
+        "obtained": "Eat 5 Sour Lumps."
+      },
+      {
+        "rank": 3,
+        "effect": "Reduces Tang rate by 50%. Phase 3: Grants immunity to the durability draining effects of Tang.",
+        "obtained": "Eat 10 Sour Lumps."
+      }
+    ]
+  },
+  {
+    "name": "Mithridatism",
+    "category": "Survival",
+    "active": true,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Reduces how fast the player gets venomed by 25%.",
+        "obtained": "Kill 5 Northern Scorpion Jrs., Northern Scorpions, Wolf Spiders, or Axls."
+      },
+      {
+        "rank": 2,
+        "effect": "Reduces how fast the player gets venomed by 40%.",
+        "obtained": "Kill 50 Northern Scorpion Jrs., Northern Scorpions, Wolf Spiders, or Axls."
+      },
+      {
+        "rank": 3,
+        "effect": "Reduces how fast the player gets venomed by 50%. Phase 3: Reduces venom damage taken by 25%.",
+        "obtained": "Kill 150 Northern Scorpion Jrs., Northern Scorpions, Wolf Spiders, or Axls."
+      }
+    ]
+  },
+  {
+    "name": "Lil Fist",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Every fist attack increases fist weapons charged attack damage by 5% until the player gets hit or combat ends, stacks 15 times.",
+        "obtained": "Kill 40 Creatures with Fists."
+      },
+      {
+        "rank": 2,
+        "effect": "Every fist attack increases fist weapons charged attack damage by 6.5% until the player gets hit or combat ends, stacks 15 times.",
+        "obtained": "Kill 100 Creatures with Fists."
+      },
+      {
+        "rank": 3,
+        "effect": "Every fist attack increases fist weapons charged attack damage by 8% until the player gets hit or combat ends, stacks 15 times. Phase 3: Every fist attack deals an extra attack that deals 1 smashing damage and 2 stun.",
+        "obtained": "Kill 200 Creatures with Fists."
+      }
+    ]
+  },
+  {
+    "name": "Smasher",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Clubs deal 1 extra stun per hit.",
+        "obtained": "Kill 40 Creatures with Clubs."
+      },
+      {
+        "rank": 2,
+        "effect": "Clubs deal 2 extra stun per hit.",
+        "obtained": "Kill 100 Creatures with Clubs."
+      },
+      {
+        "rank": 3,
+        "effect": "Clubs deal 3 extra stun per hit. Phase 3: Clubs deal 25% more damage against stunned creatures.",
+        "obtained": "Kill 200 Creatures with Clubs."
+      }
+    ]
+  },
+  {
+    "name": "Javelineer",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Hitting a creature with a spear applies an effect to the player that causes them to reflect 100% of all damage back to their attacker for 5 seconds. Thrown spear attacks deal 10% more damage.",
+        "obtained": "Kill 40 Creatures with Spears."
+      },
+      {
+        "rank": 2,
+        "effect": "Hitting a creature with a spear applies an effect to the player that causes them to reflect 150% of all damage back to their attacker for 5 seconds. Thrown spear attacks deal 20% more damage.",
+        "obtained": "Kill 100 Creatures with Spears."
+      },
+      {
+        "rank": 3,
+        "effect": "Hitting a creature with a spear applies an effect to the player that causes them to reflect 200% of all damage back to their attacker for 5 seconds. Thrown spear attacks deal 30% more damage. Phase 3: Charged attacks with spears deal 30% more damage.",
+        "obtained": "Kill 200 Creatures with Spears."
+      }
+    ]
+  },
+  {
+    "name": "Assassin",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Daggers and Sickles deal 10% more critical hit damage. Dash Strikes have 5% more critical hit chance.",
+        "obtained": "Kill 40 Creatures with Daggers or Sickles."
+      },
+      {
+        "rank": 2,
+        "effect": "Daggers and Sickles deal 15% more critical hit damage. Dash Strikes have 8% more critical hit chance.",
+        "obtained": "Kill 100 Creatures with Daggers or Sickles."
+      },
+      {
+        "rank": 3,
+        "effect": "Daggers and Sickles deal 20% more critical hit damage. Dash Strikes have 10% more critical hit chance. Phase 3: Kills with daggers and sickles give 5% more critical hit chance for 5 seconds.",
+        "obtained": "Kill 200 Creatures with Daggers or Sickles."
+      }
+    ]
+  },
+  {
+    "name": "Sharpshooter",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Charged Bow and Greatbow shot critical hit chance is increased by 5%.",
+        "obtained": "Kill 40 Creatures with Bows or Greatbows."
+      },
+      {
+        "rank": 2,
+        "effect": "Charged Bow and Greatbow shot critical hit chance is increased by 8%.",
+        "obtained": "Kill 100 Creatures with Bows or Greatbows."
+      },
+      {
+        "rank": 3,
+        "effect": "Charged Bow and Greatbow shot critical hit chance is increased by 10%. Phase 3: Perfectly charged Bow and Greatbow shot damage is increased by 10%.",
+        "obtained": "Kill 200 Creatures with Bows or Greatbows."
+      }
+    ]
+  },
+  {
+    "name": "Blademaster",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Sword attacks cause creatures to deal 10% less damage for 5 seconds.",
+        "obtained": "Kill 40 Creatures with Swords."
+      },
+      {
+        "rank": 2,
+        "effect": "Sword attacks cause creatures to deal 20% less damage for 5 seconds.",
+        "obtained": "Kill 100 Creatures with Swords."
+      },
+      {
+        "rank": 3,
+        "effect": "Sword attacks cause creatures to deal 30% less damage for 5 seconds. Phase 3: Attacking creatures with a sword reduces the exhaustion timer by 90%.",
+        "obtained": "Kill 200 Creatures with Swords."
+      }
+    ]
+  },
+  {
+    "name": "Whittle Wizard",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Attacks from minty staves cause frozen creatures to take 50% more frozen shatter damage for 100 seconds. Attacks from spicy staves cause burning creatures to take 50% more burning damage for 5 seconds. Attacks from sour staves increases damage on all creatures by 5% for 5 seconds.",
+        "obtained": "Kill 40 Creatures with Staves."
+      },
+      {
+        "rank": 2,
+        "effect": "Attacks from minty staves cause frozen creatures to take 75% more frozen shatter damage for 100 seconds. Attacks from spicy staves cause burning creatures to take 75% more burning damage for 5 seconds. Attacks from sour staves increases damage on all creatures by 8% for 5 seconds.",
+        "obtained": "Kill 100 Creatures with Staves."
+      },
+      {
+        "rank": 3,
+        "effect": "Attacks from minty staves cause frozen creatures to take 100% more frozen shatter damage for 100 seconds. Attacks from spicy staves cause burning creatures to take 100% more burning damage for 5 seconds. Attacks from sour staves increases damage on all creatures by 10% for 5 seconds. Phase 3: Increases critical hit chance by 5% against burning, frozen, and puckered creatures.",
+        "obtained": "Kill 200 Creatures with Staves."
+      }
+    ]
+  },
+  {
+    "name": "Parry Master",
+    "category": "Fighting Styles",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Grants perfect blocks a 100% chance to give 20 stamina.",
+        "obtained": "Perform 30 Perfect Blocks."
+      },
+      {
+        "rank": 2,
+        "effect": "Grants perfect blocks a 100% chance to give 25 stamina.",
+        "obtained": "Perform 80 Perfect Blocks."
+      },
+      {
+        "rank": 3,
+        "effect": "Grants perfect blocks a 100% chance to give 30 stamina.",
+        "obtained": "Perform 150 Perfect Blocks."
+      }
+    ]
+  },
+  {
+    "name": "Grass Master",
+    "category": "Ant Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases the chopping efficiency of Ant Buggies by 50%.",
+        "obtained": "Chop 50 Resource Nodes with an Ant Buggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases the chopping efficiency of Ant Buggies by 100%.",
+        "obtained": "Chop 100 Resource Nodes with an Ant Buggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases the chopping efficiency of Ant Buggies by 50%/100%. Phase 3: Destroying nodes with Soldier Ant Buggies gives 10 stamina.",
+        "obtained": "Chop 200 Resource Nodes with an Ant Buggy."
+      }
+    ]
+  },
+  {
+    "name": "Master Recruiter",
+    "category": "Ant Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Worker Ants recruited by Ant Buggies will gain 50% more health.",
+        "obtained": "Recruit 15 worker ants with your Ant Buggies."
+      },
+      {
+        "rank": 2,
+        "effect": "Worker Ants recruited by Ant Buggies will gain 100% more health.",
+        "obtained": "Recruit 30 worker ants with your Ant Buggies."
+      },
+      {
+        "rank": 3,
+        "effect": "Worker Ants recruited by Ant Buggies will gain 50%/100% more health. Phase 3: Ant Buggies can recruit an additional Worker Ant.",
+        "obtained": "Recruit 45 worker ants with your Ant Buggies."
+      }
+    ]
+  },
+  {
+    "name": "Genuine Gathering Ant",
+    "category": "Ant Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases drop chances of Resource Nodes by 40%.",
+        "obtained": "Chop 115 Resource Nodes with an Ant Buggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases drop chances of Resource Nodes by 80%.",
+        "obtained": "Chop 230 Resource Nodes with an Ant Buggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases drop chances of Resource Nodes by 40%/80%. Phase 3: Increases Ant Buggy movement speed while in Gathering Mode by 200%.",
+        "obtained": "Chop 350 Resource Nodes with an Ant Buggy."
+      }
+    ]
+  },
+  {
+    "name": "Rock Cracker",
+    "category": "Ladybug Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases the damage of the Ladybuggy's Shove Skill by 50%.",
+        "obtained": "Bust 30 Resource Nodes with a Ladybuggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases the damage of the Ladybuggy's Shove Skill by 150%.",
+        "obtained": "Bust 60 Resource Nodes with a Ladybuggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases the damage of the Ladybuggy's Shove Skill by 50%/150%. Phase 3: Reduces stamina drain of Ladybuggy's by 33.3%.",
+        "obtained": "Bust 120 Resource Nodes with a Ladybuggy."
+      }
+    ]
+  },
+  {
+    "name": "Block On Lock",
+    "category": "Ladybug Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Ladybuggies take 30% less damage from attacks while blocking.",
+        "obtained": "Block 25 attacks with a Ladybuggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Ladybuggies take 80% less damage from attacks while blocking.",
+        "obtained": "Block 50 attacks with a Ladybuggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Ladybuggies take 30%/80% less damage from attacks while blocking. Phase 3: Blocking with a Ladybuggy while out of stamina will no longer stun the Ladybuggy or knock the player off.",
+        "obtained": "Block 100 attacks with a Ladybuggy."
+      }
+    ]
+  },
+  {
+    "name": "Cannon Master",
+    "category": "Ladybug Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases the ammo capacity of the Ladybuggy's turret by 75%. Increases the splash radius of the Ladybuggy's turret shot by 50%.",
+        "obtained": "Kill 50 Creatures with a Ladybuggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases the ammo capacity of the Ladybuggy's turret by 150%. Increases the splash radius of the Ladybuggy's turret shot by 50%.",
+        "obtained": "Kill 100 Creatures with a Ladybuggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases the ammo capacity of the Ladybuggy's turret by 75%/150%. Increases the splash radius of the Ladybuggy's turret shot by 50%.",
+        "obtained": "Kill 200 Creatures with a Ladybuggy."
+      }
+    ]
+  },
+  {
+    "name": "Crit Machine",
+    "category": "Spider Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases the Critical Hit Chance of the final hit of a Spider Buggy's 3-hit combo by 40%.",
+        "obtained": "Kill 30 Creatures with a Spider Buggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases the Critical Hit Chance of the final hit of a Spider Buggy's 3-hit combo by 60%.",
+        "obtained": "Kill 60 Creatures with a Spider Buggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases the Critical Hit Chance of the final hit of a Spider Buggy's 3-hit combo by 40%/60%. Phase 3: Critical Hits caused by the final hit of a Spider Buggy's 3-hit combo do 50% more damage.",
+        "obtained": "Kill 120 Creatures with a Spider Buggy."
+      }
+    ]
+  },
+  {
+    "name": "Web Master",
+    "category": "Spider Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Spider Buggy's Web Throw ability inflicts an additional 15 Venom Buildup on direct hits.",
+        "obtained": "Trap 25 Creatures in a Spider Buggy's Web Throw."
+      },
+      {
+        "rank": 2,
+        "effect": "Spider Buggy's Web Throw ability inflicts an additional 25 Venom Buildup on direct hits.",
+        "obtained": "Trap 50 Creatures in a Spider Buggy's Web Throw."
+      },
+      {
+        "rank": 3,
+        "effect": "Spider Buggy's Web Throw ability inflicts an additional 35 Venom Buildup on direct hits. Phase 3: The Web Throw ability slow enemies by 25% for 7.5 seconds.",
+        "obtained": "Trap 100 Creatures in a Spider Buggy's Web Throw."
+      }
+    ]
+  },
+  {
+    "name": "Charging Spider",
+    "category": "Spider Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases the damage of Spider Buggy's sprinting attack by 20%.",
+        "obtained": "Use the Spider Buggy sprint attack on enemies 50 times."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases the damage of Spider Buggy's sprinting attack by 50%.",
+        "obtained": "Use the Spider Buggy sprint attack on enemies 100 times."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases the damage of Spider Buggy's sprinting attack by 20%/50%. Phase 3: Spider Buggy's sprinting attack inflict 15 Venom buildup.",
+        "obtained": "Use the Spider Buggy sprint attack on enemies 300 times."
+      }
+    ]
+  },
+  {
+    "name": "Wave Maker",
+    "category": "Toe Biter Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Increases the Toe Biter Buggy's Sweep Skill range by 50%",
+        "obtained": "Use the Toe Biter Nymph Buggy's Sweep Skill on 2 or more enemies at the same time 25 times."
+      },
+      {
+        "rank": 2,
+        "effect": "Increases the Toe Biter Buggy's Sweep Skill range by 100%",
+        "obtained": "Use the Toe Biter Nymph Buggy's Sweep Skill on 2 or more enemies at the same time 50 times."
+      },
+      {
+        "rank": 3,
+        "effect": "Increases the Toe Biter Buggy's Sweep Skill range by 50%/100% Phase 3: Toe Biter Buggy's Sweep Skill inflicts 5 Chill buildup.",
+        "obtained": "Use the Toe Biter Nymph Buggy's Sweep Skill on 2 or more enemies at the same time 100 times."
+      }
+    ]
+  },
+  {
+    "name": "Elemental Adept",
+    "category": "Toe Biter Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Toe Biter Buggy's final hit in their 3-hit combo inflicts 5 Chill and 20 Venom buildup.",
+        "obtained": "Kill 50 creatures with the Toe Biter Nymph Buggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Toe Biter Buggy's final hit in their 3-hit combo inflicts 10 Chill and 30 Venom buildup.",
+        "obtained": "Kill 100 creatures with the Toe Biter Nymph Buggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Toe Biter Buggy's final hit in their 3-hit combo inflicts 5/10 Chill and 20/30 Venom buildup. Phase 3: Increases the Toe Biter Buggy's critical hit chance when shatter frozen enemies by 25%.",
+        "obtained": "Kill 150 creatures with the Toe Biter Nymph Buggy."
+      }
+    ]
+  },
+  {
+    "name": "Aqua Jogger",
+    "category": "Toe Biter Buggies",
+    "active": false,
+    "ranks": [
+      {
+        "rank": 1,
+        "effect": "Reduces the stamina drain of sprinting in water with the Toe Biter Nymph Buggy by 20%.",
+        "obtained": "Use 75 stamina chunks while running or swimming with the Toe Biter Nymph Buggy."
+      },
+      {
+        "rank": 2,
+        "effect": "Reduces the stamina drain of sprinting in water with the Toe Biter Nymph Buggy by 40%.",
+        "obtained": "Use 150 stamina chunks while running or swimming with the Toe Biter Nymph Buggy."
+      },
+      {
+        "rank": 3,
+        "effect": "Reduces the stamina drain of sprinting in water with the Toe Biter Nymph Buggy by 60%. Phase 3: Increases the Toe Biter Buggy's jump height underwater while wearing the Diving Boots by 35%.",
+        "obtained": "Use 300 stamina chunks while running or swimming with the Toe Biter Nymph Buggy."
+      }
+    ]
+  }
+]

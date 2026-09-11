@@ -1,0 +1,2929 @@
+[
+  {
+    "name": "Acid Gland",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Larva",
+      "O.R.C. Red Soldier Ant",
+      "Larva",
+      "Red Soldier Ant"
+    ]
+  },
+  {
+    "name": "Gnat Fuzz",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Gnat"
+    ]
+  },
+  {
+    "name": "Grub Hide",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Grub"
+    ]
+  },
+  {
+    "name": "Grub Sludge",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Grub"
+    ]
+  },
+  {
+    "name": "Larva Spike",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Larva",
+      "Larva"
+    ]
+  },
+  {
+    "name": "Mite Fang",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Trick-Or-Treatery"
+    ],
+    "creatures": [
+      "Lawn Mite"
+    ]
+  },
+  {
+    "name": "Mite Fuzz",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Lawn Mite"
+    ]
+  },
+  {
+    "name": "Orb Weaver Egg",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Fire Pit"
+    ]
+  },
+  {
+    "name": "Raw Aphid Meat",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Aphid"
+    ]
+  },
+  {
+    "name": "Raw Gnat Meat",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Gnat"
+    ]
+  },
+  {
+    "name": "Raw Grub Meat",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Grub"
+    ]
+  },
+  {
+    "name": "Raw Weevil Meat",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Weevil"
+    ]
+  },
+  {
+    "name": "Red Ant Egg",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Red Worker Ant"
+    ]
+  },
+  {
+    "name": "Red Ant Head",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Red Soldier Ant",
+      "Red Soldier Ant",
+      "Red Worker Ant"
+    ]
+  },
+  {
+    "name": "Red Ant Mandibles",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Red Soldier Ant",
+      "Red Worker Ant"
+    ]
+  },
+  {
+    "name": "Red Ant Part",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Red Soldier Ant",
+      "Red Soldier Ant",
+      "Red Worker Ant"
+    ]
+  },
+  {
+    "name": "Red Soldier Ant Egg",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Hatchery Anthill",
+      "Spider Den Anthill"
+    ]
+  },
+  {
+    "name": "Rotten Egg",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Red Soldier Ant Egg",
+      "Orb Weaver Egg"
+    ]
+  },
+  {
+    "name": "Weevil Nose",
+    "category": "Creature Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Weevil",
+      "Weevil"
+    ]
+  },
+  {
+    "name": "Bee Fuzz",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Bee",
+      "O.R.C. Bee"
+    ]
+  },
+  {
+    "name": "Bee Stinger",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Bee",
+      "O.R.C. Bee"
+    ]
+  },
+  {
+    "name": "Black Soldier Ant Egg",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Sinkhole Anthill"
+    ]
+  },
+  {
+    "name": "Blue Butterfly Chunk",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Blue Butterfly",
+      "O.G.R.R. Blue Butterfly",
+      "O.R.C. Blue Butterfly"
+    ]
+  },
+  {
+    "name": "Blue Butterfly Scales",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Blue Butterfly",
+      "O.G.R.R. Blue Butterfly",
+      "O.R.C. Blue Butterfly"
+    ]
+  },
+  {
+    "name": "Blue Butterfly Wing",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Blue Butterfly",
+      "O.G.R.R. Blue Butterfly",
+      "O.R.C. Blue Butterfly"
+    ]
+  },
+  {
+    "name": "Boiling Gland",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Bombardier Beetle",
+      "O.G.R.R. Rust Beetle",
+      "O.R.C. Bombardier Beetle",
+      "O.R.C. Rust Beetle",
+      "Rust Beetle"
+    ]
+  },
+  {
+    "name": "Bombardier Part",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Bombardier Beetle",
+      "O.R.C. Bombardier Beetle"
+    ]
+  },
+  {
+    "name": "Caterpillar Goop",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Caterpillar"
+    ]
+  },
+  {
+    "name": "Ladybug Egg",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Ladybug Head",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Ladybug",
+      "O.R.C. Ladybug"
+    ]
+  },
+  {
+    "name": "Ladybug Part",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Ladybug",
+      "O.R.C. Ladybug"
+    ]
+  },
+  {
+    "name": "Mosquito Beak",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Mosquito",
+      "O.R.C. Mosquito"
+    ]
+  },
+  {
+    "name": "Mosquito Blood Sack",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Mosquito",
+      "O.R.C. Mosquito"
+    ]
+  },
+  {
+    "name": "Northern Scorpion Chunk",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Trick-Or-Treatery"
+    ],
+    "creatures": [
+      "Northern Scorpling",
+      "Northern Scorpion Jr.",
+      "Northern Scorpion",
+      "O.G.R.R. Northern Scorpion",
+      "O.R.C. Northern Scorpling",
+      "O.R.C. Northern Scorpion Jr.",
+      "O.R.C. Northern Scorpion"
+    ]
+  },
+  {
+    "name": "Northern Scorpion Pincer",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Northern Scorpion",
+      "O.G.R.R. Northern Scorpion",
+      "O.R.C. Northern Scorpion"
+    ]
+  },
+  {
+    "name": "Northern Scorpion Stinger",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Northern Scorpion",
+      "O.G.R.R. Northern Scorpion",
+      "O.R.C. Northern Scorpion"
+    ]
+  },
+  {
+    "name": "O.R.C. Receiver",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Bee",
+      "O.R.C. Blue Butterfly",
+      "O.R.C. Bombardier Beetle",
+      "O.R.C. Cockroach Nymph",
+      "O.R.C. Cockroach",
+      "O.R.C. Cockroach Queen",
+      "O.R.C. Ladybug",
+      "O.R.C. Larva",
+      "O.R.C. Mosquito",
+      "O.R.C. Northern Scorpling",
+      "O.R.C. Northern Scorpion Jr.",
+      "O.R.C. Northern Scorpion",
+      "O.R.C. Praying Mantis Nymph",
+      "O.R.C. Red Soldier Ant",
+      "O.R.C. Spiderling",
+      "O.R.C. Stinkbug",
+      "O.R.C. Weaver",
+      "O.R.C. Weaver Jr.",
+      "O.R.C. Weevil",
+      "O.R.C. Wolf Spider"
+    ]
+  },
+  {
+    "name": "Orb Weaver Chunk",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Trick-Or-Treatery"
+    ],
+    "creatures": [
+      "Orb Weaver",
+      "Orb Weaver Jr.",
+      "O.R.C. Weaver",
+      "O.R.C. Weaver Jr."
+    ]
+  },
+  {
+    "name": "Orb Weaver Fang",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Orb Weaver",
+      "O.R.C. Weaver"
+    ]
+  },
+  {
+    "name": "Raw Caterpillar Meat",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Caterpillar"
+    ]
+  },
+  {
+    "name": "Raw Snail Meat",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Baby Garden Snail",
+      "Garden Snail"
+    ]
+  },
+  {
+    "name": "Raw Woolly Aphid Meat",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Woolly Aphid"
+    ]
+  },
+  {
+    "name": "Roach Chunk",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Trick-Or-Treatery"
+    ],
+    "creatures": [
+      "Cockroach Nymph",
+      "Cockroach",
+      "Cockroach Queen",
+      "O.R.C. Cockroach Nymph",
+      "O.R.C. Cockroach",
+      "O.R.C. Cockroach Queen"
+    ]
+  },
+  {
+    "name": "Roach Head",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Cockroach Nymph",
+      "Cockroach",
+      "Cockroach Queen",
+      "O.R.C. Cockroach Nymph",
+      "O.R.C. Cockroach",
+      "O.R.C. Cockroach Queen"
+    ]
+  },
+  {
+    "name": "Roach Milk",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Cockroach Queen",
+      "O.R.C. Cockroach Queen"
+    ]
+  },
+  {
+    "name": "Scorpion Venom",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Northern Scorpion",
+      "Northern Scorpion Jr.",
+      "O.G.R.R. Northern Scorpion",
+      "O.R.C. Northern Scorpion",
+      "O.R.C. Northern Scorpion Jr."
+    ]
+  },
+  {
+    "name": "Spine Nub",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Caterpillar"
+    ]
+  },
+  {
+    "name": "Stinkbug Gas Sack",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Stinkbug",
+      "Stinkbug"
+    ]
+  },
+  {
+    "name": "Stinkbug Part",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Stinkbug",
+      "Stinkbug"
+    ]
+  },
+  {
+    "name": "Unstable Goo",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Trick-Or-Treatery"
+    ],
+    "creatures": [
+      "O.R.C. Weevil"
+    ]
+  },
+  {
+    "name": "Web Fiber",
+    "category": "Creature Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Web Sac"
+    ],
+    "creatures": [
+      "Orb Weaver",
+      "Orb Weaver Jr.",
+      "O.R.C. Spiderling",
+      "O.R.C. Weaver",
+      "O.R.C. Weaver Jr.",
+      "Spiderling"
+    ]
+  },
+  {
+    "name": "Black Ant Egg",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Black Worker Ant"
+    ]
+  },
+  {
+    "name": "Black Ant Head",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Black Soldier Ant",
+      "Black Worker Ant",
+      "O.R.C. Black Soldier Ant"
+    ]
+  },
+  {
+    "name": "Black Ant Mandibles",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Black Soldier Ant",
+      "O.R.C. Black Soldier Ant"
+    ]
+  },
+  {
+    "name": "Black Ant Part",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Black Soldier Ant",
+      "Black Worker Ant",
+      "O.R.C. Black Soldier Ant"
+    ]
+  },
+  {
+    "name": "Broodmother Chunk",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "O.R.C. Broodmother"
+    ]
+  },
+  {
+    "name": "Buffin' Gland",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Blue Butterfly",
+      "O.G.R.R. Cricket",
+      "O.G.R.R. Ladybug",
+      "O.G.R.R. Northern Scorpion",
+      "O.G.R.R. Pincher Earwig",
+      "O.G.R.R. Praying Mantis Nymph",
+      "O.G.R.R. Rust Beetle",
+      "O.G.R.R. Wasp",
+      "O.G.R.R. Wasp Drone",
+      "O.G.R.R. Whipper Earwig",
+      "O.G.R.R. Wolf Spider"
+    ]
+  },
+  {
+    "name": "Cricket Drumstick",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Cricket",
+      "O.G.R.R. Cricket",
+      "O.R.C. Cricket"
+    ]
+  },
+  {
+    "name": "Cricket Head",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Cricket",
+      "O.G.R.R. Cricket",
+      "O.R.C. Cricket"
+    ]
+  },
+  {
+    "name": "Cricket Part",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Cricket",
+      "O.G.R.R. Cricket",
+      "O.R.C. Cricket"
+    ]
+  },
+  {
+    "name": "Earwig Head",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Pincher Earwig",
+      "O.G.R.R. Whipper Earwig",
+      "O.R.C. Pincher Earwig",
+      "O.R.C. Whipper Earwig",
+      "Pincher Earwig",
+      "Whipper Earwig"
+    ]
+  },
+  {
+    "name": "Earwig Part",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Pincher Earwig",
+      "O.G.R.R. Whipper Earwig",
+      "O.R.C. Pincher Earwig",
+      "O.R.C. Whipper Earwig",
+      "Pincher Earwig",
+      "Whipper Earwig"
+    ]
+  },
+  {
+    "name": "Earwig Pincer",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Pincher Earwig",
+      "O.G.R.R. Whipper Earwig",
+      "O.R.C. Pincher Earwig",
+      "O.R.C. Whipper Earwig",
+      "Pincher Earwig",
+      "Whipper Earwig"
+    ]
+  },
+  {
+    "name": "Firefly Shell",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Firefly",
+      "O.R.C. Firefly"
+    ]
+  },
+  {
+    "name": "Garden Snail Eyestalk",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Garden Snail"
+    ]
+  },
+  {
+    "name": "Garden Snail Fragment",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Baby Garden Snail",
+      "Garden Snail"
+    ]
+  },
+  {
+    "name": "Garden Snail Slime",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Baby Garden Snail",
+      "Garden Snail"
+    ]
+  },
+  {
+    "name": "Glow Goo",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Firefly",
+      "O.R.C. Firefly"
+    ]
+  },
+  {
+    "name": "Lizard Horn",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "King Dozer"
+    ]
+  },
+  {
+    "name": "Lizard Scale",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "King Dozer"
+    ]
+  },
+  {
+    "name": "Potato Beetle Head",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Potato Beetle",
+      "Potato Beetle"
+    ]
+  },
+  {
+    "name": "Potato Beetle Shell",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.R.C. Potato Beetle",
+      "Potato Beetle"
+    ]
+  },
+  {
+    "name": "Praying Mantis Chunk",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Praying Mantis Nymph",
+      "O.R.C. Praying Mantis Nymph",
+      "Praying Mantis Nymph"
+    ]
+  },
+  {
+    "name": "Praying Mantis Claw",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Praying Mantis Nymph",
+      "O.R.C. Praying Mantis Nymph",
+      "Praying Mantis Nymph"
+    ]
+  },
+  {
+    "name": "Praying Mantis Head",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Praying Mantis Nymph",
+      "O.R.C. Praying Mantis Nymph",
+      "Praying Mantis Nymph"
+    ]
+  },
+  {
+    "name": "Rust Beetle Parts",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Rust Beetle",
+      "O.R.C. Rust Beetle",
+      "Rust Beetle"
+    ]
+  },
+  {
+    "name": "Snake Scale",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Garter Snake"
+    ]
+  },
+  {
+    "name": "Spider Venom",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Wolf Spider",
+      "O.R.C. Wolf Spider",
+      "Wolf Spider"
+    ]
+  },
+  {
+    "name": "Tarantula Chunk",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Axl"
+    ]
+  },
+  {
+    "name": "Tarantula Fang",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Axl"
+    ]
+  },
+  {
+    "name": "Tarantula Talon",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Axl"
+    ]
+  },
+  {
+    "name": "Tarantula Venom",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Axl"
+    ]
+  },
+  {
+    "name": "Wasp Leg",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Wasp",
+      "O.G.R.R. Wasp Drone",
+      "O.R.C. Wasp",
+      "O.R.C. Wasp Drone",
+      "Wasp",
+      "Wasp Drone"
+    ]
+  },
+  {
+    "name": "Wasp Shell",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Wasp",
+      "O.G.R.R. Wasp Drone",
+      "O.R.C. Wasp",
+      "O.R.C. Wasp Drone",
+      "Wasp",
+      "Wasp Drone"
+    ]
+  },
+  {
+    "name": "Wolf Spider Chunk",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Wolf Spider",
+      "O.R.C. Wolf Spider",
+      "Wolf Spider"
+    ]
+  },
+  {
+    "name": "Wolf Spider Fang",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "O.G.R.R. Wolf Spider",
+      "O.R.C. Wolf Spider",
+      "Wolf Spider"
+    ]
+  },
+  {
+    "name": "Woolly Aphid Fuzz",
+    "category": "Creature Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Woolly Aphid"
+    ]
+  },
+  {
+    "name": "Dandelion Tuft",
+    "category": "Environmental Resources",
+    "tier": 0,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Dew Drop",
+    "category": "Environmental Resources",
+    "tier": 0,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Toxic Anthill",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Grass Seeds",
+    "category": "Environmental Resources",
+    "tier": 0,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Pine Hill",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Grumble's Granola Bar",
+    "category": "Environmental Resources",
+    "tier": 0,
+    "recipes": [],
+    "locations": [
+      "Candy Processing Facility",
+      "Network Center",
+      "Ominent Field Archives",
+      "Ranger Outposts"
+    ]
+  },
+  {
+    "name": "Juice Drop",
+    "category": "Environmental Resources",
+    "tier": 0,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Soda Drop",
+    "category": "Environmental Resources",
+    "tier": 0,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Entrance Area",
+      "Fire Pit",
+      "Grass Games Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Acorn Bits",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Entrance Area",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Acorn Shell",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Entrance Area",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Acorn Top",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Entrance Area",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Brittle Marble Shard",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Fire Pit",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Brittle Quartzite Shard",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Entrance Area",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Clay",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Clover Leaf",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Dry Grass Chunk",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Flower Petal",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Grass Plank",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Mushroom",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Scarecrow",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Nectar",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Entrance Area",
+      "Grass Games Area",
+      "Picnic Table Area",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Pebblet",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Plant Fiber",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Rotten Food",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Toxic Anthill",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Sap",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Slime Mold Stalk",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Minor Caves",
+      "O.R.C. Caves"
+    ]
+  },
+  {
+    "name": "Spoiled Meat",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Sprig",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Thistle Needle",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Weed Stem",
+    "category": "Environmental Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Veggie Garden",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Apple Bits",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Entrance Area",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Billy Hog Bite",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Fire Pit",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Blueberry Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area"
+    ]
+  },
+  {
+    "name": "Candy Cornlet",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Candy Processing Facility",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Ice Cream Cart",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Toxic Anthill",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Chocolate Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ice Cream Cart",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Cookie Sandwich Bits",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Ice Cream Cart",
+      "Entrance Area",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Corn Hog Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Crow Feather Piece",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [],
+    "creatures": [
+      "Crow"
+    ]
+  },
+  {
+    "name": "Donut Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Croquet Court",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "EverChar Coal Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Fire Pit"
+    ]
+  },
+  {
+    "name": "Fresh Apple Bits",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Entrance Area",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Fresh Billy Hog Bite",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Fire Pit",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Fresh Cookie Sandwich Bits",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Fire Pit",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Fresh Donut Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Croquet Court",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Ice Splinter",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ice Cream Cart",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area"
+    ]
+  },
+  {
+    "name": "Lingonberry Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Picnic Table Area",
+      "Pine Hill",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Milkweed Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Croquet Court",
+      "Entrance Area",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Milkweed Tuft",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Croquet Court",
+      "Entrance Area",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Mini Marshmallow",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Candy Processing Facility",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Ice Cream Cart",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Toxic Anthill",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Mint Shard",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Candy Processing Facility",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Ice Cream Cart",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Scarecrow",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Mushroom Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Scarecrow",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Pine Needle",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill"
+    ]
+  },
+  {
+    "name": "Pollen",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Potato Bits",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Bale Scale Cave",
+      "Candy Processing Facility",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Potato Eye",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Bale Scale Cave",
+      "Candy Processing Facility",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Pretzel Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Rainbow Chocolate Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Candy Processing Facility",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Ice Cream Cart",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Toxic Anthill",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Smoochies Chunk",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Candy Processing Facility",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Ice Cream Cart",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Toxic Anthill",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Spicy Shard",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Candy Processing Facility",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Scarecrow",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Sturdy Marble Shard",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Croquet Court",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Sturdy Quartzite Shard",
+    "category": "Environmental Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Ceremony Area",
+      "Croquet Court",
+      "Fire Pit",
+      "Grass Games Area",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Snackbar Front Area",
+      "Statue Area"
+    ]
+  },
+  {
+    "name": "Cactus Petal",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Greenhouse"
+    ]
+  },
+  {
+    "name": "Carrot Bits",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Carrot Cave",
+      "War-Torn Anthill"
+    ]
+  },
+  {
+    "name": "Carrot Frond",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Chrysalis Hide",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Greenhouse",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Fertilizer",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Bale Scale Cave",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Minor Caves",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Gloom Chunk",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Fire Pit",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Minor Caves",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Gunpowder Clump",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Croquet Court",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Snackbar Front Area"
+    ]
+  },
+  {
+    "name": "Key Lime Chunk",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Greenhouse"
+    ]
+  },
+  {
+    "name": "Lint",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Picnic Table Area",
+      "Scarecrow",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Pinecone Piece",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Croquet Court",
+      "Fire Pit",
+      "Ice Cream Cart Surroundings",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Pumpin' Seed",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "O.G.R.R. Labs",
+      "Scarecrow"
+    ]
+  },
+  {
+    "name": "Pumpkin Bits",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Pumpkin Patch",
+      "Scarecrow"
+    ]
+  },
+  {
+    "name": "Pumpkin Seed",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Pumpkin Patch"
+    ]
+  },
+  {
+    "name": "Rust",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "O.R.C. Caves",
+      "Pumpkin Patch",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Sour Lump",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Anthills",
+      "Candy Processing Facility",
+      "Ceremony Area",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Minor Caves",
+      "Picnic Table Area",
+      "Pumpkin Patch",
+      "Scarecrow",
+      "Snackbar Front Area",
+      "Veggie Garden",
+      "Wither Sting Cave"
+    ]
+  },
+  {
+    "name": "Spiky Bur",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Ceremony Area",
+      "Entrance Area",
+      "Fire Pit",
+      "Greenhouse Surroundings",
+      "Statue Area",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Wasp Paper",
+    "category": "Environmental Resources",
+    "tier": 3,
+    "recipes": [],
+    "locations": [
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ]
+  },
+  {
+    "name": "Aphid Jerky",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Drying",
+      "Raw Aphid Meat"
+    ]
+  },
+  {
+    "name": "Aphid Roast",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Cooking",
+      "Raw Aphid Meat"
+    ]
+  },
+  {
+    "name": "Gnat Jerky",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Drying",
+      "Raw Gnat Meat"
+    ]
+  },
+  {
+    "name": "Gnat Roast",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Cooking",
+      "Raw Gnat Meat"
+    ]
+  },
+  {
+    "name": "Grub Jerky",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Drying",
+      "Raw Grub Meat"
+    ]
+  },
+  {
+    "name": "Grub Roast",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Cooking",
+      "Raw Grub Meat"
+    ]
+  },
+  {
+    "name": "Weevil Jerky",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Drying",
+      "Raw Weevil Meat"
+    ]
+  },
+  {
+    "name": "Weevil Roast",
+    "category": "Other Resources",
+    "tier": 1,
+    "recipes": [],
+    "locations": [
+      "Cooking",
+      "Raw Weevil Meat"
+    ]
+  },
+  {
+    "name": "Caterpillar Jerky",
+    "category": "Other Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Drying",
+      "Raw Caterpillar Meat"
+    ]
+  },
+  {
+    "name": "Caterpillar Roast",
+    "category": "Other Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Cooking",
+      "Raw Caterpillar Meat"
+    ]
+  },
+  {
+    "name": "Snail Jerky",
+    "category": "Other Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Drying",
+      "Raw Snail Meat"
+    ]
+  },
+  {
+    "name": "Snail Roast",
+    "category": "Other Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Cooking",
+      "Raw Snail Meat"
+    ]
+  },
+  {
+    "name": "Woolly Aphid Jerky",
+    "category": "Other Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Drying",
+      "Raw Woolly Aphid Meat"
+    ]
+  },
+  {
+    "name": "Woolly Aphid Roast",
+    "category": "Other Resources",
+    "tier": 2,
+    "recipes": [],
+    "locations": [
+      "Cooking",
+      "Raw Woolly Aphid Meat"
+    ]
+  },
+  {
+    "name": "Bug Rubber",
+    "category": "Refined Resources",
+    "tier": 1,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Sap",
+            "quantity": 1
+          },
+          {
+            "name": "Acid Gland",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Crude Rope",
+    "category": "Refined Resources",
+    "tier": 1,
+    "recipes": [
+      {
+        "station": "By Hand",
+        "ingredients": [
+          {
+            "name": "Plant Fiber",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "station": "Spinning Wheel",
+        "ingredients": [
+          {
+            "name": "Plant Fiber",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Blueberry Leather",
+    "category": "Refined Resources",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Blueberry Chunk",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "station": "Jerky Rack",
+        "ingredients": [
+          {
+            "name": "Blueberry Chunk",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Lingonberry Leather",
+    "category": "Refined Resources",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Lingonberry Chunk",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "station": "Jerky Rack",
+        "ingredients": [
+          {
+            "name": "Lingonberry Chunk",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Mushroom Brick",
+    "category": "Refined Resources",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Oven",
+        "ingredients": [
+          {
+            "name": "Mushroom Slurry",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Mushroom Slurry",
+    "category": "Refined Resources",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Grinder",
+        "ingredients": [
+          {
+            "name": "Mushroom",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Grinder",
+        "ingredients": [
+          {
+            "name": "Mushroom Chunk",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Grinder",
+        "ingredients": [
+          {
+            "name": "Toadstool Chunk",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Pumpkin Brick",
+    "category": "Refined Resources",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Oven",
+        "ingredients": [
+          {
+            "name": "Pumpkin Puree",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Repair Glue",
+    "category": "Refined Resources",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Earwig Part",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Ladybug Part",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Mint Shard",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Orb Weaver Chunk",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Potato Beetle Shell",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Rust Beetle Parts",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Sour Lump",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Spicy Shard",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "station": "Glue Masher",
+        "ingredients": [
+          {
+            "name": "Stinkbug Part",
+            "quantity": 6
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Silk Rope",
+    "category": "Refined Resources",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Spinning Wheel",
+        "ingredients": [
+          {
+            "name": "Web Fiber",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Ashen Leather",
+    "category": "Refined Resources",
+    "tier": 3,
+    "recipes": [
+      {
+        "station": "Jerky Rack",
+        "ingredients": [
+          {
+            "name": "Lizard Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Lingonberry Chunk",
+            "quantity": 1
+          },
+          {
+            "name": "Spicy Shard",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Chrysalis Leather",
+    "category": "Refined Resources",
+    "tier": 3,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Chrysalis Hide",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "station": "Jerky Rack",
+        "ingredients": [
+          {
+            "name": "Chrysalis Hide",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Gloom Sap",
+    "category": "Refined Resources",
+    "tier": 3,
+    "recipes": [
+      {
+        "station": "Grinder",
+        "ingredients": [
+          {
+            "name": "Gloom Chunk",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Lint Rope",
+    "category": "Refined Resources",
+    "tier": 3,
+    "recipes": [
+      {
+        "station": "Spinning Wheel",
+        "ingredients": [
+          {
+            "name": "Lint",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Pumpkin Puree",
+    "category": "Refined Resources",
+    "tier": 3,
+    "recipes": [
+      {
+        "station": "Grinder",
+        "ingredients": [
+          {
+            "name": "Pumpkin Bits",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Grinder",
+        "ingredients": [
+          {
+            "name": "Pumpkin Seed",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Brittle Plating",
+    "category": "Upgrade Materials",
+    "tier": 1,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Brittle Marble Shard",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Sap",
+            "quantity": 1
+          },
+          {
+            "name": "Grub Hide",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Brittle Whetstone",
+    "category": "Upgrade Materials",
+    "tier": 1,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Brittle Quartzite Shard",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Sap",
+            "quantity": 1
+          },
+          {
+            "name": "Larva Spike",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Mighty Glob",
+    "category": "Upgrade Materials",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Oven",
+        "ingredients": [
+          {
+            "name": "Sturdy Whetstone",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Mint Glob",
+    "category": "Upgrade Materials",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Oven",
+        "ingredients": [
+          {
+            "name": "Mint Shard",
+            "quantity": 2
+          },
+          {
+            "name": "Sturdy Whetstone",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Sour Glob",
+    "category": "Upgrade Materials",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Oven",
+        "ingredients": [
+          {
+            "name": "Sour Lump",
+            "quantity": 2
+          },
+          {
+            "name": "Sturdy Whetstone",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Spicy Glob",
+    "category": "Upgrade Materials",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Oven",
+        "ingredients": [
+          {
+            "name": "Spicy Shard",
+            "quantity": 2
+          },
+          {
+            "name": "Sturdy Whetstone",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Sturdy Plating",
+    "category": "Upgrade Materials",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Sturdy Marble Shard",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Potato Beetle Shell",
+            "quantity": 1
+          },
+          {
+            "name": "Gloom Sap",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "name": "Sturdy Whetstone",
+    "category": "Upgrade Materials",
+    "tier": 2,
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Sturdy Quartzite Shard",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "name": "Earwig Pincer",
+            "quantity": 1
+          },
+          {
+            "name": "Gloom Sap",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "locations": []
+  }
+]

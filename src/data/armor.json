@@ -1,0 +1,4158 @@
+[
+  {
+    "name": "Red Ant Helmet",
+    "archetype": "Rogue",
+    "tier": 1,
+    "slot": "Head",
+    "durability": 60,
+    "defense": 3,
+    "resistance": 4,
+    "pieceEffect": "Ant Stamina Attack",
+    "sleekEffect": "Ant Critical Inspiration",
+    "set": {
+      "name": "Red Ant Armor",
+      "bonus": "Ant Critical Inspiration"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Red Ant Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Mite Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Red Ant Head"
+          },
+          {
+            "quantity": 3,
+            "name": "Red Ant Part"
+          },
+          {
+            "quantity": 5,
+            "name": "Mite Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Red Ant Arm Guards",
+    "archetype": "Rogue",
+    "tier": 1,
+    "slot": "Body",
+    "durability": 60,
+    "defense": 6,
+    "resistance": 8,
+    "pieceEffect": "Ant Stamina Attack",
+    "sleekEffect": "Ant Critical Inspiration",
+    "set": {
+      "name": "Red Ant Armor",
+      "bonus": "Ant Critical Inspiration"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Red Ant Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Mite Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Red Ant Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Acid Gland"
+          },
+          {
+            "quantity": 2,
+            "name": "Mite Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Red Ant Knee Guards",
+    "archetype": "Rogue",
+    "tier": 1,
+    "slot": "Legs",
+    "durability": 60,
+    "defense": 3,
+    "resistance": 4,
+    "pieceEffect": "Ant Stamina Attack",
+    "sleekEffect": "Ant Critical Inspiration",
+    "set": {
+      "name": "Red Ant Armor",
+      "bonus": "Ant Critical Inspiration"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Red Ant Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Mite Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 6,
+            "name": "Red Ant Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Mite Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acorn Face Mask",
+    "archetype": "Fighter",
+    "tier": 1,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 4,
+    "resistance": 6.5,
+    "pieceEffect": "Max Health",
+    "sleekEffect": "Stamina Block",
+    "set": {
+      "name": "Acorn Armor",
+      "bonus": "Block Stun"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Acorn Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Crude Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Acorn Shell"
+          },
+          {
+            "quantity": 1,
+            "name": "Acorn Top"
+          },
+          {
+            "quantity": 5,
+            "name": "Mite Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acorn Plate",
+    "archetype": "Fighter",
+    "tier": 1,
+    "slot": "Body",
+    "durability": 80,
+    "defense": 8,
+    "resistance": 13,
+    "pieceEffect": "Max Health",
+    "sleekEffect": "Healing Received Up",
+    "set": {
+      "name": "Acorn Armor",
+      "bonus": "Block Stun"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Acorn Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Crude Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Acorn Shell"
+          },
+          {
+            "quantity": 5,
+            "name": "Clover Leaf"
+          },
+          {
+            "quantity": 4,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acorn Greaves",
+    "archetype": "Fighter",
+    "tier": 1,
+    "slot": "Legs",
+    "durability": 80,
+    "defense": 4,
+    "resistance": 6.5,
+    "pieceEffect": "Max Health",
+    "sleekEffect": "Small HoT",
+    "set": {
+      "name": "Acorn Armor",
+      "bonus": "Block Stun"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Acorn Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Crude Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Acorn Shell"
+          },
+          {
+            "quantity": 4,
+            "name": "Sap"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grub Goggles",
+    "archetype": "Ranger",
+    "tier": 1,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 3.5,
+    "resistance": 5.25,
+    "pieceEffect": "Charged Speed Up",
+    "sleekEffect": "Stamina Regen",
+    "set": {
+      "name": "Grub Armor",
+      "bonus": "Stamina Regen"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Grub Hide"
+      },
+      {
+        "quantity": 1,
+        "name": "Gnat Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Grub Hide"
+          },
+          {
+            "quantity": 2,
+            "name": "Raw Gnat Meat"
+          },
+          {
+            "quantity": 2,
+            "name": "Gnat Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grub Vest",
+    "archetype": "Ranger",
+    "tier": 1,
+    "slot": "Body",
+    "durability": 70,
+    "defense": 7,
+    "resistance": 10.5,
+    "pieceEffect": "Charged Speed Up",
+    "sleekEffect": "Stamina Regen",
+    "set": {
+      "name": "Grub Armor",
+      "bonus": "Stamina Regen"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Grub Hide"
+      },
+      {
+        "quantity": 1,
+        "name": "Grub Sludge"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Grub Hide"
+          },
+          {
+            "quantity": 2,
+            "name": "Grub Sludge"
+          },
+          {
+            "quantity": 4,
+            "name": "Dry Grass Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grub Leggings",
+    "archetype": "Ranger",
+    "tier": 1,
+    "slot": "Legs",
+    "durability": 70,
+    "defense": 3.5,
+    "resistance": 5.25,
+    "pieceEffect": "Charged Speed Up",
+    "sleekEffect": "Stamina Regen",
+    "set": {
+      "name": "Grub Armor",
+      "bonus": "Stamina Regen"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Grub Hide"
+      },
+      {
+        "quantity": 1,
+        "name": "Gnat Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Grub Hide"
+          },
+          {
+            "quantity": 4,
+            "name": "Dry Grass Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Gnat Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ladybug Faceplate",
+    "archetype": "Fighter",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 90,
+    "defense": 6.5,
+    "resistance": 6.75,
+    "pieceEffect": "Stamina Block",
+    "sleekEffect": "Healing Received Up",
+    "set": {
+      "name": "Ladybug Armor",
+      "bonus": "Healing Received Up"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Ladybug Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Ladybug Head"
+          },
+          {
+            "quantity": 2,
+            "name": "Ladybug Part"
+          },
+          {
+            "quantity": 3,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ladybug Chestplate",
+    "archetype": "Fighter",
+    "tier": 2,
+    "slot": "Body",
+    "durability": 90,
+    "defense": 13,
+    "resistance": 13.5,
+    "pieceEffect": "Stamina Block",
+    "sleekEffect": "Healing Received Up",
+    "set": {
+      "name": "Ladybug Armor",
+      "bonus": "Healing Received Up"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Ladybug Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Flower Petal"
+          },
+          {
+            "quantity": 4,
+            "name": "Ladybug Part"
+          },
+          {
+            "quantity": 4,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ladybug Shin Guards",
+    "archetype": "Fighter",
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 90,
+    "defense": 6.5,
+    "resistance": 6.75,
+    "pieceEffect": "Stamina Block",
+    "sleekEffect": "Healing Received Up",
+    "set": {
+      "name": "Ladybug Armor",
+      "bonus": "Healing Received Up"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Ladybug Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Ladybug Part"
+          },
+          {
+            "quantity": 4,
+            "name": "Blueberry Leather"
+          },
+          {
+            "quantity": 4,
+            "name": "Flower Petal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bee Face Mask",
+    "archetype": "Ranger",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 6,
+    "resistance": 5.5,
+    "pieceEffect": "Perfect Draw",
+    "sleekEffect": "Bow Stun",
+    "set": {
+      "name": "Bee Armor",
+      "bonus": "Bow Stun"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Bee Fuzz"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Bee Fuzz"
+          },
+          {
+            "quantity": 1,
+            "name": "Bee Stinger"
+          },
+          {
+            "quantity": 2,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bee Shoulder Pads",
+    "archetype": "Ranger",
+    "tier": 2,
+    "slot": "Body",
+    "durability": 80,
+    "defense": 12,
+    "resistance": 11,
+    "pieceEffect": "Perfect Draw",
+    "sleekEffect": "Bow Stun",
+    "set": {
+      "name": "Bee Armor",
+      "bonus": "Bow Stun"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Bee Fuzz"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Bee Fuzz"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bee Shin Guards",
+    "archetype": "Ranger",
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 80,
+    "defense": 6,
+    "resistance": 5.5,
+    "pieceEffect": "Perfect Draw",
+    "sleekEffect": "Bow Stun",
+    "set": {
+      "name": "Bee Armor",
+      "bonus": "Bow Stun"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Bee Fuzz"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Bee Fuzz"
+          },
+          {
+            "quantity": 4,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weaver Hood",
+    "archetype": "Rogue",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 5.5,
+    "resistance": 4.25,
+    "pieceEffect": "Dash Strike Damage",
+    "sleekEffect": "Spider Kill",
+    "set": {
+      "name": "Weaver Armor",
+      "bonus": "Spider Kill"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Orb Weaver Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Spine Nub"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Orb Weaver Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Orb Weaver Fang"
+          },
+          {
+            "quantity": 2,
+            "name": "Spine Nub"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weaver Spaulders",
+    "archetype": "Rogue",
+    "tier": 2,
+    "slot": "Body",
+    "durability": 70,
+    "defense": 11,
+    "resistance": 8.5,
+    "pieceEffect": "Dash Strike Damage",
+    "sleekEffect": "Spider Kill",
+    "set": {
+      "name": "Weaver Armor",
+      "bonus": "Spider Kill"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Orb Weaver Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Orb Weaver Chunk"
+          },
+          {
+            "quantity": 4,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Spine Nub"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weaver Leggings",
+    "archetype": "Rogue",
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 70,
+    "defense": 5.5,
+    "resistance": 4.25,
+    "pieceEffect": "Dash Strike Damage",
+    "sleekEffect": "Spider Kill",
+    "set": {
+      "name": "Weaver Armor",
+      "bonus": "Spider Kill"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Orb Weaver Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Orb Weaver Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Spine Nub"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clover Hood",
+    "archetype": null,
+    "tier": 1,
+    "slot": "Head",
+    "durability": 40,
+    "defense": 1.5,
+    "resistance": 1.25,
+    "pieceEffect": "Stamina Dodge",
+    "sleekEffect": "Small HoT",
+    "set": {
+      "name": "Clover Armor",
+      "bonus": "Small HoT"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Clover Leaf"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Clover Leaf"
+          },
+          {
+            "quantity": 1,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clover Poncho",
+    "archetype": null,
+    "tier": 1,
+    "slot": "Body",
+    "durability": 40,
+    "defense": 5,
+    "resistance": 2.5,
+    "pieceEffect": "Stamina Dodge",
+    "sleekEffect": "Small HoT",
+    "set": {
+      "name": "Clover Armor",
+      "bonus": "Small HoT"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Clover Leaf"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 6,
+            "name": "Clover Leaf"
+          },
+          {
+            "quantity": 3,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clover Shin Guards",
+    "archetype": null,
+    "tier": 1,
+    "slot": "Legs",
+    "durability": 40,
+    "defense": 1.5,
+    "resistance": 1.25,
+    "pieceEffect": "Stamina Dodge",
+    "sleekEffect": "Small HoT",
+    "set": {
+      "name": "Clover Armor",
+      "bonus": "Small HoT"
+    },
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Clover Leaf"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Clover Leaf"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Sprig"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wolf Hood",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Venom Dash",
+    "sleekEffect": "Stamina Regen",
+    "set": {
+      "name": "Wolf Armor",
+      "bonus": "Venom Dash"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wolf Spider Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Wolf Spider Fang"
+          },
+          {
+            "quantity": 3,
+            "name": "Spider Venom"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wolf Spaulders",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 80,
+    "defense": 15,
+    "resistance": 9,
+    "pieceEffect": "Venom Dash",
+    "sleekEffect": "Stamina Regen",
+    "set": {
+      "name": "Wolf Armor",
+      "bonus": "Venom Dash"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wolf Spider Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Wolf Spider Chunk"
+          },
+          {
+            "quantity": 4,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Lint"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wolf Leggings",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Venom Dash",
+    "sleekEffect": "Stamina Regen",
+    "set": {
+      "name": "Wolf Armor",
+      "bonus": "Venom Dash"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wolf Spider Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Wolf Spider Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sizzling Circlet",
+    "archetype": "Mage",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 60,
+    "defense": 5,
+    "resistance": 3,
+    "pieceEffect": "Sizzle Resistance",
+    "sleekEffect": "Spicy Attack Up",
+    "set": {
+      "name": "Sizzling Armor",
+      "bonus": "Sizzle Resistance"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Bombardier Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Bombardier Part"
+          },
+          {
+            "quantity": 1,
+            "name": "Boiling Gland"
+          },
+          {
+            "quantity": 2,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sizzling Robes",
+    "archetype": "Mage",
+    "tier": 2,
+    "slot": "Body",
+    "durability": 60,
+    "defense": 10,
+    "resistance": 6,
+    "pieceEffect": "Sizzle Resistance",
+    "sleekEffect": "Spicy Attack Up",
+    "set": {
+      "name": "Sizzling Armor",
+      "bonus": "Sizzle Resistance"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Bombardier Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Bombardier Part"
+          },
+          {
+            "quantity": 5,
+            "name": "Spicy Shard"
+          },
+          {
+            "quantity": 5,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sizzling Boots",
+    "archetype": "Mage",
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 60,
+    "defense": 5,
+    "resistance": 3,
+    "pieceEffect": "Sizzle Resistance",
+    "sleekEffect": "Spicy Attack Up",
+    "set": {
+      "name": "Sizzling Armor",
+      "bonus": "Sizzle Resistance"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Bombardier Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Bombardier Part"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Northern Mask",
+    "archetype": "Rogue",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 5.5,
+    "resistance": 4.25,
+    "pieceEffect": "Venom Attack",
+    "sleekEffect": "Crouch Speed",
+    "set": {
+      "name": "Northern Armor",
+      "bonus": "Crouch Speed"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Scorpion Venom"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Scorpion Venom"
+          },
+          {
+            "quantity": 2,
+            "name": "Northern Scorpion Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Northern Spaulders",
+    "archetype": "Rogue",
+    "tier": 2,
+    "slot": "Body",
+    "durability": 70,
+    "defense": 11,
+    "resistance": 8.5,
+    "pieceEffect": "Venom Attack",
+    "sleekEffect": "Crouch Speed",
+    "set": {
+      "name": "Northern Armor",
+      "bonus": "Crouch Speed"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Northern Scorpion Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Northern Scorpion Stinger"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Northern Scorpion Stinger"
+          },
+          {
+            "quantity": 5,
+            "name": "Northern Scorpion Chunk"
+          },
+          {
+            "quantity": 4,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Northern Breeches",
+    "archetype": "Rogue",
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 70,
+    "defense": 5.5,
+    "resistance": 4.25,
+    "pieceEffect": "Venom Attack",
+    "sleekEffect": "Crouch Speed",
+    "set": {
+      "name": "Northern Armor",
+      "bonus": "Crouch Speed"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Northern Scorpion Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Northern Scorpion Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Butterfly Circlet",
+    "archetype": "Mage",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 60,
+    "defense": 5,
+    "resistance": 3,
+    "pieceEffect": "Spicy Attack Up",
+    "sleekEffect": "Chill Resistance",
+    "set": {
+      "name": "Butterfly Armor",
+      "bonus": "Critical Opportunity"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Blue Butterfly Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Blue Butterfly Scales"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Blue Butterfly Scales"
+          },
+          {
+            "quantity": 4,
+            "name": "Blue Butterfly Chunk"
+          },
+          {
+            "quantity": 5,
+            "name": "Mint Shard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Butterfly Robes",
+    "archetype": "Mage",
+    "tier": 2,
+    "slot": "Body",
+    "durability": 60,
+    "defense": 10,
+    "resistance": 6,
+    "pieceEffect": "Spicy Attack Up",
+    "sleekEffect": "Chill Resistance",
+    "set": {
+      "name": "Butterfly Armor",
+      "bonus": "Critical Opportunity"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Blue Butterfly Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Blue Butterfly Wing"
+          },
+          {
+            "quantity": 4,
+            "name": "Blue Butterfly Scales"
+          },
+          {
+            "quantity": 5,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Butterfly Boots",
+    "archetype": "Mage",
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 60,
+    "defense": 5,
+    "resistance": 3,
+    "pieceEffect": "Spicy Attack Up",
+    "sleekEffect": "Chill Resistance",
+    "set": {
+      "name": "Butterfly Armor",
+      "bonus": "Critical Opportunity"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Blue Butterfly Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Blue Butterfly Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Blueberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Roach Helmet",
+    "archetype": "Fighter",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 90,
+    "defense": 6.5,
+    "resistance": 6.75,
+    "pieceEffect": "Cockroach Resist",
+    "sleekEffect": "Sick Resistance",
+    "set": {
+      "name": "Roach Armor",
+      "bonus": "Cockroach Resist"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Roach Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Bug Rubber"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Roach Head"
+          },
+          {
+            "quantity": 1,
+            "name": "Stinkbug Gas Sack"
+          },
+          {
+            "quantity": 2,
+            "name": "Roach Chunk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Roach Chestplate",
+    "archetype": "Fighter",
+    "tier": 2,
+    "slot": "Body",
+    "durability": 90,
+    "defense": 13,
+    "resistance": 13.5,
+    "pieceEffect": "Cockroach Resist",
+    "sleekEffect": "Sick Resistance",
+    "set": {
+      "name": "Roach Armor",
+      "bonus": "Cockroach Resist"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Roach Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Bug Rubber"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Roach Chunk"
+          },
+          {
+            "quantity": 4,
+            "name": "Boiling Gland"
+          },
+          {
+            "quantity": 3,
+            "name": "Bug Rubber"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Roach Greaves",
+    "archetype": "Fighter",
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 90,
+    "defense": 6.5,
+    "resistance": 6.75,
+    "pieceEffect": "Cockroach Resist",
+    "sleekEffect": "Sick Resistance",
+    "set": {
+      "name": "Roach Armor",
+      "bonus": "Cockroach Resist"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Roach Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Bug Rubber"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Roach Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Blue Butterfly Scales"
+          },
+          {
+            "quantity": 2,
+            "name": "Bug Rubber"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snail Shell Casque",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Block Stun",
+    "sleekEffect": "Slash Resistance",
+    "set": {
+      "name": "Snail Shell Armor",
+      "bonus": "Retaliation"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Garden Snail Fragment"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Garden Snail Fragment"
+          },
+          {
+            "quantity": 2,
+            "name": "Garden Snail Eyestalk"
+          },
+          {
+            "quantity": 2,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snail Shell Plastron",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 100,
+    "defense": 17,
+    "resistance": 14,
+    "pieceEffect": "Block Stun",
+    "sleekEffect": "Slash Resistance",
+    "set": {
+      "name": "Snail Shell Armor",
+      "bonus": "Retaliation"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Garden Snail Fragment"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Garden Snail Fragment"
+          },
+          {
+            "quantity": 5,
+            "name": "Acid Gland"
+          },
+          {
+            "quantity": 4,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snail Shell Greaves",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Block Stun",
+    "sleekEffect": "Slash Resistance",
+    "set": {
+      "name": "Snail Shell Armor",
+      "bonus": "Retaliation"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Garden Snail Fragment"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Garden Snail Fragment"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          },
+          {
+            "quantity": 3,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nightstalker Helm",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Bow Attack",
+    "sleekEffect": "Venom Ambush",
+    "set": {
+      "name": "Nightstalker Armor",
+      "bonus": "Nightstalker"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Tarantula Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Tarantula Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Tarantula Fang"
+          },
+          {
+            "quantity": 1,
+            "name": "Tarantula Venom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nightstalker Vest",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 90,
+    "defense": 16,
+    "resistance": 11.5,
+    "pieceEffect": "Bow Attack",
+    "sleekEffect": "Venom Ambush",
+    "set": {
+      "name": "Nightstalker Armor",
+      "bonus": "Nightstalker"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Tarantula Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Silk Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Tarantula Chunk"
+          },
+          {
+            "quantity": 3,
+            "name": "Tarantula Talon"
+          },
+          {
+            "quantity": 10,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nightstalker Greaves",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Bow Attack",
+    "sleekEffect": "Venom Ambush",
+    "set": {
+      "name": "Nightstalker Armor",
+      "bonus": "Nightstalker"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Tarantula Talon"
+      },
+      {
+        "quantity": 1,
+        "name": "Pinecone Piece"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Tarantula Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Tarantula Talon"
+          },
+          {
+            "quantity": 8,
+            "name": "Pinecone Piece"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Praying Mantis Mask",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Critical Buff",
+    "sleekEffect": "Venom Resistance",
+    "set": {
+      "name": "Praying Mantis Armor",
+      "bonus": "Critical Buff"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Praying Mantis Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Black Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Praying Mantis Head"
+          },
+          {
+            "quantity": 2,
+            "name": "Stinkbug Gas Sack"
+          },
+          {
+            "quantity": 2,
+            "name": "Black Ant Part"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Praying Mantis Vest",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 80,
+    "defense": 15,
+    "resistance": 9,
+    "pieceEffect": "Critical Buff",
+    "sleekEffect": "Venom Resistance",
+    "set": {
+      "name": "Praying Mantis Armor",
+      "bonus": "Critical Buff"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Praying Mantis Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Crow Feather Piece"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Praying Mantis Claw"
+          },
+          {
+            "quantity": 5,
+            "name": "Praying Mantis Chunk"
+          },
+          {
+            "quantity": 4,
+            "name": "Crow Feather Piece"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Praying Mantis Greaves",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Critical Buff",
+    "sleekEffect": "Venom Resistance",
+    "set": {
+      "name": "Praying Mantis Armor",
+      "bonus": "Critical Buff"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Praying Mantis Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Praying Mantis Claw"
+          },
+          {
+            "quantity": 4,
+            "name": "Lint Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Black Ant Part"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuzzy Hat",
+    "archetype": null,
+    "tier": 2,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 6,
+    "resistance": 5.5,
+    "pieceEffect": "Chill Resistance",
+    "sleekEffect": "Freeze Resistance",
+    "set": {
+      "name": "Fuzzy Armor",
+      "bonus": "None"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Bee Fuzz"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Bee Fuzz"
+          },
+          {
+            "quantity": 2,
+            "name": "Gnat Fuzz"
+          },
+          {
+            "quantity": 2,
+            "name": "Lingonberry Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuzzy Parka",
+    "archetype": null,
+    "tier": 2,
+    "slot": "Body",
+    "durability": 80,
+    "defense": 12,
+    "resistance": 11,
+    "pieceEffect": "Chill Resistance",
+    "sleekEffect": "Freeze Resistance",
+    "set": {
+      "name": "Fuzzy Armor",
+      "bonus": "None"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Bee Fuzz"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Bee Fuzz"
+          },
+          {
+            "quantity": 3,
+            "name": "Milkweed Tuft"
+          },
+          {
+            "quantity": 4,
+            "name": "Lingonberry Leather"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuzzy Mukluks",
+    "archetype": null,
+    "tier": 2,
+    "slot": "Legs",
+    "durability": 80,
+    "defense": 6,
+    "resistance": 5.5,
+    "pieceEffect": "Chill Resistance",
+    "sleekEffect": "Freeze Resistance",
+    "set": {
+      "name": "Fuzzy Armor",
+      "bonus": "None"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Bug Rubber"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Bee Fuzz"
+          },
+          {
+            "quantity": 2,
+            "name": "Bug Rubber"
+          },
+          {
+            "quantity": 3,
+            "name": "Lingonberry Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cricket Cap",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Critical Buff",
+    "sleekEffect": "Threat Generation Down",
+    "set": {
+      "name": "Cricket Armor",
+      "bonus": "Critical Buff"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Cricket Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Cricket Head"
+          },
+          {
+            "quantity": 3,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 1,
+            "name": "Flower Petal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cricket Vest",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 90,
+    "defense": 16,
+    "resistance": 11.5,
+    "pieceEffect": "Critical Buff",
+    "sleekEffect": "Threat Generation Down",
+    "set": {
+      "name": "Cricket Armor",
+      "bonus": "Critical Buff"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Cricket Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Cricket Part"
+          },
+          {
+            "quantity": 5,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cricket Shin Guards",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Critical Buff",
+    "sleekEffect": "Threat Generation Down",
+    "set": {
+      "name": "Cricket Armor",
+      "bonus": "Critical Buff"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Cricket Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Cricket Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Cricket Drumstick"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Earwig Kasa",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Parry Charge Speed",
+    "sleekEffect": "Guard Break",
+    "set": {
+      "name": "Earwig Armor",
+      "bonus": "Parry Charge Speed"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Earwig Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Woolly Aphid Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Earwig Head"
+          },
+          {
+            "quantity": 4,
+            "name": "Earwig Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Woolly Aphid Fuzz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Earwig Cuirass",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 100,
+    "defense": 17,
+    "resistance": 14,
+    "pieceEffect": "Parry Charge Speed",
+    "sleekEffect": "Guard Break",
+    "set": {
+      "name": "Earwig Armor",
+      "bonus": "Parry Charge Speed"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Earwig Part"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Earwig Part"
+          },
+          {
+            "quantity": 4,
+            "name": "Woolly Aphid Fuzz"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Earwig Greaves",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Parry Charge Speed",
+    "sleekEffect": "Guard Break",
+    "set": {
+      "name": "Earwig Armor",
+      "bonus": "Parry Charge Speed"
+    },
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Earwig Pincer"
+          },
+          {
+            "quantity": 2,
+            "name": "Raw Woolly Aphid Meat"
+          },
+          {
+            "quantity": 4,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Potato Beetle Helmet",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Block Tang Recovery",
+    "sleekEffect": "Combo Finish Smash",
+    "set": {
+      "name": "Potato Beetle Armor",
+      "bonus": "Block Tang Recovery"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Potato Beetle Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Potato Beetle Head"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          },
+          {
+            "quantity": 3,
+            "name": "Black Ant Part"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Potato Beetle Chestplate",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 100,
+    "defense": 17,
+    "resistance": 14,
+    "pieceEffect": "Block Tang Recovery",
+    "sleekEffect": "Combo Finish Smash",
+    "set": {
+      "name": "Potato Beetle Armor",
+      "bonus": "Block Tang Recovery"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Potato Beetle Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Pinecone Piece"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Potato Beetle Shell"
+          },
+          {
+            "quantity": 3,
+            "name": "Pinecone Piece"
+          },
+          {
+            "quantity": 3,
+            "name": "Bug Rubber"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Potato Beetle Shin Guards",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Block Tang Recovery",
+    "sleekEffect": "Combo Finish Smash",
+    "set": {
+      "name": "Potato Beetle Armor",
+      "bonus": "Block Tang Recovery"
+    },
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Potato Beetle Shell"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Bug Rubber"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rusty Circlet",
+    "archetype": "Mage",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 7,
+    "resistance": 3.25,
+    "pieceEffect": "Critical Inspiration",
+    "sleekEffect": "Corrosion Resistance",
+    "set": {
+      "name": "Rusty Armor",
+      "bonus": "Critical Inspiration"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Rust Beetle Parts"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Sour Glob"
+          },
+          {
+            "quantity": 2,
+            "name": "Rust Beetle Parts"
+          },
+          {
+            "quantity": 2,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rusty Robes",
+    "archetype": "Mage",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 70,
+    "defense": 14,
+    "resistance": 6.5,
+    "pieceEffect": "Critical Inspiration",
+    "sleekEffect": "Corrosion Resistance",
+    "set": {
+      "name": "Rusty Armor",
+      "bonus": "Critical Inspiration"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Rust Beetle Parts"
+      },
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Boiling Gland"
+          },
+          {
+            "quantity": 4,
+            "name": "Rust Beetle Parts"
+          },
+          {
+            "quantity": 5,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rusty Boots",
+    "archetype": "Mage",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 70,
+    "defense": 7,
+    "resistance": 3.25,
+    "pieceEffect": "Critical Inspiration",
+    "sleekEffect": "Corrosion Resistance",
+    "set": {
+      "name": "Rusty Armor",
+      "bonus": "Critical Inspiration"
+    },
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Rust Beetle Parts"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          },
+          {
+            "quantity": 4,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Serpent Hood",
+    "archetype": "Mage",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 7,
+    "resistance": 3.25,
+    "pieceEffect": "Devastation",
+    "sleekEffect": "Devastation",
+    "set": {
+      "name": "Serpent Armor",
+      "bonus": "Devastation"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Snake Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Glow Goo"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Snake Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Firefly Shell"
+          },
+          {
+            "quantity": 3,
+            "name": "Glow Goo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Serpent Mail",
+    "archetype": "Mage",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 70,
+    "defense": 14,
+    "resistance": 6.5,
+    "pieceEffect": "Devastation",
+    "sleekEffect": "Devastation",
+    "set": {
+      "name": "Serpent Armor",
+      "bonus": "Devastation"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Snake Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Firefly Shell"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Snake Scale"
+          },
+          {
+            "quantity": 3,
+            "name": "Firefly Shell"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Serpent Boots",
+    "archetype": "Mage",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 70,
+    "defense": 7,
+    "resistance": 3.25,
+    "pieceEffect": "Devastation",
+    "sleekEffect": "Devastation",
+    "set": {
+      "name": "Serpent Armor",
+      "bonus": "Devastation"
+    },
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Snake Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Firefly Shell"
+          },
+          {
+            "quantity": 4,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wasp Helm",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Quickdraw",
+    "sleekEffect": "Charged Shot Stamina",
+    "set": {
+      "name": "Wasp Armor",
+      "bonus": "Wasp Quickdraw"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wasp Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Wasp Shell"
+          },
+          {
+            "quantity": 1,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wasp Breastplate",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 90,
+    "defense": 16,
+    "resistance": 11.5,
+    "pieceEffect": "Quickdraw",
+    "sleekEffect": "Charged Shot Stamina",
+    "set": {
+      "name": "Wasp Armor",
+      "bonus": "Wasp Quickdraw"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wasp Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Wasp Shell"
+          },
+          {
+            "quantity": 4,
+            "name": "Wasp Leg"
+          },
+          {
+            "quantity": 2,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wasp Greaves",
+    "archetype": "Ranger",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Quickdraw",
+    "sleekEffect": "Charged Shot Stamina",
+    "set": {
+      "name": "Wasp Armor",
+      "bonus": "Wasp Quickdraw"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Wasp Leg"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Wasp Shell"
+          },
+          {
+            "quantity": 2,
+            "name": "Wasp Leg"
+          },
+          {
+            "quantity": 4,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Ant Helmet",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Black Ant Critical Parry",
+    "sleekEffect": "Critical Inspiration",
+    "set": {
+      "name": "Black Ant Armor",
+      "bonus": "Black Ant Critical Parry"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Black Ant Head"
+      },
+      {
+        "quantity": 2,
+        "name": "Black Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Black Ant Head"
+          },
+          {
+            "quantity": 3,
+            "name": "Black Ant Part"
+          },
+          {
+            "quantity": 1,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Ant Arm Guards",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 80,
+    "defense": 15,
+    "resistance": 9,
+    "pieceEffect": "Black Ant Critical Parry",
+    "sleekEffect": "Critical Inspiration",
+    "set": {
+      "name": "Black Ant Armor",
+      "bonus": "Black Ant Critical Parry"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Black Ant Mandibles"
+      },
+      {
+        "quantity": 2,
+        "name": "Black Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 6,
+            "name": "Black Ant Part"
+          },
+          {
+            "quantity": 2,
+            "name": "Black Ant Mandibles"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Ant Legplates",
+    "archetype": "Rogue",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Black Ant Critical Parry",
+    "sleekEffect": "Critical Inspiration",
+    "set": {
+      "name": "Black Ant Armor",
+      "bonus": "Black Ant Critical Parry"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      },
+      {
+        "quantity": 2,
+        "name": "Black Ant Part"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Black Ant Part"
+          },
+          {
+            "quantity": 4,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wyrm Slayer Helmet",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Parry Window",
+    "sleekEffect": "Burn Resistance",
+    "set": {
+      "name": "Wyrm Slayer Armor",
+      "bonus": "Quickdraw"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Lizard Horn"
+      },
+      {
+        "quantity": 2,
+        "name": "Spicy Shard"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Ashen Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Lizard Horn"
+          },
+          {
+            "quantity": 1,
+            "name": "Searing Stone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wyrm Slayer Chestplate",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 100,
+    "defense": 17,
+    "resistance": 14,
+    "pieceEffect": "Parry Window",
+    "sleekEffect": "Burn Resistance",
+    "set": {
+      "name": "Wyrm Slayer Armor",
+      "bonus": "Quickdraw"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Lizard Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Ashen Leather"
+          },
+          {
+            "quantity": 3,
+            "name": "Spicy Glob"
+          },
+          {
+            "quantity": 3,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wyrm Slayer Greaves",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Parry Window",
+    "sleekEffect": "Burn Resistance",
+    "set": {
+      "name": "Wyrm Slayer Armor",
+      "bonus": "Quickdraw"
+    },
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Ashen Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Lizard Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toe Biter Tricorn",
+    "archetype": "Fighter",
+    "tier": 4,
+    "slot": "Head",
+    "durability": 105,
+    "defense": 10,
+    "resistance": 7.25,
+    "pieceEffect": "Opportunistic Parry",
+    "sleekEffect": "Critical Opportunity",
+    "set": {
+      "name": "Toe Biter Armor",
+      "bonus": "Barmy Buccaneer"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Toe Biter Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Pupa Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Toe Biter Head"
+          },
+          {
+            "quantity": 3,
+            "name": "Pupa Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Crushed Quartz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toe Biter Coat",
+    "archetype": "Fighter",
+    "tier": 4,
+    "slot": "Body",
+    "durability": 105,
+    "defense": 20,
+    "resistance": 14.5,
+    "pieceEffect": "Opportunistic Parry",
+    "sleekEffect": "Critical Opportunity",
+    "set": {
+      "name": "Toe Biter Armor",
+      "bonus": "Barmy Buccaneer"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Toe Biter Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Crushed Quartz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 6,
+            "name": "Toe Biter Shell"
+          },
+          {
+            "quantity": 4,
+            "name": "Pupa Leather"
+          },
+          {
+            "quantity": 3,
+            "name": "Crushed Quartz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toe Biter Boots",
+    "archetype": "Fighter",
+    "tier": 4,
+    "slot": "Legs",
+    "durability": 105,
+    "defense": 10,
+    "resistance": 7.25,
+    "pieceEffect": "Opportunistic Parry",
+    "sleekEffect": "Critical Opportunity",
+    "set": {
+      "name": "Toe Biter Armor",
+      "bonus": "Barmy Buccaneer"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Toe Biter Shell"
+      },
+      {
+        "quantity": 1,
+        "name": "Pond Moss"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Toe Biter Claw"
+          },
+          {
+            "quantity": 2,
+            "name": "Pupa Leather"
+          },
+          {
+            "quantity": 6,
+            "name": "Pond Moss"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Striped Mask",
+    "archetype": "Rogue",
+    "tier": 4,
+    "slot": "Head",
+    "durability": 85,
+    "defense": 9,
+    "resistance": 4.75,
+    "pieceEffect": "Parry Venom",
+    "sleekEffect": "Perfect Dash Window",
+    "set": {
+      "name": "Striped Armor",
+      "bonus": "Parry Venom"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Striped Scorpion Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Scorpion Venom"
+          },
+          {
+            "quantity": 2,
+            "name": "Striped Scorpion Stinger"
+          },
+          {
+            "quantity": 3,
+            "name": "Pupa Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Striped Spaulders",
+    "archetype": "Rogue",
+    "tier": 4,
+    "slot": "Body",
+    "durability": 85,
+    "defense": 18,
+    "resistance": 9.5,
+    "pieceEffect": "Parry Venom",
+    "sleekEffect": "Perfect Dash Window",
+    "set": {
+      "name": "Striped Armor",
+      "bonus": "Parry Venom"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Striped Scorpion Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Lingonberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Striped Scorpion Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Striped Scorpion Pincer"
+          },
+          {
+            "quantity": 4,
+            "name": "Lingonberry Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Striped Greaves",
+    "archetype": "Rogue",
+    "tier": 4,
+    "slot": "Legs",
+    "durability": 85,
+    "defense": 9,
+    "resistance": 4.75,
+    "pieceEffect": "Parry Venom",
+    "sleekEffect": "Perfect Dash Window",
+    "set": {
+      "name": "Striped Armor",
+      "bonus": "Parry Venom"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Striped Scorpion Chunk"
+      },
+      {
+        "quantity": 1,
+        "name": "Lint Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Striped Scorpion Chunk"
+          },
+          {
+            "quantity": 5,
+            "name": "Lint Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Pupa Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shell Shocker Casque",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Shock Trigger",
+    "sleekEffect": "Shock Resistance",
+    "set": {
+      "name": "Shell Shocker Armor",
+      "bonus": "Shock Trigger"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Calcined Snail Fragment"
+      },
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Calcined Snail Fragment"
+          },
+          {
+            "quantity": 2,
+            "name": "Garden Snail Eyestalk"
+          },
+          {
+            "quantity": 2,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shell Shocker Plastron",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Body",
+    "durability": 100,
+    "defense": 17,
+    "resistance": 14,
+    "pieceEffect": "Shock Trigger",
+    "sleekEffect": "Shock Resistance",
+    "set": {
+      "name": "Shell Shocker Armor",
+      "bonus": "Shock Trigger"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Calcined Snail Fragment"
+      },
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Calcined Snail Fragment"
+          },
+          {
+            "quantity": 4,
+            "name": "Pond Moss"
+          },
+          {
+            "quantity": 4,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shell Shocker Greaves",
+    "archetype": "Fighter",
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 100,
+    "defense": 8.5,
+    "resistance": 7,
+    "pieceEffect": "Shock Trigger",
+    "sleekEffect": "Shock Resistance",
+    "set": {
+      "name": "Shell Shocker Armor",
+      "bonus": "Shock Trigger"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Calcined Snail Fragment"
+      },
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Calcined Snail Fragment"
+          },
+          {
+            "quantity": 2,
+            "name": "Bug Rubber"
+          },
+          {
+            "quantity": 3,
+            "name": "Chrysalis Leather"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Koi Scale Helmet",
+    "archetype": null,
+    "tier": 3,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Veteran Diver",
+    "sleekEffect": "Veteran Diver",
+    "set": {
+      "name": "Koi Scale Armor",
+      "bonus": "Veteran Diver"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Koi Fish Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Wax"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Gill Tube"
+          },
+          {
+            "quantity": 2,
+            "name": "Koi Fish Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Wax"
+          },
+          {
+            "quantity": 3,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Koi Scale Chestplate",
+    "archetype": null,
+    "tier": 3,
+    "slot": "Body",
+    "durability": 80,
+    "defense": 15,
+    "resistance": 9,
+    "pieceEffect": "Veteran Diver",
+    "sleekEffect": "Veteran Diver",
+    "set": {
+      "name": "Koi Scale Armor",
+      "bonus": "Veteran Diver"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Koi Fish Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Sunken Bone"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Koi Fish Scale"
+          },
+          {
+            "quantity": 3,
+            "name": "Eelgrass Strand"
+          },
+          {
+            "quantity": 3,
+            "name": "Horsetail Stem"
+          },
+          {
+            "quantity": 2,
+            "name": "Sunken Bone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Koi Scale Greaves",
+    "archetype": null,
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 80,
+    "defense": 7.5,
+    "resistance": 4.5,
+    "pieceEffect": "Veteran Diver",
+    "sleekEffect": "Veteran Diver",
+    "set": {
+      "name": "Koi Scale Armor",
+      "bonus": "Veteran Diver"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Koi Fish Scale"
+      },
+      {
+        "quantity": 1,
+        "name": "Sunken Bone"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Koi Fish Scale"
+          },
+          {
+            "quantity": 2,
+            "name": "Eelgrass Strand"
+          },
+          {
+            "quantity": 3,
+            "name": "Horsetail Stem"
+          },
+          {
+            "quantity": 1,
+            "name": "Sunken Bone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diving Helmet",
+    "archetype": null,
+    "tier": 3,
+    "slot": "Head",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Abyss Immunity",
+    "sleekEffect": "Self Durability",
+    "set": {
+      "name": "Diving Armor",
+      "bonus": "Abyss Immunity"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Quartz Glass"
+      },
+      {
+        "quantity": 1,
+        "name": "Toe Biter Shell"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Quartz Glass"
+          },
+          {
+            "quantity": 2,
+            "name": "Toe Biter Shell"
+          },
+          {
+            "quantity": 2,
+            "name": "Cattail Fluff"
+          },
+          {
+            "quantity": 2,
+            "name": "Wax"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diving Suit Chestplate",
+    "archetype": null,
+    "tier": 3,
+    "slot": "Body",
+    "durability": 90,
+    "defense": 16,
+    "resistance": 11.5,
+    "pieceEffect": "Abyss Immunity",
+    "sleekEffect": "Self Durability",
+    "set": {
+      "name": "Diving Armor",
+      "bonus": "Abyss Immunity"
+    },
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Chrysalis Leather"
+      },
+      {
+        "quantity": 1,
+        "name": "Toe Biter Shell"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Quartz Glass"
+          },
+          {
+            "quantity": 5,
+            "name": "Cattail Fluff"
+          },
+          {
+            "quantity": 4,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diving Boots",
+    "archetype": null,
+    "tier": 3,
+    "slot": "Legs",
+    "durability": 90,
+    "defense": 8,
+    "resistance": 5.75,
+    "pieceEffect": "Abyss Immunity",
+    "sleekEffect": "Self Durability",
+    "set": {
+      "name": "Diving Armor",
+      "bonus": "Abyss Immunity"
+    },
+    "repair": [],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 4,
+            "name": "Chrysalis Leather"
+          },
+          {
+            "quantity": 2,
+            "name": "Fire Brick"
+          },
+          {
+            "quantity": 4,
+            "name": "Toe Biter Shell"
+          },
+          {
+            "quantity": 3,
+            "name": "Wax"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tin Foil Hat",
+    "archetype": "None",
+    "tier": 3,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 7,
+    "resistance": 3.25,
+    "pieceEffect": "Incognito",
+    "sleekEffect": "Shock Therapy",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Gold Foil"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Gold Foil"
+          },
+          {
+            "quantity": 1,
+            "name": "O.R.C. Receiver"
+          },
+          {
+            "quantity": 1,
+            "name": "Lint Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gas Mask",
+    "archetype": "None",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 4,
+    "resistance": 6.5,
+    "pieceEffect": "Woozy Reduction",
+    "sleekEffect": "Gas Resistance",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 2,
+        "name": "Gnat Fuzz"
+      },
+      {
+        "quantity": 1,
+        "name": "Crude Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Weevil Nose"
+          },
+          {
+            "quantity": 4,
+            "name": "Gnat Fuzz"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          },
+          {
+            "quantity": 1,
+            "name": "Stinkbug Part"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marksman's Cap",
+    "archetype": "Ranger",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 80,
+    "defense": 6,
+    "resistance": 5.5,
+    "pieceEffect": "Bow Attack",
+    "sleekEffect": "Draw Breath",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Crow Feather Piece"
+      },
+      {
+        "quantity": 1,
+        "name": "Blueberry Leather"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 5,
+            "name": "Crow Feather Piece"
+          },
+          {
+            "quantity": 5,
+            "name": "Blueberry Leather"
+          },
+          {
+            "quantity": 5,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lucky Hat",
+    "archetype": "None",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 4,
+    "resistance": 4.5,
+    "pieceEffect": "Loot Luck",
+    "sleekEffect": "Loot Luck",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Gold Foil"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Gold Foil"
+          },
+          {
+            "quantity": 1,
+            "name": "Mushroom Brick"
+          },
+          {
+            "quantity": 2,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Firefly Head Lamp",
+    "archetype": "None",
+    "tier": 2,
+    "slot": "Head",
+    "durability": 70,
+    "defense": 4,
+    "resistance": 4.5,
+    "pieceEffect": "Bright Light",
+    "sleekEffect": "Glowing Light",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Firefly Chunk"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Firefly Chunk"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          },
+          {
+            "quantity": 2,
+            "name": "Glow Goo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gill Tube",
+    "archetype": "None",
+    "tier": 1,
+    "slot": "Head",
+    "durability": 50,
+    "defense": 2,
+    "resistance": 2.5,
+    "pieceEffect": "Breathing Tube",
+    "sleekEffect": "None",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Aphid Honeydew"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Aphid Honeydew"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          },
+          {
+            "quantity": 1,
+            "name": "Silk Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eyepatch",
+    "archetype": "None",
+    "tier": 1,
+    "slot": "Head",
+    "durability": 40,
+    "defense": 1,
+    "resistance": 1.5,
+    "pieceEffect": "Pirate Vision",
+    "sleekEffect": "None",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Crude Rope"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 1,
+            "name": "Gold Foil"
+          },
+          {
+            "quantity": 1,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mitey Muffs",
+    "archetype": "None",
+    "tier": 1,
+    "slot": "Head",
+    "durability": 40,
+    "defense": 1,
+    "resistance": 1.5,
+    "pieceEffect": "Headphone Protection",
+    "sleekEffect": "None",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Mite Fuzz"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "name": "Mite Fuzz"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fin Flops",
+    "archetype": "None",
+    "tier": 1,
+    "slot": "Legs",
+    "durability": 40,
+    "defense": 1,
+    "resistance": 1.5,
+    "pieceEffect": "Swimming Boost",
+    "sleekEffect": "None",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Fish Fin"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Fish Fin"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aphid Slippers",
+    "archetype": "None",
+    "tier": 1,
+    "slot": "Legs",
+    "durability": 40,
+    "defense": 1,
+    "resistance": 1.5,
+    "pieceEffect": "Sprint Speed",
+    "sleekEffect": "None",
+    "set": null,
+    "repair": [
+      {
+        "quantity": 1,
+        "name": "Aphid Wool"
+      }
+    ],
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          {
+            "quantity": 2,
+            "name": "Aphid Wool"
+          },
+          {
+            "quantity": 2,
+            "name": "Crude Rope"
+          }
+        ]
+      }
+    ]
+  }
+]
