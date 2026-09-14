@@ -1,5 +1,6 @@
 import RecipeList from '../RecipeList/RecipeList'
 import Repair from '../Repair/Repair'
+import Tag from '../Tag/Tag'
 import Tier from '../Tier/Tier'
 import Checkbox from '../Checkbox/Checkbox'
 import './Armor.css'
@@ -10,12 +11,14 @@ function Armor({ item }) {
   return (
     <article className="armor-card">
       <header className="armor-card__header">
-        <h3 className="armor-card__title">{item.name}</h3>
+        <div className="armor-card__title-row">
+          <Tier tier={item.tier} />
+          <h3 className="armor-card__title">{item.name}</h3>
+        </div>
         <Checkbox checkboxKey={checkboxKey} label="Owned" />
         <div className="armor-card__meta">
-          <span className="armor-card__chip">{item.archetype}</span>
-          <Tier tier={item.tier} />
-          <span className="armor-card__chip">{item.slot}</span>
+          <Tag tag={item.archetype} />
+          <Tag tag={item.slot} />
         </div>
       </header>
 

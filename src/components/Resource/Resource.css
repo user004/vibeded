@@ -9,18 +9,17 @@
   font-size: var(--font-size-5);
 }
 
+.resource-card__title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--size-2);
+}
+
 .resource-card__summary {
   display: flex;
   flex-wrap: wrap;
   gap: var(--size-2);
-}
-
-.resource-card__badge {
-  padding: var(--size-1) var(--size-3);
-  border-radius: var(--radius-round);
-  background: var(--accent-soft);
-  color: var(--text-1);
-  font-size: var(--font-size-0);
 }
 
 .resource-card__collections {

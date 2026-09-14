@@ -15,14 +15,6 @@
   gap: var(--size-2);
 }
 
-.mutation-card__badge {
-  padding: var(--size-1) var(--size-3);
-  border-radius: var(--radius-round);
-  background: var(--accent-soft);
-  color: var(--text-1);
-  font-size: var(--font-size-0);
-}
-
 .mutation-card__ranks {
   display: grid;
   gap: var(--size-3);

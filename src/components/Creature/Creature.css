@@ -2,7 +2,7 @@
   display: grid;
   gap: var(--size-4);
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .creature-card[data-gold-card='true'] {
@@ -26,6 +26,13 @@
   font-size: var(--font-size-5);
 }
 
+.creature-card__title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--size-2);
+}
+
 .creature-card__summary {
   display: flex;
   flex-wrap: wrap;
@@ -36,14 +43,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--size-3);
-}
-
-.creature-card__badge {
-  padding: var(--size-1) var(--size-3);
-  border-radius: var(--radius-round);
-  background: var(--accent-soft);
-  color: var(--text-1);
-  font-size: var(--font-size-0);
 }
 
 .creature-card__grid {

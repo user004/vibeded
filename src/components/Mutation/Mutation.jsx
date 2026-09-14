@@ -1,4 +1,5 @@
 import Checkbox from '../Checkbox/Checkbox'
+import Tag from '../Tag/Tag'
 import './Mutation.css'
 
 function Mutation({ item }) {
@@ -6,8 +7,8 @@ function Mutation({ item }) {
     <article className="mutation-card">
       <h3 className="mutation-card__title">{item.name}</h3>
       <div className="mutation-card__summary">
-        <span className="mutation-card__badge">{item.category}</span>
-        <span className="mutation-card__badge">{item.active ? 'Active' : 'Passive'}</span>
+        <Tag tag={item.category} />
+        <Tag tag={item.active ? 'Active' : 'Passive'} />
       </div>
 
       {Array.isArray(item.ranks) && item.ranks.length > 0 && (

@@ -17,7 +17,7 @@
   {
     "name": "Calico",
     "category": "Angry",
-    "tier": 1,
+    "tier": 5,
     "environments": [
       "Skunk Pond"
     ],
@@ -29,7 +29,7 @@
   {
     "name": "Dagon",
     "category": "Angry",
-    "tier": 1,
+    "tier": 5,
     "environments": [
       "Monitoring Station"
     ],
@@ -91,7 +91,7 @@
   {
     "name": "Mosquito",
     "category": "Angry",
-    "tier": 1,
+    "tier": 2,
     "environments": [
       "Ceremony Area",
       "Croquet Court",
@@ -144,7 +144,7 @@
   {
     "name": "Oriole",
     "category": "Angry",
-    "tier": 1,
+    "tier": 2,
     "environments": [
       "Skunk Pond"
     ],
@@ -156,7 +156,7 @@
   {
     "name": "Red Soldier Ant",
     "category": "Angry",
-    "tier": 1,
+    "tier": 2,
     "environments": [
       "Entrance Area",
       "Fire Pit",
@@ -176,7 +176,7 @@
   {
     "name": "Spiderling",
     "category": "Angry",
-    "tier": 1,
+    "tier": 2,
     "environments": [
       "Ceremony Area",
       "Croquet Court",
@@ -200,7 +200,7 @@
   {
     "name": "Sunny",
     "category": "Angry",
-    "tier": 1,
+    "tier": 2,
     "environments": [
       "Skunk Pond"
     ],
@@ -212,7 +212,7 @@
   {
     "name": "Water Flea",
     "category": "Angry",
-    "tier": 1,
+    "tier": 2,
     "environments": [
       "Gnarly Grotto",
       "Skunk Pond"
@@ -226,7 +226,7 @@
   {
     "name": "Bombardier Beetle",
     "category": "Angry",
-    "tier": 2,
+    "tier": 3,
     "environments": [
       "Ceremony Area",
       "Croquet Court",
@@ -250,7 +250,7 @@
   {
     "name": "CHOP.R",
     "category": "Angry",
-    "tier": 2,
+    "tier": 3,
     "environments": [
       "Monitoring Station",
       "Rocky Chamber"

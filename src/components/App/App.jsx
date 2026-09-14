@@ -1,6 +1,6 @@
 import './App.css'
-import { FieldGuideProvider } from './context/FieldGuideContext'
-import Tabs from './components/Tabs/Tabs'
+import { FieldGuideProvider } from '../../context/FieldGuideContext.jsx'
+import Tabs from '../Tabs/Tabs.jsx'
 
 function App() {
   return (

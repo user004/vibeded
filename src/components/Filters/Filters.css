@@ -15,7 +15,42 @@
   font-size: var(--font-size-0);
 }
 
+.filters__group--search {
+  flex: 1 1 14rem;
+}
+
+.filters__search,
 .filters__select,
 .filters__clear {
   min-height: 2.25rem;
+}
+
+.filters__search {
+  width: 100%;
+}
+
+.filters__clear {
+  align-self: end;
+  border: var(--border-size-1) solid var(--border-subtle);
+  border-radius: var(--radius-round);
+  padding: 0 var(--size-4);
+  color: var(--text-2);
+  background: color-mix(in srgb, var(--surface-2) 78%, transparent);
+  box-shadow: var(--shadow-2);
+  transition:
+    transform 180ms var(--ease-squish-3),
+    border-color 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.filters__clear:hover {
+  transform: translateY(-1px);
+  border-color: var(--border-strong);
+  color: var(--text-1);
+}
+
+.filters__clear:focus-visible {
+  outline: var(--border-size-2) solid var(--accent-1);
+  outline-offset: var(--size-1);
 }

@@ -1,5 +1,6 @@
 import RecipeList from '../RecipeList/RecipeList'
 import Repair from '../Repair/Repair'
+import Tag from '../Tag/Tag'
 import Tier from '../Tier/Tier'
 import Checkbox from '../Checkbox/Checkbox'
 import './Weapon.css'
@@ -10,11 +11,13 @@ function Weapon({ item }) {
   return (
     <article className="weapon-card">
       <header className="weapon-card__header">
-        <h3 className="weapon-card__title">{item.name}</h3>
+        <div className="weapon-card__title-row">
+          <Tier tier={item.tier} />
+          <h3 className="weapon-card__title">{item.name}</h3>
+        </div>
         <Checkbox checkboxKey={checkboxKey} label="Owned" />
         <div className="weapon-card__meta">
-          <span className="weapon-card__chip">{item.category}</span>
-          <Tier tier={item.tier} />
+          <Tag tag={item.category} />
         </div>
       </header>
 

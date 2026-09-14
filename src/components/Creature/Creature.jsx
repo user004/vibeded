@@ -1,6 +1,7 @@
 import Checkbox from '../Checkbox/Checkbox'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import { useContext } from 'react'
+import Tag from '../Tag/Tag'
 import Tier from '../Tier/Tier'
 import './Creature.css'
 
@@ -26,12 +27,14 @@ function Creature({ item }) {
 
   return (
     <article className="creature-card" data-gold-card={isGoldCard}>
-      <h3 className="creature-card__title">{item.name}</h3>
-      <div className="creature-card__summary">
-        <span className="creature-card__badge">{item.category}</span>
+      <div className="creature-card__title-row">
         <Tier tier={item.tier} />
+        <h3 className="creature-card__title">{item.name}</h3>
+      </div>
+      <div className="creature-card__summary">
+        <Tag tag={item.category} />
         {item.summonedWith && (
-          <span className="creature-card__badge">Summoned with {item.summonedWith}</span>
+          <Tag tag={`Summoned with ${item.summonedWith}`} />
         )}
       </div>
 

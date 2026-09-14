@@ -1,14 +1,17 @@
 import RecipeList from '../RecipeList/RecipeList'
+import Tag from '../Tag/Tag'
 import Tier from '../Tier/Tier'
 import './Resource.css'
 
 function Resource({ item }) {
   return (
     <article className="resource-card">
-      <h3 className="resource-card__title">{item.name}</h3>
-      <div className="resource-card__summary">
-        <span className="resource-card__badge">{item.category}</span>
+      <div className="resource-card__title-row">
         <Tier tier={item.tier} />
+        <h3 className="resource-card__title">{item.name}</h3>
+      </div>
+      <div className="resource-card__summary">
+        <Tag tag={item.category} />
       </div>
 
       <div className="resource-card__collections">

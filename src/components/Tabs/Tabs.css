@@ -19,7 +19,6 @@
     font-size: clamp(var(--font-size-6), 5vw, var(--font-size-8));
     line-height: var(--font-lineheight-0);
     color: var(--text-1);
-    text-wrap: balance;
   }
 
   & p {
