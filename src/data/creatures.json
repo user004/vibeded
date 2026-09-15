@@ -1587,7 +1587,7 @@
     "summonedWith": null
   },
   {
-    "name": "Striped Bark Scorpion",
+    "name": "O.R.C. Striped Bark Scorpion",
     "category": "O.R.C.",
     "tier": 4,
     "environments": [
@@ -1625,7 +1625,7 @@
   {
     "name": "Sunny",
     "category": "Angry",
-    "tier": 2,
+    "tier": 4,
     "environments": [
       "Skunk Pond"
     ],
@@ -1649,7 +1649,7 @@
   {
     "name": "Oriole",
     "category": "Angry",
-    "tier": 2,
+    "tier": 4,
     "environments": [
       "Skunk Pond"
     ],
