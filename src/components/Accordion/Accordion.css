@@ -1,0 +1,19 @@
+.accordion {
+  display: grid;
+  gap: var(--size-3);
+}
+
+.accordion__summary {
+  cursor: pointer;
+  color: var(--accent-1);
+  font-weight: var(--font-weight-6);
+}
+
+.accordion__summary::marker {
+  color: var(--text-muted);
+}
+
+.accordion__content {
+  display: grid;
+  gap: var(--size-4);
+}
