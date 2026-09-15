@@ -19,7 +19,7 @@ function Mutation({ item }) {
                 <h4 className="mutation-card__rank-title">Rank {rankInfo.rank}</h4>
                 <Checkbox
                   checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
-                  label="Unlocked"
+                  label="🔓"
                 />
                 <p className="mutation-card__text">{rankInfo.effect}</p>
                 <p className="mutation-card__text">Obtained: {rankInfo.obtained}</p>

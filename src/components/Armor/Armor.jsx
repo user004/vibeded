@@ -15,7 +15,7 @@ function Armor({ item }) {
           <Tier tier={item.tier} />
           <h3 className="armor-card__title">{item.name}</h3>
         </div>
-        <Checkbox checkboxKey={checkboxKey} label="Owned" />
+        <Checkbox checkboxKey={checkboxKey} label="🪎" />
         <div className="armor-card__meta">
           {item.archetype != null && <Tag tag={item.archetype} />}
           <Tag tag={item.slot} />

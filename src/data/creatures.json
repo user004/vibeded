@@ -568,6 +568,57 @@
     "summonedWith": null
   },
   {
+    "name": "O.R.C. Cockroach Queen",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Fire Pit",
+      "Gnarly Grotto",
+      "Minor Caves",
+      "Toxic Anthill"
+    ],
+    "loot": [
+      "Apple Bits",
+      "Billy Hog Bite",
+      "Cookie Sandwich Bits",
+      "Everlasting Hogstopper",
+      "Fresh Apple Bits",
+      "Fresh Billy Hog Bite",
+      "Fresh Cookie Sandwich Bits",
+      "Roach Chunk",
+      "Roach Head",
+      "Roach Milk",
+      "Rotten Food",
+      "Spoiled Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Wolf Spider",
+    "category": "O.R.C.",
+    "tier": 2,
+    "environments": [
+      "Ceremony Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Gnarly Grotto",
+      "Greenhouse",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Spider Venom",
+      "Wolf Spider Chunk",
+      "Wolf Spider Fang"
+    ],
+    "summonedWith": null
+  },
+  {
     "name": "O.R.C. Praying Mantis Nymph",
     "category": "O.R.C.",
     "tier": 2,
@@ -749,6 +800,35 @@
       "Black Ant Mandibles",
       "Black Ant Part",
       "O.R.C. Receiver"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "O.R.C. Broodmother",
+    "category": "O.R.C.",
+    "tier": 5,
+    "environments": [
+      "Bridge Area",
+      "Ceremony Area",
+      "Croquet Court",
+      "Entrance Area",
+      "Fire Pit",
+      "Gnarly Bark",
+      "Greenhouse Surroundings",
+      "Ice Cream Cart Surroundings",
+      "Pergola Area",
+      "Picnic Table Area",
+      "Pine Hill",
+      "Pumpkin Patch",
+      "Skunk Pond",
+      "Snackbar Front Area",
+      "Statue Area",
+      "Veggie Garden"
+    ],
+    "loot": [
+      "Broodmother Chunk",
+      "Broodmother Fang",
+      "Web Fiber"
     ],
     "summonedWith": null
   },
@@ -1282,6 +1362,18 @@
     "summonedWith": null
   },
   {
+    "name": "Masked Stranger",
+    "category": "Angry",
+    "tier": 5,
+    "environments": [
+      "Axl Fight"
+    ],
+    "loot": [
+      "Axl Fight"
+    ],
+    "summonedWith": null
+  },
+  {
     "name": "Praying Mantis Nymph",
     "category": "Angry",
     "tier": 3,
@@ -1411,6 +1503,30 @@
     "summonedWith": null
   },
   {
+    "name": "Axl",
+    "category": "Angry",
+    "tier": 5,
+    "environments": [
+      "Axl Fight"
+    ],
+    "loot": [
+      "Axl Fight"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "King Dozer",
+    "category": "Angry",
+    "tier": 5,
+    "environments": [
+      "Axl Fight"
+    ],
+    "loot": [
+      "Axl Fight"
+    ],
+    "summonedWith": null
+  },
+  {
     "name": "Whipper Earwig",
     "category": "Angry",
     "tier": 3,
@@ -1430,6 +1546,18 @@
       "Earwig Part",
       "Earwig Pincer",
       "Pincer Pincher"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Masked Fighter",
+    "category": "Angry",
+    "tier": 5,
+    "environments": [
+      "Axl Fight"
+    ],
+    "loot": [
+      "Axl Fight"
     ],
     "summonedWith": null
   },
@@ -1521,6 +1649,18 @@
     "summonedWith": null
   },
   {
+    "name": "Striped Bark Scorpion",
+    "category": "Angry",
+    "tier": 4,
+    "environments": [
+      "Axl Fight"
+    ],
+    "loot": [
+      "Axl Fight"
+    ],
+    "summonedWith": null
+  },
+  {
     "name": "Toe Biter Nymph",
     "category": "Angry",
     "tier": 3,
@@ -1552,6 +1692,23 @@
     "loot": [
       "Toe Biter Claw",
       "Toe Biter Shell"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Toe Biter Leviathan",
+    "category": "Angry",
+    "tier": 5,
+    "environments": [
+      "Koi Fish Scale Stash",
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Toe Biter Claw",
+      "Toe Biter Head",
+      "Toe Biter Shell",
+      "Toe Biter Venom",
+      "Tickled Toenail"
     ],
     "summonedWith": null
   },
@@ -1696,6 +1853,31 @@
     "loot": [
       "Aphid Honeydew",
       "Raw Aphid Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Tadpole",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Cooked Tadpole Meat",
+      "Raw Tadpole Meat"
+    ],
+    "summonedWith": null
+  },
+  {
+    "name": "Water Boatman",
+    "category": "Harmless",
+    "tier": 1,
+    "environments": [
+      "Skunk Pond"
+    ],
+    "loot": [
+      "Water Boatman Shell"
     ],
     "summonedWith": null
   },

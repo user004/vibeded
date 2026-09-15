@@ -28,6 +28,17 @@ export function getCheckboxValue(checkboxState, key) {
   return Boolean(checkboxState[key])
 }
 
+export function getFilterValueCounts(values = [], items = [], matcher) {
+  const counts = { all: items.length }
+
+  for (const value of values) {
+    const stringValue = String(value)
+    counts[stringValue] = items.filter((item) => matcher(item, stringValue)).length
+  }
+
+  return counts
+}
+
 export function filterBySelectedFilters(item, selectedFilters, matchers) {
   return Object.entries(selectedFilters).every(([category, selectedValue]) => {
     if (!selectedValue || selectedValue === 'all') {

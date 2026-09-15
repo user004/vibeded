@@ -2,7 +2,11 @@ import { useMemo, useState } from 'react'
 import mutations from '../../data/mutations.json'
 import Filters from '../Filters/Filters'
 import Mutation from '../Mutation/Mutation'
-import { filterBySelectedFilters, getUniqueFilterValues } from '../../utils/listFilterUtils.js'
+import {
+  filterBySelectedFilters,
+  getFilterValueCounts,
+  getUniqueFilterValues,
+} from '../../utils/listFilterUtils.js'
 import './MutationList.css'
 
 function MutationList() {
@@ -15,6 +19,14 @@ function MutationList() {
       Active: ['Yes', 'No'],
     }),
     [],
+  )
+
+  const counts = useMemo(
+    () => ({
+      Category: getFilterValueCounts(values.Category, mutations, (item, selected) => item.category === selected),
+      Active: getFilterValueCounts(values.Active, mutations, (item, selected) => Boolean(item.active) === (selected === 'Yes')),
+    }),
+    [values],
   )
 
   const normalizedSearchValue = searchValue.trim().toLowerCase()
@@ -35,6 +47,7 @@ function MutationList() {
       <Filters
         categories={['Category', 'Active']}
         values={values}
+        counts={counts}
         selectedFilters={selectedFilters}
         searchValue={searchValue}
         onSearchChange={setSearchValue}

@@ -4,6 +4,7 @@ import { sortFilterValues } from '../../utils/listFilterUtils.js'
 function Filters({
   categories,
   values,
+  counts = {},
   selectedFilters,
   searchValue = '',
   onSearchChange,
@@ -30,12 +31,18 @@ function Filters({
             value={selectedFilters[category] ?? 'all'}
             onChange={(event) => onFilterChange(category, event.target.value)}
           >
-            <option value="all">All</option>
-            {sortFilterValues(category, values[category]).map((value) => (
-              <option key={String(value)} value={String(value)}>
-                {value === null ? 'None' : String(value)}
-              </option>
-            ))}
+            <option value="all">All ({counts[category]?.all ?? 0})</option>
+            {sortFilterValues(category, values[category]).map((value) => {
+              const stringValue = String(value)
+              const optionCount = counts[category]?.[stringValue] ?? 0
+              const optionLabel = value === null ? 'None' : String(value)
+
+              return (
+                <option key={stringValue} value={stringValue}>
+                  {optionLabel} ({optionCount})
+                </option>
+              )
+            })}
           </select>
         </label>
       ))}

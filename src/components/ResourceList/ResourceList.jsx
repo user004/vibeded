@@ -2,7 +2,12 @@ import { useMemo, useState } from 'react'
 import resources from '../../data/resources.json'
 import Filters from '../Filters/Filters'
 import Resource from '../Resource/Resource'
-import { filterBySelectedFilters, getUniqueFilterValues, normalizeValue } from '../../utils/listFilterUtils.js'
+import {
+  filterBySelectedFilters,
+  getFilterValueCounts,
+  getUniqueFilterValues,
+  normalizeValue,
+} from '../../utils/listFilterUtils.js'
 import './ResourceList.css'
 
 function ResourceList() {
@@ -14,6 +19,13 @@ function ResourceList() {
       Tier: getUniqueFilterValues(resources.map((item) => normalizeValue(item.tier))),
     }),
     [],
+  )
+
+  const counts = useMemo(
+    () => ({
+      Tier: getFilterValueCounts(values.Tier, resources, (item, selected) => normalizeValue(item.tier) === selected),
+    }),
+    [values],
   )
 
   const normalizedSearchValue = searchValue.trim().toLowerCase()
@@ -33,6 +45,7 @@ function ResourceList() {
       <Filters
         categories={['Tier']}
         values={values}
+        counts={counts}
         selectedFilters={selectedFilters}
         searchValue={searchValue}
         onSearchChange={setSearchValue}

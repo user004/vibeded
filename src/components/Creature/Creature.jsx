@@ -39,8 +39,8 @@ function Creature({ item }) {
       </div>
 
       <div className="creature-card__checks">
-        <Checkbox checkboxKey={peepedKey} label="Peeped" onChange={handlePeepedChange} />
-        <Checkbox checkboxKey={goldCardKey} label="Gold Card" onChange={handleGoldCardChange} />
+        <Checkbox checkboxKey={peepedKey} label="👀" onChange={handlePeepedChange} />
+        <Checkbox checkboxKey={goldCardKey} label="🥇" onChange={handleGoldCardChange} />
       </div>
 
       <div className="creature-card__grid">

@@ -6,6 +6,7 @@ import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
   filterBySelectedFilters,
   getCheckboxValue,
+  getFilterValueCounts,
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
@@ -24,6 +25,25 @@ function ArmorList() {
       Slot: getUniqueFilterValues(armor.map((item) => item.slot).filter(Boolean)),
     }),
     [],
+  )
+
+  const counts = useMemo(
+    () => ({
+      Owned: getFilterValueCounts(values.Owned, armor, (item, selected) => {
+        const key = `armor-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+        return getCheckboxValue(checkboxState, key) === (selected === 'Yes')
+      }),
+      Archetype: getFilterValueCounts(values.Archetype, armor, (item, selected) => {
+        if (selected === 'None') {
+          return item.archetype == null
+        }
+
+        return normalizeValue(item.archetype) === selected
+      }),
+      Tier: getFilterValueCounts(values.Tier, armor, (item, selected) => normalizeValue(item.tier) === selected),
+      Slot: getFilterValueCounts(values.Slot, armor, (item, selected) => item.slot === selected),
+    }),
+    [checkboxState, values],
   )
 
   const normalizedSearchValue = searchValue.trim().toLowerCase()
@@ -57,6 +77,7 @@ function ArmorList() {
       <Filters
         categories={['Owned', 'Archetype', 'Tier', 'Slot']}
         values={values}
+        counts={counts}
         selectedFilters={selectedFilters}
         searchValue={searchValue}
         onSearchChange={setSearchValue}

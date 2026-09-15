@@ -6,6 +6,7 @@ import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
   filterBySelectedFilters,
   getCheckboxValue,
+  getFilterValueCounts,
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
@@ -24,6 +25,22 @@ function CreatureList() {
       'Gold Card': ['Yes', 'No'],
     }),
     [],
+  )
+
+  const counts = useMemo(
+    () => ({
+      Category: getFilterValueCounts(values.Category, creatures, (item, selected) => item.category === selected),
+      Tier: getFilterValueCounts(values.Tier, creatures, (item, selected) => normalizeValue(item.tier) === selected),
+      Peeped: getFilterValueCounts(values.Peeped, creatures, (item, selected) => {
+        const key = `creature-peeped-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+        return getCheckboxValue(checkboxState, key) === (selected === 'Yes')
+      }),
+      'Gold Card': getFilterValueCounts(values['Gold Card'], creatures, (item, selected) => {
+        const key = `creature-gold-card-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+        return getCheckboxValue(checkboxState, key) === (selected === 'Yes')
+      }),
+    }),
+    [checkboxState, values],
   )
 
   const normalizedSearchValue = searchValue.trim().toLowerCase()
@@ -50,6 +67,7 @@ function CreatureList() {
       <Filters
         categories={['Category', 'Tier', 'Peeped', 'Gold Card']}
         values={values}
+        counts={counts}
         selectedFilters={selectedFilters}
         searchValue={searchValue}
         onSearchChange={setSearchValue}

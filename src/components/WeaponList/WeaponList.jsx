@@ -6,6 +6,7 @@ import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
   filterBySelectedFilters,
   getCheckboxValue,
+  getFilterValueCounts,
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
@@ -23,6 +24,18 @@ function WeaponList() {
       Tier: getUniqueFilterValues(weapons.map((item) => normalizeValue(item.tier))),
     }),
     [],
+  )
+
+  const counts = useMemo(
+    () => ({
+      Owned: getFilterValueCounts(values.Owned, weapons, (item, selected) => {
+        const key = `weapon-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+        return getCheckboxValue(checkboxState, key) === (selected === 'Yes')
+      }),
+      Category: getFilterValueCounts(values.Category, weapons, (item, selected) => item.category === selected),
+      Tier: getFilterValueCounts(values.Tier, weapons, (item, selected) => normalizeValue(item.tier) === selected),
+    }),
+    [checkboxState, values],
   )
 
   const normalizedSearchValue = searchValue.trim().toLowerCase()
@@ -46,6 +59,7 @@ function WeaponList() {
       <Filters
         categories={['Owned', 'Category', 'Tier']}
         values={values}
+        counts={counts}
         selectedFilters={selectedFilters}
         searchValue={searchValue}
         onSearchChange={setSearchValue}

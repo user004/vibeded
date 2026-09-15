@@ -15,7 +15,7 @@ function Weapon({ item }) {
           <Tier tier={item.tier} />
           <h3 className="weapon-card__title">{item.name}</h3>
         </div>
-        <Checkbox checkboxKey={checkboxKey} label="Owned" />
+        <Checkbox checkboxKey={checkboxKey} label="🪎" />
         <div className="weapon-card__meta">
           <Tag tag={item.category} />
         </div>
