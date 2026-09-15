@@ -1971,7 +1971,7 @@
     "sleekEffect": "Freeze Resistance",
     "set": {
       "name": "Fuzzy Armor",
-      "bonus": "None"
+      "bonus": null
     },
     "repair": [
       {
@@ -2019,7 +2019,7 @@
     "sleekEffect": "Freeze Resistance",
     "set": {
       "name": "Fuzzy Armor",
-      "bonus": "None"
+      "bonus": null
     },
     "repair": [
       {
@@ -2067,7 +2067,7 @@
     "sleekEffect": "Freeze Resistance",
     "set": {
       "name": "Fuzzy Armor",
-      "bonus": "None"
+      "bonus": null
     },
     "repair": [
       {
@@ -3791,7 +3791,7 @@
   },
   {
     "name": "Tin Foil Hat",
-    "archetype": "None",
+    "archetype": null,
     "tier": 3,
     "slot": "Head",
     "durability": 70,
@@ -3828,7 +3828,7 @@
   },
   {
     "name": "Gas Mask",
-    "archetype": "None",
+    "archetype": null,
     "tier": 2,
     "slot": "Head",
     "durability": 80,
@@ -3914,7 +3914,7 @@
   },
   {
     "name": "Lucky Hat",
-    "archetype": "None",
+    "archetype": null,
     "tier": 2,
     "slot": "Head",
     "durability": 70,
@@ -3951,7 +3951,7 @@
   },
   {
     "name": "Firefly Head Lamp",
-    "archetype": "None",
+    "archetype": null,
     "tier": 2,
     "slot": "Head",
     "durability": 70,
@@ -3988,14 +3988,14 @@
   },
   {
     "name": "Gill Tube",
-    "archetype": "None",
+    "archetype": null,
     "tier": 1,
     "slot": "Head",
     "durability": 50,
     "defense": 2,
     "resistance": 2.5,
     "pieceEffect": "Breathing Tube",
-    "sleekEffect": "None",
+    "sleekEffect": null,
     "set": null,
     "repair": [
       {
@@ -4025,14 +4025,14 @@
   },
   {
     "name": "Eyepatch",
-    "archetype": "None",
+    "archetype": null,
     "tier": 1,
     "slot": "Head",
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
     "pieceEffect": "Pirate Vision",
-    "sleekEffect": "None",
+    "sleekEffect": null,
     "set": null,
     "repair": [
       {
@@ -4058,14 +4058,14 @@
   },
   {
     "name": "Mitey Muffs",
-    "archetype": "None",
+    "archetype": null,
     "tier": 1,
     "slot": "Head",
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
     "pieceEffect": "Headphone Protection",
-    "sleekEffect": "None",
+    "sleekEffect": null,
     "set": null,
     "repair": [
       {
@@ -4091,14 +4091,14 @@
   },
   {
     "name": "Fin Flops",
-    "archetype": "None",
+    "archetype": null,
     "tier": 1,
     "slot": "Legs",
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
     "pieceEffect": "Swimming Boost",
-    "sleekEffect": "None",
+    "sleekEffect": null,
     "set": null,
     "repair": [
       {
@@ -4124,14 +4124,14 @@
   },
   {
     "name": "Aphid Slippers",
-    "archetype": "None",
+    "archetype": null,
     "tier": 1,
     "slot": "Legs",
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
     "pieceEffect": "Sprint Speed",
-    "sleekEffect": "None",
+    "sleekEffect": null,
     "set": null,
     "repair": [
       {

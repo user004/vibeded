@@ -23,17 +23,8 @@
 .filters__select,
 .filters__clear {
   min-height: 2.25rem;
-}
-
-.filters__search {
-  width: 100%;
-}
-
-.filters__clear {
-  align-self: end;
   border: var(--border-size-1) solid var(--border-subtle);
-  border-radius: var(--radius-round);
-  padding: 0 var(--size-4);
+  border-radius: var(--radius-3);
   color: var(--text-2);
   background: color-mix(in srgb, var(--surface-2) 78%, transparent);
   box-shadow: var(--shadow-2);
@@ -44,13 +35,31 @@
     color 180ms ease;
 }
 
+.filters__search:hover,
+.filters__select:hover,
 .filters__clear:hover {
   transform: translateY(-1px);
   border-color: var(--border-strong);
   color: var(--text-1);
 }
 
+.filters__search:focus-visible,
+.filters__select:focus-visible,
 .filters__clear:focus-visible {
   outline: var(--border-size-2) solid var(--accent-1);
   outline-offset: var(--size-1);
+}
+
+.filters__search {
+  width: 100%;
+}
+
+.filters__search,
+.filters__select {
+  padding-inline: var(--size-2);
+}
+
+.filters__clear {
+  align-self: end;
+  padding: 0 var(--size-4);
 }

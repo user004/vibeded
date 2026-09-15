@@ -39,7 +39,9 @@ function ArmorList() {
           ? getCheckboxValue(checkboxState, `armor-${currentItem.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
           : !getCheckboxValue(checkboxState, `armor-${currentItem.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)),
       Archetype: (currentItem, selected) =>
-        selected === 'None' ? !currentItem.archetype : currentItem.archetype === selected,
+        selected === 'None'
+          ? currentItem.archetype == null
+          : normalizeValue(currentItem.archetype) === selected,
       Tier: (currentItem, selected) => normalizeValue(currentItem.tier) === selected,
       Slot: (currentItem, selected) => currentItem.slot === selected,
     })

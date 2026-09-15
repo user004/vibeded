@@ -17,7 +17,7 @@ function Armor({ item }) {
         </div>
         <Checkbox checkboxKey={checkboxKey} label="Owned" />
         <div className="armor-card__meta">
-          <Tag tag={item.archetype} />
+          {item.archetype != null && <Tag tag={item.archetype} />}
           <Tag tag={item.slot} />
         </div>
       </header>
@@ -38,8 +38,8 @@ function Armor({ item }) {
       </div>
 
       {item.pieceEffect && <p className="armor-card__text">Piece Effect: {item.pieceEffect}</p>}
-      {item.sleekEffect && <p className="armor-card__text">Sleek Effect: {item.sleekEffect}</p>}
-      {item.set && (
+      {item.sleekEffect != null && <p className="armor-card__text">Sleek Effect: {item.sleekEffect}</p>}
+      {item.set && item.set.bonus != null && (
         <p className="armor-card__text">
           Set: {item.set.name} ({item.set.bonus})
         </p>
