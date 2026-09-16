@@ -1,6 +1,5 @@
 import RecipeList from '../RecipeList/RecipeList'
 import Tag from '../Tag/Tag'
-import Tier from '../Tier/Tier'
 import Checkbox from '../Checkbox/Checkbox'
 import './Resource.css'
 import ItemHeader from "../ItemHeader/ItemHeader.jsx";

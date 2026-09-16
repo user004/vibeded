@@ -3,7 +3,6 @@ import { FieldGuideContext } from '../../context/FieldGuideContext'
 import { useContext } from 'react'
 import Accordion from '../Accordion/Accordion'
 import Tag from '../Tag/Tag'
-import Tier from '../Tier/Tier'
 import './Creature.css'
 import ItemHeader from "../ItemHeader/ItemHeader.jsx";
 

@@ -1,7 +1,6 @@
 import RecipeList from '../RecipeList/RecipeList'
 import Repair from '../Repair/Repair'
 import Tag from '../Tag/Tag'
-import Tier from '../Tier/Tier'
 import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
 import './Weapon.css'
