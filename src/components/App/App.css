@@ -14,5 +14,7 @@
       linear-gradient(135deg, color-mix(in srgb, var(--green-6) 12%, transparent), transparent 35%);
     box-shadow: var(--shadow-grounded);
     backdrop-filter: blur(12px);
+    display: grid;
+    gap: var(--size-5);
   }
 }

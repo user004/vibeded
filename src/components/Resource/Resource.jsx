@@ -1,16 +1,16 @@
 import RecipeList from '../RecipeList/RecipeList'
 import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
+import Card from '../Card/Card'
 import './Resource.css'
-import ItemHeader from "../ItemHeader/ItemHeader.jsx";
-import Accordion from "../Accordion/Accordion.jsx";
+import ItemHeader from '../ItemHeader/ItemHeader'
+import Accordion from '../Accordion/Accordion'
 
 function Resource({ item }) {
   const checkboxKey = `resource-analyzed-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <article className="resource-card">
-
+    <Card className="resource-card">
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -47,7 +47,7 @@ function Resource({ item }) {
           <RecipeList recipes={item.recipes} itemName={item.name} />
         )}
       </Accordion>
-    </article>
+    </Card>
   )
 }
 

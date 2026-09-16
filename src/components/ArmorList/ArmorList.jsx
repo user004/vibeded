@@ -2,6 +2,7 @@ import { useContext, useMemo, useState } from 'react'
 import armor from '../../data/armor.json'
 import Filters from '../Filters/Filters'
 import Armor from '../Armor/Armor'
+import List from '../List/List'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
   filterBySelectedFilters,
@@ -10,8 +11,6 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-import './ArmorList.css'
-
 function ArmorList() {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
@@ -87,13 +86,7 @@ function ArmorList() {
           setSearchValue('')
         }}
       />
-      <ul className="armor-list">
-        {filteredArmor.map((item) => (
-          <li className="armor-list__item" key={item.name}>
-            <Armor item={item} />
-          </li>
-        ))}
-      </ul>
+      <List className="armor-list" items={filteredArmor} renderItem={(item) => <Armor item={item} />} />
     </>
   )
 }

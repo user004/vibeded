@@ -7,14 +7,25 @@
     border: 1px solid var(--yellow-6);
     box-shadow: 0 0 0 1px var(--yellow-6), 0 0 24px color-mix(in srgb, var(--yellow-6) 35%, transparent);
 
-    &::before {
-      content: '✨ ✨ ✨';
+    &::before,
+    &::after {
+      content: '✨';
       position: absolute;
-      top: var(--size-2);
-      right: var(--size-3);
-      color: var(--yellow-5);
-      letter-spacing: var(--font-letterspacing-2);
       pointer-events: none;
+      font-size: var(--font-size-5);
+      line-height: 1;
+    }
+
+    &::before {
+      inset-block-start: 0;
+      inset-inline-end: 0;
+      translate: 25% -25%;
+    }
+
+    &::after {
+      inset-block-end: 0;
+      inset-inline-start: 0;
+      translate: -25% 25%;
     }
   }
 
@@ -33,13 +44,11 @@
   }
 
   .creature-card__heading {
-    margin: 0;
     color: var(--text-1);
     font-size: var(--font-size-2);
   }
 
   .creature-card__list {
-    margin: 0;
     padding-inline-start: var(--size-4);
     color: var(--text-2);
   }

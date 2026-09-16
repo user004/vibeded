@@ -2,13 +2,12 @@ import { useMemo, useState } from 'react'
 import mutations from '../../data/mutations.json'
 import Filters from '../Filters/Filters'
 import Mutation from '../Mutation/Mutation'
+import List from '../List/List'
 import {
   filterBySelectedFilters,
   getFilterValueCounts,
   getUniqueFilterValues,
 } from '../../utils/listFilterUtils.js'
-import './MutationList.css'
-
 function MutationList() {
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
@@ -57,13 +56,7 @@ function MutationList() {
           setSearchValue('')
         }}
       />
-      <ul className="mutation-list">
-        {filteredMutations.map((item) => (
-          <li className="mutation-list__item" key={item.name}>
-            <Mutation item={item} />
-          </li>
-        ))}
-      </ul>
+      <List className="mutation-list" items={filteredMutations} renderItem={(item) => <Mutation item={item} />} />
     </>
   )
 }

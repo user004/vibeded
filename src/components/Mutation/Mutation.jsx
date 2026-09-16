@@ -1,19 +1,21 @@
 import Checkbox from '../Checkbox/Checkbox'
 import Tag from '../Tag/Tag'
+import Card from '../Card/Card'
 import './Mutation.css'
-import ItemHeader from "../ItemHeader/ItemHeader.jsx";
+import ItemHeader from '../ItemHeader/ItemHeader'
 
 function Mutation({ item }) {
   return (
-    <article className="mutation-card">
-
+    <Card className="mutation-card">
       <ItemHeader
         title={item.name}
         tier={item.tier}
-        tags={<>
-          <Tag tag={item.category} />
-          <Tag tag={item.active ? 'Active' : 'Passive'} />
-        </>}
+        tags={
+          <>
+            <Tag tag={item.category} />
+            <Tag tag={item.active ? 'Active' : 'Passive'} />
+          </>
+        }
       />
 
       {Array.isArray(item.ranks) && item.ranks.length > 0 && (
@@ -34,7 +36,7 @@ function Mutation({ item }) {
           </ul>
         </div>
       )}
-    </article>
+    </Card>
   )
 }
 

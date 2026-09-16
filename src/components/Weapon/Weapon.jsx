@@ -3,15 +3,15 @@ import Repair from '../Repair/Repair'
 import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
+import Card from '../Card/Card'
 import './Weapon.css'
-import ItemHeader from "../ItemHeader/ItemHeader.jsx";
+import ItemHeader from '../ItemHeader/ItemHeader'
 
 function Weapon({ item }) {
   const checkboxKey = `weapon-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <article className="weapon-card">
-
+    <Card className="weapon-card">
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -39,7 +39,7 @@ function Weapon({ item }) {
 
         <Repair repairs={item.repair} itemName={item.name} />
       </Accordion>
-    </article>
+    </Card>
   )
 }
 

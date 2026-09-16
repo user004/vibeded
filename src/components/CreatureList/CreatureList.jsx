@@ -2,6 +2,7 @@ import { useContext, useMemo, useState } from 'react'
 import creatures from '../../data/creatures.json'
 import Filters from '../Filters/Filters'
 import Creature from '../Creature/Creature'
+import List from '../List/List'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
   filterBySelectedFilters,
@@ -10,8 +11,6 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-import './CreatureList.css'
-
 function CreatureList() {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
@@ -77,13 +76,11 @@ function CreatureList() {
           setSearchValue('')
         }}
       />
-      <ul className="creature-list">
-        {filteredCreatures.map((item, index) => (
-          <li className="creature-list__item" key={`${item.name}-${item.category}-${item.tier}-${index}`}>
-            <Creature item={item} />
-          </li>
-        ))}
-      </ul>
+      <List
+        className="creature-list"
+        items={filteredCreatures}
+        renderItem={(item, index) => <Creature item={item} key={`${item.name}-${item.category}-${item.tier}-${index}`} />}
+      />
     </>
   )
 }

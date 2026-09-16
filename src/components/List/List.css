@@ -1,0 +1,10 @@
+.list {
+  display: grid;
+  gap: var(--size-4);
+  padding: 0;
+  list-style: none;
+}
+
+.list__item {
+  display: grid;
+}

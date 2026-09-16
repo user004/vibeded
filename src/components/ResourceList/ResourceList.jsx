@@ -2,6 +2,7 @@ import { useContext, useMemo, useState } from 'react'
 import resources from '../../data/resources.json'
 import Filters from '../Filters/Filters'
 import Resource from '../Resource/Resource'
+import List from '../List/List'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
   filterBySelectedFilters,
@@ -10,8 +11,6 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-import './ResourceList.css'
-
 function ResourceList() {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
@@ -68,13 +67,7 @@ function ResourceList() {
           setSearchValue('')
         }}
       />
-      <ul className="resource-list">
-        {filteredResources.map((item) => (
-          <li className="resource-list__item" key={item.name}>
-            <Resource item={item} />
-          </li>
-        ))}
-      </ul>
+      <List className="resource-list" items={filteredResources} renderItem={(item) => <Resource item={item} />} />
     </>
   )
 }

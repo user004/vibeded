@@ -4,13 +4,14 @@ import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
 import ItemHeader from '../ItemHeader/ItemHeader'
+import Card from '../Card/Card'
 import './Armor.css'
 
 function Armor({ item }) {
   const checkboxKey = `armor-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <article className="armor-card">
+    <Card className="armor-card">
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -53,7 +54,7 @@ function Armor({ item }) {
 
         <Repair repairs={item.repair} itemName={item.name} />
       </Accordion>
-    </article>
+    </Card>
   )
 }
 

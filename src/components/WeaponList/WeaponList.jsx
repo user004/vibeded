@@ -2,6 +2,7 @@ import { useContext, useMemo, useState } from 'react'
 import weapons from '../../data/weapons.json'
 import Filters from '../Filters/Filters'
 import Weapon from '../Weapon/Weapon'
+import List from '../List/List'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
   filterBySelectedFilters,
@@ -10,8 +11,6 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-import './WeaponList.css'
-
 function WeaponList() {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
@@ -69,13 +68,7 @@ function WeaponList() {
           setSearchValue('')
         }}
       />
-      <ul className="weapon-list">
-        {filteredWeapons.map((item) => (
-          <li className="weapon-list__item" key={item.name}>
-            <Weapon item={item} />
-          </li>
-        ))}
-      </ul>
+      <List className="weapon-list" items={filteredWeapons} renderItem={(item) => <Weapon item={item} />} />
     </>
   )
 }

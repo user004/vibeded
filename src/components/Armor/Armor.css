@@ -24,7 +24,6 @@
 
   .armor-card__stat-value,
   .armor-card__text {
-    margin: 0;
     color: var(--text-2);
   }
 }
