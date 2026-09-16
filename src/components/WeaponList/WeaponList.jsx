@@ -19,7 +19,7 @@ function WeaponList() {
 
   const values = useMemo(
     () => ({
-      Owned: ['Yes', 'No'],
+      Crafted: ['Yes', 'No'],
       Category: getUniqueFilterValues(weapons.map((item) => item.category).filter(Boolean)),
       Tier: getUniqueFilterValues(weapons.map((item) => normalizeValue(item.tier))),
     }),
@@ -28,7 +28,7 @@ function WeaponList() {
 
   const counts = useMemo(
     () => ({
-      Owned: getFilterValueCounts(values.Owned, weapons, (item, selected) => {
+      Crafted: getFilterValueCounts(values.Crafted, weapons, (item, selected) => {
         const key = `weapon-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
         return getCheckboxValue(checkboxState, key) === (selected === 'Yes')
       }),
@@ -46,7 +46,7 @@ function WeaponList() {
     }
 
     return filterBySelectedFilters(item, selectedFilters, {
-      Owned: (currentItem, selected) =>
+      Crafted: (currentItem, selected) =>
         getCheckboxValue(checkboxState, `weapon-${currentItem.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`) ===
         (selected === 'Yes'),
       Category: (currentItem, selected) => currentItem.category === selected,
@@ -57,7 +57,7 @@ function WeaponList() {
   return (
     <>
       <Filters
-        categories={['Owned', 'Category', 'Tier']}
+        categories={['Crafted', 'Category', 'Tier']}
         values={values}
         counts={counts}
         selectedFilters={selectedFilters}

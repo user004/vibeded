@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import './Checkbox.css'
 
-function Checkbox({ checkboxKey, label, onChange }) {
+function Checkbox({ checkboxKey, icon, label, onChange }) {
   const context = useContext(FieldGuideContext)
 
   if (!context) {
@@ -13,7 +13,7 @@ function Checkbox({ checkboxKey, label, onChange }) {
   const checked = Boolean(checkboxState[checkboxKey])
 
   return (
-    <label className="field-guide-checkbox" htmlFor={checkboxKey}>
+    <label className="field-guide-checkbox" htmlFor={checkboxKey} title={label}>
       <input
         id={checkboxKey}
         name={checkboxKey}
@@ -24,7 +24,7 @@ function Checkbox({ checkboxKey, label, onChange }) {
           onChange?.(event.target.checked)
         }}
       />
-      <span>{label}</span>
+      <span aria-hidden="true">{icon}</span>
     </label>
   )
 }

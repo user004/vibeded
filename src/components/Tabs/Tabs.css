@@ -14,14 +14,14 @@
     linear-gradient(135deg, color-mix(in srgb, var(--accent-3) 22%, transparent), transparent 55%),
     linear-gradient(180deg, color-mix(in srgb, var(--surface-3) 85%, transparent), transparent);
 
-  & h1 {
+  h1 {
     margin: 0;
     font-size: clamp(var(--font-size-6), 5vw, var(--font-size-8));
     line-height: var(--font-lineheight-0);
     color: var(--text-1);
   }
 
-  & p {
+  p {
     max-inline-size: 70ch;
     margin: 0;
     color: var(--text-2);
@@ -58,17 +58,15 @@
     outline: var(--border-size-2) solid var(--accent-1);
     outline-offset: var(--size-1);
   }
+
+  &[data-active='true'] {
+    color: var(--gray-12);
+    border-color: transparent;
+    background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  }
 }
 
-.tabs__button[data-active='true'] {
-  color: var(--gray-12);
-  border-color: transparent;
-  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-}
-
-.tabs__panel {
-  min-block-size: 0;
-}
+.tabs__panel { min-block-size: 0; }
 
 @media (max-width: 48rem) {
   .tabs__hero {

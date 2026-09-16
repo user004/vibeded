@@ -5,6 +5,7 @@ import Accordion from '../Accordion/Accordion'
 import Tag from '../Tag/Tag'
 import Tier from '../Tier/Tier'
 import './Creature.css'
+import ItemHeader from "../ItemHeader/ItemHeader.jsx";
 
 function Creature({ item }) {
   const { checkboxState, setCheckboxChecked } = useContext(FieldGuideContext)
@@ -28,21 +29,19 @@ function Creature({ item }) {
 
   return (
     <article className="creature-card" data-gold-card={isGoldCard}>
-      <div className="creature-card__title-row">
-        <Tier tier={item.tier} />
-        <h3 className="creature-card__title">{item.name}</h3>
-      </div>
-      <div className="creature-card__summary">
-        <Tag tag={item.category} />
-        {item.summonedWith && (
-          <Tag tag={`Summoned with ${item.summonedWith}`} />
-        )}
-      </div>
 
-      <div className="creature-card__checks">
-        <Checkbox checkboxKey={peepedKey} label="👀" onChange={handlePeepedChange} />
-        <Checkbox checkboxKey={goldCardKey} label="🥇" onChange={handleGoldCardChange} />
-      </div>
+      <ItemHeader
+        title={item.name}
+        tier={item.tier}
+        checkboxes={<>
+          <Checkbox checkboxKey={peepedKey} icon="👀" label="Peeped" onChange={handlePeepedChange} />
+          <Checkbox checkboxKey={goldCardKey} icon="🥇" label="Gold card" onChange={handleGoldCardChange} />
+        </>}
+        tags={<>
+          <Tag tag={item.category} />
+          {item.summonedWith && (<Tag tag={`Summoned with ${item.summonedWith}`} />)}
+        </>}
+      />
 
       <Accordion summary="Details">
         <div className="creature-card__grid">

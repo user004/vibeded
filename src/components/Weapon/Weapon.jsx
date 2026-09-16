@@ -5,22 +5,20 @@ import Tier from '../Tier/Tier'
 import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
 import './Weapon.css'
+import ItemHeader from "../ItemHeader/ItemHeader.jsx";
 
 function Weapon({ item }) {
   const checkboxKey = `weapon-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
     <article className="weapon-card">
-      <header className="weapon-card__header">
-        <div className="weapon-card__title-row">
-          <Tier tier={item.tier} />
-          <h3 className="weapon-card__title">{item.name}</h3>
-        </div>
-        <Checkbox checkboxKey={checkboxKey} label="🪎" />
-        <div className="weapon-card__meta">
-          <Tag tag={item.category} />
-        </div>
-      </header>
+
+      <ItemHeader
+        title={item.name}
+        tier={item.tier}
+        checkboxes={<Checkbox checkboxKey={checkboxKey} icon="🔨" label="Crafted" />}
+        tags={<Tag tag={item.category} />}
+      />
 
       <Accordion summary="Details">
         {Array.isArray(item.status) && item.status.length > 0 && (

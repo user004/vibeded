@@ -1,9 +1,9 @@
 import RecipeList from '../RecipeList/RecipeList'
 import Repair from '../Repair/Repair'
 import Tag from '../Tag/Tag'
-import Tier from '../Tier/Tier'
 import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
+import ItemHeader from '../ItemHeader/ItemHeader'
 import './Armor.css'
 
 function Armor({ item }) {
@@ -11,17 +11,17 @@ function Armor({ item }) {
 
   return (
     <article className="armor-card">
-      <header className="armor-card__header">
-        <div className="armor-card__title-row">
-          <Tier tier={item.tier} />
-          <h3 className="armor-card__title">{item.name}</h3>
-        </div>
-        <Checkbox checkboxKey={checkboxKey} label="🪎" />
-        <div className="armor-card__meta">
-          {item.archetype != null && <Tag tag={item.archetype} />}
-          <Tag tag={item.slot} />
-        </div>
-      </header>
+      <ItemHeader
+        title={item.name}
+        tier={item.tier}
+        checkboxes={<Checkbox checkboxKey={checkboxKey} icon="🔨" label="Crafted" />}
+        tags={
+          <>
+            {item.archetype != null && <Tag tag={item.archetype} />}
+            <Tag tag={item.slot} />
+          </>
+        }
+      />
 
       <Accordion summary="Details">
         <div className="armor-card__stats">

@@ -1,15 +1,20 @@
 import Checkbox from '../Checkbox/Checkbox'
 import Tag from '../Tag/Tag'
 import './Mutation.css'
+import ItemHeader from "../ItemHeader/ItemHeader.jsx";
 
 function Mutation({ item }) {
   return (
     <article className="mutation-card">
-      <h3 className="mutation-card__title">{item.name}</h3>
-      <div className="mutation-card__summary">
-        <Tag tag={item.category} />
-        <Tag tag={item.active ? 'Active' : 'Passive'} />
-      </div>
+
+      <ItemHeader
+        title={item.name}
+        tier={item.tier}
+        tags={<>
+          <Tag tag={item.category} />
+          <Tag tag={item.active ? 'Active' : 'Passive'} />
+        </>}
+      />
 
       {Array.isArray(item.ranks) && item.ranks.length > 0 && (
         <div>
@@ -19,7 +24,8 @@ function Mutation({ item }) {
                 <h4 className="mutation-card__rank-title">Rank {rankInfo.rank}</h4>
                 <Checkbox
                   checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
-                  label="🔓"
+                  icon="🔓"
+                  label={`Unlock rank ${rankInfo.rank}`}
                 />
                 <p className="mutation-card__text">{rankInfo.effect}</p>
                 <p className="mutation-card__text">Obtained: {rankInfo.obtained}</p>

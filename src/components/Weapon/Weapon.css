@@ -1,55 +1,31 @@
 .weapon-card {
   display: grid;
   gap: var(--size-4);
-}
 
-.weapon-card__header {
-  display: grid;
-  gap: var(--size-2);
-}
+  .weapon-card__section {
+    display: grid;
+    gap: var(--size-2);
+  }
 
-.weapon-card__title {
-  margin: 0;
-  color: var(--accent-1);
-  font-size: var(--font-size-5);
-}
+  .weapon-card__heading {
+    margin: 0;
+    color: var(--text-1);
+    font-size: var(--font-size-2);
+  }
 
-.weapon-card__title-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--size-2);
-}
+  .weapon-card__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-.weapon-card__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--size-2);
-}
-
-.weapon-card__section {
-  display: grid;
-  gap: var(--size-2);
-}
-
-.weapon-card__heading {
-  margin: 0;
-  color: var(--text-1);
-  font-size: var(--font-size-2);
-}
-
-.weapon-card__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--size-2);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.weapon-card__list-item {
-  padding: var(--size-2) var(--size-3);
-  border: var(--border-size-1) solid var(--border-subtle);
-  border-radius: var(--radius-round);
-  background: var(--accent-softer);
+  .weapon-card__list-item {
+    padding: var(--size-2) var(--size-3);
+    border: var(--border-size-1) solid var(--border-subtle);
+    border-radius: var(--radius-round);
+    background: var(--accent-softer);
+  }
 }

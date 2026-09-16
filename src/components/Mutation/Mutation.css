@@ -1,46 +1,46 @@
 .mutation-card {
   display: grid;
   gap: var(--size-4);
-}
 
-.mutation-card__title {
-  margin: 0;
-  color: var(--accent-1);
-  font-size: var(--font-size-5);
-}
+  .mutation-card__title {
+    margin: 0;
+    color: var(--accent-1);
+    font-size: var(--font-size-5);
+  }
 
-.mutation-card__summary {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--size-2);
-}
+  .mutation-card__summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-2);
+  }
 
-.mutation-card__ranks {
-  display: grid;
-  gap: var(--size-3);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+  .mutation-card__ranks {
+    display: grid;
+    gap: var(--size-3);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-.mutation-card__rank {
-  display: grid;
-  gap: var(--size-2);
-  padding: var(--size-3);
-  border-radius: var(--radius-3);
-  border: var(--border-size-1) solid var(--border-subtle);
-  background: var(--accent-softer);
-}
+  .mutation-card__rank {
+    display: grid;
+    gap: var(--size-2);
+    padding: var(--size-3);
+    border-radius: var(--radius-3);
+    border: var(--border-size-1) solid var(--border-subtle);
+    background: var(--accent-softer);
+  }
 
-.mutation-card__rank-title,
-.mutation-card__text {
-  margin: 0;
-}
+  .mutation-card__rank-title,
+  .mutation-card__text {
+    margin: 0;
+  }
 
-.mutation-card__rank-title {
-  color: var(--text-1);
-}
+  .mutation-card__rank-title {
+    color: var(--text-1);
+  }
 
-.mutation-card__text {
-  color: var(--text-2);
+  .mutation-card__text {
+    color: var(--text-2);
+  }
 }

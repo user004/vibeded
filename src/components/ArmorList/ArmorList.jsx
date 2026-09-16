@@ -19,7 +19,7 @@ function ArmorList() {
 
   const values = useMemo(
     () => ({
-      Owned: ['Yes', 'No'],
+      Crafted: ['Yes', 'No'],
       Archetype: getUniqueFilterValues(['None', ...armor.map((item) => normalizeValue(item.archetype))]),
       Tier: getUniqueFilterValues(armor.map((item) => normalizeValue(item.tier))),
       Slot: getUniqueFilterValues(armor.map((item) => item.slot).filter(Boolean)),
@@ -29,7 +29,7 @@ function ArmorList() {
 
   const counts = useMemo(
     () => ({
-      Owned: getFilterValueCounts(values.Owned, armor, (item, selected) => {
+      Crafted: getFilterValueCounts(values.Crafted, armor, (item, selected) => {
         const key = `armor-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
         return getCheckboxValue(checkboxState, key) === (selected === 'Yes')
       }),
@@ -54,7 +54,7 @@ function ArmorList() {
     }
 
     return filterBySelectedFilters(item, selectedFilters, {
-      Owned: (currentItem, selected) =>
+      Crafted: (currentItem, selected) =>
         (selected === 'Yes'
           ? getCheckboxValue(checkboxState, `armor-${currentItem.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
           : !getCheckboxValue(checkboxState, `armor-${currentItem.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)),
@@ -75,7 +75,7 @@ function ArmorList() {
   return (
     <>
       <Filters
-        categories={['Owned', 'Archetype', 'Tier', 'Slot']}
+        categories={['Crafted', 'Archetype', 'Tier', 'Slot']}
         values={values}
         counts={counts}
         selectedFilters={selectedFilters}

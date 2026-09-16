@@ -4,14 +4,14 @@
   margin: 0;
   padding: 0;
   list-style: none;
-}
 
-.armor-list__item {
-  padding: var(--card-padding);
-  border: var(--border-size-1) solid var(--border-subtle);
-  border-radius: var(--card-radius);
-  background:
-    linear-gradient(180deg, color-mix(in srgb, var(--surface-2) 88%, transparent), var(--surface-1)),
-    var(--accent-panel);
-  box-shadow: var(--shadow-4);
+  .armor-list__item {
+    padding: var(--card-padding);
+    border: var(--border-size-1) solid var(--border-subtle);
+    border-radius: var(--card-radius);
+    background:
+      linear-gradient(180deg, color-mix(in srgb, var(--surface-2) 88%, transparent), var(--surface-1)),
+      var(--accent-panel);
+    box-shadow: var(--shadow-4);
+  }
 }

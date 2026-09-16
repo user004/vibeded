@@ -1,0 +1,35 @@
+.item-header {
+  display: grid;
+  gap: var(--size-2);
+  grid-template-areas:
+    "tier title checks"
+    "meta meta meta";
+  grid-template-columns: min-content auto auto;
+  grid-template-rows: auto auto;
+
+  .tier {
+    grid-area: tier;
+  }
+
+  .title {
+    color: var(--accent-1);
+    font-size: var(--font-size-5);
+    grid-area: title;
+    line-height: var(--font-lineheight-1);
+  }
+
+  .checks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-2);
+    grid-area: checks;
+    justify-self: end;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-2);
+    grid-area: meta;
+  }
+}
