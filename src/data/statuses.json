@@ -1,0 +1,2528 @@
+[
+  {
+    "name": "Aggressively Perfect Block",
+    "icon": "/src/assets/icons/statuses/Aggressively_Perfect_Block.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Deals 16 stabbing damage on a perfect block.",
+    "description": "Perfect blocks deal damage and stun to attackers.",
+    "sources": [
+      "Crimson Buckler"
+    ]
+  },
+  {
+    "name": "Battering Ram",
+    "icon": "/src/assets/icons/statuses/Battering_Ram.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Breaking an enemy's blocking stance with a charge attack increases the damage of all Smashing damage by 15% for 10 seconds.",
+    "description": "Foes take extra smashing damage after breaking their guard for a short duration.",
+    "sources": [
+      "Boom Stick"
+    ]
+  },
+  {
+    "name": "Burning Criticals",
+    "icon": "/src/assets/icons/statuses/Burning_Criticals.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Increases the weapon's critical hit chance by 3% when the target's Sizzle is maxed out.",
+    "description": "Critical hit chance is increased against burning foes.",
+    "sources": [
+      "Ash Maw (Level 4+)"
+    ]
+  },
+  {
+    "name": "Cheap Shot",
+    "icon": "/src/assets/icons/statuses/Cheap_Shot.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Attacks deal 15% more damage to targets at full health.",
+    "description": "Deal bonus damage against creatures with full health.",
+    "sources": [
+      "Bushwacker"
+    ]
+  },
+  {
+    "name": "Charged Blastwave",
+    "icon": "/src/assets/icons/statuses/Charged_Blastwave.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Charged attacks emit an explosive AoE that deals 15 Spicy damage and 15 Sizzle buildup.",
+    "description": "Charge attacks deal sizzle and spicy damage in an area.",
+    "sources": [
+      "Boom Stick"
+    ]
+  },
+  {
+    "name": "Chilling Attack",
+    "icon": "/src/assets/icons/statuses/Chilling_Attack.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Glacial Sting & Ice Sickles:\n\nIncreases chill buildup by 20.\n\nMint Arrow & Great Mint Arrow:\n\nIncreases chill buildup by 20. Charged shots increase it by 30. Perfect shots increase it by 40.",
+    "description": "Attacks cause foes to chill and freeze.",
+    "sources": [
+      "Glacial Sting",
+      "Ice Sickles",
+      "Mint Arrow",
+      "Great Mint Arrow"
+    ]
+  },
+  {
+    "name": "Critical Hit Chance",
+    "icon": "/src/assets/icons/statuses/Critical_Hit_Chance.png",
+    "categories": [
+      "Positive",
+      "Weapons",
+      "Consumables"
+    ],
+    "details": "Critical hit chance is increased by 5%.",
+    "description": "Attacks gain a chance to deal massive bonus damage.",
+    "sources": [
+      "Feather Arrow",
+      "Mac N Bees"
+    ]
+  },
+  {
+    "name": "Critical Hit: Venom",
+    "icon": "/src/assets/icons/statuses/Critical_Hit_Venom.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Critical hits increase venom buildup by 20.",
+    "description": "Critical hits apply venom.",
+    "sources": [
+      "Northern Shredders"
+    ]
+  },
+  {
+    "name": "Desperate Criticals",
+    "icon": "/src/assets/icons/statuses/Desperate_Criticals.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Increases the players critical hit chance by 5% while they have 30% total health or less.",
+    "description": "Critical hit chance is increased while you have low health.",
+    "sources": [
+      "Crimson Reapers (Level 4+)"
+    ]
+  },
+  {
+    "name": "Desperate Defense",
+    "icon": "/src/assets/icons/statuses/Desperate_Defense.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Increases the damage reduction of all Armor by 25% while they have 30% total health or less.",
+    "description": "Defense is increased while you have low health.",
+    "sources": [
+      "Dusk Blades (Level 4+)"
+    ]
+  },
+  {
+    "name": "Finale Parry",
+    "icon": "/src/assets/icons/statuses/Finale_Parry.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "The third hit of every combo increases the players parry window by 15 milliseconds for 10 seconds. Additionally, it gives a 25% damage boost after performing a perfect block for 10 seconds.",
+    "description": "The final hit in your 3 hit combo slightly increases your perfect block window. Perfect blocking while this buff is active significantly increases damage on your next attack.",
+    "sources": [
+      "Ice Sickles (Level 4+)",
+      "Sour Katanga (Level 4+)",
+      "Spicy Coaltana (Level 4+)"
+    ]
+  },
+  {
+    "name": "Finale Short Circuit",
+    "icon": "/src/assets/icons/statuses/Finale_Short_Circuit.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "The third hit of every combo produces an electrical AoE explosion that deals 25 extra damage and 5 extra stun. Only applies to weapons with 3-hit combos.",
+    "description": "The final hit in your 3 hit combo emits a large AoE shock.",
+    "sources": [
+      "Pinch Whacker"
+    ]
+  },
+  {
+    "name": "Finale Warmth",
+    "icon": "/src/assets/icons/statuses/Finale_Warmth.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "The third hit of every combo reduces Chill buildup by 10. Only applies to weapons with 3-hit combos.",
+    "description": "The final hit in a 3-hit combo reduces chill buildup.",
+    "sources": [
+      "Heatwave"
+    ]
+  },
+  {
+    "name": "Flyer Stun",
+    "icon": "/src/assets/icons/statuses/Stun.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Deals 50 stun to flying creatures.",
+    "description": "Applies stun damage to target.",
+    "sources": [
+      "Groundy Rounds",
+      "Pollen Arrow"
+    ]
+  },
+  {
+    "name": "Gas Hazard",
+    "icon": "/src/assets/icons/statuses/Gas_Hazard.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Deals 7 gas damage every second.",
+    "description": "Gas damage over time.",
+    "sources": [
+      "Gas Arrow"
+    ]
+  },
+  {
+    "name": "Guard Breach",
+    "icon": "/src/assets/icons/statuses/Guard_Breach.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Breaking an enemies blocking stance deals 80 damage.",
+    "description": "Charge attacks with dual sickles deal damage to foes in addition breaking their block.",
+    "sources": [
+      "Dusk Blades"
+    ]
+  },
+  {
+    "name": "Gaping Wound",
+    "icon": "/src/assets/icons/statuses/Gaping_Wound.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Charge attacks reduce creatures resistance to all Stabbing damage by 10% for 10 seconds.",
+    "description": "Charged attacks drive deeply and reduce stab resistance a short duration.",
+    "sources": [
+      "Gloom Skewer"
+    ]
+  },
+  {
+    "name": "Greater Draw",
+    "icon": "/src/assets/icons/statuses/Greater_Draw.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Perfect shot window is 0.1 seconds shorter, but charged shots deal 15% more damage.",
+    "description": "Charged shots deal additional damage but the perfect shot window is reduced.",
+    "sources": [
+      "Black Fang Greatbow"
+    ]
+  },
+  {
+    "name": "Life Steal",
+    "icon": "/src/assets/icons/statuses/Life_Steal.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Attacks heal 4% of damage dealt.",
+    "description": "Heal when dealing damage.",
+    "sources": [
+      "Mosquito Needle",
+      "Tiger Mosquito Rapier"
+    ]
+  },
+  {
+    "name": "Infection",
+    "icon": "/src/assets/icons/statuses/Infection.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Attacks apply a debuff that slows enemy attack speed and damage by 10%.",
+    "description": "An internal infection slows attack speed and reduces attack damage.",
+    "sources": [
+      "Rusty Spear",
+      "Toenail Cutlass",
+      "Cut Lass"
+    ]
+  },
+  {
+    "name": "Major Threat",
+    "icon": "/src/assets/icons/statuses/Major_Threat.png",
+    "categories": [
+      "Positive",
+      "Weapons",
+      "Trinkets"
+    ],
+    "details": "Increases the player's favorability over other sources of aggression by 60%.",
+    "description": "Increases enemies desire to attack you over other targets while in combat.",
+    "sources": [
+      "Ladyguard",
+      "Shellshocker",
+      "Horned Heater"
+    ]
+  },
+  {
+    "name": "O.R.C. Bane",
+    "icon": "/src/assets/icons/statuses/Stun.png",
+    "categories": [
+      "Positive",
+      "Weapons",
+      "Consumables"
+    ],
+    "details": "Deals 50 shock damage and 25 stun to O.R.C. creatures.",
+    "description": "Attacks gain a large bonus to stun and damage against O.R.C. creatures.",
+    "sources": [
+      "Disruptor Arrow",
+      "Flashfurter"
+    ]
+  },
+  {
+    "name": "Parry Buggie Heal",
+    "icon": "/src/assets/icons/statuses/Parry_Buggie_Heal.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Perfect blocks heal nearby Buggies for 5% of their total health.",
+    "description": "Perfect blocks heal buggies near you.",
+    "sources": [
+      "Scarlet Aegis"
+    ]
+  },
+  {
+    "name": "Reaping Blades",
+    "icon": "/src/assets/icons/statuses/Reaping_Blades.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Killing an enemy instantly heals the player for 10% of their max health.",
+    "description": "Heal a percentage of your max health when you kill things.",
+    "sources": [
+      "Crimson Reapers"
+    ]
+  },
+  {
+    "name": "Soothing Sonata",
+    "icon": "/src/assets/icons/statuses/Soothing_Sonata.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Bows have a 35% chance when hitting a target to give nearby players and Buggies a healing buff.\nFor players, it heals 0.5 health every 0.25 seconds for 10 seconds for a total of 20 health.\nFor Buggies, it heals 1.5 health every 0.25 seconds for 20 seconds for a total of 60 health.",
+    "description": "A bardic tune is granting you HP regen.",
+    "sources": [
+      "Cricket Lute Bow"
+    ]
+  },
+  {
+    "name": "Song of Discord",
+    "icon": "/src/assets/icons/statuses/Song_of_Discord.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Each critical hit has a 35% chance to lower the targets attack by 15% for 10 seconds, a 35% chance to lower the targets movement speed by 40% for 5 seconds, and a 25% chance to apply 8 stun every second for 2 seconds.",
+    "description": "Critical hits have a chance to apply random negative effects.",
+    "sources": [
+      "Discord"
+    ]
+  },
+  {
+    "name": "Sizzling Attack",
+    "icon": "/src/assets/icons/statuses/Sizzling_Attack.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Burny Rounds:\n \nIncreases sizzle buildup by 20.\n\nScorching Orb:\n\nIncreases sizzle buildup by 25.\n\nSpicy Arrow: & Great Spicy Arrow\n\nRegular shots increase sizzle buildup by 20, charged shots increase sizzle buildup by 30, perfect shots increase sizzle buildup by 40.\n\nSpicy Coaltana & Ash Maw:\n\nIncreases sizzle buildup by 10.",
+    "description": "Attacks cause foes to sizzle and burn.",
+    "sources": [
+      "Burny Rounds",
+      "Heatwave",
+      "Scorching Orb",
+      "Spicy Arrow",
+      "Great Spicy Arrow",
+      "Spicy Coaltana",
+      "Ash Maw"
+    ]
+  },
+  {
+    "name": "Slow",
+    "icon": "/src/assets/icons/statuses/Movement_Disabled.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Pollen Arrow:\n\nReduces creature movement speed by 50% for 10 seconds.\n\nSappy Rounds:\n\nReduces creature movement speed by 70% for 20 seconds.",
+    "description": "Run slower.",
+    "sources": [
+      "Pollen Arrow",
+      "Sappy Rounds"
+    ]
+  },
+  {
+    "name": "Spicy Parry",
+    "icon": "/src/assets/icons/statuses/Perfect_Block.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Deals 15 spicy damage and adds 25 sizzle buildup on a perfect block.",
+    "description": "Perfect blocks deal spicy damage and sizzle to attackers.",
+    "sources": [
+      "Bombuckler"
+    ]
+  },
+  {
+    "name": "Sizzling Block",
+    "icon": "/src/assets/icons/statuses/Sizzling_Block.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Causes all blocks to deal 7 Sizzle buildup and perfect blocks to deal an additional 18 Spicy damage.",
+    "description": "Roast foes with sizzle when you block their attacks. In addition, perfect blocks deal bonus spicy damage.",
+    "sources": [
+      "Horned Heater"
+    ]
+  },
+  {
+    "name": "Spider Criticals",
+    "icon": "/src/assets/icons/statuses/Critical_Hit_Chance.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Increases critical hit chance against all spider-type enemies by 5%.",
+    "description": "Prolonged enmity with spiders has increased your critical hit chance against them",
+    "sources": [
+      "Crimson Avenger"
+    ]
+  },
+  {
+    "name": "Stun",
+    "icon": "/src/assets/icons/statuses/Stun.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Deals 1 stun to creatures.",
+    "description": "Applies stun damage to target.",
+    "sources": [
+      "Groundy Rounds"
+    ]
+  },
+  {
+    "name": "Tang Attack",
+    "icon": "/src/assets/icons/statuses/Tang_Attack.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Sour Katanga:\n\nIncreases Tang buildup by 10.\n\nSour Arrow & Great Sour Arrow:\n\nIncreases Tang buildup by 20. Charged shots increase it by 30. Perfect shots increase it by 40.\n\nAcid Ruin & Wither Sting:\n\nIncreases Tang buildup by 35. Charged attacks deal 10 Tang buildup but leave an AoE that passively builds it.",
+    "description": "Attacks weaken defenses so foes take more damage.",
+    "sources": [
+      "Acid Ruin",
+      "Great Sour Arrow",
+      "Sour Arrow",
+      "Sour Katanga",
+      "Wither Sting"
+    ]
+  },
+  {
+    "name": "Tangy Parry",
+    "icon": "/src/assets/icons/statuses/Tangy_Parry.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Perfect blocks deal 24 Sour damage and 10 Tang buildup.",
+    "description": "Perfect blocks deal a burst of sour and apply tang to attackers.",
+    "sources": [
+      "Black Ant Shield"
+    ]
+  },
+  {
+    "name": "Venom Attack",
+    "icon": "/src/assets/icons/statuses/Venom_Attack.png",
+    "categories": [
+      "Positive",
+      "Weapons"
+    ],
+    "details": "Venom Arrow & Great Venom Arrow:\n\nIncreases venom buildup by 10. Charged shots increase it by 20. Perfect shots increase it by 30.\n\nAxl's Talon & Wolfsbane Fangs:\n \nRegular attacks increase venom buildup by 20, charged attacks and thrown attack increase venom buildup by 30.",
+    "description": "Attacks buildup venom on hit, dealing damage over time.",
+    "sources": [
+      "Axl's Talon",
+      "Great Venom Arrow",
+      "Venom Arrow",
+      "Wolfsbane Fangs"
+    ]
+  },
+  {
+    "name": "Attack Damage",
+    "icon": "/src/assets/icons/statuses/Attack.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece",
+      "Consumables"
+    ],
+    "details": "Increases damage dealt by 10%.",
+    "description": "Attacks do more damage.",
+    "sources": [
+      "Eyepatch",
+      "Liquid Rage"
+    ]
+  },
+  {
+    "name": "Attack Stamina: Ant",
+    "icon": "/src/assets/icons/statuses/Attack_Stamina_Ant.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Decreases the attack stamina of all \"red ant\" weapons by 5.5%. These include the Crimson Saber, Larvalance, Mitey Claws, Red Ant Club, Crimson Avenger, and Gloom Skewer.",
+    "description": "Your expertise in ant anatomy reduces the stamina cost of attacks with weapons made from red ant parts.",
+    "sources": [
+      "Red Ant Armor"
+    ]
+  },
+  {
+    "name": "Bargain Block",
+    "icon": "/src/assets/icons/statuses/Bargain_Block.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece",
+      "Consumables"
+    ],
+    "details": "Reduces the stamina cost of blocking by 12%.",
+    "description": "Blocked attacks drain less stamina.",
+    "sources": [
+      "Ladybug Armor",
+      "Mushcargot"
+    ]
+  },
+  {
+    "name": "Block Stun",
+    "icon": "/src/assets/icons/statuses/Block_Stun.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Blocking applies 1 stun to creatures.",
+    "description": "Applies stun damage to target.",
+    "sources": [
+      "Snail Shell Armor"
+    ]
+  },
+  {
+    "name": "Bow Attack",
+    "icon": "/src/assets/icons/statuses/Bow_Attack.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases bow damage by 15%.",
+    "description": "Attacks with bows do more damage.",
+    "sources": [
+      "Marksman's Cap"
+    ]
+  },
+  {
+    "name": "Buggy Criticals",
+    "icon": "/src/assets/icons/statuses/Buggy_Criticals.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases the critical hit chance of the players Buggy. The Helm increases the chance by 9% and the Greaves and Vest increase the chance by 8%.",
+    "description": "Your Buggy has increased critical hit chance.",
+    "sources": [
+      "Nightstalker Armor"
+    ]
+  },
+  {
+    "name": "Chill Reduction",
+    "icon": "/src/assets/icons/statuses/Chill_Reduction.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece",
+      "Consumables",
+      "Mutations"
+    ],
+    "details": "Fuzzy Armor & Mitey Muffs: Reduces Chill buildup by 50%.\n\nDiving Suite Chestplate:  Reduces Chill buildup by 75%.",
+    "description": "Slows the rate that the Chill shivers your timbers.",
+    "sources": [
+      "Fuzzy Armor",
+      "Mitey Muffs",
+      "Diving Suite Chestplate",
+      "Beetle Bites",
+      "Blazin' Brew"
+    ]
+  },
+  {
+    "name": "Critical Haste",
+    "icon": "/src/assets/icons/statuses/Critical_Haste.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Critical hits have a 50% chance to increase attack speed by 20% for 5 seconds. The buff on attack speed does not stack with multiple procs.",
+    "description": "Critical hits with melee weapons have a chance to increase attack speed.",
+    "sources": [
+      "Praying Mantis Greaves",
+      "Praying Mantis Vest"
+    ]
+  },
+  {
+    "name": "Critical Recovery",
+    "icon": "/src/assets/icons/statuses/Critical_Recovery.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece",
+      "Set"
+    ],
+    "details": "Healing another player or Buggy with Healbasas, Hearty Arrows, or the Cricket Lute Bow, increases the players critical hit chance by 50% for 5 seconds. Removes buff if they get a critical hit.",
+    "description": "Healing effects bestowed to allies have a chance to greatly increase your critical hit chance for a short duration until you score a critical hit.",
+    "sources": [
+      "Cricket Armor",
+      "Praying Mantis Armor"
+    ]
+  },
+  {
+    "name": "Diving Ballast",
+    "icon": "/src/assets/icons/statuses/Diving_Ballast.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Prevents the player from swimming.",
+    "description": "Counters buoyancy to help you sink with a diving suit. Prevents swimming but allows limited jumping underwater.",
+    "sources": [
+      "Diving Boots"
+    ]
+  },
+  {
+    "name": "Double Deal",
+    "icon": "/src/assets/icons/statuses/Double_Deal.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Attacks deal 5% more damage to creatures affected by venom.",
+    "description": "Deal increased damage to enemies affected by venom.",
+    "sources": [
+      "Northern Armor"
+    ]
+  },
+  {
+    "name": "Dual Dasher",
+    "icon": "/src/assets/icons/statuses/Dual_Dasher.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases Dash Strike damage by 6.5%.",
+    "description": "Dash strikes using dual wield weapons deal more damage.",
+    "sources": [
+      "Weaver Armor"
+    ]
+  },
+  {
+    "name": "Feeding Frenzy",
+    "icon": "/src/assets/icons/statuses/Feeding_Frenzy.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Looting a corpse heals 3 health.",
+    "description": "Restore health when looting corpses.",
+    "sources": [
+      "Roach Chestplate",
+      "Roach Greaves"
+    ]
+  },
+  {
+    "name": "Finale Quickening",
+    "icon": "/src/assets/icons/statuses/Finale_Quickening.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases the charge speed of candy staves by 15% if the charge is performed on the third hit of a three hit combo.",
+    "description": "Staff charge attack speed when starting from the third hit in a combo is much faster.",
+    "sources": [
+      "Serpent Armor"
+    ]
+  },
+  {
+    "name": "Frosty Focus",
+    "icon": "/src/assets/icons/statuses/Frosty_Focus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Fresh damage is increased by 7.5% while the barrier from Parrier Barrier is active.",
+    "description": "Fresh damage is increased while Parrier Barrier is active.",
+    "sources": [
+      "Butterfly Robes",
+      "Butterfly Boots"
+    ]
+  },
+  {
+    "name": "Hasty Riposte",
+    "icon": "/src/assets/icons/statuses/Hasty_Riposte.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Perfect blocks have a 50% chance to increase the charge time speed of melee weapons by 70% for 3 seconds",
+    "description": "Perfect blocks have a chance to greatly increase melee charge attack speed for a short duration.",
+    "sources": [
+      "Earwig Armor"
+    ]
+  },
+  {
+    "name": "Lucky Break",
+    "icon": "/src/assets/icons/statuses/Lucky_Break.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Reduces the stamina used upon dodging by 10%.",
+    "description": "Dodging uses less stamina.",
+    "sources": [
+      "Clover Armor"
+    ]
+  },
+  {
+    "name": "Major Woozy Reduction",
+    "icon": "/src/assets/icons/statuses/Major_Woozy_Reduction.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Reduces the buildup of Woozy by 90%.",
+    "description": "Slows the rate of poison gas filling your lungs.",
+    "sources": [
+      "Praying Mantis Mask"
+    ]
+  },
+  {
+    "name": "Master Diver",
+    "icon": "/src/assets/icons/statuses/Master_Diver.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Reduces Oxygen drain by 90%.",
+    "description": "Stay underwater for much longer before needing to surface.",
+    "sources": [
+      "Diving Helmet"
+    ]
+  },
+  {
+    "name": "Major Swim Speed",
+    "icon": "/src/assets/icons/statuses/Major_Swim_Speed.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases swim speed by 40%.",
+    "description": "Swim through water much faster.",
+    "sources": [
+      "Koi Scale Armor"
+    ]
+  },
+  {
+    "name": "Max Health",
+    "icon": "/src/assets/icons/statuses/Max_Health.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece",
+      "Consumables"
+    ],
+    "details": "Increases max health by 10.",
+    "description": "More max health.",
+    "sources": [
+      "Acorn Armor",
+      "Lady in Red"
+    ]
+  },
+  {
+    "name": "More Better Draw",
+    "icon": "/src/assets/icons/statuses/More_Better_Draw.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases Perfect Draw window by 35 milliseconds. Perfect Draw window is 300 milliseconds by default.",
+    "description": "Extends the perfect draw timing window for bows.",
+    "sources": [
+      "Bee Armor"
+    ]
+  },
+  {
+    "name": "Opportunistic Parry",
+    "icon": "/src/assets/icons/statuses/Opportunistic_Parry.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Perfect blocks have a 25% chance to increase the stun of the next melee weapons attack by 6.",
+    "description": "Perfect blocks have a chance to increase the stun of your next melee attack.",
+    "sources": [
+      "Toe Biter Armor"
+    ]
+  },
+  {
+    "name": "Parry Criticals",
+    "icon": "/src/assets/icons/statuses/Parry_Criticals.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Perfect blocks have a 40% chance to increase critical hit chance by 1% for 15 seconds.",
+    "description": "Perfect blocks have a chance to increase your critical hit chance for a short duration.",
+    "sources": [
+      "Black Ant Armor"
+    ]
+  },
+  {
+    "name": "Parrier Barrier",
+    "icon": "/src/assets/icons/statuses/Parrier_Barrier.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Perfect Blocks activate a barrier that reduces taken damage by 7% until hit or combat ends, stacks 3 times.",
+    "description": "Perfect blocks add a barrier that reduces damage. Stacks up to 3 times and is removed when hit or out of combat.",
+    "sources": [
+      "Butterfly Circlet"
+    ]
+  },
+  {
+    "name": "Parry Shock",
+    "icon": "/src/assets/icons/statuses/Parry_Shock.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Perfect blocks inflict 8 Shock damage and 1 stun.",
+    "description": "Perfect blocks deal Shock damage and stun to the attacker.",
+    "sources": [
+      "Shell Shocker Armor"
+    ]
+  },
+  {
+    "name": "Perfect Block Timing",
+    "icon": "/src/assets/icons/statuses/Perfect_Block_Timing.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases the player's perfect blocking timing window by 15 milliseconds.",
+    "description": "Extends the perfect block timing window.",
+    "sources": [
+      "Wyrm Slayer Armor"
+    ]
+  },
+  {
+    "name": "Perfect Quickdraw",
+    "icon": "/src/assets/icons/statuses/Perfect_Quickdraw.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Bow and Greatbow perfect shots have a 50% chance to increase the charge speed of Bows and Greatbows by 80% for 5 seconds.",
+    "description": "Perfect bow shots have a chance to increase the charge speed of bows for a short duration.",
+    "sources": [
+      "Wasp Armor"
+    ]
+  },
+  {
+    "name": "Playful Pinch",
+    "icon": "/src/assets/icons/statuses/Playful_Pinch.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "All attacks have a 4% increased critical hit chance to any creature not wearing green.",
+    "description": "Critical hit chance is increased against anything not \"wearing\" green!",
+    "sources": [
+      "Lucky Hat"
+    ]
+  },
+  {
+    "name": "Quickcharge",
+    "icon": "/src/assets/icons/statuses/Quickcharge.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases charged attack speed by 5%.",
+    "description": "Charged attacks charge faster.",
+    "sources": [
+      "Grub Armor"
+    ]
+  },
+  {
+    "name": "Sizzle Reduction",
+    "icon": "/src/assets/icons/statuses/Sizzle_Reduction.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece",
+      "Consumables",
+      "Mutations"
+    ],
+    "details": "Reduces the damage of all Sizzle damage by 50%",
+    "description": "Slows the rate that the sizzle roasts you up.",
+    "sources": [
+      "Sizzling Armor",
+      "Mintito"
+    ]
+  },
+  {
+    "name": "Sourmancy",
+    "icon": "/src/assets/icons/statuses/Sourmancy.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "After the tangy goo is fired from the Tangy Eruption effect on the Rusty Circlet, all Sour damage is increased by 10% for 5 seconds.",
+    "description": "Sour damage is increased after Tangy Eruption is triggered for a short duration.",
+    "sources": [
+      "Rusty Robes",
+      "Rusty Boots"
+    ]
+  },
+  {
+    "name": "Tangy Eruption",
+    "icon": "/src/assets/icons/statuses/Tangy_Eruption.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Perfect blocks have a 35% chance to release a splash of tangy goo that does 25 Sour.",
+    "description": "Perfect blocks have a chance to release a splash of tangy goo.",
+    "sources": [
+      "Rusty Circlet"
+    ]
+  },
+  {
+    "name": "Tangy Purification",
+    "icon": "/src/assets/icons/statuses/Tangy_Purification.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Blocking attacks has a 20% chance to remove 20 Tang buildup.",
+    "description": "Chance on block to reduce tang buildup.",
+    "sources": [
+      "Potato Beetle Armor"
+    ]
+  },
+  {
+    "name": "The Quickness",
+    "icon": "/src/assets/icons/statuses/The_Quickness.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece",
+      "Mutations"
+    ],
+    "details": "Increases movement speed by 10%.",
+    "description": "Run faster.",
+    "sources": [
+      "Aphid Slippers"
+    ]
+  },
+  {
+    "name": "Venom Parry",
+    "icon": "/src/assets/icons/statuses/Venom.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Applies 10 Venom to the target on perfect parry.",
+    "description": "Perfect parries apply Venom to the target.",
+    "sources": [
+      "Striped Armor"
+    ]
+  },
+  {
+    "name": "Veteran Diver",
+    "icon": "/src/assets/icons/statuses/Veteran_Diver.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Reduces Oxygen drain by 75%",
+    "description": "Stay underwater for much longer before needing to surface.",
+    "sources": [
+      "Koi Scale Armor"
+    ]
+  },
+  {
+    "name": "Venomous Dasher",
+    "icon": "/src/assets/icons/statuses/Venomous_Dasher.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Dash strikes deal 1 stabbing damage and add 10 venom buildup to a creature.",
+    "description": "Dash strikes using dual weapons inflict venom buildup on hit.",
+    "sources": [
+      "Wolf Armor"
+    ]
+  },
+  {
+    "name": "Water Chill Reduction",
+    "icon": "/src/assets/icons/statuses/Water_Chill_Reduction.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Reduces Chill buildup by 65%.",
+    "description": "Chill buildup accumulates more slowly while underwater.",
+    "sources": [
+      "Koi Scale Armor"
+    ]
+  },
+  {
+    "name": "Woozy Reduction",
+    "icon": "/src/assets/icons/statuses/Woozy_Reduction.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Reduces the buildup of Woozy by 75%.",
+    "description": "Slows the rate of poison gas filling your lungs.",
+    "sources": [
+      "Gas Mask",
+      "Roach Helmet"
+    ]
+  },
+  {
+    "name": "Loot Luck",
+    "icon": "/src/assets/icons/statuses/Loot_Luck.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases the drop rates of loot from creatures by 10%.",
+    "description": "More likely to obtain rare resources from creatures.",
+    "sources": [
+      "Lucky Hat"
+    ]
+  },
+  {
+    "name": "Adaptive Resistance",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Any damage delt by Chilling, Sizzle, or Venom damage will give the player a 6.8% damage reduction buff against the effect that harmed them. Stacks up to 5 times per unique buildup effect and lasts till the buildup effect expires.",
+    "description": "Gain damage resistance against Venom, Chill or Sizzle, stacks up to five times. Added resistance is removed when negative effects expire.",
+    "sources": [
+      "Roach Armor"
+    ]
+  },
+  {
+    "name": "Apex Pollinator",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Perfect shots spawn a pollen cloud that deals 5 stun and slows enemies by 50%.",
+    "description": "Perfectly charged bow shots release a cloud of pollen that slows targets.",
+    "sources": [
+      "Bee Armor"
+    ]
+  },
+  {
+    "name": "Barmy Buccaneer",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Attacks with Swords increase damage by 5%. Stacks up to 3 times and resets upon being hit or when combat ends. Does NOT reset when switching to another weapon.",
+    "description": "Sword attacks increase damage for a short duration, stacking up to 3 times.",
+    "sources": [
+      "Toe Biter Armor"
+    ]
+  },
+  {
+    "name": "Bubble Struggle",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Gives spear attacks against underwater creatures a 20% chance to increase Oxygen by 5.",
+    "description": "Spear attacks against underwater creatures can restore Oxygen.",
+    "sources": [
+      "Koi Scale Armor"
+    ]
+  },
+  {
+    "name": "Chilly Dodge",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "The third hit of stave combos gives an effect that causes the players next dodge to emit an AoE that deals 50 Fresh damage and 20 Chill buildup.",
+    "description": "Staff finisher hits give your body power for a short time. Blast foes with a gust of chilling wind when you dodge.",
+    "sources": [
+      "Butterfly Armor"
+    ]
+  },
+  {
+    "name": "Crippling Strike",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Ambush attacks entirely immobilize the target for 2 seconds.",
+    "description": "Angry creatures you ambush with melee weapons are immobilized a short duration.",
+    "sources": [
+      "Northern Armor"
+    ]
+  },
+  {
+    "name": "Critical Momentum",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Melee attacks increase critical hit chance by 1%, stacking 5 times until the player either lands a critical hit or combat ends.",
+    "description": "Successful attacks increase critical hit chance, stacking up to 5 times. Lose stacks when hit or combat ends.",
+    "sources": [
+      "Weaver Armor"
+    ]
+  },
+  {
+    "name": "Deadly Venom",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Melee attacks have a 35% chance to cause enemies to take 20% more damage from Venom for 5 seconds.",
+    "description": "Melee hits might increase venom damage for a short duration.",
+    "sources": [
+      "Wolf Armor"
+    ]
+  },
+  {
+    "name": "Devastation",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Staves third hit in a three hit combo gives a buff to the player. These buffs stack up to 5 times. The next charge attacks damage will be buffed by 15% for each stack of buff.",
+    "description": "Staff finale attacks generate a devastation stack, up to 5 times. Your next staff charge attack consumes stacks to amplify damage.",
+    "sources": [
+      "Serpent Armor"
+    ]
+  },
+  {
+    "name": "Dreadful Duo",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Critical hits from the player deal 10 Venom buildup and an instantaneous 25 Venom damage. Buggy critical hits deal the same instantaneous damage but deal 30 Venom buildup instead.",
+    "description": "Critical hits dealt by you or your Buggy inject venom and erupt in a burst of extra damage.",
+    "sources": [
+      "Nightstalker Armor"
+    ]
+  },
+  {
+    "name": "Exertion",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Killing creatures reduces Chill buildup by 10.",
+    "description": "Kills reduce Chill buildup.",
+    "sources": [
+      "Fuzzy Armor"
+    ]
+  },
+  {
+    "name": "Finale Force",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Causes the third hit of a three hit combo with melee weapons to increase the damage of combo finishers by 8%. This stacks up to 5 times and resets upon being hit.",
+    "description": "The third hit of a three hit combo increases combo finisher damage. This effect stacks up to five times and resets when hit.",
+    "sources": [
+      "Striped Armor"
+    ]
+  },
+  {
+    "name": "Formic Retort",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Perfect blocks add 15 Sour damage and 10 Tang buildup to the next attack. This buff stacks 3 times and is removed upon performing the empowered attack.",
+    "description": "Perfect blocks imbue your next melee attack with acid damage, stacking up to three times.",
+    "sources": [
+      "Black Ant Armor"
+    ]
+  },
+  {
+    "name": "Hardy Defense",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Increases damage reduction by 5% while blocking attacks.",
+    "description": "Increased damage resistance while blocking.",
+    "sources": [
+      "Acorn Armor"
+    ]
+  },
+  {
+    "name": "Healthy Harmony",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Perfect shots increases the players healing from all sources by 20% for 15 seconds.",
+    "description": "Perfect bow shots increase the amount of healing you and allies receive from all sources for a short duration.",
+    "sources": [
+      "Cricket Armor"
+    ]
+  },
+  {
+    "name": "Lone Ranger",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Increases damage of all Bows and Spears by 10%.",
+    "description": "Increased attack damage with bows and spears.",
+    "sources": [
+      "Grub Armor"
+    ]
+  },
+  {
+    "name": "Moist",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Reduces thirst drain by 50%.",
+    "description": "You're absorbent and porous and retain water very well.",
+    "sources": [
+      "Clover Armor"
+    ]
+  },
+  {
+    "name": "Perfect Combo",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Perfect shots with Bows or Greatbows give a stacking buff. This buff stacks up to 5 times. The damage of the next charged or uncharged shot preformed will be increased by 10% for each stack of the buff.",
+    "description": "Perfect bow shots increase damage until you fire a regular or charged shot, stacking up to 5 times.",
+    "sources": [
+      "Wasp Armor"
+    ]
+  },
+  {
+    "name": "Power Surge",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Perfect blocks have a 3% chance to trigger a Power Surge that deals 60 Shock damage and 15 stun. Each perfect block increases the chance by 3%. The chance resets when Power Surge triggers or combat ends.",
+    "description": "Perfect blocks build up a chance to unleash a powerful Shock attack.",
+    "sources": [
+      "Shell Shocker Armor"
+    ]
+  },
+  {
+    "name": "Puck Luck",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Increases the players critical hit damage by 20% if the targets Tang buildup is maxed.",
+    "description": "Deal more critical hit damage against puckered foes.",
+    "sources": [
+      "Rusty Armor"
+    ]
+  },
+  {
+    "name": "Retaliation",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Blocking attacks causes your next charge attack to emit an AoE that deals 30 Smashing damage and 10 stun. Blocking extra attacks while this effect is active will buff the AoE, increasing its damage by 20% and the players charge attack speed by 5%. These buffs stack 5 times and are removed when a charge attack is preformed or when leaving combat.",
+    "description": "Blocked hits give your next charged melee a shockwave. Retaliation stacks up to 5 times, increasing charge attack speed and damage.",
+    "sources": [
+      "Snail Shell Armor"
+    ]
+  },
+  {
+    "name": "Scarlet Embrace",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Blocking attacks applies a healing effect that restores 0.25 health every 0.5 seconds over 3 seconds.",
+    "description": "Blocked attacks restore health slightly.",
+    "sources": [
+      "Ladybug Armor"
+    ]
+  },
+  {
+    "name": "Searing Strikes",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "increases the player's damage by 10% if the target has any Sizzle buildup. If the target's Sizzle buildup is maxed, it increases the player's damage by another 9%.",
+    "description": "Deal increased damage to sizzling foes. Damage is further increased if they are burning.",
+    "sources": [
+      "Wyrm Slayer Armor"
+    ]
+  },
+  {
+    "name": "Spud Bud",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Perfect blocks give a 15% damage reduction to all nearby players for 15 seconds.",
+    "description": "You and nearby allies gain defense after perfect blocking an attack for a short duration.",
+    "sources": [
+      "Potato Beetle Armor"
+    ]
+  },
+  {
+    "name": "Strength in Numbers",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Increases the attack damage of the user and all nearby allies by 6.5%. Nearby allies count as other players or Buggies. Stacks up to 3 times.",
+    "description": "Nearby allies enhance attack power, stacking up to 3 times.",
+    "sources": [
+      "Red Ant Armor"
+    ]
+  },
+  {
+    "name": "Swarm Crusher",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Gives a 6.5% attack boost for every creature within 10 centimeters of the player. Stacks up to 3 times.",
+    "description": "Melee damage increases by the number of foes surrounding you.",
+    "sources": [
+      "Earwig Armor"
+    ]
+  },
+  {
+    "name": "Under Pressure",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Provides unlimited Oxigen, immunity to underwater Chill, and the ability to explore The Abyss region.",
+    "description": "Remain protected from the effects of extreme cold underwater.",
+    "sources": [
+      "Diving Armor"
+    ]
+  },
+  {
+    "name": "Whizzy Wizard",
+    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Set"
+    ],
+    "details": "Damage from staves increase the players attack speed by 3%. Stacks 5 times until hit or when combat ends.",
+    "description": "Staff hits increase the speed of your attacks, stacking up to 5 times. The effect resets when hit or when combat ends.",
+    "sources": [
+      "Sizzling Armor"
+    ]
+  },
+  {
+    "name": "Attack Stamina",
+    "icon": "/src/assets/icons/statuses/Attack_Stamina.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Decreases stamina used while attacking by 10%.",
+    "description": "Attacking uses less stamina.",
+    "sources": [
+      "Miteloaf"
+    ]
+  },
+  {
+    "name": "Bandaged",
+    "icon": "/src/assets/icons/statuses/Bandaged.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Fiber Bandage:\n\nHeals 1.25 health every 0.25 seconds over a period of 10 seconds for a total of 50 health.\n\nBlueberry Bandage:\n\nHeals 1.75 health every 0.25 seconds over a period of 10 seconds for a total of 70 health.\n\nLingonberry Bandage & Chrysalis Bandage:\n\nHeals 2.25 health every 0.25 seconds over a period of 10 seconds for a total of 90 health.",
+    "description": "Recover health over time. Effect cancelled by taking damage.",
+    "sources": [
+      "Chrysalis Bandage",
+      "Fiber Bandage",
+      "Blueberry Bandage",
+      "Lingonberry Bandage"
+    ]
+  },
+  {
+    "name": "Brain Freeze",
+    "icon": "/src/assets/icons/statuses/Brain_Freeze.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Increases chill buildup by 50.",
+    "description": "You can eat ice if thirsty... but you might regret it.",
+    "sources": [
+      "Ice Splinter"
+    ]
+  },
+  {
+    "name": "Cool Off",
+    "icon": "/src/assets/icons/statuses/Warm_Up.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Mintito:\n\nReduces the amount of sizzle buildup by 60 and the rate at which sizzle builds up by 99% for 3 seconds.\n\nMint Shard:\n\nReduces the amount of sizzle buildup by 40 and the rate at which sizzle builds up by 99% for 3 seconds.",
+    "description": "Greatly slows the rate at which the Chill shivers your timbers.",
+    "sources": [
+      "Mintito",
+      "Mint Shard"
+    ]
+  },
+  {
+    "name": "Cooling Gel",
+    "icon": "/src/assets/icons/statuses/Cooling_Gel.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Completely removes all Sizzle buildup and grants 5 seconds of immunity to Sizzle.",
+    "description": "Recover from Sizzle buildup and prevent burning damage for a short duration.",
+    "sources": [
+      "Lingonberry Bandage"
+    ]
+  },
+  {
+    "name": "Damage Resist",
+    "icon": "/src/assets/icons/statuses/Damage_Resist.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Beefy Human Food:\n\nReduces damage taken by 15%.\n\nCheese 'n' Fries & Human Food:\n\nReduces damage taken by 10%.",
+    "description": "Increases your resistance to taking damage.",
+    "sources": [
+      "Cheese 'n' Fries",
+      "Human Food"
+    ]
+  },
+  {
+    "name": "Fall Defense",
+    "icon": "/src/assets/icons/statuses/Fall_Defense.png",
+    "categories": [
+      "Positive",
+      "Consumables",
+      "Trinkets"
+    ],
+    "details": "Gnatchos:\n\nReduces fall damage taken by 50%.\n\nFall Feast:\n\nReduces fall damage taken by 90%.",
+    "description": "Decreases fall damage taken.",
+    "sources": [
+      "Fall Feast",
+      "Gnatchos"
+    ]
+  },
+  {
+    "name": "Gas Guard",
+    "icon": "/src/assets/icons/statuses/Gas_Guard.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Provides immunity from gas damage.",
+    "description": "Prevents damage from all gas-based attacks and effects.",
+    "sources": [
+      "Gastro Goo"
+    ]
+  },
+  {
+    "name": "Hauling Strength",
+    "icon": "/src/assets/icons/statuses/Hauling_Strength.png",
+    "categories": [
+      "Positive",
+      "Consumables",
+      "Trinkets"
+    ],
+    "details": "Beefy Worker's Comp:\n\nIncreases the amount of hauling items that can be carried at once by 5.\n\nWorker's Comp:\n\nIncreases the amount of hauling items that can be carried at once by 3.",
+    "description": "Haul more items.",
+    "sources": [
+      "Worker's Comp"
+    ]
+  },
+  {
+    "name": "Hyperstamina",
+    "icon": "/src/assets/icons/statuses/Hyperstamina.png",
+    "categories": [
+      "Positive",
+      "Consumables",
+      "Mutations"
+    ],
+    "details": "Beefy Green Machine:\n\nIncreases the rate at which stamina regenerates by 30%.\n\nGreen Machine:\n\nIncreases the rate at which stamina regenerates by 20%.",
+    "description": "Regain stamina faster.",
+    "sources": [
+      "Green Machine"
+    ]
+  },
+  {
+    "name": "Increased Healing",
+    "icon": "/src/assets/icons/statuses/Increased_Healing.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Sandy Blossom:\n\nIncreases the amount of health received from any healing options by 10%.\n\nBeefy Sandy Blossom:\n\nIncreases the amount of health received from any healing options by 15%.",
+    "description": "Increases the amount of healing you receive from all sources.",
+    "sources": [
+      "Sandy Blossom"
+    ]
+  },
+  {
+    "name": "Max Stamina",
+    "icon": "/src/assets/icons/statuses/Max_Stamina.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Beefy Boost Juice:\n\nIncreases max stamina by 30.\n\nBoost Juice:\n\nIncreases max stamina by 20.\n\nFall Feast:\n\nIncreases max stamina by 15.",
+    "description": "More max stamina.",
+    "sources": [
+      "Boost Juice",
+      "Fall Feast"
+    ]
+  },
+  {
+    "name": "Meal",
+    "icon": "/src/assets/icons/statuses/Meals.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Stops hunger drain for 8/12/16 minutes.",
+    "description": "A delicious meal has stopped your hunger from depleting for a while.",
+    "sources": [
+      "All Meals"
+    ]
+  },
+  {
+    "name": "Sugar Rush",
+    "icon": "/src/assets/icons/statuses/Sugar_Rush.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Increases movement speed by 10% for 15 seconds.",
+    "description": "Run faster.",
+    "sources": [
+      "Candy Cornlet",
+      "Chocolate Chunk",
+      "Rainbow Chocolate Chunk",
+      "Smoochies Chunk"
+    ]
+  },
+  {
+    "name": "Tang Reduction",
+    "icon": "/src/assets/icons/statuses/Tang_Reduction.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Pumpkin Pie:\n\nReduces the rate at which Tang builds up by 50%.\n\nBeefy Pumpkin Pie:\n\nReduces the rate at which Tang builds up by 60%.\n\nOmelant:\n\nReduces the rate at which Tang builds up by 75%.",
+    "description": "Slows the rate tang weakens defenses.",
+    "sources": [
+      "Omelant",
+      "Pumpkin Pie"
+    ]
+  },
+  {
+    "name": "Thorns",
+    "icon": "/src/assets/icons/statuses/Thorns.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Reflects 75% of damage taken back onto the attacker.",
+    "description": "Reflects some damage back at attacker.",
+    "sources": [
+      "Omelant"
+    ]
+  },
+  {
+    "name": "Trickle Regen",
+    "icon": "/src/assets/icons/statuses/Trickle_Regen.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Beefy Hedge Lord:\n\nHeals 7 health every 10 seconds.\n\nHedge Lord:\n\nHeals 5 health every 10 seconds.\n\nTier 2 Roasts:\n\nHeals 1.875 health every 0.25 seconds for 4 seconds.\n\nTier 1 Roasts:\n\nHeals 1.25 health every 0.25 seconds for 4 seconds.\n\nTier 2 Jerky:\n\nHeals 1 health every 0.25 seconds for 4 seconds.\n\nTier 1 Jerky:\n\nHeals 0.75 health every 0.25 seconds for 4 seconds.",
+    "description": "Regenerate health over time.",
+    "sources": [
+      "Hedge Lord",
+      "All Roasts",
+      "All Jerky"
+    ]
+  },
+  {
+    "name": "Venom Cure",
+    "icon": "/src/assets/icons/statuses/Venom_Cure.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Reduces the amount of venom buildup by 100.",
+    "description": "Instantly reduce the amount of accumulated Venom.",
+    "sources": [
+      "Scorpidote"
+    ]
+  },
+  {
+    "name": "Venom Reduction",
+    "icon": "/src/assets/icons/statuses/Venom_Reduction.png",
+    "categories": [
+      "Positive",
+      "Consumables",
+      "Mutations"
+    ],
+    "details": "Wasperole:\n\nReduces the rate at which Venom builds up by 25%.\n\nBeefy Scorpidote:\n\nReduces the rate at which Venom builds up by 60%.\n\nScorpidote:\n\nReduces the rate at which Venom builds up by 50%.",
+    "description": "Slows the rate of venom seeping through your body.",
+    "sources": [
+      "Scorpidote",
+      "Wasperole"
+    ]
+  },
+  {
+    "name": "Venom Resistance",
+    "icon": "/src/assets/icons/statuses/Venom_Resistance.png",
+    "categories": [
+      "Positive",
+      "Consumables",
+      "Mutations"
+    ],
+    "details": "Scorpion Skewers:\n\nReduces the damage taken from Venom by 25%.\n\nWasperole:\n\nReduces the damage taken from Venom by 30%.",
+    "description": "Reduces damage from venom.",
+    "sources": [
+      "Scorpion Skewers",
+      "Wasperole"
+    ]
+  },
+  {
+    "name": "Warm Up",
+    "icon": "/src/assets/icons/statuses/Warm_Up.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Blazin' Brew:\n\nReduces the amount of chill buildup by 60 and the rate at which chill builds up by 99% for 3 seconds.\n\nSpicy Shard:\n\nReduces the amount of chill buildup by 40 and the rate at which chill builds up by 99% for 3 seconds.",
+    "description": "Greatly slows the rate at which the Chill shivers your timbers.",
+    "sources": [
+      "Blazin' Brew",
+      "Spicy Shard"
+    ]
+  },
+  {
+    "name": "Warmth",
+    "icon": "/src/assets/icons/statuses/Warmth.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Reduces the rate at which chill builds up by 50% within 2 centimeters of the torch.",
+    "description": "Torches provide warmth to you and others nearby to resist the Chill.",
+    "sources": [
+      "EverChar Torch",
+      "EverChar Flare",
+      "Slime Mold Torch",
+      "Torch"
+    ]
+  },
+  {
+    "name": "Weakpoint Damage",
+    "icon": "/src/assets/icons/statuses/Weakpoint_Damage.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Increases weakpoint damage by 20% for 8 minutes.",
+    "description": "Increases damage dealt to enemy weakpoints.",
+    "sources": [
+      "Larvagna"
+    ]
+  },
+  {
+    "name": "Web Crawler",
+    "icon": "/src/assets/icons/statuses/Web_Crawler.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Grants immunity to web bridges and spider webs for 12 minutes.",
+    "description": "Navigate web bridges slightly faster and no longer get trapped by environmental spider webs.",
+    "sources": [
+      "Spider Slider"
+    ]
+  },
+  {
+    "name": "Well Fed",
+    "icon": "/src/assets/icons/statuses/Well_Fed.png",
+    "categories": [
+      "Positive",
+      "Consumables"
+    ],
+    "details": "Heals 1.0/1.5/2.0 health every 5 seconds over 8/12/16 minutes.",
+    "description": "A delicious meal has provided you with slow health regeneration.",
+    "sources": [
+      "All Meals"
+    ]
+  },
+  {
+    "name": "Ambush Steal",
+    "icon": "/src/assets/icons/statuses/Ambush_Steal.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Preforming an ambush attack with a melee weapon will steal one item from their loot pool. Only works on Angry creatures that are not aggro-ed.",
+    "description": "Steal an item from creatures when performing an ambush attack with melee weapons.",
+    "sources": []
+  },
+  {
+    "name": "Ant Damage",
+    "icon": "/src/assets/icons/statuses/Ant_Damage.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Gives a 10% boost to damage against all ants.",
+    "description": "Increases damage against ants.",
+    "sources": []
+  },
+  {
+    "name": "Buggy Vampirism",
+    "icon": "/src/assets/icons/statuses/Buggy_Vampirism.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Buggies gain a life steal effect on critical hits, being 8% of the crit's initial damage, then 5 seconds of 12% life steal equal to damage dealt.",
+    "description": "Your Buggy heals when dealing damage. Buggy critical hits heal significantly more.",
+    "sources": []
+  },
+  {
+    "name": "Burning Brand",
+    "icon": "/src/assets/icons/statuses/Burning_Brand.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Charged attacks decrease the target's resistance to Burning damage by 200% for 10 seconds.",
+    "description": "Charged attacks apply burn vulnerability, greatly reducing a foe's resistance to burning damage for a short time.",
+    "sources": []
+  },
+  {
+    "name": "Candy Overload",
+    "icon": "/src/assets/icons/statuses/Candy_Overload.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Attacks with candy staves increase the damage of the specific Augment that is being used by 5. Stacks up to 5 times for a total of 25 extra damage per Augment and lasts until combat ends.",
+    "description": "Staff attacks increase flat damage to their corresponding candy element, stacking up to 5 times until you change weapons or exit combat.",
+    "sources": []
+  },
+  {
+    "name": "Charged Shot Damage",
+    "icon": "/src/assets/icons/statuses/More_Better_Draw.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Increases the damage of charged bow shots by 10%.",
+    "description": "Fully charged bow shots deal more damage.",
+    "sources": []
+  },
+  {
+    "name": "Chilly Charge",
+    "icon": "/src/assets/icons/statuses/Chilly_Charge.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "All charged attacks to emit an AOE effect that deals 25 fresh damage and increases enemy's chill buildup by 40.",
+    "description": "Melee charge attacks cause foes to chill and freeze.",
+    "sources": []
+  },
+  {
+    "name": "Death's Door",
+    "icon": "/src/assets/icons/statuses/Death's_Door.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Gives a 25% boost in crit chance when creature the player is trying to damage is below 30% health. It only works with only 2-handed weapons, with the exceptions being the Roach Club and Ash Maw.",
+    "description": "Critical hit chance is greatly increased with two-handed weapons against creatures with low health.",
+    "sources": []
+  },
+  {
+    "name": "Finale Blastwave",
+    "icon": "/src/assets/icons/statuses/Finale_Blastwave.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Third hits in a combo to emit an AOE effect that deals 15 spicy damage and increases an enemy's sizzle build-up by 15.",
+    "description": "The final hit in a 3-hit combo emits a sizzling blastwave.",
+    "sources": []
+  },
+  {
+    "name": "Finale Venom",
+    "icon": "/src/assets/icons/statuses/Finale_Venom.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Causes all third hits in a three hit combo to deal 30 venom build-up and deal 10 stabbing damage to all creatures.",
+    "description": "The final hit in a 3-hit combo with melee weapons adds venom.",
+    "sources": []
+  },
+  {
+    "name": "Food Generation",
+    "icon": "/src/assets/icons/statuses/Food_Generation.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Provides 10 passive food generation every 60 seconds.",
+    "description": "Your hunger is filling up over time without the need to eat.",
+    "sources": []
+  },
+  {
+    "name": "Fresh Attack",
+    "icon": "/src/assets/icons/statuses/Fresh_Attack.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Applies a flat 15 Fresh damage to the player's attacks.",
+    "description": "Adds a flat amount of fresh damage to all your attacks.",
+    "sources": []
+  },
+  {
+    "name": "Friendly Fire Defense Up",
+    "icon": "/src/assets/icons/statuses/Friendly_Fire_Defense_Up.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Increases the defense against friendly fire by 50%.",
+    "description": "Reduces the amount of friendly fire damage you receive from fellow teens.",
+    "sources": []
+  },
+  {
+    "name": "Haywire",
+    "icon": "/src/assets/icons/statuses/Haywire.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Charged attacks with melee weapons against O.R.C. Creatures create a shockwave that deals 50 damage. Charged attacks with melee weapons (except for sickles) deal 25 shock damage and 15 chopping damage to all creatures, although there is no visual effect.",
+    "description": "Charge attack hits again O.R.C. creatures overloads their receivers, unleashing a shocking blast around them.",
+    "sources": []
+  },
+  {
+    "name": "Low Health: Attack Up",
+    "icon": "/src/assets/icons/statuses/Low_Health-_Attack_Up.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Increases the player's damage by 15% for 15 seconds when the player's health is below 30%.",
+    "description": "Increases damage dealt with attacks when hit while you have low health.",
+    "sources": []
+  },
+  {
+    "name": "Lucky Flurry",
+    "icon": "/src/assets/icons/statuses/Lucky_Flurry.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "All attacks to have a 7% chance to boost the players critical hit chance by 25% for 3 seconds. Triggering the effect multiple times will not stack the buff, instead refreshing its timer.",
+    "description": "Attacks have a chance to greatly boost critical hit chance for a short duration.",
+    "sources": []
+  },
+  {
+    "name": "O.R.C. Attack Down",
+    "icon": "/src/assets/icons/statuses/O.R.C._Attack_Down.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Attacks decrease the damage that O.R.C. creatures deal by 20% for 5 seconds.",
+    "description": "Attack hits reduce damage dealt by O.R.C. creatures for a short duration.",
+    "sources": []
+  },
+  {
+    "name": "Quickdraw",
+    "icon": "/src/assets/icons/statuses/Quickdraw.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Reduces the time it takes to charge up bow attacks by 15%.",
+    "description": "You can charge bow shots faster.",
+    "sources": []
+  },
+  {
+    "name": "Raging Venom",
+    "icon": "/src/assets/icons/statuses/Raging_Venom.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Critical hits inflict a DoT effect that deals 2 Venom damage every 0.5 seconds for 10 seconds. Critical hits also inflict 20 Venom buildup and decrease resistance to all Venom damage by 50% for 10 seconds.",
+    "description": "Critical hits apply venom that persists, increasing venom damage taken for a short duration.",
+    "sources": []
+  },
+  {
+    "name": "Shock Attack",
+    "icon": "/src/assets/icons/statuses/Shock_Attack.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Adds 10 flat shock damage on top of all melee attacks.",
+    "description": "Adds a flat amount of shock damage to all your melee attacks.",
+    "sources": []
+  },
+  {
+    "name": "Sizzle Finale",
+    "icon": "/src/assets/icons/statuses/Sizzle_Finale.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Third hits in a combo inflict 10 Sizzle buildup.",
+    "description": "The final hit in a 3-hit combo rains sizzle upon your foes.",
+    "sources": []
+  },
+  {
+    "name": "Spicy Attack",
+    "icon": "/src/assets/icons/statuses/Spicy_Attack.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Applies a flat 15 Spicy damage to the player's attacks.",
+    "description": "Adds a flat amount of spicy damage to all your attacks.",
+    "sources": []
+  },
+  {
+    "name": "Sour Attack",
+    "icon": "/src/assets/icons/statuses/Sour_Attack.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Applies a flat 15 Sour damage to the player's attacks.",
+    "description": "Adds a flat amount of sour damage to all your attacks.",
+    "sources": []
+  },
+  {
+    "name": "Vampirism",
+    "icon": "/src/assets/icons/statuses/Vampirism.png",
+    "categories": [
+      "Positive",
+      "Trinkets"
+    ],
+    "details": "Restores 8 health for every creature killed.",
+    "description": "Heals you when you kill things",
+    "sources": []
+  },
+  {
+    "name": "Ambush",
+    "icon": "/src/assets/icons/statuses/Ambush.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Ambush attacks have a 100% critical hit chance.",
+    "description": "Deal critical hits against creatures unaware of your presence.",
+    "sources": []
+  },
+  {
+    "name": "Assassin",
+    "icon": "/src/assets/icons/statuses/Assassin.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Daggers and Sickles deal 10%/15%/20% more critical hit damage. Dash Strikes have 5%/8%/10% more critical hit chance.",
+    "description": "Dash strikes have increased critical hit chance. Dual daggers and sickles deal increased damage on critical hits.",
+    "sources": []
+  },
+  {
+    "name": "Blademaster",
+    "icon": "/src/assets/icons/statuses/Blademaster.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Sword attacks cause creatures to deal 10%/20%/30% less damage for 5 seconds.",
+    "description": "Sword attacks lower damage inflicted by enemies for a short duration.",
+    "sources": []
+  },
+  {
+    "name": "Bow Master",
+    "icon": "/src/assets/icons/statuses/Bow_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Perfectly charged bow shot damage is increased by 10%.",
+    "description": "Perfectly charged bow shots deal more damage.",
+    "sources": []
+  },
+  {
+    "name": "Burn Resistance",
+    "icon": "/src/assets/icons/statuses/Burn_Resistance.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Reduces burn damage by 25%/40%/50%.",
+    "description": "Reduces burn damage taken from the Sizzle.",
+    "sources": []
+  },
+  {
+    "name": "Buggy Threat",
+    "icon": "/src/assets/icons/statuses/Major_Threat.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "When landing a perfect shot with a bow or a greatbow, nearby Buggies will be targeted 100% more often in combat for 15 seconds.",
+    "description": "Buggies will greatly draw ire from foes while enraged by pheromone shot.",
+    "sources": []
+  },
+  {
+    "name": "Cloak and Dagger",
+    "icon": "/src/assets/icons/statuses/Cloak_and_Dagger.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Ambush attacks give 50%/80%/100% more critical hit damage when using daggers.",
+    "description": "Ambush attacks with daggers greatly increase critical hit damage.",
+    "sources": []
+  },
+  {
+    "name": "Club Master",
+    "icon": "/src/assets/icons/statuses/Club_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Clubs deal 25% more damage against stunned creatures.",
+    "description": "Club attacks deal more damage against stunned creatures.",
+    "sources": []
+  },
+  {
+    "name": "Dagger Master",
+    "icon": "/src/assets/icons/statuses/Dagger_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Kills with daggers and sickles give 5% more critical hit chance for 5 seconds.",
+    "description": "Kills with daggers and sickles increase critical hit chance for a short duration.",
+    "sources": []
+  },
+  {
+    "name": "Defender: Attack Up",
+    "icon": "/src/assets/icons/statuses/Defender_Attack_Up.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Increases damage against wave creatures by 10%/25%/50%.",
+    "description": "Increases damage dealt to creatures that are attacking your turf.",
+    "sources": []
+  },
+  {
+    "name": "Exhaustion",
+    "icon": "/src/assets/icons/statuses/Exhaustion.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Decreases the exhaustion timer by 10%/20%/30%.",
+    "description": "Lowers the amount of time you spend exhausted after using all of your stamina.",
+    "sources": []
+  },
+  {
+    "name": "Fist Master",
+    "icon": "/src/assets/icons/statuses/Fist_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Every unarmed hit deals an extra attack that deals 1 smashing damage and 2 stun.",
+    "description": "Fist attacks deal bonus stun and generate two stacks on hit.",
+    "sources": []
+  },
+  {
+    "name": "Freeze Resistance",
+    "icon": "/src/assets/icons/statuses/Freeze_Resistance.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Reduces freeze damage taken by 25%/40%/50%.",
+    "description": "Reduces damage taken when frozen.",
+    "sources": []
+  },
+  {
+    "name": "Frenzy",
+    "icon": "/src/assets/icons/statuses/Frenzy.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Attacks deal 20% more damage for 5 seconds. Removes the ability to perfect block for 5 seconds. Every attacks grant an effect that heals 1 health every 1 second for 5 seconds.",
+    "description": "Melee attacks trigger rage. You deal increased damage and regenerate health while enraged but cannot time your blocks.",
+    "sources": []
+  },
+  {
+    "name": "Gas Resistance",
+    "icon": "/src/assets/icons/statuses/Gas_Resistance.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Reduces gas damage by 25%/40%/50%.",
+    "description": "Reduces damage taken from poison gas.",
+    "sources": []
+  },
+  {
+    "name": "Javelineer",
+    "icon": "/src/assets/icons/statuses/Javelineer.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "After hitting a creature with a spear, the **Thorns** effect is temporarily applied to the player for 5 seconds. During which, 100%/150%/200% of all damage to the player will be reflected back to the attacker. Thrown spear attacks deal 10%/20%/30% more damage.",
+    "description": "Spears deal more damage when thrown, and some damage dealt to you bounces on your attacker.",
+    "sources": []
+  },
+  {
+    "name": "Lil Fist",
+    "icon": "/src/assets/icons/statuses/Lil_Fist.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Every unarmed hit increases unarmed charged attack damage by 5%/7.5%/10% until the player gets hit or combat ends, stacks 15 times.",
+    "description": "On hit, fist attacks add a stack towards a charged attack. Charged attacks unleash all stacks for a devastating blow!",
+    "sources": []
+  },
+  {
+    "name": "Parry Master",
+    "icon": "/src/assets/icons/statuses/Parry_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Grants perfect blocks a 100% chance to give 20/25/30 stamina.",
+    "description": "Perfect blocks restore stamina.",
+    "sources": []
+  },
+  {
+    "name": "Pheromone Shot",
+    "icon": "/src/assets/icons/statuses/More_Better_Draw.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "When landing a perfect shot with a bow or a greatbow, nearby Buggies will deal 35% more damage for 15 seconds.",
+    "description": "Perfect bow shots enrage nearby Buggies, dealing bonus damage for a short duration.",
+    "sources": []
+  },
+  {
+    "name": "Revive Speed",
+    "icon": "/src/assets/icons/statuses/Revive_Speed.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Increases revive speed by 25%/40%/50%.",
+    "description": "Revive your downed friends faster.",
+    "sources": []
+  },
+  {
+    "name": "Sharpshooter",
+    "icon": "/src/assets/icons/statuses/Sharpshooter.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Charged bow shot critical hit chance is increased by 5%/8%/10%.",
+    "description": "Fully charged bow shots gain additional critical hit chance.",
+    "sources": []
+  },
+  {
+    "name": "Shatter Resistance",
+    "icon": "/src/assets/icons/statuses/Shatter_Resistance.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Reduces frozen shatter damage taken by 25%.",
+    "description": "Reduces shatter damage when hit while frozen.",
+    "sources": []
+  },
+  {
+    "name": "Smasher",
+    "icon": "/src/assets/icons/statuses/Smasher.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Clubs deal 1/2/3 extra stun per hit.",
+    "description": "Attacks with clubs deal more stun.",
+    "sources": []
+  },
+  {
+    "name": "Spear Master",
+    "icon": "/src/assets/icons/statuses/Spear_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Charged attacks with spears deal 30% more damage.",
+    "description": "Charged attacks with spears deal additional damage.",
+    "sources": []
+  },
+  {
+    "name": "Staff Master",
+    "icon": "/src/assets/icons/statuses/Staff_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Increases critical hit chance by 5% against burning and frozen creatures.",
+    "description": "Critical hit chance with staff attacks is increased on frozen and burning foes with max buildup.",
+    "sources": []
+  },
+  {
+    "name": "Sword Master",
+    "icon": "/src/assets/icons/statuses/Sword_Master.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Attacking creatures with a sword reduces the exhaustion timer by 90%.",
+    "description": "Attacking creatures with a sword temporarily removes your stamina timer.",
+    "sources": []
+  },
+  {
+    "name": "Whittle Wizard",
+    "icon": "/src/assets/icons/statuses/Whittle_Wizard.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Staff attacks cause frozen creatures to take 50%/75%/100% more frozen shatter damage for 100 seconds. Staff attacks cause burning creatures to take 50%/75%/100% more burning damage for 5 seconds. Attacks from sour staves increases damage you deal on all creatures by 5%/10%/15% for 5 seconds",
+    "description": "Staff attacks are enhanced by elemental effects. Sizzle burns with greater intensity. Frozen foes that shatter take more damage. Puckered foes take more damage.",
+    "sources": []
+  },
+  {
+    "name": "Yoked Blows",
+    "icon": "/src/assets/icons/statuses/Yoked_Blows.png",
+    "categories": [
+      "Positive",
+      "Mutations"
+    ],
+    "details": "Increases critical hit damage by 20%/40%/60%.",
+    "description": "Increases the damage multiplier of critical hits.",
+    "sources": []
+  },
+  {
+    "name": "Comfy Defense",
+    "icon": "/src/assets/icons/statuses/Comfy_Defense.png",
+    "categories": [
+      "Positive",
+      "Misc"
+    ],
+    "details": "Reduces all damage taken by 10%.",
+    "description": "Sleeping in a luxurious spot grants an all-day bonus to defense.",
+    "sources": [
+      "Scorpion Bed",
+      "Petal Bed"
+    ]
+  },
+  {
+    "name": "Comfy Energy",
+    "icon": "/src/assets/icons/statuses/Comfy_Energy.png",
+    "categories": [
+      "Positive",
+      "Misc"
+    ],
+    "details": "Reduces stamina exhaustion recovery rate by 10%.",
+    "description": "Sleeping in a luxurious spot grants an all-day bonus to exhaustion time.",
+    "sources": [
+      "Scorpion Bed",
+      "Petal Bed"
+    ]
+  },
+  {
+    "name": "Comfy Hunger",
+    "icon": "/src/assets/icons/statuses/Comfy_Hunger.png",
+    "categories": [
+      "Positive",
+      "Misc"
+    ],
+    "details": "Reduces hunger rate by 10%.",
+    "description": "Sleeping in a comfy spot grants an all-day bonus to hunger fullness.",
+    "sources": [
+      "Bed",
+      "Bunk Bed"
+    ]
+  },
+  {
+    "name": "Comfy Thirst",
+    "icon": "/src/assets/icons/statuses/Comfy_Thirst.png",
+    "categories": [
+      "Positive",
+      "Misc"
+    ],
+    "details": "Reduces thirst rate by 10%.",
+    "description": "Sleeping in a comfy spot grants an all-day bonus to thirst saturation.",
+    "sources": [
+      "Bed",
+      "Bunk Bed"
+    ]
+  },
+  {
+    "name": "Relaxed",
+    "icon": "/src/assets/icons/statuses/Relaxed.png",
+    "categories": [
+      "Positive",
+      "Misc"
+    ],
+    "details": "Normal Chair, Pine Chair, & Pine Stool:\n\nReduces the rate at which hunger and thirst drain by 25%.\n\nBlueberry Chair & Pine Lounger:\n\nReduces the rate at which hunger and thirst drain by 50%.\n\nTarantula Throne:\n\nReduces the rate at which hunger and thirst drain by 75%.",
+    "description": "Lounging in a comfy chair slows your hunger and thirst rates.",
+    "sources": []
+  },
+  {
+    "name": "Damage Resist Down",
+    "icon": "/src/assets/icons/statuses/Damage_Resist_Down.png",
+    "categories": [
+      "Negative",
+      "Tools & Armor",
+      "Trinkets"
+    ],
+    "details": "Increases damage taken by 25%.",
+    "description": "Reduces your resistance to taking damage.",
+    "sources": []
+  },
+  {
+    "name": "Sick",
+    "icon": "/src/assets/icons/statuses/Sick.png",
+    "categories": [
+      "Negative",
+      "Consumables",
+      "Misc"
+    ],
+    "details": "Raw Meat & Rotten Food:\n\nDeals 7.5 poison damage every 3 seconds for 15 seconds.\n\nSpoiled Meat:\n\nDeals 12.5 poison damage every 3 seconds for 15 seconds.",
+    "description": "Deals damage over time.",
+    "sources": [
+      "All Raw Meats",
+      "Rotten Food",
+      "Spoiled Meat"
+    ]
+  },
+  {
+    "name": "Arachnophobia",
+    "icon": "/src/assets/icons/statuses/Arachnophobia.png",
+    "categories": [
+      "Negative",
+      "Trinkets"
+    ],
+    "details": "Decreases damage dealt to spiders by 50%.",
+    "description": "Frozen in fear, you deal less damage against spiders.",
+    "sources": []
+  },
+  {
+    "name": "Shivering",
+    "icon": "/src/assets/icons/statuses/Shivering.png",
+    "categories": [
+      "Negative",
+      "Misc"
+    ],
+    "details": "Increases hunger drain rate by 100%.",
+    "description": "Get hungry faster.",
+    "sources": [
+      "Being inside the Ice Cream Cart",
+      "Being inside the Picnic Fridge Cooler"
+    ]
+  },
+  {
+    "name": "Sweaty",
+    "icon": "/src/assets/icons/statuses/Sweaty.png",
+    "categories": [
+      "Negative",
+      "Misc"
+    ],
+    "details": "Increases thirst drain rate by 100%.",
+    "description": "Get thirsty faster.",
+    "sources": []
+  }
+]
