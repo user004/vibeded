@@ -5,16 +5,17 @@
   padding: clamp(var(--size-3), 2vw, var(--size-5));
 
   .app-shell__frame {
-    min-block-size: calc(100vh - (2 * clamp(var(--size-3), 2vw, var(--size-5))));
-    padding: clamp(var(--size-4), 2vw, var(--size-6));
-    border: var(--border-size-1) solid var(--border-subtle);
-    border-radius: var(--radius-4);
+    align-content: start;
+    backdrop-filter: blur(12px);
     background:
       linear-gradient(180deg, color-mix(in srgb, var(--surface-2) 94%, transparent), var(--surface-1)),
       linear-gradient(135deg, color-mix(in srgb, var(--green-6) 12%, transparent), transparent 35%);
+    border-radius: var(--radius-4);
+    border: var(--border-size-1) solid var(--border-subtle);
     box-shadow: var(--shadow-grounded);
-    backdrop-filter: blur(12px);
     display: grid;
     gap: var(--size-5);
+    min-block-size: calc(100vh - (2 * clamp(var(--size-3), 2vw, var(--size-5))));
+    padding: clamp(var(--size-4), 2vw, var(--size-6));
   }
 }

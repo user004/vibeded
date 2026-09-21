@@ -521,12 +521,14 @@
       "Positive",
       "Armor",
       "Piece",
+      "Sleek",
       "Consumables"
     ],
     "details": "Reduces the stamina cost of blocking by 12%.",
     "description": "Blocked attacks drain less stamina.",
     "sources": [
       "Ladybug Armor",
+      "Acorn Armor",
       "Mushcargot"
     ]
   },
@@ -579,6 +581,7 @@
       "Positive",
       "Armor",
       "Piece",
+      "Sleek",
       "Consumables",
       "Mutations"
     ],
@@ -588,6 +591,7 @@
       "Fuzzy Armor",
       "Mitey Muffs",
       "Diving Suite Chestplate",
+      "Butterfly Armor",
       "Beetle Bites",
       "Blazin' Brew"
     ]
@@ -1068,6 +1072,324 @@
     ]
   },
   {
+    "name": "Aphkid",
+    "icon": "/src/assets/icons/statuses/Aphkid.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Aphids ignore the player.",
+    "description": "Aphids consider you one of their own and no longer flee from you.",
+    "sources": [
+      "Aphid Slippers"
+    ]
+  },
+  {
+    "name": "Burn Resistance",
+    "icon": "/src/assets/icons/statuses/Burn_Resistance.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Mutations"
+    ],
+    "details": "Reduces Burning damage by 25%.",
+    "description": "Reduces burn damage taken from the Sizzle.",
+    "sources": [
+      "Wyrm Slayer Armor"
+    ]
+  },
+  {
+    "name": "Bowed Over",
+    "icon": "/src/assets/icons/statuses/Bowed_Over.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Charged shots from Bows and Greatbows deal 3 extra stun.",
+    "description": "Fully charged bow shots deal additional stun damage.",
+    "sources": [
+      "Bee Armor"
+    ]
+  },
+  {
+    "name": "Busting Power",
+    "icon": "/src/assets/icons/statuses/Busting_Power.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases busting damage on resource nods by 25%.",
+    "description": "Bust open pebbles in fewer hits.",
+    "sources": [
+      "Firefly Head Lamp"
+    ]
+  },
+  {
+    "name": "Charged Shot Stamina",
+    "icon": "/src/assets/icons/statuses/Charged_Shot_Stamina.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Charged and perfect bow shots consume 25% less stamina while the player has the buff from the armors piece effect, Perfect Quickdraw.",
+    "description": "Charged and perfect bow shots consume less stamina while Perfect Quickdraw is triggered.",
+    "sources": [
+      "Wasp Armor"
+    ]
+  },
+  {
+    "name": "Crit Hyperstamina",
+    "icon": "/src/assets/icons/statuses/Crit_Hyperstamina.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Critical hits have a 50% chance to increase stamina regen by 20% for 20 seconds.",
+    "description": "Critical hits increase your stamina regen for a short time.",
+    "sources": [
+      "Black Ant Armor"
+    ]
+  },
+  {
+    "name": "Critical Inspiration",
+    "icon": "/src/assets/icons/statuses/Critical_Inspiration.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Critical hits increase nearby Buggies attack speed by 15% for 10 seconds.",
+    "description": "Critical hits inspire your active Buggy to attack faster for a short duration.",
+    "sources": [
+      "Red Ant Armor"
+    ]
+  },
+  {
+    "name": "Critical Opportunity",
+    "icon": "/src/assets/icons/statuses/Critical_Opportunity.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases the critical hit chance of attacks buffed by Opportunistic Parry by 4%.",
+    "description": "Attacks buffed by Opportunistic Parry have increased critical hit chance.",
+    "sources": [
+      "Toe Biter Armor"
+    ]
+  },
+  {
+    "name": "Dash Damage",
+    "icon": "/src/assets/icons/statuses/Dash_Damage.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases the attack of the next attack after dashing underwater by 15%.",
+    "description": "The next attack after an underwater dash deals increased damage.",
+    "sources": [
+      "Koi Scale Armor"
+    ]
+  },
+  {
+    "name": "Dash Stamina",
+    "icon": "/src/assets/icons/statuses/Dash_Stamina.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Decreases the stamina cost of underwater dodges by 10%.",
+    "description": "Underwater dodges consume less stamina.",
+    "sources": [
+      "Koi Scale Armor"
+    ]
+  },
+  {
+    "name": "Dash Strike Window",
+    "icon": "/src/assets/icons/statuses/Dash_Strike_Window.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases the window to perform a perfect dash strike with Dual Wield weapons by 40 milliseconds.",
+    "description": "The timing window for perfect dash strikes with Dual Wield weapons is increased.",
+    "sources": [
+      "Striped Armor"
+    ]
+  },
+  {
+    "name": "Draw Breath",
+    "icon": "/src/assets/icons/statuses/Draw_Breath.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Perfect shots from Bows and Greatbows cost 50% less stamina.",
+    "description": "Perfectly charged bow shotsrefund stamina.",
+    "sources": [
+      "Marksman's Cap"
+    ]
+  },
+  {
+    "name": "Emergency Repair",
+    "icon": "/src/assets/icons/statuses/Emergency_Repair.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Blocking attacks restores durability.",
+    "description": "Blocking attacks helps maintain armor durability.",
+    "sources": [
+      "Diving Armor"
+    ]
+  },
+  {
+    "name": "Empowered Devastation",
+    "icon": "/src/assets/icons/statuses/Empowered_Devastation.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "The third hit of every combo with a staff has a 25% chance to give an extra stack for the Serpent Armors set bonus, Devastation.",
+    "description": "Finale attacks with staves have a chance to generate an additional devastation stack.",
+    "sources": [
+      "Serpent Armor"
+    ]
+  },
+  {
+    "name": "Explosive Resist",
+    "icon": "/src/assets/icons/statuses/Explosive_Resist.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases resistance to Explosive damage by 50%.",
+    "description": "Increases your resistance to taking damage.",
+    "sources": [
+      "Gas Mask"
+    ]
+  },
+  {
+    "name": "Fatal Frenzy",
+    "icon": "/src/assets/icons/statuses/Fatal_Frenzy.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Killing creatures restores 15 stamina.",
+    "description": "Melee kills restore stamina.",
+    "sources": [
+      "Weaver Armor"
+    ]
+  },
+  {
+    "name": "Final Mash",
+    "icon": "/src/assets/icons/statuses/Final_Mash.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "The third hit of every combo deals 3 extra Smashing damage.",
+    "description": "The final hit in a 3-hit combo deals bonus smashing damage.",
+    "sources": [
+      "Potato Beetle Armor"
+    ]
+  },
+  {
+    "name": "Fleet Creep",
+    "icon": "/src/assets/icons/statuses/Fleet_Creep.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases movement speed when crouching by 12%.",
+    "description": "You have thighs of thunder and knees of steel. Move faster while crouching.",
+    "sources": [
+      "Northern Armor"
+    ]
+  },
+  {
+    "name": "Freeze Resistance",
+    "icon": "/src/assets/icons/statuses/Freeze_Resistance.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Mutations"
+    ],
+    "details": "Reduces the damage of being Frozen by 25%.",
+    "description": "Reduces damage taken when frozen.",
+    "sources": [
+      "Fuzzy Armor"
+    ]
+  },
+  {
+    "name": "Guard Breaker",
+    "icon": "/src/assets/icons/statuses/Guard_Breaker.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Breaking an enemies blocking stance with a charged attack deal 3 extra stun.",
+    "description": "Deal additional stun to foes when you break their guard.",
+    "sources": [
+      "Earwig Armor"
+    ]
+  },
+  {
+    "name": "Hyperstamina",
+    "icon": "/src/assets/icons/statuses/Hyperstamina.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Consumables",
+      "Mutations"
+    ],
+    "details": "Grub Armor & Mitey Muffs:\n \nIncreases stamina regeneration rate by 10%.\t\n\nWolf Armor:\n \nIncreases stamina regeneration rate by 15%.",
+    "description": "Regain stamina faster.",
+    "sources": [
+      "Mitey Muffs",
+      "Grub Armor",
+      "Wolf Armor",
+      "Green Machine",
+      "Gill Tube"
+    ]
+  },
+  {
+    "name": "Increased Healing",
+    "icon": "/src/assets/icons/statuses/Increased_Healing.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Consumables"
+    ],
+    "details": "Increases the amount of health received from any healing options by 12%.",
+    "description": "Increases the amount of healing you receive from all sources.",
+    "sources": [
+      "Ladybug Armor",
+      "Sandy Blossom"
+    ]
+  },
+  {
     "name": "Loot Luck",
     "icon": "/src/assets/icons/statuses/Loot_Luck.png",
     "categories": [
@@ -1079,6 +1401,145 @@
     "description": "More likely to obtain rare resources from creatures.",
     "sources": [
       "Lucky Hat"
+    ]
+  },
+  {
+    "name": "Minor Threat",
+    "icon": "/src/assets/icons/statuses/Minor_Threat.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Decreases creatures favorability of the player over other sources of aggression by 10%.",
+    "description": "Decreases enemies desire to attack you over other targets while in combat.",
+    "sources": [
+      "Cricket Armor",
+      "Eyepatch"
+    ]
+  },
+  {
+    "name": "Omophagia",
+    "icon": "/src/assets/icons/statuses/Omophagia.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Reduces Sickness damage by 40%.",
+    "description": "You take less damage from sickness when eating raw food.",
+    "sources": [
+      "Roach Armor"
+    ]
+  },
+  {
+    "name": "Shock Resistance",
+    "icon": "/src/assets/icons/statuses/Shock_Resistance.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases resistance to Shock damage by 9%.",
+    "description": "Reduces damage taken from Shock attacks.",
+    "sources": [
+      "Shell Shocker Armor"
+    ]
+  },
+  {
+    "name": "Spicy Attack",
+    "icon": "/src/assets/icons/statuses/Spicy_Attack.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Trinkets"
+    ],
+    "details": "Increases all Spicy damage dealt by 5%.",
+    "description": "Increases spicy damage delt.",
+    "sources": [
+      "Sizzling Armor"
+    ]
+  },
+  {
+    "name": "Slashing Resistance",
+    "icon": "/src/assets/icons/statuses/Slashing_Resistance.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Reduces all Slashing damage by 9%.",
+    "description": "Reduces damage from slashing attacks.",
+    "sources": [
+      "Snail Shell Armor"
+    ]
+  },
+  {
+    "name": "Tang Reduction",
+    "icon": "/src/assets/icons/statuses/Tang_Reduction.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Consumables"
+    ],
+    "details": "Reduces the rate of Tang buildup by 50%.",
+    "description": "Slows the rate tang weakens defenses.",
+    "sources": [
+      "Rusty Armor",
+      "Omelant",
+      "Pumpkin Pie"
+    ]
+  },
+  {
+    "name": "Trickle Regen",
+    "icon": "/src/assets/icons/statuses/Trickle_Regen.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Consumables"
+    ],
+    "details": "Regenerates 0.35 of the players health every 5 seconds.",
+    "description": "Regenerate health over time.",
+    "sources": [
+      "Clover Armor",
+      "Hedge Lord",
+      "All Roasts",
+      "All Jerky"
+    ]
+  },
+  {
+    "name": "Venomous Ambush",
+    "icon": "/src/assets/icons/statuses/Venomous_Ambush.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Ambush attacks inflict 10 Venom buildup.",
+    "description": "Deal venom to creatures you ambush.",
+    "sources": [
+      "Nightstalker Armor"
+    ]
+  },
+  {
+    "name": "Venom Reduction",
+    "icon": "/src/assets/icons/statuses/Venom_Reduction.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek",
+      "Consumables",
+      "Mutations"
+    ],
+    "details": "Reduces the rate of Venom buildup by 25%.",
+    "description": "Slows the rate of venom seeping through your body.",
+    "sources": [
+      "Praying Mantis Armor",
+      "Scorpidote",
+      "Wasperole"
     ]
   },
   {
@@ -1599,33 +2060,6 @@
     ]
   },
   {
-    "name": "Hyperstamina",
-    "icon": "/src/assets/icons/statuses/Hyperstamina.png",
-    "categories": [
-      "Positive",
-      "Consumables",
-      "Mutations"
-    ],
-    "details": "Beefy Green Machine:\n\nIncreases the rate at which stamina regenerates by 30%.\n\nGreen Machine:\n\nIncreases the rate at which stamina regenerates by 20%.",
-    "description": "Regain stamina faster.",
-    "sources": [
-      "Green Machine"
-    ]
-  },
-  {
-    "name": "Increased Healing",
-    "icon": "/src/assets/icons/statuses/Increased_Healing.png",
-    "categories": [
-      "Positive",
-      "Consumables"
-    ],
-    "details": "Sandy Blossom:\n\nIncreases the amount of health received from any healing options by 10%.\n\nBeefy Sandy Blossom:\n\nIncreases the amount of health received from any healing options by 15%.",
-    "description": "Increases the amount of healing you receive from all sources.",
-    "sources": [
-      "Sandy Blossom"
-    ]
-  },
-  {
     "name": "Max Stamina",
     "icon": "/src/assets/icons/statuses/Max_Stamina.png",
     "categories": [
@@ -1669,20 +2103,6 @@
     ]
   },
   {
-    "name": "Tang Reduction",
-    "icon": "/src/assets/icons/statuses/Tang_Reduction.png",
-    "categories": [
-      "Positive",
-      "Consumables"
-    ],
-    "details": "Pumpkin Pie:\n\nReduces the rate at which Tang builds up by 50%.\n\nBeefy Pumpkin Pie:\n\nReduces the rate at which Tang builds up by 60%.\n\nOmelant:\n\nReduces the rate at which Tang builds up by 75%.",
-    "description": "Slows the rate tang weakens defenses.",
-    "sources": [
-      "Omelant",
-      "Pumpkin Pie"
-    ]
-  },
-  {
     "name": "Thorns",
     "icon": "/src/assets/icons/statuses/Thorns.png",
     "categories": [
@@ -1696,21 +2116,6 @@
     ]
   },
   {
-    "name": "Trickle Regen",
-    "icon": "/src/assets/icons/statuses/Trickle_Regen.png",
-    "categories": [
-      "Positive",
-      "Consumables"
-    ],
-    "details": "Beefy Hedge Lord:\n\nHeals 7 health every 10 seconds.\n\nHedge Lord:\n\nHeals 5 health every 10 seconds.\n\nTier 2 Roasts:\n\nHeals 1.875 health every 0.25 seconds for 4 seconds.\n\nTier 1 Roasts:\n\nHeals 1.25 health every 0.25 seconds for 4 seconds.\n\nTier 2 Jerky:\n\nHeals 1 health every 0.25 seconds for 4 seconds.\n\nTier 1 Jerky:\n\nHeals 0.75 health every 0.25 seconds for 4 seconds.",
-    "description": "Regenerate health over time.",
-    "sources": [
-      "Hedge Lord",
-      "All Roasts",
-      "All Jerky"
-    ]
-  },
-  {
     "name": "Venom Cure",
     "icon": "/src/assets/icons/statuses/Venom_Cure.png",
     "categories": [
@@ -1721,21 +2126,6 @@
     "description": "Instantly reduce the amount of accumulated Venom.",
     "sources": [
       "Scorpidote"
-    ]
-  },
-  {
-    "name": "Venom Reduction",
-    "icon": "/src/assets/icons/statuses/Venom_Reduction.png",
-    "categories": [
-      "Positive",
-      "Consumables",
-      "Mutations"
-    ],
-    "details": "Wasperole:\n\nReduces the rate at which Venom builds up by 25%.\n\nBeefy Scorpidote:\n\nReduces the rate at which Venom builds up by 60%.\n\nScorpidote:\n\nReduces the rate at which Venom builds up by 50%.",
-    "description": "Slows the rate of venom seeping through your body.",
-    "sources": [
-      "Scorpidote",
-      "Wasperole"
     ]
   },
   {
@@ -2054,17 +2444,6 @@
     "sources": []
   },
   {
-    "name": "Spicy Attack",
-    "icon": "/src/assets/icons/statuses/Spicy_Attack.png",
-    "categories": [
-      "Positive",
-      "Trinkets"
-    ],
-    "details": "Applies a flat 15 Spicy damage to the player's attacks.",
-    "description": "Adds a flat amount of spicy damage to all your attacks.",
-    "sources": []
-  },
-  {
     "name": "Sour Attack",
     "icon": "/src/assets/icons/statuses/Sour_Attack.png",
     "categories": [
@@ -2128,17 +2507,6 @@
     ],
     "details": "Perfectly charged bow shot damage is increased by 10%.",
     "description": "Perfectly charged bow shots deal more damage.",
-    "sources": []
-  },
-  {
-    "name": "Burn Resistance",
-    "icon": "/src/assets/icons/statuses/Burn_Resistance.png",
-    "categories": [
-      "Positive",
-      "Mutations"
-    ],
-    "details": "Reduces burn damage by 25%/40%/50%.",
-    "description": "Reduces burn damage taken from the Sizzle.",
     "sources": []
   },
   {
@@ -2216,17 +2584,6 @@
     ],
     "details": "Every unarmed hit deals an extra attack that deals 1 smashing damage and 2 stun.",
     "description": "Fist attacks deal bonus stun and generate two stacks on hit.",
-    "sources": []
-  },
-  {
-    "name": "Freeze Resistance",
-    "icon": "/src/assets/icons/statuses/Freeze_Resistance.png",
-    "categories": [
-      "Positive",
-      "Mutations"
-    ],
-    "details": "Reduces freeze damage taken by 25%/40%/50%.",
-    "description": "Reduces damage taken when frozen.",
     "sources": []
   },
   {
@@ -2524,5 +2881,75 @@
     "details": "Increases thirst drain rate by 100%.",
     "description": "Get thirsty faster.",
     "sources": []
+  },
+  {
+    "name": "Incognito",
+    "icon": "/src/assets/icons/statuses/Incognito.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Prevents the player from building up any \"heat\" from messing with the Masked Stranger's stuff, entirely negating O.R.C. Waves from spawning.",
+    "description": "Hides your meddling from the Masked Stranger.",
+    "sources": [
+      "Tin Foil Hat"
+    ]
+  },
+  {
+    "name": "Shock Therapy",
+    "icon": "/src/assets/icons/statuses/Shock_Therapy.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Increases all player dealt Shock damage by 10%, but also causes the player to take 10% more damage from Shock damage.",
+    "description": "Deal more Shock damage, but take more too.",
+    "sources": [
+      "Tin Foil Hat"
+    ]
+  },
+  {
+    "name": "Junior Diver",
+    "icon": "/src/assets/icons/statuses/Junior_Diver.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Reduces Oxygen drain by 50%.",
+    "description": "Breathe underwater for longer.",
+    "sources": [
+      "Gill Tube"
+    ]
+  },
+  {
+    "name": "Swim Speed",
+    "icon": "/src/assets/icons/statuses/Swim_Speed.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Piece"
+    ],
+    "details": "Increases the player's swim speed by 30%.",
+    "description": "Swim faster.",
+    "sources": [
+      "Fin Flops"
+    ]
+  },
+  {
+    "name": "Sprint Stamina",
+    "icon": "/src/assets/icons/statuses/Sprint_Stamina.png",
+    "categories": [
+      "Positive",
+      "Armor",
+      "Sleek"
+    ],
+    "details": "Reduces the stamina cost of sprinting by 10%.",
+    "description": "Sprinting costs less stamina.",
+    "sources": [
+      "Fin Flops"
+    ]
   }
 ]

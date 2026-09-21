@@ -6,6 +6,7 @@ import Accordion from '../Accordion/Accordion'
 import Card from '../Card/Card'
 import './Weapon.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
+import Tooltip from '../Tooltip/Tooltip'
 
 function Weapon({ item }) {
   const checkboxKey = `weapon-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
@@ -26,7 +27,7 @@ function Weapon({ item }) {
             <ul className="weapon-card__list">
               {item.status.map((status, index) => (
                 <li className="weapon-card__list-item" key={`${item.name}-status-${index}`}>
-                  {status}
+                  <Tooltip name={status} />
                 </li>
               ))}
             </ul>

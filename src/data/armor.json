@@ -7,11 +7,11 @@
     "durability": 60,
     "defense": 3,
     "resistance": 4,
-    "pieceEffect": "Ant Stamina Attack",
-    "sleekEffect": "Ant Critical Inspiration",
+    "pieceEffect": "Attack Stamina: Ant",
+    "sleekEffect": "Critical Inspiration",
     "set": {
       "name": "Red Ant Armor",
-      "bonus": "Ant Critical Inspiration"
+      "bonus": "Strength in Numbers"
     },
     "repair": [
       {
@@ -51,11 +51,11 @@
     "durability": 60,
     "defense": 6,
     "resistance": 8,
-    "pieceEffect": "Ant Stamina Attack",
-    "sleekEffect": "Ant Critical Inspiration",
+    "pieceEffect": "Attack Stamina: Ant",
+    "sleekEffect": "Critical Inspiration",
     "set": {
       "name": "Red Ant Armor",
-      "bonus": "Ant Critical Inspiration"
+      "bonus": "Strength in Numbers"
     },
     "repair": [
       {
@@ -95,11 +95,11 @@
     "durability": 60,
     "defense": 3,
     "resistance": 4,
-    "pieceEffect": "Ant Stamina Attack",
-    "sleekEffect": "Ant Critical Inspiration",
+    "pieceEffect": "Attack Stamina: Ant",
+    "sleekEffect": "Critical Inspiration",
     "set": {
       "name": "Red Ant Armor",
-      "bonus": "Ant Critical Inspiration"
+      "bonus": "Strength in Numbers"
     },
     "repair": [
       {
@@ -140,10 +140,10 @@
     "defense": 4,
     "resistance": 6.5,
     "pieceEffect": "Max Health",
-    "sleekEffect": "Stamina Block",
+    "sleekEffect": "Bargain Block",
     "set": {
       "name": "Acorn Armor",
-      "bonus": "Block Stun"
+      "bonus": "Hardy Defense"
     },
     "repair": [
       {
@@ -184,10 +184,10 @@
     "defense": 8,
     "resistance": 13,
     "pieceEffect": "Max Health",
-    "sleekEffect": "Healing Received Up",
+    "sleekEffect": "Bargain Block",
     "set": {
       "name": "Acorn Armor",
-      "bonus": "Block Stun"
+      "bonus": "Hardy Defense"
     },
     "repair": [
       {
@@ -228,10 +228,10 @@
     "defense": 4,
     "resistance": 6.5,
     "pieceEffect": "Max Health",
-    "sleekEffect": "Small HoT",
+    "sleekEffect": "Bargain Block",
     "set": {
       "name": "Acorn Armor",
-      "bonus": "Block Stun"
+      "bonus": "Hardy Defense"
     },
     "repair": [
       {
@@ -271,11 +271,11 @@
     "durability": 70,
     "defense": 3.5,
     "resistance": 5.25,
-    "pieceEffect": "Charged Speed Up",
-    "sleekEffect": "Stamina Regen",
+    "pieceEffect": "Quickcharge",
+    "sleekEffect": "Hyperstamina",
     "set": {
       "name": "Grub Armor",
-      "bonus": "Stamina Regen"
+      "bonus": "Lone Ranger"
     },
     "repair": [
       {
@@ -315,11 +315,11 @@
     "durability": 70,
     "defense": 7,
     "resistance": 10.5,
-    "pieceEffect": "Charged Speed Up",
-    "sleekEffect": "Stamina Regen",
+    "pieceEffect": "Quickcharge",
+    "sleekEffect": "Hyperstamina",
     "set": {
       "name": "Grub Armor",
-      "bonus": "Stamina Regen"
+      "bonus": "Lone Ranger"
     },
     "repair": [
       {
@@ -359,11 +359,11 @@
     "durability": 70,
     "defense": 3.5,
     "resistance": 5.25,
-    "pieceEffect": "Charged Speed Up",
-    "sleekEffect": "Stamina Regen",
+    "pieceEffect": "Quickcharge",
+    "sleekEffect": "Hyperstamina",
     "set": {
       "name": "Grub Armor",
-      "bonus": "Stamina Regen"
+      "bonus": "Lone Ranger"
     },
     "repair": [
       {
@@ -403,11 +403,11 @@
     "durability": 90,
     "defense": 6.5,
     "resistance": 6.75,
-    "pieceEffect": "Stamina Block",
-    "sleekEffect": "Healing Received Up",
+    "pieceEffect": "Bargain Block",
+    "sleekEffect": "Increased Healing",
     "set": {
       "name": "Ladybug Armor",
-      "bonus": "Healing Received Up"
+      "bonus": "Scarlet Embrace"
     },
     "repair": [
       {
@@ -447,11 +447,11 @@
     "durability": 90,
     "defense": 13,
     "resistance": 13.5,
-    "pieceEffect": "Stamina Block",
-    "sleekEffect": "Healing Received Up",
+    "pieceEffect": "Bargain Block",
+    "sleekEffect": "Increased Healing",
     "set": {
       "name": "Ladybug Armor",
-      "bonus": "Healing Received Up"
+      "bonus": "Scarlet Embrace"
     },
     "repair": [
       {
@@ -491,11 +491,11 @@
     "durability": 90,
     "defense": 6.5,
     "resistance": 6.75,
-    "pieceEffect": "Stamina Block",
-    "sleekEffect": "Healing Received Up",
+    "pieceEffect": "Bargain Block",
+    "sleekEffect": "Increased Healing",
     "set": {
       "name": "Ladybug Armor",
-      "bonus": "Healing Received Up"
+      "bonus": "Scarlet Embrace"
     },
     "repair": [
       {
@@ -535,11 +535,11 @@
     "durability": 80,
     "defense": 6,
     "resistance": 5.5,
-    "pieceEffect": "Perfect Draw",
-    "sleekEffect": "Bow Stun",
+    "pieceEffect": "More Better Draw",
+    "sleekEffect": "Bowed Over",
     "set": {
       "name": "Bee Armor",
-      "bonus": "Bow Stun"
+      "bonus": "Apex Pollinator"
     },
     "repair": [
       {
@@ -579,11 +579,11 @@
     "durability": 80,
     "defense": 12,
     "resistance": 11,
-    "pieceEffect": "Perfect Draw",
-    "sleekEffect": "Bow Stun",
+    "pieceEffect": "More Better Draw",
+    "sleekEffect": "Bowed Over",
     "set": {
       "name": "Bee Armor",
-      "bonus": "Bow Stun"
+      "bonus": "Apex Pollinator"
     },
     "repair": [
       {
@@ -623,11 +623,11 @@
     "durability": 80,
     "defense": 6,
     "resistance": 5.5,
-    "pieceEffect": "Perfect Draw",
-    "sleekEffect": "Bow Stun",
+    "pieceEffect": "More Better Draw",
+    "sleekEffect": "Bowed Over",
     "set": {
       "name": "Bee Armor",
-      "bonus": "Bow Stun"
+      "bonus": "Apex Pollinator"
     },
     "repair": [
       {
@@ -667,11 +667,11 @@
     "durability": 70,
     "defense": 5.5,
     "resistance": 4.25,
-    "pieceEffect": "Dash Strike Damage",
-    "sleekEffect": "Spider Kill",
+    "pieceEffect": "Dual Dasher",
+    "sleekEffect": "Fatal Frenzy",
     "set": {
       "name": "Weaver Armor",
-      "bonus": "Spider Kill"
+      "bonus": "Critical Momentum"
     },
     "repair": [
       {
@@ -711,11 +711,11 @@
     "durability": 70,
     "defense": 11,
     "resistance": 8.5,
-    "pieceEffect": "Dash Strike Damage",
-    "sleekEffect": "Spider Kill",
+    "pieceEffect": "Dual Dasher",
+    "sleekEffect": "Fatal Frenzy",
     "set": {
       "name": "Weaver Armor",
-      "bonus": "Spider Kill"
+      "bonus": "Critical Momentum"
     },
     "repair": [
       {
@@ -755,11 +755,11 @@
     "durability": 70,
     "defense": 5.5,
     "resistance": 4.25,
-    "pieceEffect": "Dash Strike Damage",
-    "sleekEffect": "Spider Kill",
+    "pieceEffect": "Dual Dasher",
+    "sleekEffect": "Fatal Frenzy",
     "set": {
       "name": "Weaver Armor",
-      "bonus": "Spider Kill"
+      "bonus": "Critical Momentum"
     },
     "repair": [
       {
@@ -799,11 +799,11 @@
     "durability": 40,
     "defense": 1.5,
     "resistance": 1.25,
-    "pieceEffect": "Stamina Dodge",
-    "sleekEffect": "Small HoT",
+    "pieceEffect": "Lucky Break",
+    "sleekEffect": "Trickle Regen",
     "set": {
       "name": "Clover Armor",
-      "bonus": "Small HoT"
+      "bonus": "Moist"
     },
     "repair": [
       {
@@ -835,11 +835,11 @@
     "durability": 40,
     "defense": 5,
     "resistance": 2.5,
-    "pieceEffect": "Stamina Dodge",
-    "sleekEffect": "Small HoT",
+    "pieceEffect": "Lucky Break",
+    "sleekEffect": "Trickle Regen",
     "set": {
       "name": "Clover Armor",
-      "bonus": "Small HoT"
+      "bonus": "Moist"
     },
     "repair": [
       {
@@ -871,11 +871,11 @@
     "durability": 40,
     "defense": 1.5,
     "resistance": 1.25,
-    "pieceEffect": "Stamina Dodge",
-    "sleekEffect": "Small HoT",
+    "pieceEffect": "Lucky Break",
+    "sleekEffect": "Trickle Regen",
     "set": {
       "name": "Clover Armor",
-      "bonus": "Small HoT"
+      "bonus": "Moist"
     },
     "repair": [
       {
@@ -911,11 +911,11 @@
     "durability": 80,
     "defense": 7.5,
     "resistance": 4.5,
-    "pieceEffect": "Venom Dash",
-    "sleekEffect": "Stamina Regen",
+    "pieceEffect": "Venomous Dasher",
+    "sleekEffect": "Hyperstamina",
     "set": {
       "name": "Wolf Armor",
-      "bonus": "Venom Dash"
+      "bonus": "Deadly Venom"
     },
     "repair": [
       {
@@ -955,11 +955,11 @@
     "durability": 80,
     "defense": 15,
     "resistance": 9,
-    "pieceEffect": "Venom Dash",
-    "sleekEffect": "Stamina Regen",
+    "pieceEffect": "Venomous Dasher",
+    "sleekEffect": "Hyperstamina",
     "set": {
       "name": "Wolf Armor",
-      "bonus": "Venom Dash"
+      "bonus": "Deadly Venom"
     },
     "repair": [
       {
@@ -999,11 +999,11 @@
     "durability": 80,
     "defense": 7.5,
     "resistance": 4.5,
-    "pieceEffect": "Venom Dash",
-    "sleekEffect": "Stamina Regen",
+    "pieceEffect": "Venomous Dasher",
+    "sleekEffect": "Hyperstamina",
     "set": {
       "name": "Wolf Armor",
-      "bonus": "Venom Dash"
+      "bonus": "Deadly Venom"
     },
     "repair": [
       {
@@ -1043,11 +1043,11 @@
     "durability": 60,
     "defense": 5,
     "resistance": 3,
-    "pieceEffect": "Sizzle Resistance",
-    "sleekEffect": "Spicy Attack Up",
+    "pieceEffect": "Sizzle Reduction",
+    "sleekEffect": "Spicy Attack",
     "set": {
       "name": "Sizzling Armor",
-      "bonus": "Sizzle Resistance"
+      "bonus": "Whizzy Wizard"
     },
     "repair": [
       {
@@ -1087,11 +1087,11 @@
     "durability": 60,
     "defense": 10,
     "resistance": 6,
-    "pieceEffect": "Sizzle Resistance",
-    "sleekEffect": "Spicy Attack Up",
+    "pieceEffect": "Sizzle Reduction",
+    "sleekEffect": "Spicy Attack",
     "set": {
       "name": "Sizzling Armor",
-      "bonus": "Sizzle Resistance"
+      "bonus": "Whizzy Wizard"
     },
     "repair": [
       {
@@ -1131,11 +1131,11 @@
     "durability": 60,
     "defense": 5,
     "resistance": 3,
-    "pieceEffect": "Sizzle Resistance",
-    "sleekEffect": "Spicy Attack Up",
+    "pieceEffect": "Sizzle Reduction",
+    "sleekEffect": "Spicy Attack",
     "set": {
       "name": "Sizzling Armor",
-      "bonus": "Sizzle Resistance"
+      "bonus": "Whizzy Wizard"
     },
     "repair": [
       {
@@ -1175,11 +1175,11 @@
     "durability": 70,
     "defense": 5.5,
     "resistance": 4.25,
-    "pieceEffect": "Venom Attack",
-    "sleekEffect": "Crouch Speed",
+    "pieceEffect": "Double Deal",
+    "sleekEffect": "Fleet Creep",
     "set": {
       "name": "Northern Armor",
-      "bonus": "Crouch Speed"
+      "bonus": "Crippling Strike"
     },
     "repair": [
       {
@@ -1219,11 +1219,11 @@
     "durability": 70,
     "defense": 11,
     "resistance": 8.5,
-    "pieceEffect": "Venom Attack",
-    "sleekEffect": "Crouch Speed",
+    "pieceEffect": "Double Deal",
+    "sleekEffect": "Fleet Creep",
     "set": {
       "name": "Northern Armor",
-      "bonus": "Crouch Speed"
+      "bonus": "Crippling Strike"
     },
     "repair": [
       {
@@ -1263,11 +1263,11 @@
     "durability": 70,
     "defense": 5.5,
     "resistance": 4.25,
-    "pieceEffect": "Venom Attack",
-    "sleekEffect": "Crouch Speed",
+    "pieceEffect": "Double Deal",
+    "sleekEffect": "Fleet Creep",
     "set": {
       "name": "Northern Armor",
-      "bonus": "Crouch Speed"
+      "bonus": "Crippling Strike"
     },
     "repair": [
       {
@@ -1307,11 +1307,11 @@
     "durability": 60,
     "defense": 5,
     "resistance": 3,
-    "pieceEffect": "Spicy Attack Up",
-    "sleekEffect": "Chill Resistance",
+    "pieceEffect": "Parrier Barrier",
+    "sleekEffect": "Chill Reduction",
     "set": {
       "name": "Butterfly Armor",
-      "bonus": "Critical Opportunity"
+      "bonus": "Chilly Dodge"
     },
     "repair": [
       {
@@ -1351,11 +1351,11 @@
     "durability": 60,
     "defense": 10,
     "resistance": 6,
-    "pieceEffect": "Spicy Attack Up",
-    "sleekEffect": "Chill Resistance",
+    "pieceEffect": "Frosty Focus",
+    "sleekEffect": "Chill Reduction",
     "set": {
       "name": "Butterfly Armor",
-      "bonus": "Critical Opportunity"
+      "bonus": "Chilly Dodge"
     },
     "repair": [
       {
@@ -1395,11 +1395,11 @@
     "durability": 60,
     "defense": 5,
     "resistance": 3,
-    "pieceEffect": "Spicy Attack Up",
-    "sleekEffect": "Chill Resistance",
+    "pieceEffect": "Frosty Focus",
+    "sleekEffect": "Chill Reduction",
     "set": {
       "name": "Butterfly Armor",
-      "bonus": "Critical Opportunity"
+      "bonus": "Chilly Dodge"
     },
     "repair": [
       {
@@ -1439,11 +1439,11 @@
     "durability": 90,
     "defense": 6.5,
     "resistance": 6.75,
-    "pieceEffect": "Cockroach Resist",
-    "sleekEffect": "Sick Resistance",
+    "pieceEffect": "Woozy Reduction",
+    "sleekEffect": "Omophagia",
     "set": {
       "name": "Roach Armor",
-      "bonus": "Cockroach Resist"
+      "bonus": "Adaptive Resistance"
     },
     "repair": [
       {
@@ -1483,11 +1483,11 @@
     "durability": 90,
     "defense": 13,
     "resistance": 13.5,
-    "pieceEffect": "Cockroach Resist",
-    "sleekEffect": "Sick Resistance",
+    "pieceEffect": "Feeding Frenzy",
+    "sleekEffect": "Omophagia",
     "set": {
       "name": "Roach Armor",
-      "bonus": "Cockroach Resist"
+      "bonus": "Adaptive Resistance"
     },
     "repair": [
       {
@@ -1527,11 +1527,11 @@
     "durability": 90,
     "defense": 6.5,
     "resistance": 6.75,
-    "pieceEffect": "Cockroach Resist",
-    "sleekEffect": "Sick Resistance",
+    "pieceEffect": "Feeding Frenzy",
+    "sleekEffect": "Omophagia",
     "set": {
       "name": "Roach Armor",
-      "bonus": "Cockroach Resist"
+      "bonus": "Adaptive Resistance"
     },
     "repair": [
       {
@@ -1572,7 +1572,7 @@
     "defense": 8.5,
     "resistance": 7,
     "pieceEffect": "Block Stun",
-    "sleekEffect": "Slash Resistance",
+    "sleekEffect": "Slashing Resistance",
     "set": {
       "name": "Snail Shell Armor",
       "bonus": "Retaliation"
@@ -1616,7 +1616,7 @@
     "defense": 17,
     "resistance": 14,
     "pieceEffect": "Block Stun",
-    "sleekEffect": "Slash Resistance",
+    "sleekEffect": "Slashing Resistance",
     "set": {
       "name": "Snail Shell Armor",
       "bonus": "Retaliation"
@@ -1660,7 +1660,7 @@
     "defense": 8.5,
     "resistance": 7,
     "pieceEffect": "Block Stun",
-    "sleekEffect": "Slash Resistance",
+    "sleekEffect": "Slashing Resistance",
     "set": {
       "name": "Snail Shell Armor",
       "bonus": "Retaliation"
@@ -1703,11 +1703,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Bow Attack",
-    "sleekEffect": "Venom Ambush",
+    "pieceEffect": "Buggy Criticals",
+    "sleekEffect": "Venomous Ambush",
     "set": {
       "name": "Nightstalker Armor",
-      "bonus": "Nightstalker"
+      "bonus": "Dreadful Duo"
     },
     "repair": [
       {
@@ -1747,11 +1747,11 @@
     "durability": 90,
     "defense": 16,
     "resistance": 11.5,
-    "pieceEffect": "Bow Attack",
-    "sleekEffect": "Venom Ambush",
+    "pieceEffect": "Buggy Criticals",
+    "sleekEffect": "Venomous Ambush",
     "set": {
       "name": "Nightstalker Armor",
-      "bonus": "Nightstalker"
+      "bonus": "Dreadful Duo"
     },
     "repair": [
       {
@@ -1791,11 +1791,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Bow Attack",
-    "sleekEffect": "Venom Ambush",
+    "pieceEffect": "Buggy Criticals",
+    "sleekEffect": "Venomous Ambush",
     "set": {
       "name": "Nightstalker Armor",
-      "bonus": "Nightstalker"
+      "bonus": "Dreadful Duo"
     },
     "repair": [
       {
@@ -1835,11 +1835,11 @@
     "durability": 80,
     "defense": 7.5,
     "resistance": 4.5,
-    "pieceEffect": "Critical Buff",
-    "sleekEffect": "Venom Resistance",
+    "pieceEffect": "Major Woozy Reduction",
+    "sleekEffect": "Venom Reduction",
     "set": {
       "name": "Praying Mantis Armor",
-      "bonus": "Critical Buff"
+      "bonus": "Critical Recovery"
     },
     "repair": [
       {
@@ -1879,11 +1879,11 @@
     "durability": 80,
     "defense": 15,
     "resistance": 9,
-    "pieceEffect": "Critical Buff",
-    "sleekEffect": "Venom Resistance",
+    "pieceEffect": "Critical Haste",
+    "sleekEffect": "Venom Reduction",
     "set": {
       "name": "Praying Mantis Armor",
-      "bonus": "Critical Buff"
+      "bonus": "Critical Recovery"
     },
     "repair": [
       {
@@ -1923,11 +1923,11 @@
     "durability": 80,
     "defense": 7.5,
     "resistance": 4.5,
-    "pieceEffect": "Critical Buff",
-    "sleekEffect": "Venom Resistance",
+    "pieceEffect": "Critical Haste",
+    "sleekEffect": "Venom Reduction",
     "set": {
       "name": "Praying Mantis Armor",
-      "bonus": "Critical Buff"
+      "bonus": "Critical Recovery"
     },
     "repair": [
       {
@@ -1967,11 +1967,11 @@
     "durability": 80,
     "defense": 6,
     "resistance": 5.5,
-    "pieceEffect": "Chill Resistance",
+    "pieceEffect": "Chill Reduction",
     "sleekEffect": "Freeze Resistance",
     "set": {
       "name": "Fuzzy Armor",
-      "bonus": null
+      "bonus": "Exertion"
     },
     "repair": [
       {
@@ -2015,11 +2015,11 @@
     "durability": 80,
     "defense": 12,
     "resistance": 11,
-    "pieceEffect": "Chill Resistance",
+    "pieceEffect": "Chill Reduction",
     "sleekEffect": "Freeze Resistance",
     "set": {
       "name": "Fuzzy Armor",
-      "bonus": null
+      "bonus": "Exertion"
     },
     "repair": [
       {
@@ -2063,11 +2063,11 @@
     "durability": 80,
     "defense": 6,
     "resistance": 5.5,
-    "pieceEffect": "Chill Resistance",
+    "pieceEffect": "Chill Reduction",
     "sleekEffect": "Freeze Resistance",
     "set": {
       "name": "Fuzzy Armor",
-      "bonus": null
+      "bonus": "Exertion"
     },
     "repair": [
       {
@@ -2111,11 +2111,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Critical Buff",
-    "sleekEffect": "Threat Generation Down",
+    "pieceEffect": "Critical Recovery",
+    "sleekEffect": "Minor Threat",
     "set": {
       "name": "Cricket Armor",
-      "bonus": "Critical Buff"
+      "bonus": "Healthy Harmony"
     },
     "repair": [
       {
@@ -2155,11 +2155,11 @@
     "durability": 90,
     "defense": 16,
     "resistance": 11.5,
-    "pieceEffect": "Critical Buff",
-    "sleekEffect": "Threat Generation Down",
+    "pieceEffect": "Critical Recovery",
+    "sleekEffect": "Minor Threat",
     "set": {
       "name": "Cricket Armor",
-      "bonus": "Critical Buff"
+      "bonus": "Healthy Harmony"
     },
     "repair": [
       {
@@ -2199,11 +2199,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Critical Buff",
-    "sleekEffect": "Threat Generation Down",
+    "pieceEffect": "Critical Recovery",
+    "sleekEffect": "Minor Threat",
     "set": {
       "name": "Cricket Armor",
-      "bonus": "Critical Buff"
+      "bonus": "Healthy Harmony"
     },
     "repair": [
       {
@@ -2243,11 +2243,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Parry Charge Speed",
-    "sleekEffect": "Guard Break",
+    "pieceEffect": "Hasty Riposte",
+    "sleekEffect": "Guard Breaker",
     "set": {
       "name": "Earwig Armor",
-      "bonus": "Parry Charge Speed"
+      "bonus": "Swarm Crusher"
     },
     "repair": [
       {
@@ -2287,11 +2287,11 @@
     "durability": 100,
     "defense": 17,
     "resistance": 14,
-    "pieceEffect": "Parry Charge Speed",
-    "sleekEffect": "Guard Break",
+    "pieceEffect": "Hasty Riposte",
+    "sleekEffect": "Guard Breaker",
     "set": {
       "name": "Earwig Armor",
-      "bonus": "Parry Charge Speed"
+      "bonus": "Swarm Crusher"
     },
     "repair": [
       {
@@ -2331,11 +2331,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Parry Charge Speed",
-    "sleekEffect": "Guard Break",
+    "pieceEffect": "Hasty Riposte",
+    "sleekEffect": "Guard Breaker",
     "set": {
       "name": "Earwig Armor",
-      "bonus": "Parry Charge Speed"
+      "bonus": "Swarm Crusher"
     },
     "repair": [],
     "recipes": [
@@ -2366,11 +2366,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Block Tang Recovery",
-    "sleekEffect": "Combo Finish Smash",
+    "pieceEffect": "Tangy Purification",
+    "sleekEffect": "Final Mash",
     "set": {
       "name": "Potato Beetle Armor",
-      "bonus": "Block Tang Recovery"
+      "bonus": "Spud Bud"
     },
     "repair": [
       {
@@ -2410,11 +2410,11 @@
     "durability": 100,
     "defense": 17,
     "resistance": 14,
-    "pieceEffect": "Block Tang Recovery",
-    "sleekEffect": "Combo Finish Smash",
+    "pieceEffect": "Tangy Purification",
+    "sleekEffect": "Final Mash",
     "set": {
       "name": "Potato Beetle Armor",
-      "bonus": "Block Tang Recovery"
+      "bonus": "Spud Bud"
     },
     "repair": [
       {
@@ -2454,11 +2454,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Block Tang Recovery",
-    "sleekEffect": "Combo Finish Smash",
+    "pieceEffect": "Tangy Purification",
+    "sleekEffect": "Final Mash",
     "set": {
       "name": "Potato Beetle Armor",
-      "bonus": "Block Tang Recovery"
+      "bonus": "Spud Bud"
     },
     "repair": [],
     "recipes": [
@@ -2489,11 +2489,11 @@
     "durability": 70,
     "defense": 7,
     "resistance": 3.25,
-    "pieceEffect": "Critical Inspiration",
-    "sleekEffect": "Corrosion Resistance",
+    "pieceEffect": "Tangy Eruption",
+    "sleekEffect": "Tang Reduction",
     "set": {
       "name": "Rusty Armor",
-      "bonus": "Critical Inspiration"
+      "bonus": "Puck Luck"
     },
     "repair": [
       {
@@ -2533,11 +2533,11 @@
     "durability": 70,
     "defense": 14,
     "resistance": 6.5,
-    "pieceEffect": "Critical Inspiration",
-    "sleekEffect": "Corrosion Resistance",
+    "pieceEffect": "Sourmancy",
+    "sleekEffect": "Tang Reduction",
     "set": {
       "name": "Rusty Armor",
-      "bonus": "Critical Inspiration"
+      "bonus": "Puck Luck"
     },
     "repair": [
       {
@@ -2577,11 +2577,11 @@
     "durability": 70,
     "defense": 7,
     "resistance": 3.25,
-    "pieceEffect": "Critical Inspiration",
-    "sleekEffect": "Corrosion Resistance",
+    "pieceEffect": "Sourmancy",
+    "sleekEffect": "Tang Reduction",
     "set": {
       "name": "Rusty Armor",
-      "bonus": "Critical Inspiration"
+      "bonus": "Puck Luck"
     },
     "repair": [],
     "recipes": [
@@ -2612,8 +2612,8 @@
     "durability": 70,
     "defense": 7,
     "resistance": 3.25,
-    "pieceEffect": "Devastation",
-    "sleekEffect": "Devastation",
+    "pieceEffect": "Finale Quickening",
+    "sleekEffect": "Empowered Devastation",
     "set": {
       "name": "Serpent Armor",
       "bonus": "Devastation"
@@ -2656,8 +2656,8 @@
     "durability": 70,
     "defense": 14,
     "resistance": 6.5,
-    "pieceEffect": "Devastation",
-    "sleekEffect": "Devastation",
+    "pieceEffect": "Finale Quickening",
+    "sleekEffect": "Empowered Devastation",
     "set": {
       "name": "Serpent Armor",
       "bonus": "Devastation"
@@ -2700,8 +2700,8 @@
     "durability": 70,
     "defense": 7,
     "resistance": 3.25,
-    "pieceEffect": "Devastation",
-    "sleekEffect": "Devastation",
+    "pieceEffect": "Finale Quickening",
+    "sleekEffect": "Empowered Devastation",
     "set": {
       "name": "Serpent Armor",
       "bonus": "Devastation"
@@ -2735,11 +2735,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Quickdraw",
+    "pieceEffect": "Perfect Quickdraw",
     "sleekEffect": "Charged Shot Stamina",
     "set": {
       "name": "Wasp Armor",
-      "bonus": "Wasp Quickdraw"
+      "bonus": "Perfect Combo"
     },
     "repair": [
       {
@@ -2779,11 +2779,11 @@
     "durability": 90,
     "defense": 16,
     "resistance": 11.5,
-    "pieceEffect": "Quickdraw",
+    "pieceEffect": "Perfect Quickdraw",
     "sleekEffect": "Charged Shot Stamina",
     "set": {
       "name": "Wasp Armor",
-      "bonus": "Wasp Quickdraw"
+      "bonus": "Perfect Combo"
     },
     "repair": [
       {
@@ -2823,11 +2823,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Quickdraw",
+    "pieceEffect": "Perfect Quickdraw",
     "sleekEffect": "Charged Shot Stamina",
     "set": {
       "name": "Wasp Armor",
-      "bonus": "Wasp Quickdraw"
+      "bonus": "Perfect Combo"
     },
     "repair": [
       {
@@ -2867,11 +2867,11 @@
     "durability": 80,
     "defense": 7.5,
     "resistance": 4.5,
-    "pieceEffect": "Black Ant Critical Parry",
-    "sleekEffect": "Critical Inspiration",
+    "pieceEffect": "Parry Criticals",
+    "sleekEffect": "Crit Hyperstamina",
     "set": {
       "name": "Black Ant Armor",
-      "bonus": "Black Ant Critical Parry"
+      "bonus": "Formic Retort"
     },
     "repair": [
       {
@@ -2911,11 +2911,11 @@
     "durability": 80,
     "defense": 15,
     "resistance": 9,
-    "pieceEffect": "Black Ant Critical Parry",
-    "sleekEffect": "Critical Inspiration",
+    "pieceEffect": "Parry Criticals",
+    "sleekEffect": "Crit Hyperstamina",
     "set": {
       "name": "Black Ant Armor",
-      "bonus": "Black Ant Critical Parry"
+      "bonus": "Formic Retort"
     },
     "repair": [
       {
@@ -2955,11 +2955,11 @@
     "durability": 80,
     "defense": 7.5,
     "resistance": 4.5,
-    "pieceEffect": "Black Ant Critical Parry",
-    "sleekEffect": "Critical Inspiration",
+    "pieceEffect": "Parry Criticals",
+    "sleekEffect": "Crit Hyperstamina",
     "set": {
       "name": "Black Ant Armor",
-      "bonus": "Black Ant Critical Parry"
+      "bonus": "Formic Retort"
     },
     "repair": [
       {
@@ -2999,11 +2999,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Parry Window",
+    "pieceEffect": "Perfect Block Timing",
     "sleekEffect": "Burn Resistance",
     "set": {
       "name": "Wyrm Slayer Armor",
-      "bonus": "Quickdraw"
+      "bonus": "Searing Strikes"
     },
     "repair": [
       {
@@ -3043,11 +3043,11 @@
     "durability": 100,
     "defense": 17,
     "resistance": 14,
-    "pieceEffect": "Parry Window",
+    "pieceEffect": "Perfect Block Timing",
     "sleekEffect": "Burn Resistance",
     "set": {
       "name": "Wyrm Slayer Armor",
-      "bonus": "Quickdraw"
+      "bonus": "Searing Strikes"
     },
     "repair": [
       {
@@ -3087,11 +3087,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Parry Window",
+    "pieceEffect": "Perfect Block Timing",
     "sleekEffect": "Burn Resistance",
     "set": {
       "name": "Wyrm Slayer Armor",
-      "bonus": "Quickdraw"
+      "bonus": "Searing Strikes"
     },
     "repair": [],
     "recipes": [
@@ -3254,11 +3254,11 @@
     "durability": 85,
     "defense": 9,
     "resistance": 4.75,
-    "pieceEffect": "Parry Venom",
-    "sleekEffect": "Perfect Dash Window",
+    "pieceEffect": "Venom Parry",
+    "sleekEffect": "Dash Strike Window",
     "set": {
       "name": "Striped Armor",
-      "bonus": "Parry Venom"
+      "bonus": "Finale Force"
     },
     "repair": [
       {
@@ -3298,11 +3298,11 @@
     "durability": 85,
     "defense": 18,
     "resistance": 9.5,
-    "pieceEffect": "Parry Venom",
-    "sleekEffect": "Perfect Dash Window",
+    "pieceEffect": "Venom Parry",
+    "sleekEffect": "Dash Strike Window",
     "set": {
       "name": "Striped Armor",
-      "bonus": "Parry Venom"
+      "bonus": "Finale Force"
     },
     "repair": [
       {
@@ -3342,11 +3342,11 @@
     "durability": 85,
     "defense": 9,
     "resistance": 4.75,
-    "pieceEffect": "Parry Venom",
-    "sleekEffect": "Perfect Dash Window",
+    "pieceEffect": "Venom Parry",
+    "sleekEffect": "Dash Strike Window",
     "set": {
       "name": "Striped Armor",
-      "bonus": "Parry Venom"
+      "bonus": "Finale Force"
     },
     "repair": [
       {
@@ -3386,11 +3386,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Shock Trigger",
+    "pieceEffect": "Parry Shock",
     "sleekEffect": "Shock Resistance",
     "set": {
       "name": "Shell Shocker Armor",
-      "bonus": "Shock Trigger"
+      "bonus": "Power Surge"
     },
     "repair": [
       {
@@ -3430,11 +3430,11 @@
     "durability": 100,
     "defense": 17,
     "resistance": 14,
-    "pieceEffect": "Shock Trigger",
+    "pieceEffect": "Parry Shock",
     "sleekEffect": "Shock Resistance",
     "set": {
       "name": "Shell Shocker Armor",
-      "bonus": "Shock Trigger"
+      "bonus": "Power Surge"
     },
     "repair": [
       {
@@ -3474,11 +3474,11 @@
     "durability": 100,
     "defense": 8.5,
     "resistance": 7,
-    "pieceEffect": "Shock Trigger",
+    "pieceEffect": "Parry Shock",
     "sleekEffect": "Shock Resistance",
     "set": {
       "name": "Shell Shocker Armor",
-      "bonus": "Shock Trigger"
+      "bonus": "Power Surge"
     },
     "repair": [
       {
@@ -3519,10 +3519,10 @@
     "defense": 7.5,
     "resistance": 4.5,
     "pieceEffect": "Veteran Diver",
-    "sleekEffect": "Veteran Diver",
+    "sleekEffect": "Dash Stamina",
     "set": {
       "name": "Koi Scale Armor",
-      "bonus": "Veteran Diver"
+      "bonus": "Bubble Struggle"
     },
     "repair": [
       {
@@ -3566,11 +3566,11 @@
     "durability": 80,
     "defense": 15,
     "resistance": 9,
-    "pieceEffect": "Veteran Diver",
-    "sleekEffect": "Veteran Diver",
+    "pieceEffect": "Water Chill Reduction",
+    "sleekEffect": "Dash Damage",
     "set": {
       "name": "Koi Scale Armor",
-      "bonus": "Veteran Diver"
+      "bonus": "Bubble Struggle"
     },
     "repair": [
       {
@@ -3614,11 +3614,11 @@
     "durability": 80,
     "defense": 7.5,
     "resistance": 4.5,
-    "pieceEffect": "Veteran Diver",
-    "sleekEffect": "Veteran Diver",
+    "pieceEffect": "Major Swim Speed",
+    "sleekEffect": "Dash Stamina",
     "set": {
       "name": "Koi Scale Armor",
-      "bonus": "Veteran Diver"
+      "bonus": "Bubble Struggle"
     },
     "repair": [
       {
@@ -3662,11 +3662,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Abyss Immunity",
-    "sleekEffect": "Self Durability",
+    "pieceEffect": "Master Diver",
+    "sleekEffect": "Emergency Repair",
     "set": {
       "name": "Diving Armor",
-      "bonus": "Abyss Immunity"
+      "bonus": "Under Pressure"
     },
     "repair": [
       {
@@ -3710,11 +3710,11 @@
     "durability": 90,
     "defense": 16,
     "resistance": 11.5,
-    "pieceEffect": "Abyss Immunity",
-    "sleekEffect": "Self Durability",
+    "pieceEffect": "Chill Reduction",
+    "sleekEffect": "Emergency Repair",
     "set": {
       "name": "Diving Armor",
-      "bonus": "Abyss Immunity"
+      "bonus": "Under Pressure"
     },
     "repair": [
       {
@@ -3758,11 +3758,11 @@
     "durability": 90,
     "defense": 8,
     "resistance": 5.75,
-    "pieceEffect": "Abyss Immunity",
-    "sleekEffect": "Self Durability",
+    "pieceEffect": "Diving Ballast",
+    "sleekEffect": "Emergency Repair",
     "set": {
       "name": "Diving Armor",
-      "bonus": "Abyss Immunity"
+      "bonus": "Under Pressure"
     },
     "repair": [],
     "recipes": [
@@ -3835,7 +3835,7 @@
     "defense": 4,
     "resistance": 6.5,
     "pieceEffect": "Woozy Reduction",
-    "sleekEffect": "Gas Resistance",
+    "sleekEffect": "Explosive Resist",
     "set": null,
     "repair": [
       {
@@ -3920,7 +3920,7 @@
     "durability": 70,
     "defense": 4,
     "resistance": 4.5,
-    "pieceEffect": "Loot Luck",
+    "pieceEffect": "Playful Pinch",
     "sleekEffect": "Loot Luck",
     "set": null,
     "repair": [
@@ -3957,8 +3957,8 @@
     "durability": 70,
     "defense": 4,
     "resistance": 4.5,
-    "pieceEffect": "Bright Light",
-    "sleekEffect": "Glowing Light",
+    "pieceEffect": null,
+    "sleekEffect": "Busting Power",
     "set": null,
     "repair": [
       {
@@ -3994,8 +3994,8 @@
     "durability": 50,
     "defense": 2,
     "resistance": 2.5,
-    "pieceEffect": "Breathing Tube",
-    "sleekEffect": null,
+    "pieceEffect": "Junior Diver",
+    "sleekEffect": "Hyperstamina",
     "set": null,
     "repair": [
       {
@@ -4031,8 +4031,8 @@
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
-    "pieceEffect": "Pirate Vision",
-    "sleekEffect": null,
+    "pieceEffect": "Attack Damage",
+    "sleekEffect": "Minor Threat",
     "set": null,
     "repair": [
       {
@@ -4064,8 +4064,8 @@
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
-    "pieceEffect": "Headphone Protection",
-    "sleekEffect": null,
+    "pieceEffect": "Chill Reduction",
+    "sleekEffect": "Hyperstamina",
     "set": null,
     "repair": [
       {
@@ -4097,8 +4097,8 @@
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
-    "pieceEffect": "Swimming Boost",
-    "sleekEffect": null,
+    "pieceEffect": "Swim Speed",
+    "sleekEffect": "Sprint Stamina",
     "set": null,
     "repair": [
       {
@@ -4130,8 +4130,8 @@
     "durability": 40,
     "defense": 1,
     "resistance": 1.5,
-    "pieceEffect": "Sprint Speed",
-    "sleekEffect": null,
+    "pieceEffect": "The Quickness",
+    "sleekEffect": "Aphkid",
     "set": null,
     "repair": [
       {

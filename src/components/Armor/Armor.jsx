@@ -5,6 +5,7 @@ import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Card from '../Card/Card'
+import Tooltip from '../Tooltip/Tooltip'
 import './Armor.css'
 
 function Armor({ item }) {
@@ -40,11 +41,19 @@ function Armor({ item }) {
           </div>
         </div>
 
-        {item.pieceEffect && <p className="armor-card__text">Piece Effect: {item.pieceEffect}</p>}
-        {item.sleekEffect != null && <p className="armor-card__text">Sleek Effect: {item.sleekEffect}</p>}
+        {item.pieceEffect && (
+          <p className="armor-card__text">
+            Piece Effect: <Tooltip name={item.pieceEffect} />
+          </p>
+        )}
+        {item.sleekEffect != null && (
+          <p className="armor-card__text">
+            Sleek Effect: <Tooltip name={item.sleekEffect} />
+          </p>
+        )}
         {item.set && item.set.bonus != null && (
           <p className="armor-card__text">
-            Set: {item.set.name} ({item.set.bonus})
+            Set: {item.set.name} (<Tooltip name={item.set.bonus} />)
           </p>
         )}
 
