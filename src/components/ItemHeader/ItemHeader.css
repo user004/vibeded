@@ -3,12 +3,14 @@
   gap: var(--size-2);
   grid-template-areas:
     "tier title checks"
-    "meta meta meta";
-  grid-template-columns: min-content auto auto;
+    "meta meta checks";
+  grid-template-columns: min-content auto min-content;
   grid-template-rows: auto auto;
+  align-items: start;
 
   .tier {
     grid-area: tier;
+    padding-block-start: var(--size-2);
   }
 
   .title {

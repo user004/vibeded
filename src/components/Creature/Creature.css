@@ -2,6 +2,7 @@
   display: grid;
   gap: var(--size-4);
   position: relative;
+  align-content: start;
 
   &[data-gold-card='true'] {
     border: 1px solid var(--yellow-6);
