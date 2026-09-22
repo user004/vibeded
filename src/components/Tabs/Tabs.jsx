@@ -4,10 +4,11 @@ import CreatureList from '../CreatureList/CreatureList'
 import MutationList from '../MutationList/MutationList'
 import ResourceList from '../ResourceList/ResourceList'
 import StatusList from '../StatusList/StatusList'
+import TrinketList from '../TrinketList/TrinketList'
 import WeaponList from '../WeaponList/WeaponList'
 import './Tabs.css'
 
-const TAB_KEYS = ['Armor', 'Creatures', 'Mutations', 'Resources', 'Statuses', 'Weapons']
+const TAB_KEYS = ['Armor', 'Creatures', 'Mutations', 'Resources', 'Statuses', 'Trinkets', 'Weapons']
 
 function Tabs() {
   const [activeTab, setActiveTab] = useState('Armor')
@@ -36,6 +37,7 @@ function Tabs() {
         {activeTab === 'Mutations' && <MutationList />}
         {activeTab === 'Resources' && <ResourceList />}
         {activeTab === 'Statuses' && <StatusList />}
+        {activeTab === 'Trinkets' && <TrinketList />}
         {activeTab === 'Weapons' && <WeaponList />}
       </div>
     </section>

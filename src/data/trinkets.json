@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Nightstalker Fangs",
+    "tier": 3,
+    "description": "An exquisite trophy harvested from Axl, the fuzziest arachnid to ever roam the park.",
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          { "name": "Tarantula Fang", "quantity": 1 },
+          { "name": "Tarantula Chunk", "quantity": 1 },
+          { "name": "Mosquito Blood Sack", "quantity": 3 }
+        ]
+      }
+    ],
+    "perks": ["Buggy Vampirism"],
+    "unlockedBy": "Analyzing Tarantula Fang",
+    "sources": []
+  },
+  {
+    "name": "Reflex Guard",
+    "tier": 3,
+    "description": "A thick chitin plate that reinforces armor defenses and makes it easier to block with shields.",
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          { "name": "Striped Scorpion Chunk", "quantity": 3 },
+          { "name": "Sturdy Plating", "quantity": 2 },
+          { "name": "Crushed Quartz", "quantity": 3 }
+        ]
+      }
+    ],
+    "perks": ["Bargain Block"],
+    "unlockedBy": "Reach Brainpower Level 11",
+    "sources": []
+  },
+  {
+    "name": "O.R.C. Nullifier",
+    "tier": 2,
+    "description": "An Ominent device that jams the aggression protocols of O.R.C. Receivers.",
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          { "name": "O.R.C. Receiver", "quantity": 2 },
+          { "name": "Lingonberry Leather", "quantity": 1 },
+          { "name": "Gum Nugget", "quantity": 2 },
+          { "name": "Roach Head", "quantity": 1 }
+        ]
+      }
+    ],
+    "perks": ["O.R.C. Attack Down"],
+    "unlockedBy": "Reach Brainpower Level 6",
+    "sources": []
+  },
+  {
+    "name": "Volatile Capacitor",
+    "tier": 2,
+    "description": "An overcharged capacitor, primed to unleash a voltaic energy discharge.",
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          { "name": "O.R.C. Receiver", "quantity": 3 },
+          { "name": "Unstable Goo", "quantity": 4 },
+          { "name": "Bug Rubber", "quantity": 3 },
+          { "name": "Praying Mantis Head", "quantity": 1 }
+        ]
+      }
+    ],
+    "perks": ["Shock Attack", "Haywire"],
+    "unlockedBy": "Reach Brainpower Level 9",
+    "sources": []
+  },
+  {
+    "name": "Nifty Needle",
+    "tier": 1,
+    "description": "A very useful thistle needle that increases the damage of fully charged bow shots.",
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          { "name": "Thistle Needle", "quantity": 1 },
+          { "name": "Sap", "quantity": 2 },
+          { "name": "Gnat Fuzz", "quantity": 3 }
+        ]
+      }
+    ],
+    "perks": ["Charged Shot Damage"],
+    "unlockedBy": "Analyzing Thistle Needle",
+    "sources": []
+  },
+  {
+    "name": "Sturdy Shell",
+    "tier": 1,
+    "description": "An incredibly solid piece of acorn that increases your defensive capabilities.",
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          { "name": "Acorn Shell", "quantity": 1 },
+          { "name": "Sap", "quantity": 2 },
+          { "name": "Grub Hide", "quantity": 3 }
+        ]
+      }
+    ],
+    "perks": ["Friendly Fire Defense Up", "Major Threat"],
+    "unlockedBy": "Analyzing Acorn Shell",
+    "sources": []
+  },
+  {
+    "name": "Astonishing Acid",
+    "tier": 1,
+    "description": "A gland full of seemingly infinite acid. Combo attacks cause it to burst.",
+    "recipes": [
+      {
+        "station": "Workbench",
+        "ingredients": [
+          { "name": "Acid Gland", "quantity": 5 },
+          { "name": "Sap", "quantity": 2 },
+          { "name": "Larva Spike", "quantity": 2 }
+        ]
+      }
+    ],
+    "perks": [],
+    "unlockedBy": "Analyzing Acid Gland",
+    "sources": []
+  },
+  {
+    "name": "Cleaving Claw",
+    "tier": 3,
+    "description": "A peerless claw with a keen edge, the true mark of an apex predator.",
+    "recipes": [],
+    "perks": ["Death's Door"],
+    "unlockedBy": null,
+    "sources": ["Praying Mantis Nymph", "O.R.C. Praying Mantis Nymph", "O.G.R.R. Praying Mantis Nymph"]
+  },
+  {
+    "name": "Everlasting Hogstopper",
+    "tier": 3,
+    "description": "A source of infinite food. A nibble now and then satiates your hunger in just the right amounts.",
+    "recipes": [],
+    "perks": ["Food Generation"],
+    "unlockedBy": null,
+    "sources": ["Cockroach Queen", "Billy Hog"]
+  },
+  {
+    "name": "Fabulous Femur",
+    "tier": 3,
+    "description": "A vivid cricket drumstick that inspires lyrical poise and grace.",
+    "recipes": [],
+    "perks": ["Lucky Flurry", "Fall Defense"],
+    "unlockedBy": null,
+    "sources": ["Cricket", "O.G.R.R. Cricket", "O.R.C. Cricket"]
+  },
+  {
+    "name": "Feasting Fangs",
+    "tier": 3,
+    "description": "An incredibly sharp pair of tick fangs. Become a creature of the night.",
+    "recipes": [],
+    "perks": [],
+    "unlockedBy": null,
+    "sources": ["Tick"]
+  },
+  {
+    "name": "Frozen Droplet",
+    "tier": 3,
+    "description": "A frosty droplet that makes you erupt with minty particles when danger is near.",
+    "recipes": [],
+    "perks": [],
+    "unlockedBy": null,
+    "sources": ["Stolen from Woolly Aphids"]
+  },
+  {
+    "name": "King Dozer's Light",
+    "tier": 3,
+    "description": "There once was a lizard, it's true. The spiciest treats he did chew. He lapped up the tang, then burped with a bang. If you cross him, it's fire he'll spew.",
+    "recipes": [],
+    "perks": ["Sizzle Finale", "Burning Brand"],
+    "unlockedBy": null,
+    "sources": ["King Dozer"]
+  },
+  {
+    "name": "Nightstalker's Bane",
+    "tier": 3,
+    "description": "A pure sample of Axl's venom. The tiniest drop can coat weapons to deadly effect.",
+    "recipes": [],
+    "perks": ["Raging Venom"],
+    "unlockedBy": null,
+    "sources": ["Axl"]
+  },
+  {
+    "name": "Pincer Pincher",
+    "tier": 3,
+    "description": "This peerless earwig pincer helps you steal loot from unsuspecting foes.",
+    "recipes": [],
+    "perks": ["Ambush Steal"],
+    "unlockedBy": null,
+    "sources": ["O.R.C. Pincher Earwig", "O.R.C. Whipper Earwig", "O.G.R.R. Pincher Earwig", "O.G.R.R. Whipper Earwig", "Pincher Earwig", "Whipper Earwig"]
+  },
+  {
+    "name": "Speed Droplet",
+    "tier": 3,
+    "description": "A mystical droplet that gives you the energy to run faster and longer.",
+    "recipes": [],
+    "perks": ["The Quickness"],
+    "unlockedBy": null,
+    "sources": ["Stolen from Aphids"]
+  },
+  {
+    "name": "Tickled Toenail",
+    "tier": 3,
+    "description": "Treasure swiped from a toe biter leviathan. Looks infected and incredibly sharp.",
+    "recipes": [],
+    "perks": ["Infection"],
+    "unlockedBy": null,
+    "sources": ["O.G.R.R. Toe Biter Leviathan", "O.R.C. Toe Biter Leviathan", "Papa Toe Biter", "Toe Biter Leviathan"]
+  },
+  {
+    "name": "Blistering Boiler",
+    "tier": 2,
+    "description": "An unstable boiling gland radiating blistering heat.",
+    "recipes": [],
+    "perks": ["Finale Blastwave"],
+    "unlockedBy": null,
+    "sources": ["Bombardier Beetle", "O.R.C. Bombardier Beetle"]
+  },
+  {
+    "name": "Shivering Scale",
+    "tier": 2,
+    "description": "A frigid scale that numbs and tingles when held.",
+    "recipes": [],
+    "perks": ["Chilly Charge"],
+    "unlockedBy": null,
+    "sources": ["Blue Butterfly", "O.R.C. Blue Butterfly", "O.G.R.R. Blue Butterfly"]
+  },
+  {
+    "name": "Stabby Stinger",
+    "tier": 2,
+    "description": "A pristine scorpion stinger, perpetually oozing venom.",
+    "recipes": [],
+    "perks": ["Finale Venom"],
+    "unlockedBy": null,
+    "sources": ["Northern Scorpion", "O.G.R.R. Northern Scorpion", "O.G.R.R. Striped Bark Scorpion", "O.R.C. Striped Bark Scorpion", "O.R.C. Northern Scorpion", "Striped Bark Scorpion"]
+  },
+  {
+    "name": "Pucker Charm",
+    "tier": 3,
+    "description": "A condensed nugget of elemental force. Simply holding it fills you with power.",
+    "recipes": [],
+    "perks": ["Sour Attack"],
+    "unlockedBy": null,
+    "sources": ["Sour Candy"]
+  },
+  {
+    "name": "Fancy Fletching",
+    "tier": 2,
+    "description": "A mysterious feather that significantly improves your marksmanship with bows.",
+    "recipes": [],
+    "perks": ["Quickdraw"],
+    "unlockedBy": null,
+    "sources": ["Crow Feather"]
+  },
+  {
+    "name": "Fluffy Dandelion Tuft",
+    "tier": 2,
+    "description": "A fluffy puff of dandelion of exceptionally high quality. Could be used to drift down from even greater heights.",
+    "recipes": [],
+    "perks": [],
+    "unlockedBy": null,
+    "sources": ["Dandelion"]
+  },
+  {
+    "name": "Spectacular Spicy Shard",
+    "tier": 2,
+    "description": "A condensed nugget of elemental force. Simply holding it fills you with power.",
+    "recipes": [],
+    "perks": ["Spicy Attack"],
+    "unlockedBy": null,
+    "sources": ["Spicy Candy"]
+  },
+  {
+    "name": "Suspicious Mint",
+    "tier": 2,
+    "description": "A condensed nugget of elemental force. Simply holding it fills you with power.",
+    "recipes": [],
+    "perks": ["Fresh Attack"],
+    "unlockedBy": null,
+    "sources": ["Fresh Mint"]
+  },
+  {
+    "name": "Valentine's Fortune",
+    "tier": 2,
+    "description": "A small piece of paper that inexplicably reveals your secret crush, received from a valentine's day chocolate. Grants a mysterious but chivalrous bonus.",
+    "recipes": [],
+    "perks": ["Vampirism"],
+    "unlockedBy": null,
+    "sources": ["Chocolate Smoochies"]
+  },
+  {
+    "name": "Sticky Fingers",
+    "tier": 3,
+    "description": "A sticky pair of gloves that lets you steal pieces of insects as you attack them.",
+    "recipes": [],
+    "perks": [],
+    "unlockedBy": null,
+    "sources": ["Northwestern Rocky Chamber, accessed via the path north of the High Ground Antenna; blow up the Chewed Gum with a Croakwurst"]
+  },
+  {
+    "name": "Biomedical Token",
+    "tier": 2,
+    "description": "The secret to eternal life... at the cost of a void that can never be satiated.",
+    "recipes": [],
+    "perks": ["Trickle Regen"],
+    "unlockedBy": null,
+    "sources": ["Inside Abyss Outpost #1"]
+  },
+  {
+    "name": "Myrmecologist Token",
+    "tier": 2,
+    "description": "With this in your hands, your contributions to ant science are finally being recognized.",
+    "recipes": [],
+    "perks": ["Ant Damage", "Damage Resist Down"],
+    "unlockedBy": null,
+    "sources": ["Inside the Snackbar Anthill"]
+  },
+  {
+    "name": "Eco Exploitation Token",
+    "tier": 2,
+    "description": "Leave no stone ungathered, no leaf unchopped, no enemy undefeated... well except for spiders.",
+    "recipes": [],
+    "perks": ["Hauling Strength", "Arachnophobia"],
+    "unlockedBy": null,
+    "sources": ["Inside the Spider Den Anthill"]
+  },
+  {
+    "name": "Ranger Token",
+    "tier": 2,
+    "description": "The power to slice and dice. If only your training focused a little more on safety.",
+    "recipes": [],
+    "perks": ["Attack Damage"],
+    "unlockedBy": null,
+    "sources": ["On a stone brick of the northern retaining wall of Skunk Pond behind the leaning net"]
+  },
+  {
+    "name": "Toxicology Token",
+    "tier": 2,
+    "description": "You can breathe easy knowing your cutting edge research will save Ominent lives. Probably.",
+    "recipes": [],
+    "perks": ["Venom Resistance"],
+    "unlockedBy": null,
+    "sources": ["Inside one of the blue sand molds on the southern shore of Skunk Pond"]
+  },
+  {
+    "name": "Bale Scale",
+    "tier": 3,
+    "description": "An immaculate scale, brimming with primeval power.",
+    "recipes": [
+      {
+        "station": "Forbidden Workbench",
+        "ingredients": [
+          { "name": "Snake Scale", "quantity": 1 },
+          { "name": "Spicy Glob", "quantity": 1 },
+          { "name": "Mint Glob", "quantity": 1 },
+          { "name": "Sour Glob", "quantity": 1 }
+        ]
+      }
+    ],
+    "perks": ["Candy Overload"],
+    "unlockedBy": null,
+    "sources": ["O.R.C. Stash in the Veggie Garden below the Hammer"]
+  },
+  {
+    "name": "The Crown Jewel",
+    "tier": 3,
+    "description": "Of all the treasures that glittered in the mountain, this magnificent stone shone the brightest.",
+    "recipes": [
+      {
+        "station": "Forbidden Workbench",
+        "ingredients": [
+          { "name": "Phantom Quartz Shard", "quantity": 3 },
+          { "name": "Gold Foil", "quantity": 2 },
+          { "name": "Mighty Glob", "quantity": 2 }
+        ]
+      }
+    ],
+    "perks": [],
+    "unlockedBy": null,
+    "sources": ["Small cave along the northern retaining wall of Skunk Pond"]
+  },
+  {
+    "name": "Roach Rage",
+    "tier": 2,
+    "description": "A shrunken roach head, still yearning for battle!",
+    "recipes": [
+      {
+        "station": "Forbidden Workbench",
+        "ingredients": [
+          { "name": "Roach Head", "quantity": 1 },
+          { "name": "Unstable Goo", "quantity": 2 },
+          { "name": "Liquid Rage", "quantity": 3 }
+        ]
+      }
+    ],
+    "perks": ["Low Health: Attack Up"],
+    "unlockedBy": null,
+    "sources": ["O.R.C. Cockroach Queen in the Network Center"]
+  }
+]

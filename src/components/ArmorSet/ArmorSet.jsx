@@ -21,7 +21,11 @@ function ArmorSet({ setName, items }) {
       <ItemHeader
         title={setName}
         tier={tier}
-        tags={bonus != null && <Tooltip name={bonus} />}
+        tags={bonus != null &&
+          <>
+            Set Bonus:
+            <Tooltip name={bonus} />
+          </>}
       />
 
       <List
