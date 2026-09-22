@@ -4,6 +4,19 @@
   border-block-end: var(--border-size-1) dotted var(--accent-1);
   cursor: help;
 
+  &:has(.tooltip__trigger-icon) {
+    border-block-end: none;
+    vertical-align: middle;
+  }
+
+  .tooltip__trigger-icon {
+    inline-size: var(--size-6);
+    block-size: var(--size-6);
+    object-fit: contain;
+    image-rendering: pixelated;
+    vertical-align: middle;
+  }
+
   .tooltip__content {
     position: absolute;
     z-index: 10;
@@ -24,6 +37,11 @@
     transition:
       opacity 150ms ease,
       transform 150ms ease;
+  }
+
+  .tooltip__content--fit {
+    inline-size: max-content;
+    max-inline-size: 80vw;
   }
 
   &:hover .tooltip__content,

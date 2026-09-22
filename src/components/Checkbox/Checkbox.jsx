@@ -25,7 +25,7 @@ function Checkbox({ checkboxKey, icon, label, onChange }) {
           onChange?.(event.target.checked)
         }}
       />
-      <Tooltip label={label}>
+      <Tooltip label={label} fitContent>
         <span aria-hidden="true">{icon}</span>
       </Tooltip>
     </label>

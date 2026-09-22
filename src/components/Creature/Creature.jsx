@@ -35,7 +35,7 @@ function Creature({ item }) {
         checkboxes={
           <>
             <Checkbox checkboxKey={peepedKey} icon="👀" label="Peeped" onChange={handlePeepedChange} />
-            <Checkbox checkboxKey={goldCardKey} icon="🥇" label="Gold card" onChange={handleGoldCardChange} />
+            <Checkbox checkboxKey={goldCardKey} icon="🥇" label="Gold" onChange={handleGoldCardChange} />
           </>
         }
         tags={

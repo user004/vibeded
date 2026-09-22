@@ -1,8 +1,11 @@
 import statuses from '../../data/statuses.json'
 import './Tooltip.css'
 
-function Tooltip({ name, label, children = name }) {
+function Tooltip({ name, label, children = name, fitContent = false }) {
   const status = statuses.find((item) => item.name === name)
+  const contentClassName = fitContent
+    ? 'tooltip__content tooltip__content--fit'
+    : 'tooltip__content'
 
   if (!status) {
     if (!label) {
@@ -12,7 +15,7 @@ function Tooltip({ name, label, children = name }) {
     return (
       <span className="tooltip" tabIndex="0">
         {children}
-        <span className="tooltip__content" role="tooltip">
+        <span className={contentClassName} role="tooltip">
           <span className="tooltip__description">{label}</span>
         </span>
       </span>
@@ -21,8 +24,8 @@ function Tooltip({ name, label, children = name }) {
 
   return (
     <span className="tooltip" tabIndex="0">
-      {children}
-      <span className="tooltip__content" role="tooltip">
+      <img className="tooltip__trigger-icon" src={status.icon} alt={status.name} />
+      <span className={contentClassName} role="tooltip">
         <span className="tooltip__header">
           <img className="tooltip__icon" src={status.icon} alt="" />
           <strong className="tooltip__name">{status.name}</strong>
