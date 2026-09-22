@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
+import Tooltip from '../Tooltip/Tooltip'
 import './Checkbox.css'
 
 function Checkbox({ checkboxKey, icon, label, onChange }) {
@@ -13,7 +14,7 @@ function Checkbox({ checkboxKey, icon, label, onChange }) {
   const checked = Boolean(checkboxState[checkboxKey])
 
   return (
-    <label className="field-guide-checkbox" htmlFor={checkboxKey} title={label}>
+    <label className="field-guide-checkbox" htmlFor={checkboxKey}>
       <input
         id={checkboxKey}
         name={checkboxKey}
@@ -24,7 +25,9 @@ function Checkbox({ checkboxKey, icon, label, onChange }) {
           onChange?.(event.target.checked)
         }}
       />
-      <span aria-hidden="true">{icon}</span>
+      <Tooltip label={label}>
+        <span aria-hidden="true">{icon}</span>
+      </Tooltip>
     </label>
   )
 }

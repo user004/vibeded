@@ -1,10 +1,11 @@
 .card {
-  height: 100%;
-  padding: var(--card-padding);
-  border: var(--border-size-1) solid var(--border-subtle);
-  border-radius: var(--card-radius);
+  align-content: start;
   background:
     linear-gradient(180deg, color-mix(in srgb, var(--surface-2) 88%, transparent), var(--surface-1)),
     var(--accent-panel);
+  border-radius: var(--card-radius);
+  border: var(--border-size-1) solid var(--border-subtle);
   box-shadow: var(--shadow-4);
+  height: 100%;
+  padding: var(--card-padding);
 }

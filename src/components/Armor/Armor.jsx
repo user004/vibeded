@@ -28,15 +28,15 @@ function Armor({ item }) {
       <Accordion summary="Details">
         <div className="armor-card__stats">
           <div className="armor-card__stat">
-            <span className="armor-card__stat-label">Durability</span>
+            <span className="armor-card__stat-label">DUR</span>
             <p className="armor-card__stat-value">{item.durability}</p>
           </div>
           <div className="armor-card__stat">
-            <span className="armor-card__stat-label">Defense</span>
+            <span className="armor-card__stat-label">DEF</span>
             <p className="armor-card__stat-value">{item.defense}</p>
           </div>
           <div className="armor-card__stat">
-            <span className="armor-card__stat-label">Resistance</span>
+            <span className="armor-card__stat-label">RES</span>
             <p className="armor-card__stat-value">{item.resistance}</p>
           </div>
         </div>
@@ -49,11 +49,6 @@ function Armor({ item }) {
         {item.sleekEffect != null && (
           <p className="armor-card__text">
             Sleek Effect: <Tooltip name={item.sleekEffect} />
-          </p>
-        )}
-        {item.set && item.set.bonus != null && (
-          <p className="armor-card__text">
-            Set: {item.set.name} (<Tooltip name={item.set.bonus} />)
           </p>
         )}
 

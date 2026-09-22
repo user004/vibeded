@@ -1,11 +1,22 @@
 import statuses from '../../data/statuses.json'
 import './Tooltip.css'
 
-function Tooltip({ name, children = name }) {
+function Tooltip({ name, label, children = name }) {
   const status = statuses.find((item) => item.name === name)
 
   if (!status) {
-    return children
+    if (!label) {
+      return children
+    }
+
+    return (
+      <span className="tooltip" tabIndex="0">
+        {children}
+        <span className="tooltip__content" role="tooltip">
+          <span className="tooltip__description">{label}</span>
+        </span>
+      </span>
+    )
   }
 
   return (

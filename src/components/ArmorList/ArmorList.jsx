@@ -2,6 +2,7 @@ import { useContext, useMemo, useState } from 'react'
 import armor from '../../data/armor.json'
 import Filters from '../Filters/Filters'
 import Armor from '../Armor/Armor'
+import ArmorSet from '../ArmorSet/ArmorSet'
 import List from '../List/List'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import {
@@ -66,6 +67,25 @@ function ArmorList() {
     })
   })
 
+  const setEntries = new Map()
+  const displayItems = filteredArmor.reduce((entries, item) => {
+    if (item.set) {
+      let entry = setEntries.get(item.set.name)
+
+      if (!entry) {
+        entry = { name: item.set.name, setName: item.set.name, items: [] }
+        setEntries.set(item.set.name, entry)
+        entries.push(entry)
+      }
+
+      entry.items.push(item)
+    } else {
+      entries.push({ name: item.name, item })
+    }
+
+    return entries
+  }, [])
+
   const handleFilterChange = (category, value) =>
     setSelectedFilters((current) => ({ ...current, [category]: value }))
 
@@ -86,7 +106,16 @@ function ArmorList() {
           setSearchValue('')
         }}
       />
-      <List className="armor-list" items={filteredArmor} renderItem={(item) => <Armor item={item} />} />
+      <List
+        className="armor-list"
+        columns={3}
+        items={displayItems}
+        renderItem={(entry) =>
+          entry.setName
+            ? <ArmorSet setName={entry.setName} items={entry.items} />
+            : <Armor item={entry.item} />
+        }
+      />
     </>
   )
 }
