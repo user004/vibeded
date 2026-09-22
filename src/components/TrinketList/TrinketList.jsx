@@ -63,7 +63,10 @@ function TrinketList() {
           setSearchValue('')
         }}
       />
-      <List className="trinket-list" items={filteredTrinkets} renderItem={(item) => <Trinket item={item} />} />
+      <List
+        className="trinket-list"
+        columns={2}
+        items={filteredTrinkets} renderItem={(item) => <Trinket item={item} />} />
     </>
   )
 }

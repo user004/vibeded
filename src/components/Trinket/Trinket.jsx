@@ -3,6 +3,7 @@ import Accordion from '../Accordion/Accordion'
 import Card from '../Card/Card'
 import Checkbox from '../Checkbox/Checkbox'
 import ItemHeader from '../ItemHeader/ItemHeader'
+import Tag from '../Tag/Tag'
 import Tooltip from '../Tooltip/Tooltip'
 import './Trinket.css'
 
@@ -16,6 +17,7 @@ function Trinket({ item }) {
         title={item.name}
         tier={item.tier}
         checkboxes={<Checkbox checkboxKey={checkboxKey} icon="🔨" label="Crafted" />}
+        tags={item.categories.map((category) => <Tag key={category} tag={category} />)}
       />
 
       <Accordion summary="Details">

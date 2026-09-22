@@ -55,7 +55,10 @@ function StatusList() {
           setSearchValue('')
         }}
       />
-      <List className="status-list" items={filteredStatuses} renderItem={(item) => <Status item={item} />} />
+      <List
+        className="status-list"
+        columns={2}
+        items={filteredStatuses} renderItem={(item) => <Status item={item} />} />
     </>
   )
 }

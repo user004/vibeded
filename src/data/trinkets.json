@@ -1,6 +1,7 @@
 [
   {
     "name": "Nightstalker Fangs",
+    "categories": ["Crafted"],
     "tier": 3,
     "description": "An exquisite trophy harvested from Axl, the fuzziest arachnid to ever roam the park.",
     "recipes": [
@@ -19,6 +20,7 @@
   },
   {
     "name": "Reflex Guard",
+    "categories": ["Crafted"],
     "tier": 3,
     "description": "A thick chitin plate that reinforces armor defenses and makes it easier to block with shields.",
     "recipes": [
@@ -37,6 +39,7 @@
   },
   {
     "name": "O.R.C. Nullifier",
+    "categories": ["Crafted"],
     "tier": 2,
     "description": "An Ominent device that jams the aggression protocols of O.R.C. Receivers.",
     "recipes": [
@@ -56,6 +59,7 @@
   },
   {
     "name": "Volatile Capacitor",
+    "categories": ["Crafted"],
     "tier": 2,
     "description": "An overcharged capacitor, primed to unleash a voltaic energy discharge.",
     "recipes": [
@@ -75,6 +79,7 @@
   },
   {
     "name": "Nifty Needle",
+    "categories": ["Crafted"],
     "tier": 1,
     "description": "A very useful thistle needle that increases the damage of fully charged bow shots.",
     "recipes": [
@@ -93,6 +98,7 @@
   },
   {
     "name": "Sturdy Shell",
+    "categories": ["Crafted"],
     "tier": 1,
     "description": "An incredibly solid piece of acorn that increases your defensive capabilities.",
     "recipes": [
@@ -111,6 +117,7 @@
   },
   {
     "name": "Astonishing Acid",
+    "categories": ["Crafted"],
     "tier": 1,
     "description": "A gland full of seemingly infinite acid. Combo attacks cause it to burst.",
     "recipes": [
@@ -129,6 +136,7 @@
   },
   {
     "name": "Cleaving Claw",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "A peerless claw with a keen edge, the true mark of an apex predator.",
     "recipes": [],
@@ -138,6 +146,7 @@
   },
   {
     "name": "Everlasting Hogstopper",
+    "categories": ["Creature", "Resource"],
     "tier": 3,
     "description": "A source of infinite food. A nibble now and then satiates your hunger in just the right amounts.",
     "recipes": [],
@@ -147,6 +156,7 @@
   },
   {
     "name": "Fabulous Femur",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "A vivid cricket drumstick that inspires lyrical poise and grace.",
     "recipes": [],
@@ -156,6 +166,7 @@
   },
   {
     "name": "Feasting Fangs",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "An incredibly sharp pair of tick fangs. Become a creature of the night.",
     "recipes": [],
@@ -165,6 +176,7 @@
   },
   {
     "name": "Frozen Droplet",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "A frosty droplet that makes you erupt with minty particles when danger is near.",
     "recipes": [],
@@ -174,6 +186,7 @@
   },
   {
     "name": "King Dozer's Light",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "There once was a lizard, it's true. The spiciest treats he did chew. He lapped up the tang, then burped with a bang. If you cross him, it's fire he'll spew.",
     "recipes": [],
@@ -183,6 +196,7 @@
   },
   {
     "name": "Nightstalker's Bane",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "A pure sample of Axl's venom. The tiniest drop can coat weapons to deadly effect.",
     "recipes": [],
@@ -192,6 +206,7 @@
   },
   {
     "name": "Pincer Pincher",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "This peerless earwig pincer helps you steal loot from unsuspecting foes.",
     "recipes": [],
@@ -201,6 +216,7 @@
   },
   {
     "name": "Speed Droplet",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "A mystical droplet that gives you the energy to run faster and longer.",
     "recipes": [],
@@ -210,6 +226,7 @@
   },
   {
     "name": "Tickled Toenail",
+    "categories": ["Creature"],
     "tier": 3,
     "description": "Treasure swiped from a toe biter leviathan. Looks infected and incredibly sharp.",
     "recipes": [],
@@ -219,6 +236,7 @@
   },
   {
     "name": "Blistering Boiler",
+    "categories": ["Creature"],
     "tier": 2,
     "description": "An unstable boiling gland radiating blistering heat.",
     "recipes": [],
@@ -228,6 +246,7 @@
   },
   {
     "name": "Shivering Scale",
+    "categories": ["Creature"],
     "tier": 2,
     "description": "A frigid scale that numbs and tingles when held.",
     "recipes": [],
@@ -237,6 +256,7 @@
   },
   {
     "name": "Stabby Stinger",
+    "categories": ["Creature"],
     "tier": 2,
     "description": "A pristine scorpion stinger, perpetually oozing venom.",
     "recipes": [],
@@ -246,6 +266,7 @@
   },
   {
     "name": "Pucker Charm",
+    "categories": ["Resource"],
     "tier": 3,
     "description": "A condensed nugget of elemental force. Simply holding it fills you with power.",
     "recipes": [],
@@ -255,6 +276,7 @@
   },
   {
     "name": "Fancy Fletching",
+    "categories": ["Resource"],
     "tier": 2,
     "description": "A mysterious feather that significantly improves your marksmanship with bows.",
     "recipes": [],
@@ -264,6 +286,7 @@
   },
   {
     "name": "Fluffy Dandelion Tuft",
+    "categories": ["Resource"],
     "tier": 2,
     "description": "A fluffy puff of dandelion of exceptionally high quality. Could be used to drift down from even greater heights.",
     "recipes": [],
@@ -273,6 +296,7 @@
   },
   {
     "name": "Spectacular Spicy Shard",
+    "categories": ["Resource"],
     "tier": 2,
     "description": "A condensed nugget of elemental force. Simply holding it fills you with power.",
     "recipes": [],
@@ -282,6 +306,7 @@
   },
   {
     "name": "Suspicious Mint",
+    "categories": ["Resource"],
     "tier": 2,
     "description": "A condensed nugget of elemental force. Simply holding it fills you with power.",
     "recipes": [],
@@ -291,6 +316,7 @@
   },
   {
     "name": "Valentine's Fortune",
+    "categories": ["Resource"],
     "tier": 2,
     "description": "A small piece of paper that inexplicably reveals your secret crush, received from a valentine's day chocolate. Grants a mysterious but chivalrous bonus.",
     "recipes": [],
@@ -300,6 +326,7 @@
   },
   {
     "name": "Sticky Fingers",
+    "categories": ["Unique"],
     "tier": 3,
     "description": "A sticky pair of gloves that lets you steal pieces of insects as you attack them.",
     "recipes": [],
@@ -309,6 +336,7 @@
   },
   {
     "name": "Biomedical Token",
+    "categories": ["Ominent Token"],
     "tier": 2,
     "description": "The secret to eternal life... at the cost of a void that can never be satiated.",
     "recipes": [],
@@ -318,6 +346,7 @@
   },
   {
     "name": "Myrmecologist Token",
+    "categories": ["Ominent Token"],
     "tier": 2,
     "description": "With this in your hands, your contributions to ant science are finally being recognized.",
     "recipes": [],
@@ -327,6 +356,7 @@
   },
   {
     "name": "Eco Exploitation Token",
+    "categories": ["Ominent Token"],
     "tier": 2,
     "description": "Leave no stone ungathered, no leaf unchopped, no enemy undefeated... well except for spiders.",
     "recipes": [],
@@ -336,6 +366,7 @@
   },
   {
     "name": "Ranger Token",
+    "categories": ["Ominent Token"],
     "tier": 2,
     "description": "The power to slice and dice. If only your training focused a little more on safety.",
     "recipes": [],
@@ -345,6 +376,7 @@
   },
   {
     "name": "Toxicology Token",
+    "categories": ["Ominent Token"],
     "tier": 2,
     "description": "You can breathe easy knowing your cutting edge research will save Ominent lives. Probably.",
     "recipes": [],
@@ -354,6 +386,7 @@
   },
   {
     "name": "Bale Scale",
+    "categories": ["Stranger"],
     "tier": 3,
     "description": "An immaculate scale, brimming with primeval power.",
     "recipes": [
@@ -373,6 +406,7 @@
   },
   {
     "name": "The Crown Jewel",
+    "categories": ["Stranger"],
     "tier": 3,
     "description": "Of all the treasures that glittered in the mountain, this magnificent stone shone the brightest.",
     "recipes": [
@@ -391,6 +425,7 @@
   },
   {
     "name": "Roach Rage",
+    "categories": ["Stranger"],
     "tier": 2,
     "description": "A shrunken roach head, still yearning for battle!",
     "recipes": [

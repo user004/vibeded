@@ -68,7 +68,10 @@ function WeaponList() {
           setSearchValue('')
         }}
       />
-      <List className="weapon-list" items={filteredWeapons} renderItem={(item) => <Weapon item={item} />} />
+      <List
+        className="weapon-list"
+        columns={2}
+        items={filteredWeapons} renderItem={(item) => <Weapon item={item} />} />
     </>
   )
 }

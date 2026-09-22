@@ -67,7 +67,10 @@ function ResourceList() {
           setSearchValue('')
         }}
       />
-      <List className="resource-list" items={filteredResources} renderItem={(item) => <Resource item={item} />} />
+      <List
+        className="resource-list"
+        columns={3}
+        items={filteredResources} renderItem={(item) => <Resource item={item} />} />
     </>
   )
 }
