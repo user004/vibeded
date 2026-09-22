@@ -2,11 +2,21 @@
   display: grid;
   gap: var(--size-2);
   grid-template-areas:
-    "tier title checks"
-    "meta meta checks";
-  grid-template-columns: min-content auto min-content;
+    "icon tier title checks"
+    "meta meta meta checks";
+  grid-template-columns: min-content min-content auto min-content;
   grid-template-rows: auto auto;
   align-items: start;
+
+  .icon {
+    align-items: center;
+    display: inline-grid;
+    grid-area: tier;
+    justify-items: center;
+    padding-block-start: var(--size-1);
+    aspect-ratio: 1;
+    inline-size: 32px;
+  }
 
   .tier {
     grid-area: tier;

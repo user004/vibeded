@@ -36,14 +36,16 @@ function toRomanNumeral(value) {
 }
 
 function Tier({ tier }) {
+  const isNumericTier = typeof tier === 'number' || (typeof tier === 'string' && /^\d+$/.test(tier))
+
   return (
     <span
       className="tier"
-      data-tier={tier}
-      aria-label={`Tier ${tier}`}
-      title={`Tier ${tier}`}
+      data-tier={isNumericTier ? String(tier) : undefined}
+      aria-label={isNumericTier ? `Tier ${tier}` : undefined}
+      title={isNumericTier ? `Tier ${tier}` : undefined}
     >
-      <span>{toRomanNumeral(tier)}</span>
+      {isNumericTier ? <span>{toRomanNumeral(tier)}</span> : tier}
     </span>
   )
 }
