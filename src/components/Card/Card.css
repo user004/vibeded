@@ -6,6 +6,8 @@
   border-radius: var(--card-radius);
   border: var(--border-size-1) solid var(--border-subtle);
   box-shadow: var(--shadow-4);
+  display: grid;
+  gap: var(--size-4);
   height: 100%;
   padding: var(--card-padding);
 }

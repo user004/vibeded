@@ -1,7 +1,4 @@
 .status-card {
-  display: grid;
-  gap: var(--size-4);
-
   .status-card__tier-icon {
     inline-size: var(--size-5);
     block-size: var(--size-5);

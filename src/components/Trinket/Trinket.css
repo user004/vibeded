@@ -1,7 +1,4 @@
 .trinket-card {
-  display: grid;
-  gap: var(--size-4);
-
   .trinket-card__section {
     display: grid;
     gap: var(--size-2);

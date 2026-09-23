@@ -2,15 +2,16 @@ import './App.css'
 import { FieldGuideProvider } from '../../context/FieldGuideContext.jsx'
 import Hero from '../Hero/Hero'
 import Tabs from '../Tabs/Tabs.jsx'
+import Card from "../Card/Card.jsx";
 
 function App() {
   return (
     <FieldGuideProvider>
       <main className="app-shell">
-        <div className="app-shell__frame">
+        <Card>
           <Hero />
           <Tabs />
-        </div>
+        </Card>
       </main>
     </FieldGuideProvider>
   )

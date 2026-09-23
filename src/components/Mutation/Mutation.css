@@ -1,7 +1,4 @@
 .mutation-card {
-  display: grid;
-  gap: var(--size-4);
-
   .mutation-card__title {
     color: var(--accent-1);
     font-size: var(--font-size-5);

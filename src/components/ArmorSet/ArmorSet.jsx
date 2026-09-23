@@ -3,7 +3,6 @@ import Armor from '../Armor/Armor'
 import Card from '../Card/Card'
 import Tooltip from '../Tooltip/Tooltip'
 import List from '../List/List'
-import './ArmorSet.css'
 import ItemHeader from "../ItemHeader/ItemHeader.jsx";
 
 function ArmorSet({ setName, items }) {

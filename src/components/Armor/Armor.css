@@ -1,7 +1,4 @@
 .armor-card {
-  display: grid;
-  gap: var(--size-4);
-
   .armor-card__stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
