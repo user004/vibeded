@@ -11,7 +11,7 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-function CreatureList() {
+function CreatureList({ title }) {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
@@ -77,6 +77,7 @@ function CreatureList() {
         }}
       />
       <List
+        title={title}
         className="creature-list"
         columns={4}
         items={filteredCreatures}

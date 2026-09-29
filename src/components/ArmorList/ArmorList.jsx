@@ -12,7 +12,7 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-function ArmorList() {
+function ArmorList({ title }) {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
@@ -107,6 +107,7 @@ function ArmorList() {
         }}
       />
       <List
+        title={title}
         className="armor-list"
         columns={3}
         items={displayItems}

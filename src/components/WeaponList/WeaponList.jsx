@@ -11,7 +11,7 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-function WeaponList() {
+function WeaponList({ title }) {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
@@ -69,6 +69,7 @@ function WeaponList() {
         }}
       />
       <List
+        title={title}
         className="weapon-list"
         columns={2}
         items={filteredWeapons} renderItem={(item) => <Weapon item={item} />} />

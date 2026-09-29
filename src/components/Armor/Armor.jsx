@@ -8,8 +8,11 @@ import Card from '../Card/Card'
 import Tooltip from '../Tooltip/Tooltip'
 import './Armor.css'
 
+export const getArmorCheckboxKey = (name) =>
+  `armor-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+
 function Armor({ item }) {
-  const checkboxKey = `armor-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+  const checkboxKey = getArmorCheckboxKey(item.name)
 
   return (
     <Card className="armor-card">

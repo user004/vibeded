@@ -11,7 +11,7 @@ import {
   getUniqueFilterValues,
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
-function ResourceList() {
+function ResourceList({ title }) {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
@@ -68,6 +68,7 @@ function ResourceList() {
         }}
       />
       <List
+        title={title}
         className="resource-list"
         columns={3}
         items={filteredResources} renderItem={(item) => <Resource item={item} />} />

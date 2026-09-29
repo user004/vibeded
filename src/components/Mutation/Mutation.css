@@ -1,9 +1,4 @@
 .mutation-card {
-  .mutation-card__title {
-    color: var(--accent-1);
-    font-size: var(--font-size-5);
-  }
-
   .mutation-card__summary {
     display: flex;
     flex-wrap: wrap;
@@ -24,10 +19,6 @@
     border-radius: var(--radius-3);
     border: var(--border-size-1) solid var(--border-subtle);
     background: var(--accent-softer);
-  }
-
-  .mutation-card__rank-title {
-    color: var(--text-1);
   }
 
   .mutation-card__text {

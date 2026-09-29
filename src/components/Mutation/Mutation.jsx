@@ -3,6 +3,7 @@ import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
 import './Mutation.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
+import Title, { TitleScope } from '../Title/Title'
 
 function Mutation({ item }) {
   return (
@@ -19,22 +20,24 @@ function Mutation({ item }) {
       />
 
       {Array.isArray(item.ranks) && item.ranks.length > 0 && (
-        <div>
-          <ul className="mutation-card__ranks">
-            {item.ranks.map((rankInfo, index) => (
-              <li className="mutation-card__rank" key={`${item.name}-rank-${index}`}>
-                <h4 className="mutation-card__rank-title">Rank {rankInfo.rank}</h4>
-                <Checkbox
-                  checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
-                  icon="🔓"
-                  label={`Unlock rank ${rankInfo.rank}`}
-                />
-                <p className="mutation-card__text">{rankInfo.effect}</p>
-                <p className="mutation-card__text">Obtained: {rankInfo.obtained}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <TitleScope>
+          <div>
+            <ul className="mutation-card__ranks">
+              {item.ranks.map((rankInfo, index) => (
+                <li className="mutation-card__rank" key={`${item.name}-rank-${index}`}>
+                  <Title title={`Rank ${rankInfo.rank}`} className="mutation-card__rank-title" />
+                  <Checkbox
+                    checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
+                    icon="🔓"
+                    label={`Unlock rank ${rankInfo.rank}`}
+                  />
+                  <p className="mutation-card__text">{rankInfo.effect}</p>
+                  <p className="mutation-card__text">Obtained: {rankInfo.obtained}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </TitleScope>
       )}
     </Card>
   )

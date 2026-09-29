@@ -1,4 +1,5 @@
 import './Repair.css'
+import Title from '../Title/Title'
 
 function Repair({ repairs = [], itemName = 'item' }) {
   if (!Array.isArray(repairs) || repairs.length === 0) {
@@ -7,7 +8,7 @@ function Repair({ repairs = [], itemName = 'item' }) {
 
   return (
     <div className="repair">
-      <h4 className="repair__title">Repair</h4>
+      <Title title="Repair" className="repair__title" />
       <ul className="repair__list">
         {repairs.map((entry, index) => {
           const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)

@@ -14,12 +14,6 @@
     justify-items: center;
   }
 
-  h1 {
-    font-size: clamp(var(--font-size-6), 5vw, var(--font-size-8));
-    line-height: var(--font-lineheight-0);
-    color: var(--text-1);
-  }
-
   p {
     max-inline-size: 70ch;
     color: var(--text-2);

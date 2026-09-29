@@ -27,8 +27,6 @@
   }
 
   .status-card__sources-title {
-    color: var(--text-muted);
-    font-size: var(--font-size-0);
     text-transform: uppercase;
   }
 

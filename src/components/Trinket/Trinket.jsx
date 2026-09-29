@@ -5,6 +5,7 @@ import Checkbox from '../Checkbox/Checkbox'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Tooltip from '../Tooltip/Tooltip'
+import Title from '../Title/Title'
 import './Trinket.css'
 
 function Trinket({ item }) {
@@ -27,7 +28,7 @@ function Trinket({ item }) {
 
         {item.perks.length > 0 && (
           <div className="trinket-card__section">
-            <h4 className="trinket-card__heading">Perks</h4>
+            <Title title="Perks" className="trinket-card__heading" />
             <ul className="trinket-card__list">
               {item.perks.map((perk) => (
                 <li className="trinket-card__list-item" key={`${item.name}-${perk}`}>
@@ -42,7 +43,7 @@ function Trinket({ item }) {
 
         {item.sources.length > 0 && (
           <div className="trinket-card__section">
-            <h4 className="trinket-card__heading">{isCrafted ? 'Natural Source' : 'Sources'}</h4>
+            <Title title={isCrafted ? 'Natural Source' : 'Sources'} className="trinket-card__heading" />
             <ul className="trinket-card__list">
               {item.sources.map((source) => <li key={`${item.name}-${source}`}>{source}</li>)}
             </ul>

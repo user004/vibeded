@@ -1,6 +1,7 @@
 import './List.css'
+import Title, { TitleScope } from '../Title/Title'
 
-function List({ children, items, renderItem, className = '', itemClassName = 'list__item', columns = 1, style, ...props }) {
+function List({ children, items, renderItem, title, className = '', itemClassName = 'list__item', columns = 1, style, ...props }) {
   const listItems = children ?? (items ?? []).map((item, index) => (
     <li key={item?.name ?? index} className={itemClassName}>
       {renderItem(item, index)}
@@ -8,13 +9,18 @@ function List({ children, items, renderItem, className = '', itemClassName = 'li
   ))
 
   return (
-    <ul
-      className={['list', className].filter(Boolean).join(' ')}
-      style={{ '--columns': columns, ...style }}
-      {...props}
-    >
-      {listItems}
-    </ul>
+    <>
+      {title && <Title title={title} />}
+      <TitleScope>
+        <ul
+          className={['list', className].filter(Boolean).join(' ')}
+          style={{ '--columns': columns, ...style }}
+          {...props}
+        >
+          {listItems}
+        </ul>
+      </TitleScope>
+    </>
   )
 }
 

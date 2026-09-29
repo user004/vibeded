@@ -3,6 +3,7 @@ import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Accordion from '../Accordion/Accordion'
 import './Status.css'
+import Title from '../Title/Title'
 
 function Status({ item }) {
   return (
@@ -21,7 +22,7 @@ function Status({ item }) {
 
         {item.sources.length > 0 && (
           <div className="status-card__sources">
-            <h4 className="status-card__sources-title">Sources</h4>
+            <Title title="Sources" className="status-card__sources-title" />
             <ul>
               {item.sources.map((source) => <li key={source}>{source}</li>)}
             </ul>

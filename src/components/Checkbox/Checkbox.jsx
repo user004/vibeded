@@ -3,7 +3,7 @@ import { FieldGuideContext } from '../../context/FieldGuideContext'
 import Tooltip from '../Tooltip/Tooltip'
 import './Checkbox.css'
 
-function Checkbox({ checkboxKey, icon, label, onChange }) {
+function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChange }) {
   const context = useContext(FieldGuideContext)
 
   if (!context) {
@@ -11,7 +11,7 @@ function Checkbox({ checkboxKey, icon, label, onChange }) {
   }
 
   const { checkboxState, setCheckboxChecked } = context
-  const checked = Boolean(checkboxState[checkboxKey])
+  const checked = controlledChecked ?? Boolean(checkboxState[checkboxKey])
 
   return (
     <label className="field-guide-checkbox" htmlFor={checkboxKey}>
@@ -21,7 +21,9 @@ function Checkbox({ checkboxKey, icon, label, onChange }) {
         type="checkbox"
         checked={checked}
         onChange={(event) => {
-          setCheckboxChecked(checkboxKey, event.target.checked)
+          if (controlledChecked === undefined) {
+            setCheckboxChecked(checkboxKey, event.target.checked)
+          }
           onChange?.(event.target.checked)
         }}
       />

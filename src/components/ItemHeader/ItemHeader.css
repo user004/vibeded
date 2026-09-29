@@ -24,10 +24,7 @@
   }
 
   .title {
-    color: var(--accent-1);
-    font-size: var(--font-size-5);
     grid-area: title;
-    line-height: var(--font-lineheight-1);
   }
 
   .checks {

@@ -6,6 +6,7 @@ import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
 import './Creature.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
+import Title from '../Title/Title'
 
 function Creature({ item }) {
   const { checkboxState, setCheckboxChecked } = useContext(FieldGuideContext)
@@ -50,7 +51,7 @@ function Creature({ item }) {
         <div className="creature-card__grid">
           {Array.isArray(item.environments) && item.environments.length > 0 && (
             <div className="creature-card__section">
-              <h4 className="creature-card__heading">Environments</h4>
+              <Title title="Environments" className="creature-card__heading" />
               <ul className="creature-card__list">
                 {item.environments.map((environment, index) => (
                   <li key={`${item.name}-environment-${index}`}>{environment}</li>
@@ -61,7 +62,7 @@ function Creature({ item }) {
 
           {Array.isArray(item.loot) && item.loot.length > 0 && (
             <div className="creature-card__section">
-              <h4 className="creature-card__heading">Loot</h4>
+              <Title title="Loot" className="creature-card__heading" />
               <ul className="creature-card__list">
                 {item.loot.map((lootItem, index) => (
                   <li key={`${item.name}-loot-${index}`}>{lootItem}</li>

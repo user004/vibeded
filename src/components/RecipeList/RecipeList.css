@@ -12,9 +12,4 @@
     border-radius: var(--radius-3);
     background: var(--accent-softer);
   }
-
-  .recipe-list__title {
-    color: var(--text-1);
-    font-size: var(--font-size-2);
-  }
 }

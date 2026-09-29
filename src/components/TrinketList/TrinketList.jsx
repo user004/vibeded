@@ -12,7 +12,7 @@ import {
   normalizeValue,
 } from '../../utils/listFilterUtils.js'
 
-function TrinketList() {
+function TrinketList({ title }) {
   const { checkboxState } = useContext(FieldGuideContext)
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
@@ -64,6 +64,7 @@ function TrinketList() {
         }}
       />
       <List
+        title={title}
         className="trinket-list"
         columns={2}
         items={filteredTrinkets} renderItem={(item) => <Trinket item={item} />} />

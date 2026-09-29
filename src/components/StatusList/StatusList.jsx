@@ -9,7 +9,7 @@ import {
   getUniqueFilterValues,
 } from '../../utils/listFilterUtils.js'
 
-function StatusList() {
+function StatusList({ title }) {
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
 
@@ -56,6 +56,7 @@ function StatusList() {
         }}
       />
       <List
+        title={title}
         className="status-list"
         columns={2}
         items={filteredStatuses} renderItem={(item) => <Status item={item} />} />

@@ -8,7 +8,7 @@ import {
   getFilterValueCounts,
   getUniqueFilterValues,
 } from '../../utils/listFilterUtils.js'
-function MutationList() {
+function MutationList({ title }) {
   const [selectedFilters, setSelectedFilters] = useState({})
   const [searchValue, setSearchValue] = useState('')
 
@@ -56,7 +56,7 @@ function MutationList() {
           setSearchValue('')
         }}
       />
-      <List className="mutation-list" items={filteredMutations} renderItem={(item) => <Mutation item={item} />} />
+      <List title={title} className="mutation-list" items={filteredMutations} renderItem={(item) => <Mutation item={item} />} />
     </>
   )
 }

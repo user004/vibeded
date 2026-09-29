@@ -1,4 +1,5 @@
 import Tier from '../Tier/Tier'
+import Title from '../Title/Title'
 import './ItemHeader.css'
 
 function ItemHeader({ title, tier, icon, checkboxes, tags }) {
@@ -7,7 +8,7 @@ function ItemHeader({ title, tier, icon, checkboxes, tags }) {
       {icon ?
         <div className="icon">{icon}</div> :
         tier && <Tier tier={tier} />}
-      <h3 className="title">{title}</h3>
+      <Title title={title} className="title" />
       {checkboxes &&
         <div className="checks">{checkboxes}</div>}
       {tags &&

@@ -1,4 +1,5 @@
 import Recipe from '../Recipe/Recipe'
+import Title from '../Title/Title'
 import './RecipeList.css'
 
 function RecipeList({ recipes = [], itemName = 'item' }) {
@@ -8,9 +9,10 @@ function RecipeList({ recipes = [], itemName = 'item' }) {
     <ul className="recipe-list">
       {normalizedRecipes.map((recipe, index) => (
         <li className="recipe-list__item" key={`${itemName}-recipe-${index}`}>
-          <h4 className="recipe-list__title">
-            Recipe{normalizedRecipes.length > 1 ? ` ${index + 1}` : ''}
-          </h4>
+          <Title
+            title={`Recipe${normalizedRecipes.length > 1 ? ` ${index + 1}` : ''}`}
+            className="recipe-list__title"
+          />
           <Recipe recipe={recipe} itemName={itemName} recipeIndex={index} />
         </li>
       ))}
