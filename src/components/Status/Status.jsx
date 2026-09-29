@@ -2,31 +2,31 @@ import Card from '../Card/Card'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Accordion from '../Accordion/Accordion'
-import './Status.css'
 import Title from '../Title/Title'
+import { Box, Typography } from '@mui/material'
 
 function Status({ item }) {
   return (
-    <Card className="status-card">
+    <Card>
       <ItemHeader
         title={item.name}
-        icon={<img className="status-card__icon" src={item.icon} alt="" />}
+        icon={<Box component="img" src={item.icon} alt="" sx={{ width: 24, height: 24, objectFit: 'contain', imageRendering: 'pixelated' }} />}
         tags={item.categories.map((category) => <Tag key={category} tag={category} />)}
       />
 
       <Accordion summary="Details">
-        <div className="status-card__content">
-          <p className="status-card__description">{item.description}</p>
-          <p className="status-card__details">{item.details}</p>
-        </div>
+        <Box sx={{ display: 'grid', gap: 1 }}>
+          <Typography fontWeight={600} color="text.secondary">{item.description}</Typography>
+          <Typography color="text.secondary" sx={{ whiteSpace: 'pre-line' }}>{item.details}</Typography>
+        </Box>
 
         {item.sources.length > 0 && (
-          <div className="status-card__sources">
-            <Title title="Sources" className="status-card__sources-title" />
-            <ul>
-              {item.sources.map((source) => <li key={source}>{source}</li>)}
-            </ul>
-          </div>
+          <Box sx={{ display: 'grid', gap: 1, color: 'text.secondary' }}>
+            <Box sx={{ textTransform: 'uppercase' }}><Title title="Sources" /></Box>
+            <Box component="ul" sx={{ display: 'flex', flexWrap: 'wrap', columnGap: 2, rowGap: 1, pl: 2, my: 0 }}>
+              {item.sources.map((source) => <Box component="li" key={source}>{source}</Box>)}
+            </Box>
+          </Box>
         )}
       </Accordion>
     </Card>

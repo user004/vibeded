@@ -6,7 +6,7 @@ import Accordion from '../Accordion/Accordion'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Card from '../Card/Card'
 import Tooltip from '../Tooltip/Tooltip'
-import './Armor.css'
+import { Box, Typography } from '@mui/material'
 
 export const getArmorCheckboxKey = (name) =>
   `armor-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
@@ -15,7 +15,7 @@ function Armor({ item }) {
   const checkboxKey = getArmorCheckboxKey(item.name)
 
   return (
-    <Card className="armor-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -29,30 +29,28 @@ function Armor({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="armor-card__stats">
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DUR</span>
-            <p className="armor-card__stat-value">{item.durability}</p>
-          </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DEF</span>
-            <p className="armor-card__stat-value">{item.defense}</p>
-          </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">RES</span>
-            <p className="armor-card__stat-value">{item.resistance}</p>
-          </div>
-        </div>
+        <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 1.5 }}>
+          {[
+            ['DUR', item.durability],
+            ['DEF', item.defense],
+            ['RES', item.resistance],
+          ].map(([label, value]) => (
+            <Box key={label} sx={{ display: 'grid', gap: 0.5, p: 1.5, borderRadius: 2, bgcolor: 'action.hover' }}>
+              <Typography variant="caption" color="text.secondary">{label}</Typography>
+              <Typography color="text.secondary">{value}</Typography>
+            </Box>
+          ))}
+        </Box>
 
         {item.pieceEffect && (
-          <p className="armor-card__text">
+          <Typography color="text.secondary">
             Piece Effect: <Tooltip name={item.pieceEffect} />
-          </p>
+          </Typography>
         )}
         {item.sleekEffect != null && (
-          <p className="armor-card__text">
+          <Typography color="text.secondary">
             Sleek Effect: <Tooltip name={item.sleekEffect} />
-          </p>
+          </Typography>
         )}
 
         {Array.isArray(item.recipes) && item.recipes.length > 0 && (

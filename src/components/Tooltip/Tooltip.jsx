@@ -1,39 +1,27 @@
 import statuses from '../../data/statuses.json'
-import './Tooltip.css'
+import { Box, Tooltip as MuiTooltip, Typography } from '@mui/material'
 
-function Tooltip({ name, label, children = name, fitContent = false }) {
+function Tooltip({ name, label, children = name }) {
   const status = statuses.find((item) => item.name === name)
-  const contentClassName = fitContent
-    ? 'tooltip__content tooltip__content--fit'
-    : 'tooltip__content'
+  if (!status && !label) return children
 
-  if (!status) {
-    if (!label) {
-      return children
-    }
-
-    return (
-      <span className="tooltip" tabIndex="0">
-        {children}
-        <span className={contentClassName} role="tooltip">
-          <span className="tooltip__description">{label}</span>
-        </span>
-      </span>
-    )
-  }
+  const content = status ? (
+    <Box sx={{ display: 'grid', gap: 1, maxWidth: 320 }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+        <Box component="img" src={status.icon} alt="" sx={{ width: 32, height: 32, objectFit: 'contain' }} />
+        <Typography variant="subtitle2">{status.name}</Typography>
+      </Box>
+      <Typography variant="body2">{status.description}</Typography>
+      <Typography variant="caption" sx={{ whiteSpace: 'pre-line' }}>{status.details}</Typography>
+    </Box>
+  ) : label
 
   return (
-    <span className="tooltip" tabIndex="0">
-      <img className="tooltip__trigger-icon" src={status.icon} alt={status.name} />
-      <span className={contentClassName} role="tooltip">
-        <span className="tooltip__header">
-          <img className="tooltip__icon" src={status.icon} alt="" />
-          <strong className="tooltip__name">{status.name}</strong>
-        </span>
-        <span className="tooltip__description">{status.description}</span>
-        <span className="tooltip__details">{status.details}</span>
-      </span>
-    </span>
+    <MuiTooltip title={content} arrow>
+      <Box component="span" tabIndex={0} sx={{ display: 'inline-flex', verticalAlign: 'middle', cursor: 'help' }}>
+        {status ? <Box component="img" src={status.icon} alt={status.name} sx={{ width: 32, height: 32, objectFit: 'contain' }} /> : children}
+      </Box>
+    </MuiTooltip>
   )
 }
 

@@ -1,14 +1,16 @@
-import './Accordion.css'
+import { Accordion as MuiAccordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material'
 import { TitleScope } from '../Title/Title'
 
 function Accordion({ summary, children, defaultOpen = false }) {
   return (
-    <details className="accordion" open={defaultOpen}>
-      <summary>{summary}</summary>
-      <TitleScope>
-        <div className="content">{children}</div>
-      </TitleScope>
-    </details>
+    <MuiAccordion defaultExpanded={defaultOpen} disableGutters>
+      <AccordionSummary>
+        <Typography color="primary">{summary}</Typography>
+      </AccordionSummary>
+      <AccordionDetails sx={{ display: 'grid', gap: 2 }}>
+        <TitleScope>{children}</TitleScope>
+      </AccordionDetails>
+    </MuiAccordion>
   )
 }
 

@@ -110,6 +110,7 @@ function ArmorList({ title }) {
         title={title}
         className="armor-list"
         columns={3}
+        getItemSx={(entry) => entry.setName ? { gridColumn: '1 / -1' } : undefined}
         items={displayItems}
         renderItem={(entry) =>
           entry.setName

@@ -1,13 +1,10 @@
-import 'open-props/style'
-import '../src/index.css'
+import { CssBaseline, ThemeProvider } from '@mui/material'
+import theme from '../src/theme'
 
 const preview = {
+  decorators: [(Story) => <ThemeProvider theme={theme}><CssBaseline /><Story /></ThemeProvider>],
   parameters: {
     layout: 'padded',
-    backgrounds: {
-      default: 'field-guide',
-      values: [{ name: 'field-guide', value: '#11140f' }],
-    },
     controls: {
       expanded: true,
     },

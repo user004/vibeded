@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Box, Tab, Tabs as MuiTabs } from '@mui/material'
 import ArmorList from '../ArmorList/ArmorList'
 import CreatureList from '../CreatureList/CreatureList'
 import MutationList from '../MutationList/MutationList'
@@ -7,7 +8,6 @@ import StatusList from '../StatusList/StatusList'
 import TrinketList from '../TrinketList/TrinketList'
 import WeaponList from '../WeaponList/WeaponList'
 import { TitleScope } from '../Title/Title'
-import './Tabs.css'
 
 const TAB_KEYS = ['Armor', 'Creatures', 'Mutations', 'Resources', 'Statuses', 'Trinkets', 'Weapons']
 
@@ -16,24 +16,14 @@ function Tabs() {
 
   return (
     <TitleScope>
-      <section className="tabs">
-        <div className="tabs__nav" aria-label="Categories" role="tablist">
+      <Box component="section">
+        <MuiTabs value={activeTab} onChange={(_, value) => setActiveTab(value)} variant="scrollable" scrollButtons="auto" aria-label="Categories">
           {TAB_KEYS.map((tab) => (
-            <button
-              key={tab}
-              type="button"
-              className="tabs__button"
-              role="tab"
-              aria-selected={activeTab === tab}
-              data-active={activeTab === tab}
-              onClick={() => setActiveTab(tab)}
-            >
-              {tab}
-            </button>
+            <Tab key={tab} value={tab} label={tab} id={`tab-${tab}`} aria-controls={`panel-${tab}`} />
           ))}
-        </div>
+        </MuiTabs>
 
-        <div className="tabs__panel">
+        <Box role="tabpanel" id={`panel-${activeTab}`} aria-labelledby={`tab-${activeTab}`} sx={{ pt: 3 }}>
           {activeTab === 'Armor' && <ArmorList title={activeTab} />}
           {activeTab === 'Creatures' && <CreatureList title={activeTab} />}
           {activeTab === 'Mutations' && <MutationList title={activeTab} />}
@@ -41,8 +31,8 @@ function Tabs() {
           {activeTab === 'Statuses' && <StatusList title={activeTab} />}
           {activeTab === 'Trinkets' && <TrinketList title={activeTab} />}
           {activeTab === 'Weapons' && <WeaponList title={activeTab} />}
-        </div>
-      </section>
+        </Box>
+      </Box>
     </TitleScope>
   )
 }

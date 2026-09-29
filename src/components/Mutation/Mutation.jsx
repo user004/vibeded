@@ -1,13 +1,13 @@
 import Checkbox from '../Checkbox/Checkbox'
 import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
-import './Mutation.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Title, { TitleScope } from '../Title/Title'
+import { Box, Typography } from '@mui/material'
 
 function Mutation({ item }) {
   return (
-    <Card className="mutation-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -21,22 +21,26 @@ function Mutation({ item }) {
 
       {Array.isArray(item.ranks) && item.ranks.length > 0 && (
         <TitleScope>
-          <div>
-            <ul className="mutation-card__ranks">
+          <Box>
+            <Box component="ul" sx={{ display: 'grid', gap: 1.5, p: 0, m: 0, listStyle: 'none' }}>
               {item.ranks.map((rankInfo, index) => (
-                <li className="mutation-card__rank" key={`${item.name}-rank-${index}`}>
-                  <Title title={`Rank ${rankInfo.rank}`} className="mutation-card__rank-title" />
+                <Box
+                  component="li"
+                  key={`${item.name}-rank-${index}`}
+                  sx={{ display: 'grid', gap: 1, p: 1.5, borderRadius: 2, border: 1, borderColor: 'divider', bgcolor: 'action.hover' }}
+                >
+                  <Title title={`Rank ${rankInfo.rank}`} />
                   <Checkbox
                     checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
                     icon="🔓"
                     label={`Unlock rank ${rankInfo.rank}`}
                   />
-                  <p className="mutation-card__text">{rankInfo.effect}</p>
-                  <p className="mutation-card__text">Obtained: {rankInfo.obtained}</p>
-                </li>
+                  <Typography color="text.secondary">{rankInfo.effect}</Typography>
+                  <Typography color="text.secondary">Obtained: {rankInfo.obtained}</Typography>
+                </Box>
               ))}
-            </ul>
-          </div>
+            </Box>
+          </Box>
         </TitleScope>
       )}
     </Card>

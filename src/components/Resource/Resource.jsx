@@ -2,16 +2,16 @@ import RecipeList from '../RecipeList/RecipeList'
 import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
 import Card from '../Card/Card'
-import './Resource.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Accordion from '../Accordion/Accordion'
 import Title from '../Title/Title'
+import { Box } from '@mui/material'
 
 function Resource({ item }) {
   const checkboxKey = `resource-analyzed-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <Card className="resource-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -20,29 +20,29 @@ function Resource({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="resource-card__collections">
+        <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(15rem, 100%), 1fr))', gap: 1.5 }}>
           {Array.isArray(item.creatures) && item.creatures.length > 0 && (
-            <div className="resource-card__section">
-              <Title title="Creatures" className="resource-card__heading" />
-              <ul className="resource-card__list">
+            <Box sx={{ display: 'grid', gap: 1, p: 1.5, borderRadius: 2, bgcolor: 'action.hover' }}>
+              <Title title="Creatures" />
+              <Box component="ul" sx={{ pl: 2, my: 0, color: 'text.secondary' }}>
                 {item.creatures.map((creature, index) => (
-                  <li key={`${item.name}-creature-${index}`}>{creature}</li>
+                  <Box component="li" key={`${item.name}-creature-${index}`}>{creature}</Box>
                 ))}
-              </ul>
-            </div>
+              </Box>
+            </Box>
           )}
 
           {Array.isArray(item.locations) && item.locations.length > 0 && (
-            <div className="resource-card__section">
-              <Title title="Locations" className="resource-card__heading" />
-              <ul className="resource-card__list">
+            <Box sx={{ display: 'grid', gap: 1, p: 1.5, borderRadius: 2, bgcolor: 'action.hover' }}>
+              <Title title="Locations" />
+              <Box component="ul" sx={{ pl: 2, my: 0, color: 'text.secondary' }}>
                 {item.locations.map((location, index) => (
-                  <li key={`${item.name}-location-${index}`}>{location}</li>
+                  <Box component="li" key={`${item.name}-location-${index}`}>{location}</Box>
                 ))}
-              </ul>
-            </div>
+              </Box>
+            </Box>
           )}
-        </div>
+        </Box>
 
         {Array.isArray(item.recipes) && item.recipes.length > 0 && (
           <RecipeList recipes={item.recipes} itemName={item.name} />

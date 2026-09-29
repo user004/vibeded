@@ -4,9 +4,9 @@ import { useContext } from 'react'
 import Accordion from '../Accordion/Accordion'
 import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
-import './Creature.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Title from '../Title/Title'
+import { Box } from '@mui/material'
 
 function Creature({ item }) {
   const { checkboxState, setCheckboxChecked } = useContext(FieldGuideContext)
@@ -29,7 +29,25 @@ function Creature({ item }) {
   }
 
   return (
-    <Card className="creature-card" data-gold-card={isGoldCard}>
+    <Card
+      data-gold-card={isGoldCard}
+      sx={(theme) => ({
+        position: 'relative',
+        ...(isGoldCard && {
+          border: `1px solid ${theme.palette.warning.main}`,
+          boxShadow: `0 0 0 1px ${theme.palette.warning.main}, 0 0 24px ${theme.palette.warning.main}59`,
+          '&::before, &::after': {
+            content: '"✨"',
+            position: 'absolute',
+            pointerEvents: 'none',
+            fontSize: '2rem',
+            lineHeight: 1,
+          },
+          '&::before': { insetBlockStart: 0, insetInlineEnd: 0, translate: '25% -25%' },
+          '&::after': { insetBlockEnd: 0, insetInlineStart: 0, translate: '-25% 25%' },
+        }),
+      })}
+    >
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -48,29 +66,29 @@ function Creature({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="creature-card__grid">
+        <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(16rem, 100%), 1fr))', gap: 1.5 }}>
           {Array.isArray(item.environments) && item.environments.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Environments" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <Box sx={{ display: 'grid', gap: 1, p: 1.5, borderRadius: 2, bgcolor: 'action.hover' }}>
+              <Title title="Environments" />
+              <Box component="ul" sx={{ pl: 2, my: 0, color: 'text.secondary' }}>
                 {item.environments.map((environment, index) => (
-                  <li key={`${item.name}-environment-${index}`}>{environment}</li>
+                  <Box component="li" key={`${item.name}-environment-${index}`}>{environment}</Box>
                 ))}
-              </ul>
-            </div>
+              </Box>
+            </Box>
           )}
 
           {Array.isArray(item.loot) && item.loot.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Loot" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <Box sx={{ display: 'grid', gap: 1, p: 1.5, borderRadius: 2, bgcolor: 'action.hover' }}>
+              <Title title="Loot" />
+              <Box component="ul" sx={{ pl: 2, my: 0, color: 'text.secondary' }}>
                 {item.loot.map((lootItem, index) => (
-                  <li key={`${item.name}-loot-${index}`}>{lootItem}</li>
+                  <Box component="li" key={`${item.name}-loot-${index}`}>{lootItem}</Box>
                 ))}
-              </ul>
-            </div>
+              </Box>
+            </Box>
           )}
-        </div>
+        </Box>
       </Accordion>
     </Card>
   )

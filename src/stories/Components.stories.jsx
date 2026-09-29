@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Box, Typography } from '@mui/material'
 import Accordion from '../components/Accordion/Accordion'
 import App from '../components/App/App'
 import Armor from '../components/Armor/Armor'
@@ -78,32 +79,32 @@ export const HeroBanner = { render: () => <Hero /> }
 export const TabsAndDataViews = { render: () => <Tabs /> }
 
 export const AccordionClosed = {
-  render: () => <Accordion summary="Closed details"><p>Content is revealed when opened.</p></Accordion>,
+  render: () => <Accordion summary="Closed details"><Typography>Content is revealed when opened.</Typography></Accordion>,
 }
 export const AccordionOpen = {
-  render: () => <Accordion summary="Open details" defaultOpen><p>Expanded content.</p></Accordion>,
+  render: () => <Accordion summary="Open details" defaultOpen><Typography>Expanded content.</Typography></Accordion>,
 }
 export const CardDefault = { render: () => <Card><ItemHeader title="Field Guide Card" tier={2} /></Card> }
 export const CheckboxStates = {
   render: () => (
-    <div style={{ display: 'flex', gap: '1rem' }}>
+    <Box sx={{ display: 'flex', gap: 2 }}>
       <Checkbox checkboxKey="unchecked" icon="🔨" label="Unchecked" />
       <CheckedCheckbox />
-    </div>
+    </Box>
   ),
 }
 export const TierVariations = {
-  render: () => <div style={{ display: 'flex', gap: '1rem' }}><Tier tier={1} /><Tier tier="4" /><Tier tier="Special" /></div>,
+  render: () => <Box sx={{ display: 'flex', gap: 2 }}><Tier tier={1} /><Tier tier="4" /><Tier tier="Special" /></Box>,
 }
 export const Tags = {
-  render: () => <div style={{ display: 'flex', gap: '0.5rem' }}><Tag tag="Crafted" /><Tag tag="Neutral" /><Tag tag="Rare" /></div>,
+  render: () => <Box sx={{ display: 'flex', gap: 1 }}><Tag tag="Crafted" /><Tag tag="Neutral" /><Tag tag="Rare" /></Box>,
 }
 export const ItemHeaderVariations = {
   render: () => (
-    <div style={{ display: 'grid', gap: '1rem' }}>
+    <Box sx={{ display: 'grid', gap: 2 }}>
       <ItemHeader title="Tiered item" tier={3} tags={<Tag tag="Weapons" />} />
       <ItemHeader title="Icon item" icon="🧪" tags={<Tag tag="Resource" />} />
-    </div>
+    </Box>
   ),
 }
 export const ListVariations = {

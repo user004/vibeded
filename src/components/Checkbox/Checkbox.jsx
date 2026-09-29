@@ -1,7 +1,6 @@
 import { useContext } from 'react'
+import { Box, Checkbox as MuiCheckbox, FormControlLabel, Tooltip } from '@mui/material'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
-import Tooltip from '../Tooltip/Tooltip'
-import './Checkbox.css'
 
 function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChange }) {
   const context = useContext(FieldGuideContext)
@@ -14,23 +13,24 @@ function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChan
   const checked = controlledChecked ?? Boolean(checkboxState[checkboxKey])
 
   return (
-    <label className="field-guide-checkbox" htmlFor={checkboxKey}>
-      <input
-        id={checkboxKey}
-        name={checkboxKey}
-        type="checkbox"
-        checked={checked}
-        onChange={(event) => {
-          if (controlledChecked === undefined) {
-            setCheckboxChecked(checkboxKey, event.target.checked)
-          }
-          onChange?.(event.target.checked)
-        }}
+    <Tooltip title={label}>
+      <FormControlLabel
+        label={icon ? <Box component="span" aria-hidden="true" sx={{ fontSize: '1.25rem', lineHeight: 1 }}>{icon}</Box> : label}
+        sx={{ m: 0 }}
+        control={<MuiCheckbox
+          id={checkboxKey}
+          name={checkboxKey}
+          slotProps={{ input: { 'aria-label': label } }}
+          checked={checked}
+          onChange={(event) => {
+            if (controlledChecked === undefined) {
+              setCheckboxChecked(checkboxKey, event.target.checked)
+            }
+            onChange?.(event.target.checked)
+          }}
+        />}
       />
-      <Tooltip label={label} fitContent>
-        <span aria-hidden="true">{icon}</span>
-      </Tooltip>
-    </label>
+    </Tooltip>
   )
 }
 

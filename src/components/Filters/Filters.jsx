@@ -1,4 +1,4 @@
-import './Filters.css'
+import { Box, Button, MenuItem, TextField } from '@mui/material'
 import { sortFilterValues } from '../../utils/listFilterUtils.js'
 
 function Filters({
@@ -12,44 +12,44 @@ function Filters({
   onClearFilters,
 }) {
   return (
-    <section className="filters">
-      <label className="filters__group filters__group--search">
-        <span className="filters__label">Search</span>
-        <input
-          type="search"
-          className="filters__search"
-          value={searchValue}
-          onChange={(event) => onSearchChange(event.target.value)}
-          placeholder="Search by name"
-        />
-      </label>
+    <Box component="section" sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 2, alignItems: 'center' }}>
+      <TextField
+        type="search"
+        label="Search"
+        size="small"
+        value={searchValue}
+        onChange={(event) => onSearchChange(event.target.value)}
+        placeholder="Search by name"
+        sx={{ flex: '1 1 14rem' }}
+      />
       {categories.map((category) => (
-        <label className="filters__group" key={category}>
-          <span className="filters__label">{category}</span>
-          <select
-            className="filters__select"
-            value={selectedFilters[category] ?? 'all'}
-            onChange={(event) => onFilterChange(category, event.target.value)}
-          >
-            <option value="all">All ({counts[category]?.all ?? 0})</option>
-            {sortFilterValues(category, values[category]).map((value) => {
-              const stringValue = String(value)
-              const optionCount = counts[category]?.[stringValue] ?? 0
-              const optionLabel = value === null ? 'None' : String(value)
+        <TextField
+          select
+          key={category}
+          label={category}
+          size="small"
+          value={selectedFilters[category] ?? 'all'}
+          onChange={(event) => onFilterChange(category, event.target.value)}
+          sx={{ minWidth: 140 }}
+        >
+          <MenuItem value="all">All ({counts[category]?.all ?? 0})</MenuItem>
+          {sortFilterValues(category, values[category]).map((value) => {
+            const stringValue = String(value)
+            const optionCount = counts[category]?.[stringValue] ?? 0
+            const optionLabel = value === null ? 'None' : String(value)
 
-              return (
-                <option key={stringValue} value={stringValue}>
-                  {optionLabel} ({optionCount})
-                </option>
-              )
-            })}
-          </select>
-        </label>
+            return (
+              <MenuItem key={stringValue} value={stringValue}>
+                {optionLabel} ({optionCount})
+              </MenuItem>
+            )
+          })}
+        </TextField>
       ))}
-      <button type="button" className="filters__clear" onClick={onClearFilters}>
+      <Button variant="outlined" onClick={onClearFilters}>
         Clear
-      </button>
-    </section>
+      </Button>
+    </Box>
   )
 }
 

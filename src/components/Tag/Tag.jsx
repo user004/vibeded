@@ -1,7 +1,7 @@
-import './Tag.css'
+import { Chip } from '@mui/material'
 
 function Tag({ tag }) {
-  return <span className="tag">{tag}</span>
+  return <Chip label={tag} size="small" variant="outlined" color="primary" />
 }
 
 export default Tag

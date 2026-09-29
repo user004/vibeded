@@ -1,4 +1,4 @@
-import './Tier.css'
+import { Chip } from '@mui/material'
 
 function toRomanNumeral(value) {
   const numerals = [
@@ -39,14 +39,13 @@ function Tier({ tier }) {
   const isNumericTier = typeof tier === 'number' || (typeof tier === 'string' && /^\d+$/.test(tier))
 
   return (
-    <span
-      className="tier"
-      data-tier={isNumericTier ? String(tier) : undefined}
+    <Chip
+      size="small"
+      color={isNumericTier ? 'primary' : 'default'}
+      label={isNumericTier ? toRomanNumeral(tier) : tier}
       aria-label={isNumericTier ? `Tier ${tier}` : undefined}
       title={isNumericTier ? `Tier ${tier}` : undefined}
-    >
-      {isNumericTier ? <span>{toRomanNumeral(tier)}</span> : tier}
-    </span>
+    />
   )
 }
 

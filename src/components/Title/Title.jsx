@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react'
-import './Title.css'
+import { Typography } from '@mui/material'
 
 const TitleLevelContext = createContext(1)
 
@@ -15,9 +15,8 @@ export function TitleScope({ children }) {
 
 function Title({ title, className }) {
   const level = useContext(TitleLevelContext)
-  const Heading = `h${level}`
-
-  return <Heading className={['field-guide-title', className].filter(Boolean).join(' ')}>{title}</Heading>
+  const variant = ['h4', 'h5', 'h6', 'subtitle1', 'subtitle2', 'body1'][level - 1]
+  return <Typography component={`h${level}`} variant={variant} color="primary" className={className} sx={{ overflowWrap: 'anywhere' }}>{title}</Typography>
 }
 
 export default Title

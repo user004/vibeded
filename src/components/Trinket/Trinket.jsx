@@ -6,14 +6,14 @@ import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Tooltip from '../Tooltip/Tooltip'
 import Title from '../Title/Title'
-import './Trinket.css'
+import { Box, Typography } from '@mui/material'
 
 function Trinket({ item }) {
   const checkboxKey = `trinket-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
   const isCrafted = item.recipes.length > 0
 
   return (
-    <Card className="trinket-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -22,32 +22,32 @@ function Trinket({ item }) {
       />
 
       <Accordion summary="Details">
-        <p className="trinket-card__description">{item.description}</p>
+        <Typography color="text.secondary">{item.description}</Typography>
 
-        {item.unlockedBy && <p className="trinket-card__text">Unlocked by: {item.unlockedBy}</p>}
+        {item.unlockedBy && <Typography color="text.secondary">Unlocked by: {item.unlockedBy}</Typography>}
 
         {item.perks.length > 0 && (
-          <div className="trinket-card__section">
-            <Title title="Perks" className="trinket-card__heading" />
-            <ul className="trinket-card__list">
+          <Box sx={{ display: 'grid', gap: 1 }}>
+            <Title title="Perks" />
+            <Box component="ul" sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, p: 0, m: 0, listStyle: 'none' }}>
               {item.perks.map((perk) => (
-                <li className="trinket-card__list-item" key={`${item.name}-${perk}`}>
+                <Box component="li" key={`${item.name}-${perk}`} sx={{ px: 1.5, py: 1, border: 1, borderColor: 'divider', borderRadius: 99, bgcolor: 'action.hover' }}>
                   <Tooltip name={perk} />
-                </li>
+                </Box>
               ))}
-            </ul>
-          </div>
+            </Box>
+          </Box>
         )}
 
         {item.recipes.length > 0 && <RecipeList recipes={item.recipes} itemName={item.name} />}
 
         {item.sources.length > 0 && (
-          <div className="trinket-card__section">
-            <Title title={isCrafted ? 'Natural Source' : 'Sources'} className="trinket-card__heading" />
-            <ul className="trinket-card__list">
-              {item.sources.map((source) => <li key={`${item.name}-${source}`}>{source}</li>)}
-            </ul>
-          </div>
+          <Box sx={{ display: 'grid', gap: 1 }}>
+            <Title title={isCrafted ? 'Natural Source' : 'Sources'} />
+            <Box component="ul" sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, pl: 2, my: 0 }}>
+              {item.sources.map((source) => <Box component="li" key={`${item.name}-${source}`}>{source}</Box>)}
+            </Box>
+          </Box>
         )}
       </Accordion>
     </Card>
