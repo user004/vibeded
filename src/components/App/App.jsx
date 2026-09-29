@@ -1,18 +1,18 @@
-import './App.css'
+import { Container } from '@mantine/core'
 import { FieldGuideProvider } from '../../context/FieldGuideContext.jsx'
 import Hero from '../Hero/Hero'
 import Tabs from '../Tabs/Tabs.jsx'
-import Card from "../Card/Card.jsx";
+import Card from '../Card/Card.jsx'
 
 function App() {
   return (
     <FieldGuideProvider>
-      <main className="app-shell">
+      <Container component="main" size="xl" py="md">
         <Card>
           <Hero />
           <Tabs />
         </Card>
-      </main>
+      </Container>
     </FieldGuideProvider>
   )
 }

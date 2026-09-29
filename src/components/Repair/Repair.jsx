@@ -1,4 +1,4 @@
-import './Repair.css'
+import { List as MantineList } from '@mantine/core'
 import Title from '../Title/Title'
 
 function Repair({ repairs = [], itemName = 'item' }) {
@@ -7,21 +7,21 @@ function Repair({ repairs = [], itemName = 'item' }) {
   }
 
   return (
-    <div className="repair">
-      <Title title="Repair" className="repair__title" />
-      <ul className="repair__list">
+    <>
+      <Title title="Repair" />
+      <MantineList>
         {repairs.map((entry, index) => {
           const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)
           const quantity = entry?.quantity
 
           return (
-            <li className="repair__item" key={`${itemName}-repair-${name}-${index}`}>
+            <MantineList.Item key={`${itemName}-repair-${name}-${index}`}>
               {quantity !== undefined ? `${name}: ${quantity}` : name}
-            </li>
+            </MantineList.Item>
           )
         })}
-      </ul>
-    </div>
+      </MantineList>
+    </>
   )
 }
 

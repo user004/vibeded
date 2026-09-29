@@ -1,8 +1,0 @@
-.field-guide-checkbox {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--size-2);
-  color: var(--text-1);
-  cursor: pointer;
-  justify-self: start;
-}

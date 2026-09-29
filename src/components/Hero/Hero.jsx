@@ -1,15 +1,15 @@
-import './Hero.css'
+import { Stack, Text } from '@mantine/core'
 import Title from '../Title/Title'
 
 function Hero() {
   return (
-    <header className="hero">
+    <Stack component="header" gap="xs">
       <Title title="Grounded 2 Field Guide" />
-      <p>
+      <Text>
         A backyard-styled codex for armor, creatures, mutations, resources, and
         weapons inspired by the layered resource tables on the Grounded wiki.
-      </p>
-    </header>
+      </Text>
+    </Stack>
   )
 }
 

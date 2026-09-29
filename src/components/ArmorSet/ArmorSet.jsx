@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import armor from '../../data/armor.json'
+import { Group, Text } from '@mantine/core'
 import Armor, { getArmorCheckboxKey } from '../Armor/Armor'
 import Card from '../Card/Card'
 import Tooltip from '../Tooltip/Tooltip'
@@ -21,7 +22,7 @@ function ArmorSet({ setName, items }) {
   const checked = pieces.every((item) => Boolean(checkboxState[getArmorCheckboxKey(item.name)]))
 
   return (
-    <Card className="armor-set-card">
+    <Card>
       <ItemHeader
         title={setName}
         tier={tier}
@@ -38,15 +39,15 @@ function ArmorSet({ setName, items }) {
             }}
           />
         }
-        tags={bonus != null &&
-          <>
-            Set Bonus:
+        tags={bonus != null && (
+          <Group gap="xs">
+            <Text>Set Bonus:</Text>
             <Tooltip name={bonus} />
-          </>}
+          </Group>
+        )}
       />
 
       <List
-        className="armor-set-card__pieces"
         columns={3}
         items={pieces}
         renderItem={(item) => <Armor item={item} />}

@@ -1,10 +1,10 @@
-import './Card.css'
+import { Card as MantineCard, Stack } from '@mantine/core'
 
-function Card({ children, className = '', ...props }) {
+function Card({ children, ...props }) {
   return (
-    <article {...props} className={['card', className].filter(Boolean).join(' ')}>
-      {children}
-    </article>
+    <MantineCard {...props} component="article" withBorder>
+      <Stack gap="md">{children}</Stack>
+    </MantineCard>
   )
 }
 

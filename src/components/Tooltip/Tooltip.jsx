@@ -1,11 +1,8 @@
 import statuses from '../../data/statuses.json'
-import './Tooltip.css'
+import { Box, Group, Image, Stack, Text, Tooltip as MantineTooltip } from '@mantine/core'
 
 function Tooltip({ name, label, children = name, fitContent = false }) {
   const status = statuses.find((item) => item.name === name)
-  const contentClassName = fitContent
-    ? 'tooltip__content tooltip__content--fit'
-    : 'tooltip__content'
 
   if (!status) {
     if (!label) {
@@ -13,27 +10,32 @@ function Tooltip({ name, label, children = name, fitContent = false }) {
     }
 
     return (
-      <span className="tooltip" tabIndex="0">
-        {children}
-        <span className={contentClassName} role="tooltip">
-          <span className="tooltip__description">{label}</span>
-        </span>
-      </span>
+      <MantineTooltip label={label} w={fitContent ? 'max-content' : undefined} withArrow>
+        <Text component="span">{children}</Text>
+      </MantineTooltip>
     )
   }
 
   return (
-    <span className="tooltip" tabIndex="0">
-      <img className="tooltip__trigger-icon" src={status.icon} alt={status.name} />
-      <span className={contentClassName} role="tooltip">
-        <span className="tooltip__header">
-          <img className="tooltip__icon" src={status.icon} alt="" />
-          <strong className="tooltip__name">{status.name}</strong>
-        </span>
-        <span className="tooltip__description">{status.description}</span>
-        <span className="tooltip__details">{status.details}</span>
-      </span>
-    </span>
+    <MantineTooltip
+      label={
+        <Stack gap="xs">
+          <Group gap="xs">
+            <Image src={status.icon} alt="" w={24} h={24} />
+            <Text fw={700}>{status.name}</Text>
+          </Group>
+          <Text size="sm">{status.description}</Text>
+          <Text size="sm">{status.details}</Text>
+        </Stack>
+      }
+      multiline
+      maw={320}
+      withArrow
+    >
+      <Box component="span" display="inline-flex">
+        <Image src={status.icon} alt={status.name} w={24} h={24} />
+      </Box>
+    </MantineTooltip>
   )
 }
 

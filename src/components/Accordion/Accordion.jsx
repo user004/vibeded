@@ -1,14 +1,18 @@
-import './Accordion.css'
+import { Accordion as MantineAccordion, Stack } from '@mantine/core'
 import { TitleScope } from '../Title/Title'
 
 function Accordion({ summary, children, defaultOpen = false }) {
   return (
-    <details className="accordion" open={defaultOpen}>
-      <summary>{summary}</summary>
-      <TitleScope>
-        <div className="content">{children}</div>
-      </TitleScope>
-    </details>
+    <MantineAccordion defaultValue={defaultOpen ? 'details' : null}>
+      <MantineAccordion.Item value="details">
+        <MantineAccordion.Control>{summary}</MantineAccordion.Control>
+        <MantineAccordion.Panel>
+          <TitleScope>
+            <Stack gap="md">{children}</Stack>
+          </TitleScope>
+        </MantineAccordion.Panel>
+      </MantineAccordion.Item>
+    </MantineAccordion>
   )
 }
 

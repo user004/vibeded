@@ -1,3 +1,4 @@
+import { SimpleGrid, Stack, Text } from '@mantine/core'
 import RecipeList from '../RecipeList/RecipeList'
 import Repair from '../Repair/Repair'
 import Tag from '../Tag/Tag'
@@ -6,7 +7,6 @@ import Accordion from '../Accordion/Accordion'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Card from '../Card/Card'
 import Tooltip from '../Tooltip/Tooltip'
-import './Armor.css'
 
 export const getArmorCheckboxKey = (name) =>
   `armor-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
@@ -15,7 +15,7 @@ function Armor({ item }) {
   const checkboxKey = getArmorCheckboxKey(item.name)
 
   return (
-    <Card className="armor-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -29,30 +29,21 @@ function Armor({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="armor-card__stats">
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DUR</span>
-            <p className="armor-card__stat-value">{item.durability}</p>
-          </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DEF</span>
-            <p className="armor-card__stat-value">{item.defense}</p>
-          </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">RES</span>
-            <p className="armor-card__stat-value">{item.resistance}</p>
-          </div>
-        </div>
+        <SimpleGrid cols={3}>
+          <Stack gap={0}><Text fw={700}>DUR</Text><Text>{item.durability}</Text></Stack>
+          <Stack gap={0}><Text fw={700}>DEF</Text><Text>{item.defense}</Text></Stack>
+          <Stack gap={0}><Text fw={700}>RES</Text><Text>{item.resistance}</Text></Stack>
+        </SimpleGrid>
 
         {item.pieceEffect && (
-          <p className="armor-card__text">
+          <Text>
             Piece Effect: <Tooltip name={item.pieceEffect} />
-          </p>
+          </Text>
         )}
         {item.sleekEffect != null && (
-          <p className="armor-card__text">
+          <Text>
             Sleek Effect: <Tooltip name={item.sleekEffect} />
-          </p>
+          </Text>
         )}
 
         {Array.isArray(item.recipes) && item.recipes.length > 0 && (

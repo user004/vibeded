@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react'
-import './Title.css'
+import { Title as MantineTitle } from '@mantine/core'
 
 const TitleLevelContext = createContext(1)
 
@@ -13,11 +13,10 @@ export function TitleScope({ children }) {
   )
 }
 
-function Title({ title, className }) {
+function Title({ title }) {
   const level = useContext(TitleLevelContext)
-  const Heading = `h${level}`
 
-  return <Heading className={['field-guide-title', className].filter(Boolean).join(' ')}>{title}</Heading>
+  return <MantineTitle order={level}>{title}</MantineTitle>
 }
 
 export default Title

@@ -1,26 +1,20 @@
-import './List.css'
+import { Box, SimpleGrid, Stack } from '@mantine/core'
 import Title, { TitleScope } from '../Title/Title'
 
-function List({ children, items, renderItem, title, className = '', itemClassName = 'list__item', columns = 1, style, ...props }) {
+function List({ children, items, renderItem, title, columns = 1 }) {
   const listItems = children ?? (items ?? []).map((item, index) => (
-    <li key={item?.name ?? index} className={itemClassName}>
-      {renderItem(item, index)}
-    </li>
+    <Box component="li" key={item?.name ?? index}>{renderItem(item, index)}</Box>
   ))
 
   return (
-    <>
+    <Stack gap="md">
       {title && <Title title={title} />}
       <TitleScope>
-        <ul
-          className={['list', className].filter(Boolean).join(' ')}
-          style={{ '--columns': columns, ...style }}
-          {...props}
-        >
+        <SimpleGrid component="ul" cols={{ base: 1, sm: 2, lg: columns }} spacing="md" p={0} m={0}>
           {listItems}
-        </ul>
+        </SimpleGrid>
       </TitleScope>
-    </>
+    </Stack>
   )
 }
 

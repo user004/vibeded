@@ -1,3 +1,4 @@
+import { List as MantineList, Stack, Text } from '@mantine/core'
 import RecipeList from '../RecipeList/RecipeList'
 import Accordion from '../Accordion/Accordion'
 import Card from '../Card/Card'
@@ -6,14 +7,13 @@ import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Tooltip from '../Tooltip/Tooltip'
 import Title from '../Title/Title'
-import './Trinket.css'
 
 function Trinket({ item }) {
   const checkboxKey = `trinket-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
   const isCrafted = item.recipes.length > 0
 
   return (
-    <Card className="trinket-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -22,32 +22,30 @@ function Trinket({ item }) {
       />
 
       <Accordion summary="Details">
-        <p className="trinket-card__description">{item.description}</p>
+        <Text>{item.description}</Text>
 
-        {item.unlockedBy && <p className="trinket-card__text">Unlocked by: {item.unlockedBy}</p>}
+        {item.unlockedBy && <Text>Unlocked by: {item.unlockedBy}</Text>}
 
         {item.perks.length > 0 && (
-          <div className="trinket-card__section">
-            <Title title="Perks" className="trinket-card__heading" />
-            <ul className="trinket-card__list">
+          <Stack>
+            <Title title="Perks" />
+            <MantineList>
               {item.perks.map((perk) => (
-                <li className="trinket-card__list-item" key={`${item.name}-${perk}`}>
-                  <Tooltip name={perk} />
-                </li>
+                <MantineList.Item key={`${item.name}-${perk}`}><Tooltip name={perk} /></MantineList.Item>
               ))}
-            </ul>
-          </div>
+            </MantineList>
+          </Stack>
         )}
 
         {item.recipes.length > 0 && <RecipeList recipes={item.recipes} itemName={item.name} />}
 
         {item.sources.length > 0 && (
-          <div className="trinket-card__section">
-            <Title title={isCrafted ? 'Natural Source' : 'Sources'} className="trinket-card__heading" />
-            <ul className="trinket-card__list">
-              {item.sources.map((source) => <li key={`${item.name}-${source}`}>{source}</li>)}
-            </ul>
-          </div>
+          <Stack>
+            <Title title={isCrafted ? 'Natural Source' : 'Sources'} />
+            <MantineList>
+              {item.sources.map((source) => <MantineList.Item key={`${item.name}-${source}`}>{source}</MantineList.Item>)}
+            </MantineList>
+          </Stack>
         )}
       </Accordion>
     </Card>

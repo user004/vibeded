@@ -1,7 +1,7 @@
-import './Tag.css'
+import { Badge } from '@mantine/core'
 
 function Tag({ tag }) {
-  return <span className="tag">{tag}</span>
+  return <Badge variant="light">{tag}</Badge>
 }
 
 export default Tag

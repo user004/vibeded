@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Tabs as MantineTabs } from '@mantine/core'
 import ArmorList from '../ArmorList/ArmorList'
 import CreatureList from '../CreatureList/CreatureList'
 import MutationList from '../MutationList/MutationList'
@@ -7,42 +7,42 @@ import StatusList from '../StatusList/StatusList'
 import TrinketList from '../TrinketList/TrinketList'
 import WeaponList from '../WeaponList/WeaponList'
 import { TitleScope } from '../Title/Title'
-import './Tabs.css'
-
-const TAB_KEYS = ['Armor', 'Creatures', 'Mutations', 'Resources', 'Statuses', 'Trinkets', 'Weapons']
 
 function Tabs() {
-  const [activeTab, setActiveTab] = useState('Armor')
-
   return (
     <TitleScope>
-      <section className="tabs">
-        <div className="tabs__nav" aria-label="Categories" role="tablist">
-          {TAB_KEYS.map((tab) => (
-            <button
-              key={tab}
-              type="button"
-              className="tabs__button"
-              role="tab"
-              aria-selected={activeTab === tab}
-              data-active={activeTab === tab}
-              onClick={() => setActiveTab(tab)}
-            >
-              {tab}
-            </button>
-          ))}
-        </div>
-
-        <div className="tabs__panel">
-          {activeTab === 'Armor' && <ArmorList title={activeTab} />}
-          {activeTab === 'Creatures' && <CreatureList title={activeTab} />}
-          {activeTab === 'Mutations' && <MutationList title={activeTab} />}
-          {activeTab === 'Resources' && <ResourceList title={activeTab} />}
-          {activeTab === 'Statuses' && <StatusList title={activeTab} />}
-          {activeTab === 'Trinkets' && <TrinketList title={activeTab} />}
-          {activeTab === 'Weapons' && <WeaponList title={activeTab} />}
-        </div>
-      </section>
+      <MantineTabs defaultValue="armor">
+        <MantineTabs.List aria-label="Categories">
+          <MantineTabs.Tab value="armor">Armor</MantineTabs.Tab>
+          <MantineTabs.Tab value="creatures">Creatures</MantineTabs.Tab>
+          <MantineTabs.Tab value="mutations">Mutations</MantineTabs.Tab>
+          <MantineTabs.Tab value="resources">Resources</MantineTabs.Tab>
+          <MantineTabs.Tab value="statuses">Statuses</MantineTabs.Tab>
+          <MantineTabs.Tab value="trinkets">Trinkets</MantineTabs.Tab>
+          <MantineTabs.Tab value="weapons">Weapons</MantineTabs.Tab>
+        </MantineTabs.List>
+        <MantineTabs.Panel value="armor" pt="md" keepMounted={false}>
+          <ArmorList title="Armor" />
+        </MantineTabs.Panel>
+        <MantineTabs.Panel value="creatures" pt="md" keepMounted={false}>
+          <CreatureList title="Creatures" />
+        </MantineTabs.Panel>
+        <MantineTabs.Panel value="mutations" pt="md" keepMounted={false}>
+          <MutationList title="Mutations" />
+        </MantineTabs.Panel>
+        <MantineTabs.Panel value="resources" pt="md" keepMounted={false}>
+          <ResourceList title="Resources" />
+        </MantineTabs.Panel>
+        <MantineTabs.Panel value="statuses" pt="md" keepMounted={false}>
+          <StatusList title="Statuses" />
+        </MantineTabs.Panel>
+        <MantineTabs.Panel value="trinkets" pt="md" keepMounted={false}>
+          <TrinketList title="Trinkets" />
+        </MantineTabs.Panel>
+        <MantineTabs.Panel value="weapons" pt="md" keepMounted={false}>
+          <WeaponList title="Weapons" />
+        </MantineTabs.Panel>
+      </MantineTabs>
     </TitleScope>
   )
 }

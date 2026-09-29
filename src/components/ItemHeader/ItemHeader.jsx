@@ -1,19 +1,21 @@
+import { Group } from '@mantine/core'
 import Tier from '../Tier/Tier'
 import Title from '../Title/Title'
-import './ItemHeader.css'
 
 function ItemHeader({ title, tier, icon, checkboxes, tags }) {
   return (
-    <header className="item-header">
-      {icon ?
-        <div className="icon">{icon}</div> :
-        tier && <Tier tier={tier} />}
-      <Title title={title} className="title" />
-      {checkboxes &&
-        <div className="checks">{checkboxes}</div>}
-      {tags &&
-        <div className="meta">{tags}</div>}
-    </header>
+    <Group component="header" gap="sm" justify="space-between" wrap="wrap">
+      <Group gap="sm" wrap="wrap">
+        {icon || (tier != null && <Tier tier={tier} />)}
+        <Title title={title} />
+      </Group>
+      {(checkboxes || tags) && (
+        <Group gap="sm" wrap="wrap">
+          {checkboxes}
+          {tags}
+        </Group>
+      )}
+    </Group>
   )
 }
 

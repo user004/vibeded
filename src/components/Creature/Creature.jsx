@@ -1,10 +1,10 @@
+import { List as MantineList, SimpleGrid, Stack } from '@mantine/core'
 import Checkbox from '../Checkbox/Checkbox'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import { useContext } from 'react'
 import Accordion from '../Accordion/Accordion'
 import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
-import './Creature.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Title from '../Title/Title'
 
@@ -29,7 +29,7 @@ function Creature({ item }) {
   }
 
   return (
-    <Card className="creature-card" data-gold-card={isGoldCard}>
+    <Card data-gold-card={isGoldCard}>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -48,29 +48,29 @@ function Creature({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="creature-card__grid">
+        <SimpleGrid cols={{ base: 1, sm: 2 }}>
           {Array.isArray(item.environments) && item.environments.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Environments" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <Stack>
+              <Title title="Environments" />
+              <MantineList>
                 {item.environments.map((environment, index) => (
-                  <li key={`${item.name}-environment-${index}`}>{environment}</li>
+                  <MantineList.Item key={`${item.name}-environment-${index}`}>{environment}</MantineList.Item>
                 ))}
-              </ul>
-            </div>
+              </MantineList>
+            </Stack>
           )}
 
           {Array.isArray(item.loot) && item.loot.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Loot" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <Stack>
+              <Title title="Loot" />
+              <MantineList>
                 {item.loot.map((lootItem, index) => (
-                  <li key={`${item.name}-loot-${index}`}>{lootItem}</li>
+                  <MantineList.Item key={`${item.name}-loot-${index}`}>{lootItem}</MantineList.Item>
                 ))}
-              </ul>
-            </div>
+              </MantineList>
+            </Stack>
           )}
-        </div>
+        </SimpleGrid>
       </Accordion>
     </Card>
   )

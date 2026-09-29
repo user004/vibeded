@@ -26,13 +26,14 @@ There is no dedicated test runner configured in this repo right now, so there is
 For UI changes, prefer Storybook review (`npm run storybook`) plus the app build (`npm run build`) when the change affects shared render logic or category data.
 
 ## High-level architecture
-- `src/main.jsx` mounts the app and imports `open-props/style` at the root.
+- `src/main.jsx` mounts the app, imports `@mantine/core/styles.css`, and wraps the app in Mantine's dark-mode `MantineProvider`.
+- `src/theme.js` defines the shared dark-first Mantine theme and green primary palette.
 - `src/components/App/App.jsx` wraps the app in `FieldGuideProvider` and renders the hero plus tabbed catalog shell.
 - `src/components/Tabs/Tabs.jsx` is the primary nav shell; each tab renders a category-specific list component.
 - `src/data/*.json` is the source of truth for list content and item metadata; keep new content there instead of hard-coding data in components.
 - `src/components/*List/*.jsx` components read the JSON, build derived filter values, and render the UI for a given category.
 - `src/utils/listFilterUtils.js` handles the shared normalization and filter logic so list code stays consistent across categories.
-- `src/styles/*.css` and local component CSS hold shared styling tokens and component styling.
+- Mantine Core provides the shared UI components and styling; Storybook is wrapped in `MantineProvider` as well.
 - `src/stories/Components.stories.jsx` is a living catalog of important examples and edge states for the UI.
 
 ## Key conventions
@@ -40,9 +41,12 @@ For UI changes, prefer Storybook review (`npm run storybook`) plus the app build
 - Prefer extending the existing list/filter patterns instead of introducing one-off logic for each category. Reuse `normalizeValue`, `getUniqueFilterValues`, `getFilterValueCounts`, and `filterBySelectedFilters` from `src/utils/listFilterUtils.js`.
 - Preserve the slug-like checkbox key pattern used throughout the app: `name.toLowerCase().replace(/[^a-z0-9]+/g, '-')`. This is how crafted/checked state is mapped back to items.
 - Use the shared React context for item toggles instead of creating another global state mechanism for simple checkbox-backed features.
-- Follow the existing styling pattern: import `open-props/style` at the app root and keep component-local CSS close to the component it styles.
+- Compose UI from appropriate Mantine components such as `Card`, `Tabs`, `Accordion`, `Group`, `Stack`, `SimpleGrid`, `Text`, and Mantine form controls. Do not add custom CSS or Open Props styling.
+- Keep Mantine's core stylesheet imported at the application and Storybook roots, with a `MantineProvider` around each React tree.
+- Reuse `src/theme.js` in both providers; preserve the dark default color scheme and use the `fieldGuideGreen` primary color for accent UI.
+- Use the official [Mantine getting started guide](https://mantine.dev/getting-started/) for setup and API reference.
 - This codebase is JavaScript-first; keep new files in `.jsx`/`.js` unless the repo has already moved to a different language.
 - For new categories, mirror the established pattern: source JSON -> list component -> filter configuration -> tab registration in `Tabs.jsx`.
 
 ## Working style for this repo
-Keep changes small and consistent with the application’s existing structure. The app is composed of many focused components rather than a deeply nested framework, so prefer incremental additions that match established patterns instead of introducing new architectural layers.
+Keep changes small and consistent with the application's existing structure. The app is composed of many focused components rather than a deeply nested framework, so prefer incremental additions that match established patterns instead of introducing new architectural layers.

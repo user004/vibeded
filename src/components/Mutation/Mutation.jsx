@@ -1,13 +1,13 @@
+import { List as MantineList, Stack, Text } from '@mantine/core'
 import Checkbox from '../Checkbox/Checkbox'
 import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
-import './Mutation.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Title, { TitleScope } from '../Title/Title'
 
 function Mutation({ item }) {
   return (
-    <Card className="mutation-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -21,22 +21,24 @@ function Mutation({ item }) {
 
       {Array.isArray(item.ranks) && item.ranks.length > 0 && (
         <TitleScope>
-          <div>
-            <ul className="mutation-card__ranks">
+          <Stack>
+            <MantineList listStyleType="none">
               {item.ranks.map((rankInfo, index) => (
-                <li className="mutation-card__rank" key={`${item.name}-rank-${index}`}>
-                  <Title title={`Rank ${rankInfo.rank}`} className="mutation-card__rank-title" />
-                  <Checkbox
-                    checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
-                    icon="🔓"
-                    label={`Unlock rank ${rankInfo.rank}`}
-                  />
-                  <p className="mutation-card__text">{rankInfo.effect}</p>
-                  <p className="mutation-card__text">Obtained: {rankInfo.obtained}</p>
-                </li>
+                <MantineList.Item key={`${item.name}-rank-${index}`}>
+                  <Stack>
+                    <Title title={`Rank ${rankInfo.rank}`} />
+                    <Checkbox
+                      checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
+                      icon="🔓"
+                      label={`Unlock rank ${rankInfo.rank}`}
+                    />
+                    <Text>{rankInfo.effect}</Text>
+                    <Text>Obtained: {rankInfo.obtained}</Text>
+                  </Stack>
+                </MantineList.Item>
               ))}
-            </ul>
-          </div>
+            </MantineList>
+          </Stack>
         </TitleScope>
       )}
     </Card>

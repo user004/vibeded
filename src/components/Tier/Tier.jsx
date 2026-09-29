@@ -1,4 +1,12 @@
-import './Tier.css'
+import { Badge } from '@mantine/core'
+
+const tierColors = {
+  1: 'gray',
+  2: 'teal',
+  3: 'indigo',
+  4: 'grape',
+  5: 'yellow',
+}
 
 function toRomanNumeral(value) {
   const numerals = [
@@ -39,14 +47,14 @@ function Tier({ tier }) {
   const isNumericTier = typeof tier === 'number' || (typeof tier === 'string' && /^\d+$/.test(tier))
 
   return (
-    <span
-      className="tier"
-      data-tier={isNumericTier ? String(tier) : undefined}
+    <Badge
+      color={tierColors[tier] ?? 'gray'}
+      variant="light"
       aria-label={isNumericTier ? `Tier ${tier}` : undefined}
       title={isNumericTier ? `Tier ${tier}` : undefined}
     >
-      {isNumericTier ? <span>{toRomanNumeral(tier)}</span> : tier}
-    </span>
+      {isNumericTier ? toRomanNumeral(tier) : tier}
+    </Badge>
   )
 }
 

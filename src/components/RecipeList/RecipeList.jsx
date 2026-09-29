@@ -1,22 +1,19 @@
+import { Stack } from '@mantine/core'
 import Recipe from '../Recipe/Recipe'
 import Title from '../Title/Title'
-import './RecipeList.css'
 
 function RecipeList({ recipes = [], itemName = 'item' }) {
   const normalizedRecipes = Array.isArray(recipes) ? recipes : []
 
   return (
-    <ul className="recipe-list">
+    <Stack>
       {normalizedRecipes.map((recipe, index) => (
-        <li className="recipe-list__item" key={`${itemName}-recipe-${index}`}>
-          <Title
-            title={`Recipe${normalizedRecipes.length > 1 ? ` ${index + 1}` : ''}`}
-            className="recipe-list__title"
-          />
+        <Stack key={`${itemName}-recipe-${index}`}>
+          <Title title={`Recipe${normalizedRecipes.length > 1 ? ` ${index + 1}` : ''}`} />
           <Recipe recipe={recipe} itemName={itemName} recipeIndex={index} />
-        </li>
+        </Stack>
       ))}
-    </ul>
+    </Stack>
   )
 }
 

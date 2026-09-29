@@ -1,4 +1,5 @@
 import { useContext, useMemo, useState } from 'react'
+import { Stack } from '@mantine/core'
 import weapons from '../../data/weapons.json'
 import Filters from '../Filters/Filters'
 import Weapon from '../Weapon/Weapon'
@@ -54,7 +55,7 @@ function WeaponList({ title }) {
   })
 
   return (
-    <>
+    <Stack gap="md">
       <Filters
         categories={['Crafted', 'Category', 'Tier']}
         values={values}
@@ -70,10 +71,9 @@ function WeaponList({ title }) {
       />
       <List
         title={title}
-        className="weapon-list"
         columns={2}
         items={filteredWeapons} renderItem={(item) => <Weapon item={item} />} />
-    </>
+    </Stack>
   )
 }
 

@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Stack } from '@mantine/core'
 import statuses from '../../data/statuses.json'
 import Filters from '../Filters/Filters'
 import List from '../List/List'
@@ -41,7 +42,7 @@ function StatusList({ title }) {
   })
 
   return (
-    <>
+    <Stack gap="md">
       <Filters
         categories={['Categories']}
         values={values}
@@ -57,10 +58,9 @@ function StatusList({ title }) {
       />
       <List
         title={title}
-        className="status-list"
         columns={2}
         items={filteredStatuses} renderItem={(item) => <Status item={item} />} />
-    </>
+    </Stack>
   )
 }
 

@@ -1,4 +1,4 @@
-import './Recipe.css'
+import { Table, Text } from '@mantine/core'
 
 function Recipe({ recipe, itemName, recipeIndex }) {
   const ingredients = Array.isArray(recipe?.ingredients)
@@ -8,24 +8,26 @@ function Recipe({ recipe, itemName, recipeIndex }) {
       : []
 
   return (
-    <div className="recipe">
-      {recipe?.station && <p className="recipe__station">Station: {recipe.station}</p>}
+    <>
+      {recipe?.station && <Text>Station: {recipe.station}</Text>}
       {ingredients.length > 0 && (
-        <ul className="recipe__ingredients">
-          {ingredients.map((entry, index) => {
-            const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)
-            const quantity = entry?.quantity
+        <Table>
+          <Table.Tbody>
+            {ingredients.map((entry, index) => {
+              const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)
+              const quantity = entry?.quantity
 
-            return (
-              <li className="recipe__ingredient" key={`${itemName}-recipe-${recipeIndex}-${name}-${index}`}>
-                <span>{name}</span>
-                <span>{quantity !== undefined ? quantity : '—'}</span>
-              </li>
-            )
-          })}
-        </ul>
+              return (
+                <Table.Tr key={`${itemName}-recipe-${recipeIndex}-${name}-${index}`}>
+                  <Table.Td>{name}</Table.Td>
+                  <Table.Td>{quantity !== undefined ? quantity : '—'}</Table.Td>
+                </Table.Tr>
+              )
+            })}
+          </Table.Tbody>
+        </Table>
       )}
-    </div>
+    </>
   )
 }
 

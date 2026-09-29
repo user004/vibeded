@@ -1,4 +1,5 @@
 import { useContext, useMemo, useState } from 'react'
+import { Stack } from '@mantine/core'
 import armor from '../../data/armor.json'
 import Filters from '../Filters/Filters'
 import Armor from '../Armor/Armor'
@@ -92,7 +93,7 @@ function ArmorList({ title }) {
   const handleClearFilters = () => setSelectedFilters({})
 
   return (
-    <>
+    <Stack gap="md">
       <Filters
         categories={['Crafted', 'Archetype', 'Tier', 'Slot']}
         values={values}
@@ -108,7 +109,6 @@ function ArmorList({ title }) {
       />
       <List
         title={title}
-        className="armor-list"
         columns={3}
         items={displayItems}
         renderItem={(entry) =>
@@ -117,7 +117,7 @@ function ArmorList({ title }) {
             : <Armor item={entry.item} />
         }
       />
-    </>
+    </Stack>
   )
 }
 

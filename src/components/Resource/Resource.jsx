@@ -1,8 +1,8 @@
+import { List as MantineList, SimpleGrid, Stack } from '@mantine/core'
 import RecipeList from '../RecipeList/RecipeList'
 import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
 import Card from '../Card/Card'
-import './Resource.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Accordion from '../Accordion/Accordion'
 import Title from '../Title/Title'
@@ -11,7 +11,7 @@ function Resource({ item }) {
   const checkboxKey = `resource-analyzed-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <Card className="resource-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -20,29 +20,29 @@ function Resource({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="resource-card__collections">
+        <SimpleGrid cols={{ base: 1, sm: 2 }}>
           {Array.isArray(item.creatures) && item.creatures.length > 0 && (
-            <div className="resource-card__section">
-              <Title title="Creatures" className="resource-card__heading" />
-              <ul className="resource-card__list">
+            <Stack>
+              <Title title="Creatures" />
+              <MantineList>
                 {item.creatures.map((creature, index) => (
-                  <li key={`${item.name}-creature-${index}`}>{creature}</li>
+                  <MantineList.Item key={`${item.name}-creature-${index}`}>{creature}</MantineList.Item>
                 ))}
-              </ul>
-            </div>
+              </MantineList>
+            </Stack>
           )}
 
           {Array.isArray(item.locations) && item.locations.length > 0 && (
-            <div className="resource-card__section">
-              <Title title="Locations" className="resource-card__heading" />
-              <ul className="resource-card__list">
+            <Stack>
+              <Title title="Locations" />
+              <MantineList>
                 {item.locations.map((location, index) => (
-                  <li key={`${item.name}-location-${index}`}>{location}</li>
+                  <MantineList.Item key={`${item.name}-location-${index}`}>{location}</MantineList.Item>
                 ))}
-              </ul>
-            </div>
+              </MantineList>
+            </Stack>
           )}
-        </div>
+        </SimpleGrid>
 
         {Array.isArray(item.recipes) && item.recipes.length > 0 && (
           <RecipeList recipes={item.recipes} itemName={item.name} />

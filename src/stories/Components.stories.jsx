@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Group, Stack, Text } from '@mantine/core'
 import Accordion from '../components/Accordion/Accordion'
 import App from '../components/App/App'
 import Armor from '../components/Armor/Armor'
@@ -78,32 +79,32 @@ export const HeroBanner = { render: () => <Hero /> }
 export const TabsAndDataViews = { render: () => <Tabs /> }
 
 export const AccordionClosed = {
-  render: () => <Accordion summary="Closed details"><p>Content is revealed when opened.</p></Accordion>,
+  render: () => <Accordion summary="Closed details"><Text>Content is revealed when opened.</Text></Accordion>,
 }
 export const AccordionOpen = {
-  render: () => <Accordion summary="Open details" defaultOpen><p>Expanded content.</p></Accordion>,
+  render: () => <Accordion summary="Open details" defaultOpen><Text>Expanded content.</Text></Accordion>,
 }
 export const CardDefault = { render: () => <Card><ItemHeader title="Field Guide Card" tier={2} /></Card> }
 export const CheckboxStates = {
   render: () => (
-    <div style={{ display: 'flex', gap: '1rem' }}>
+    <Group>
       <Checkbox checkboxKey="unchecked" icon="🔨" label="Unchecked" />
       <CheckedCheckbox />
-    </div>
+    </Group>
   ),
 }
 export const TierVariations = {
-  render: () => <div style={{ display: 'flex', gap: '1rem' }}><Tier tier={1} /><Tier tier="4" /><Tier tier="Special" /></div>,
+  render: () => <Group><Tier tier={1} /><Tier tier="4" /><Tier tier="Special" /></Group>,
 }
 export const Tags = {
-  render: () => <div style={{ display: 'flex', gap: '0.5rem' }}><Tag tag="Crafted" /><Tag tag="Neutral" /><Tag tag="Rare" /></div>,
+  render: () => <Group><Tag tag="Crafted" /><Tag tag="Neutral" /><Tag tag="Rare" /></Group>,
 }
 export const ItemHeaderVariations = {
   render: () => (
-    <div style={{ display: 'grid', gap: '1rem' }}>
+    <Stack>
       <ItemHeader title="Tiered item" tier={3} tags={<Tag tag="Weapons" />} />
       <ItemHeader title="Icon item" icon="🧪" tags={<Tag tag="Resource" />} />
-    </div>
+    </Stack>
   ),
 }
 export const ListVariations = {

@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Stack } from '@mantine/core'
 import mutations from '../../data/mutations.json'
 import Filters from '../Filters/Filters'
 import Mutation from '../Mutation/Mutation'
@@ -42,7 +43,7 @@ function MutationList({ title }) {
   })
 
   return (
-    <>
+    <Stack gap="md">
       <Filters
         categories={['Category', 'Active']}
         values={values}
@@ -56,8 +57,8 @@ function MutationList({ title }) {
           setSearchValue('')
         }}
       />
-      <List title={title} className="mutation-list" items={filteredMutations} renderItem={(item) => <Mutation item={item} />} />
-    </>
+      <List title={title} items={filteredMutations} renderItem={(item) => <Mutation item={item} />} />
+    </Stack>
   )
 }
 

@@ -1,13 +1,17 @@
-import 'open-props/style'
-import '../src/index.css'
+import '@mantine/core/styles.css'
+import { MantineProvider } from '@mantine/core'
+import fieldGuideTheme from '../src/theme.js'
 
 const preview = {
+  decorators: [
+    (Story) => (
+      <MantineProvider theme={fieldGuideTheme} defaultColorScheme="dark">
+        <Story />
+      </MantineProvider>
+    ),
+  ],
   parameters: {
     layout: 'padded',
-    backgrounds: {
-      default: 'field-guide',
-      values: [{ name: 'field-guide', value: '#11140f' }],
-    },
     controls: {
       expanded: true,
     },

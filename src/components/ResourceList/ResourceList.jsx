@@ -1,4 +1,5 @@
 import { useContext, useMemo, useState } from 'react'
+import { Stack } from '@mantine/core'
 import resources from '../../data/resources.json'
 import Filters from '../Filters/Filters'
 import Resource from '../Resource/Resource'
@@ -53,7 +54,7 @@ function ResourceList({ title }) {
   })
 
   return (
-    <>
+    <Stack gap="md">
       <Filters
         categories={['Analyzed', 'Tier']}
         values={values}
@@ -69,10 +70,9 @@ function ResourceList({ title }) {
       />
       <List
         title={title}
-        className="resource-list"
         columns={3}
         items={filteredResources} renderItem={(item) => <Resource item={item} />} />
-    </>
+    </Stack>
   )
 }
 

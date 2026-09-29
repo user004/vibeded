@@ -1,32 +1,32 @@
+import { Image, List as MantineList, Stack, Text } from '@mantine/core'
 import Card from '../Card/Card'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Accordion from '../Accordion/Accordion'
-import './Status.css'
 import Title from '../Title/Title'
 
 function Status({ item }) {
   return (
-    <Card className="status-card">
+    <Card>
       <ItemHeader
         title={item.name}
-        icon={<img className="status-card__icon" src={item.icon} alt="" />}
+        icon={<Image src={item.icon} alt="" w={32} h={32} />}
         tags={item.categories.map((category) => <Tag key={category} tag={category} />)}
       />
 
       <Accordion summary="Details">
-        <div className="status-card__content">
-          <p className="status-card__description">{item.description}</p>
-          <p className="status-card__details">{item.details}</p>
-        </div>
+        <Stack>
+          <Text>{item.description}</Text>
+          <Text>{item.details}</Text>
+        </Stack>
 
         {item.sources.length > 0 && (
-          <div className="status-card__sources">
-            <Title title="Sources" className="status-card__sources-title" />
-            <ul>
-              {item.sources.map((source) => <li key={source}>{source}</li>)}
-            </ul>
-          </div>
+          <Stack>
+            <Title title="Sources" />
+            <MantineList>
+              {item.sources.map((source) => <MantineList.Item key={source}>{source}</MantineList.Item>)}
+            </MantineList>
+          </Stack>
         )}
       </Accordion>
     </Card>

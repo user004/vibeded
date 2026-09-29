@@ -1,7 +1,7 @@
 import { useContext } from 'react'
+import { Checkbox as MantineCheckbox } from '@mantine/core'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import Tooltip from '../Tooltip/Tooltip'
-import './Checkbox.css'
 
 function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChange }) {
   const context = useContext(FieldGuideContext)
@@ -14,11 +14,12 @@ function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChan
   const checked = controlledChecked ?? Boolean(checkboxState[checkboxKey])
 
   return (
-    <label className="field-guide-checkbox" htmlFor={checkboxKey}>
-      <input
+    <Tooltip label={label}>
+      <MantineCheckbox
         id={checkboxKey}
         name={checkboxKey}
-        type="checkbox"
+        aria-label={label}
+        label={icon}
         checked={checked}
         onChange={(event) => {
           if (controlledChecked === undefined) {
@@ -27,10 +28,7 @@ function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChan
           onChange?.(event.target.checked)
         }}
       />
-      <Tooltip label={label} fitContent>
-        <span aria-hidden="true">{icon}</span>
-      </Tooltip>
-    </label>
+    </Tooltip>
   )
 }
 

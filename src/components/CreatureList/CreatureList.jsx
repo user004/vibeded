@@ -1,4 +1,5 @@
 import { useContext, useMemo, useState } from 'react'
+import { Stack } from '@mantine/core'
 import creatures from '../../data/creatures.json'
 import Filters from '../Filters/Filters'
 import Creature from '../Creature/Creature'
@@ -62,7 +63,7 @@ function CreatureList({ title }) {
   })
 
   return (
-    <>
+    <Stack gap="md">
       <Filters
         categories={['Category', 'Tier', 'Peeped', 'Gold Card']}
         values={values}
@@ -78,12 +79,11 @@ function CreatureList({ title }) {
       />
       <List
         title={title}
-        className="creature-list"
         columns={4}
         items={filteredCreatures}
         renderItem={(item, index) => <Creature item={item} key={`${item.name}-${item.category}-${item.tier}-${index}`} />}
       />
-    </>
+    </Stack>
   )
 }
 

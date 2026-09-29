@@ -1,4 +1,5 @@
 import { useContext, useMemo, useState } from 'react'
+import { Stack } from '@mantine/core'
 import trinkets from '../../data/trinkets.json'
 import Filters from '../Filters/Filters'
 import List from '../List/List'
@@ -49,7 +50,7 @@ function TrinketList({ title }) {
   })
 
   return (
-    <>
+    <Stack gap="md">
       <Filters
         categories={['Crafted', 'Tier']}
         values={values}
@@ -65,10 +66,9 @@ function TrinketList({ title }) {
       />
       <List
         title={title}
-        className="trinket-list"
         columns={2}
         items={filteredTrinkets} renderItem={(item) => <Trinket item={item} />} />
-    </>
+    </Stack>
   )
 }
 
