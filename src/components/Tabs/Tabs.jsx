@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import BootstrapTabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
 import ArmorList from '../ArmorList/ArmorList'
 import CreatureList from '../CreatureList/CreatureList'
 import MutationList from '../MutationList/MutationList'
@@ -7,7 +9,6 @@ import StatusList from '../StatusList/StatusList'
 import TrinketList from '../TrinketList/TrinketList'
 import WeaponList from '../WeaponList/WeaponList'
 import { TitleScope } from '../Title/Title'
-import './Tabs.css'
 
 const TAB_KEYS = ['Armor', 'Creatures', 'Mutations', 'Resources', 'Statuses', 'Trinkets', 'Weapons']
 
@@ -16,33 +17,24 @@ function Tabs() {
 
   return (
     <TitleScope>
-      <section className="tabs">
-        <div className="tabs__nav" aria-label="Categories" role="tablist">
-          {TAB_KEYS.map((tab) => (
-            <button
-              key={tab}
-              type="button"
-              className="tabs__button"
-              role="tab"
-              aria-selected={activeTab === tab}
-              data-active={activeTab === tab}
-              onClick={() => setActiveTab(tab)}
-            >
-              {tab}
-            </button>
-          ))}
-        </div>
-
-        <div className="tabs__panel">
-          {activeTab === 'Armor' && <ArmorList title={activeTab} />}
-          {activeTab === 'Creatures' && <CreatureList title={activeTab} />}
-          {activeTab === 'Mutations' && <MutationList title={activeTab} />}
-          {activeTab === 'Resources' && <ResourceList title={activeTab} />}
-          {activeTab === 'Statuses' && <StatusList title={activeTab} />}
-          {activeTab === 'Trinkets' && <TrinketList title={activeTab} />}
-          {activeTab === 'Weapons' && <WeaponList title={activeTab} />}
-        </div>
-      </section>
+      <BootstrapTabs
+        activeKey={activeTab}
+        onSelect={(key) => key && setActiveTab(key)}
+        aria-label="Categories"
+        className="mt-4"
+      >
+        {TAB_KEYS.map((tab) => (
+          <Tab eventKey={tab} title={tab} key={tab}>
+            {tab === 'Armor' && <ArmorList title={tab} />}
+            {tab === 'Creatures' && <CreatureList title={tab} />}
+            {tab === 'Mutations' && <MutationList title={tab} />}
+            {tab === 'Resources' && <ResourceList title={tab} />}
+            {tab === 'Statuses' && <StatusList title={tab} />}
+            {tab === 'Trinkets' && <TrinketList title={tab} />}
+            {tab === 'Weapons' && <WeaponList title={tab} />}
+          </Tab>
+        ))}
+      </BootstrapTabs>
     </TitleScope>
   )
 }

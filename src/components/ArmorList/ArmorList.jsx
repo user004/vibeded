@@ -108,7 +108,6 @@ function ArmorList({ title }) {
       />
       <List
         title={title}
-        className="armor-list"
         columns={3}
         items={displayItems}
         renderItem={(entry) =>

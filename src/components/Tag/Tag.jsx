@@ -1,7 +1,7 @@
-import './Tag.css'
+import Badge from 'react-bootstrap/Badge'
 
 function Tag({ tag }) {
-  return <span className="tag">{tag}</span>
+  return <Badge bg="secondary" className="me-1">{tag}</Badge>
 }
 
 export default Tag

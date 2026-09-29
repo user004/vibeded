@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { FieldGuideContext } from '../../context/FieldGuideContext'
 import Tooltip from '../Tooltip/Tooltip'
-import './Checkbox.css'
+import Form from 'react-bootstrap/Form'
 
 function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChange }) {
   const context = useContext(FieldGuideContext)
@@ -14,23 +14,20 @@ function Checkbox({ checkboxKey, icon, label, checked: controlledChecked, onChan
   const checked = controlledChecked ?? Boolean(checkboxState[checkboxKey])
 
   return (
-    <label className="field-guide-checkbox" htmlFor={checkboxKey}>
-      <input
-        id={checkboxKey}
-        name={checkboxKey}
-        type="checkbox"
-        checked={checked}
-        onChange={(event) => {
-          if (controlledChecked === undefined) {
-            setCheckboxChecked(checkboxKey, event.target.checked)
-          }
-          onChange?.(event.target.checked)
-        }}
-      />
-      <Tooltip label={label} fitContent>
-        <span aria-hidden="true">{icon}</span>
-      </Tooltip>
-    </label>
+    <Form.Check
+      id={checkboxKey}
+      name={checkboxKey}
+      type="checkbox"
+      className="mb-0"
+      checked={checked}
+      label={<Tooltip label={label}><span aria-hidden="true">{icon}</span></Tooltip>}
+      onChange={(event) => {
+        if (controlledChecked === undefined) {
+          setCheckboxChecked(checkboxKey, event.target.checked)
+        }
+        onChange?.(event.target.checked)
+      }}
+    />
   )
 }
 

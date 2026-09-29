@@ -56,7 +56,7 @@ function MutationList({ title }) {
           setSearchValue('')
         }}
       />
-      <List title={title} className="mutation-list" items={filteredMutations} renderItem={(item) => <Mutation item={item} />} />
+      <List title={title} items={filteredMutations} renderItem={(item) => <Mutation item={item} />} />
     </>
   )
 }

@@ -1,13 +1,16 @@
-import 'open-props/style'
-import '../src/index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../src/theme.css'
 
 const preview = {
+  decorators: [
+    (Story) => (
+      <div data-bs-theme="dark">
+        <Story />
+      </div>
+    ),
+  ],
   parameters: {
     layout: 'padded',
-    backgrounds: {
-      default: 'field-guide',
-      values: [{ name: 'field-guide', value: '#11140f' }],
-    },
     controls: {
       expanded: true,
     },

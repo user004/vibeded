@@ -1,4 +1,4 @@
-import './Tier.css'
+import Badge from 'react-bootstrap/Badge'
 
 function toRomanNumeral(value) {
   const numerals = [
@@ -37,16 +37,17 @@ function toRomanNumeral(value) {
 
 function Tier({ tier }) {
   const isNumericTier = typeof tier === 'number' || (typeof tier === 'string' && /^\d+$/.test(tier))
+  const tierLevel = isNumericTier ? Number(tier) : 0
 
   return (
-    <span
-      className="tier"
-      data-tier={isNumericTier ? String(tier) : undefined}
+    <Badge
+      bg={null}
+      className={`tier-badge tier-badge--${tierLevel >= 1 && tierLevel <= 5 ? tierLevel : 'default'}`}
       aria-label={isNumericTier ? `Tier ${tier}` : undefined}
       title={isNumericTier ? `Tier ${tier}` : undefined}
     >
-      {isNumericTier ? <span>{toRomanNumeral(tier)}</span> : tier}
-    </span>
+      {isNumericTier ? toRomanNumeral(tier) : tier}
+    </Badge>
   )
 }
 

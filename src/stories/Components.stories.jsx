@@ -86,21 +86,21 @@ export const AccordionOpen = {
 export const CardDefault = { render: () => <Card><ItemHeader title="Field Guide Card" tier={2} /></Card> }
 export const CheckboxStates = {
   render: () => (
-    <div style={{ display: 'flex', gap: '1rem' }}>
+    <div className="d-flex gap-3">
       <Checkbox checkboxKey="unchecked" icon="🔨" label="Unchecked" />
       <CheckedCheckbox />
     </div>
   ),
 }
 export const TierVariations = {
-  render: () => <div style={{ display: 'flex', gap: '1rem' }}><Tier tier={1} /><Tier tier="4" /><Tier tier="Special" /></div>,
+  render: () => <div className="d-flex gap-3"><Tier tier={1} /><Tier tier="4" /><Tier tier="Special" /></div>,
 }
 export const Tags = {
-  render: () => <div style={{ display: 'flex', gap: '0.5rem' }}><Tag tag="Crafted" /><Tag tag="Neutral" /><Tag tag="Rare" /></div>,
+  render: () => <div className="d-flex gap-2"><Tag tag="Crafted" /><Tag tag="Neutral" /><Tag tag="Rare" /></div>,
 }
 export const ItemHeaderVariations = {
   render: () => (
-    <div style={{ display: 'grid', gap: '1rem' }}>
+    <div className="d-grid gap-3">
       <ItemHeader title="Tiered item" tier={3} tags={<Tag tag="Weapons" />} />
       <ItemHeader title="Icon item" icon="🧪" tags={<Tag tag="Resource" />} />
     </div>

@@ -69,7 +69,6 @@ function ResourceList({ title }) {
       />
       <List
         title={title}
-        className="resource-list"
         columns={3}
         items={filteredResources} renderItem={(item) => <Resource item={item} />} />
     </>

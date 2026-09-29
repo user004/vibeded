@@ -70,7 +70,6 @@ function WeaponList({ title }) {
       />
       <List
         title={title}
-        className="weapon-list"
         columns={2}
         items={filteredWeapons} renderItem={(item) => <Weapon item={item} />} />
     </>

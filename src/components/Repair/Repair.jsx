@@ -1,5 +1,5 @@
-import './Repair.css'
 import Title from '../Title/Title'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function Repair({ repairs = [], itemName = 'item' }) {
   if (!Array.isArray(repairs) || repairs.length === 0) {
@@ -7,20 +7,20 @@ function Repair({ repairs = [], itemName = 'item' }) {
   }
 
   return (
-    <div className="repair">
-      <Title title="Repair" className="repair__title" />
-      <ul className="repair__list">
+    <div className="mt-3">
+      <Title title="Repair" className="mb-2" />
+      <ListGroup as="ul">
         {repairs.map((entry, index) => {
           const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)
           const quantity = entry?.quantity
 
           return (
-            <li className="repair__item" key={`${itemName}-repair-${name}-${index}`}>
+            <ListGroup.Item as="li" key={`${itemName}-repair-${name}-${index}`}>
               {quantity !== undefined ? `${name}: ${quantity}` : name}
-            </li>
+            </ListGroup.Item>
           )
         })}
-      </ul>
+      </ListGroup>
     </div>
   )
 }

@@ -57,7 +57,10 @@ npx oxlint src/components/ArmorList/ArmorList.jsx
 
 The app is intentionally organized around reusable list components and shared data helpers:
 
-- `src/main.jsx` mounts the React app and loads the global Open Props style layer.
+- `src/main.jsx` loads Bootstrap's stylesheet and the shared theme in `src/theme.css`.
+- Shared UI is built with [React-Bootstrap](https://react-bootstrap.netlify.app/docs/getting-started/introduction/) components, with Bootstrap 5 providing layout utilities and visual primitives.
+- `index.html` enables Bootstrap's dark color mode. `src/theme.css` overrides Bootstrap theme variables for the dark green palette and tier-specific badge colors.
+- `.storybook/preview.jsx` loads the same Bootstrap stylesheet and theme as the app.
 - `src/components/App/App.jsx` renders the app shell and wraps it in `FieldGuideProvider`.
 - `src/components/Tabs/Tabs.jsx` controls the category navigation.
 - `src/context/FieldGuideContext.jsx` stores checkbox state and persists it to `localStorage` under `grounded2FieldGuideData`.
@@ -72,7 +75,9 @@ The app is intentionally organized around reusable list components and shared da
 - Reuse the shared filter helpers in `src/utils/listFilterUtils.js` instead of repeating inline logic in each list.
 - Preserve the checkbox key naming pattern used across the app: `name.toLowerCase().replace(/[^a-z0-9]+/g, '-')`.
 - Use the shared React context for crafted-item toggles rather than introducing another global state layer for simple checkboxes.
-- Keep styling consistent with the existing Vite + Open Props setup: import `open-props/style` at the app root and keep local styles near the component they affect.
+- Build UI structure and controls from [React-Bootstrap components](https://react-bootstrap.netlify.app/docs/getting-started/introduction/) and Bootstrap utilities.
+- Keep shared color-mode overrides and application-specific color tokens in `src/theme.css`; avoid adding component stylesheets for layout or routine visuals. Use Bootstrap's `data-bs-theme="dark"` mode and existing dark green palette.
+- Use the `Tier` component for tier labels so their colors remain consistent. Tier colors are defined by the `.tier-badge--*` rules in `src/theme.css`.
 - This repo is JavaScript-first; new files should follow the existing `.jsx` and `.js` conventions unless a different language is already in use.
 
 ## Contribution patterns
@@ -93,5 +98,5 @@ To add a new catalog section, mirror the established combination of data + list 
 1. Add the source data file under `src/data/` with the same JSON shape used by neighboring categories.
 2. Create a list component such as `src/components/ExampleList/ExampleList.jsx` that imports the JSON, derives filter values, and renders the item cards.
 3. Reuse `src/utils/listFilterUtils.js` for normalization, unique filter values, facet counts, and matching logic rather than hard-coding custom logic in the list.
-4. Wire the new list into `src/components/Tabs/Tabs.jsx` and add any category-specific styling alongside the component or in the shared stylesheet pattern.
+4. Wire the new list into `src/components/Tabs/Tabs.jsx` and compose the UI from the appropriate React-Bootstrap components.
 5. Validate with `npm run lint` and, for UI changes, run `npm run build` or review in `npm run storybook` when the change affects rendering or shared filters.

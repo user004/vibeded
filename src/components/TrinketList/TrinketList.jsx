@@ -65,7 +65,6 @@ function TrinketList({ title }) {
       />
       <List
         title={title}
-        className="trinket-list"
         columns={2}
         items={filteredTrinkets} renderItem={(item) => <Trinket item={item} />} />
     </>

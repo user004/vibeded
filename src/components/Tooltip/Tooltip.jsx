@@ -1,39 +1,27 @@
+import { useId } from 'react'
 import statuses from '../../data/statuses.json'
-import './Tooltip.css'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import BootstrapTooltip from 'react-bootstrap/Tooltip'
 
-function Tooltip({ name, label, children = name, fitContent = false }) {
+function Tooltip({ name, label, children }) {
+  const tooltipId = `tooltip-${useId().replace(/:/g, '')}`
   const status = statuses.find((item) => item.name === name)
-  const contentClassName = fitContent
-    ? 'tooltip__content tooltip__content--fit'
-    : 'tooltip__content'
+  const tooltipContent = status
+    ? <><strong>{status.name}</strong><br />{status.description}<br />{status.details}</>
+    : label
 
-  if (!status) {
-    if (!label) {
-      return children
-    }
-
-    return (
-      <span className="tooltip" tabIndex="0">
-        {children}
-        <span className={contentClassName} role="tooltip">
-          <span className="tooltip__description">{label}</span>
-        </span>
-      </span>
-    )
-  }
+  if (!tooltipContent) return children ?? name
 
   return (
-    <span className="tooltip" tabIndex="0">
-      <img className="tooltip__trigger-icon" src={status.icon} alt={status.name} />
-      <span className={contentClassName} role="tooltip">
-        <span className="tooltip__header">
-          <img className="tooltip__icon" src={status.icon} alt="" />
-          <strong className="tooltip__name">{status.name}</strong>
-        </span>
-        <span className="tooltip__description">{status.description}</span>
-        <span className="tooltip__details">{status.details}</span>
+    <OverlayTrigger
+      placement="top"
+      overlay={<BootstrapTooltip id={tooltipId}>{tooltipContent}</BootstrapTooltip>}
+    >
+      <span tabIndex={0}>
+        {status && <img src={status.icon} alt="" width="24" height="24" className="me-1" />}
+        {children ?? (status ? null : name)}
       </span>
-    </span>
+    </OverlayTrigger>
   )
 }
 

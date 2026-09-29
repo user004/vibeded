@@ -1,24 +1,21 @@
-import './List.css'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Title, { TitleScope } from '../Title/Title'
 
-function List({ children, items, renderItem, title, className = '', itemClassName = 'list__item', columns = 1, style, ...props }) {
+function List({ children, items, renderItem, title, columns = 1 }) {
   const listItems = children ?? (items ?? []).map((item, index) => (
-    <li key={item?.name ?? index} className={itemClassName}>
+    <Col as="li" key={item?.name ?? index} xs={12} md={columns > 1 ? 6 : 12} lg={columns > 2 ? 12 / columns : undefined}>
       {renderItem(item, index)}
-    </li>
+    </Col>
   ))
 
   return (
     <>
       {title && <Title title={title} />}
       <TitleScope>
-        <ul
-          className={['list', className].filter(Boolean).join(' ')}
-          style={{ '--columns': columns, ...style }}
-          {...props}
-        >
+        <Row as="ul" className="list-unstyled g-3">
           {listItems}
-        </ul>
+        </Row>
       </TitleScope>
     </>
   )

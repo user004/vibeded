@@ -4,15 +4,16 @@ import { useContext } from 'react'
 import Accordion from '../Accordion/Accordion'
 import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
-import './Creature.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Title from '../Title/Title'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function Creature({ item }) {
-  const { checkboxState, setCheckboxChecked } = useContext(FieldGuideContext)
+  const { setCheckboxChecked } = useContext(FieldGuideContext)
   const peepedKey = `creature-peeped-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
   const goldCardKey = `creature-gold-card-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
-  const isGoldCard = Boolean(checkboxState[goldCardKey])
 
   const handleGoldCardChange = (checked) => {
     setCheckboxChecked(goldCardKey, checked)
@@ -29,7 +30,7 @@ function Creature({ item }) {
   }
 
   return (
-    <Card className="creature-card" data-gold-card={isGoldCard}>
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -48,29 +49,29 @@ function Creature({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="creature-card__grid">
+        <Row className="g-3">
           {Array.isArray(item.environments) && item.environments.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Environments" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <Col>
+              <Title title="Environments" className="mb-2" />
+              <ListGroup as="ul">
                 {item.environments.map((environment, index) => (
-                  <li key={`${item.name}-environment-${index}`}>{environment}</li>
+                  <ListGroup.Item as="li" key={`${item.name}-environment-${index}`}>{environment}</ListGroup.Item>
                 ))}
-              </ul>
-            </div>
+              </ListGroup>
+            </Col>
           )}
 
           {Array.isArray(item.loot) && item.loot.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Loot" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <Col>
+              <Title title="Loot" className="mb-2" />
+              <ListGroup as="ul">
                 {item.loot.map((lootItem, index) => (
-                  <li key={`${item.name}-loot-${index}`}>{lootItem}</li>
+                  <ListGroup.Item as="li" key={`${item.name}-loot-${index}`}>{lootItem}</ListGroup.Item>
                 ))}
-              </ul>
-            </div>
+              </ListGroup>
+            </Col>
           )}
-        </div>
+        </Row>
       </Accordion>
     </Card>
   )

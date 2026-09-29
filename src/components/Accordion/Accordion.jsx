@@ -1,14 +1,16 @@
-import './Accordion.css'
+import BootstrapAccordion from 'react-bootstrap/Accordion'
 import { TitleScope } from '../Title/Title'
 
 function Accordion({ summary, children, defaultOpen = false }) {
   return (
-    <details className="accordion" open={defaultOpen}>
-      <summary>{summary}</summary>
-      <TitleScope>
-        <div className="content">{children}</div>
-      </TitleScope>
-    </details>
+    <BootstrapAccordion defaultActiveKey={defaultOpen ? 'details' : undefined}>
+      <BootstrapAccordion.Item eventKey="details">
+        <BootstrapAccordion.Header>{summary}</BootstrapAccordion.Header>
+        <BootstrapAccordion.Body>
+          <TitleScope>{children}</TitleScope>
+        </BootstrapAccordion.Body>
+      </BootstrapAccordion.Item>
+    </BootstrapAccordion>
   )
 }
 

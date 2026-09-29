@@ -1,0 +1,86 @@
+:root,
+[data-bs-theme='dark'] {
+  color-scheme: dark;
+  --bs-body-bg: #111711;
+  --bs-body-color: #e2e9e1;
+  --bs-emphasis-color: #f3f7f2;
+  --bs-secondary-color: #aab8a8;
+  --bs-tertiary-color: #829080;
+  --bs-secondary-bg: #202a20;
+  --bs-tertiary-bg: #192219;
+  --bs-border-color: #384638;
+  --bs-primary: #78c850;
+  --bs-primary-rgb: 120, 200, 80;
+  --bs-primary-text-emphasis: #a5e486;
+  --bs-primary-bg-subtle: #1c3618;
+  --bs-primary-border-subtle: #426e32;
+  --bs-link-color: #91d96d;
+  --bs-link-hover-color: #b0ec91;
+  --bs-focus-ring-color: rgb(120 200 80 / 25%);
+  --bs-success: #78c850;
+  --bs-success-rgb: 120, 200, 80;
+}
+
+.btn-primary {
+  --bs-btn-color: #14210f;
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #14210f;
+  --bs-btn-hover-bg: #8bd46a;
+  --bs-btn-hover-border-color: #8bd46a;
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+  --bs-btn-active-color: #14210f;
+  --bs-btn-active-bg: #69b744;
+  --bs-btn-active-border-color: #69b744;
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #14210f;
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+  --bs-btn-active-color: #14210f;
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
+}
+
+.form-check-input:checked,
+.form-check-input[type='checkbox']:indeterminate {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.tier-badge {
+  background-color: var(--tier-bg);
+  color: var(--tier-color);
+}
+
+.tier-badge--default,
+.tier-badge--1 {
+  --tier-bg: #6c757d;
+  --tier-color: #fff;
+}
+
+.tier-badge--2 {
+  --tier-bg: #20c997;
+  --tier-color: #10231c;
+}
+
+.tier-badge--3 {
+  --tier-bg: #6610f2;
+  --tier-color: #fff;
+}
+
+.tier-badge--4 {
+  --tier-bg: #6f42c1;
+  --tier-color: #fff;
+}
+
+.tier-badge--5 {
+  --tier-bg: #ffc107;
+  --tier-color: #241d08;
+}

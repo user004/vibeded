@@ -1,10 +1,10 @@
-import './Card.css'
+import BootstrapCard from 'react-bootstrap/Card'
 
 function Card({ children, className = '', ...props }) {
   return (
-    <article {...props} className={['card', className].filter(Boolean).join(' ')}>
-      {children}
-    </article>
+    <BootstrapCard {...props} className={className}>
+      <BootstrapCard.Body>{children}</BootstrapCard.Body>
+    </BootstrapCard>
   )
 }
 

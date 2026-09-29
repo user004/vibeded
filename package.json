@@ -12,8 +12,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "open-props": "^1.7.16",
+    "bootstrap": "^5.3.8",
     "react": "^19.2.8",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {

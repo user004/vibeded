@@ -1,4 +1,4 @@
-import './Recipe.css'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function Recipe({ recipe, itemName, recipeIndex }) {
   const ingredients = Array.isArray(recipe?.ingredients)
@@ -8,22 +8,21 @@ function Recipe({ recipe, itemName, recipeIndex }) {
       : []
 
   return (
-    <div className="recipe">
-      {recipe?.station && <p className="recipe__station">Station: {recipe.station}</p>}
+    <div>
+      {recipe?.station && <p><strong>Station:</strong> {recipe.station}</p>}
       {ingredients.length > 0 && (
-        <ul className="recipe__ingredients">
+        <ListGroup as="ul" className="mb-0">
           {ingredients.map((entry, index) => {
             const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)
             const quantity = entry?.quantity
 
             return (
-              <li className="recipe__ingredient" key={`${itemName}-recipe-${recipeIndex}-${name}-${index}`}>
-                <span>{name}</span>
-                <span>{quantity !== undefined ? quantity : '—'}</span>
-              </li>
+              <ListGroup.Item as="li" key={`${itemName}-recipe-${recipeIndex}-${name}-${index}`}>
+                {name}: {quantity !== undefined ? quantity : '—'}
+              </ListGroup.Item>
             )
           })}
-        </ul>
+        </ListGroup>
       )}
     </div>
   )

@@ -1,22 +1,22 @@
 import Recipe from '../Recipe/Recipe'
 import Title from '../Title/Title'
-import './RecipeList.css'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function RecipeList({ recipes = [], itemName = 'item' }) {
   const normalizedRecipes = Array.isArray(recipes) ? recipes : []
 
   return (
-    <ul className="recipe-list">
+    <ListGroup as="ul" className="mb-3">
       {normalizedRecipes.map((recipe, index) => (
-        <li className="recipe-list__item" key={`${itemName}-recipe-${index}`}>
+        <ListGroup.Item as="li" key={`${itemName}-recipe-${index}`}>
           <Title
             title={`Recipe${normalizedRecipes.length > 1 ? ` ${index + 1}` : ''}`}
-            className="recipe-list__title"
+            className="mb-2"
           />
           <Recipe recipe={recipe} itemName={itemName} recipeIndex={index} />
-        </li>
+        </ListGroup.Item>
       ))}
-    </ul>
+    </ListGroup>
   )
 }
 

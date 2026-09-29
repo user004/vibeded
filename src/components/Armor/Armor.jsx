@@ -6,7 +6,8 @@ import Accordion from '../Accordion/Accordion'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Card from '../Card/Card'
 import Tooltip from '../Tooltip/Tooltip'
-import './Armor.css'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 export const getArmorCheckboxKey = (name) =>
   `armor-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
@@ -15,7 +16,7 @@ function Armor({ item }) {
   const checkboxKey = getArmorCheckboxKey(item.name)
 
   return (
-    <Card className="armor-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -29,28 +30,19 @@ function Armor({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="armor-card__stats">
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DUR</span>
-            <p className="armor-card__stat-value">{item.durability}</p>
-          </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DEF</span>
-            <p className="armor-card__stat-value">{item.defense}</p>
-          </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">RES</span>
-            <p className="armor-card__stat-value">{item.resistance}</p>
-          </div>
-        </div>
+        <Row className="g-3 mb-3">
+          <Col><strong>DUR</strong><p className="mb-0">{item.durability}</p></Col>
+          <Col><strong>DEF</strong><p className="mb-0">{item.defense}</p></Col>
+          <Col><strong>RES</strong><p className="mb-0">{item.resistance}</p></Col>
+        </Row>
 
         {item.pieceEffect && (
-          <p className="armor-card__text">
+          <p>
             Piece Effect: <Tooltip name={item.pieceEffect} />
           </p>
         )}
         {item.sleekEffect != null && (
-          <p className="armor-card__text">
+          <p>
             Sleek Effect: <Tooltip name={item.sleekEffect} />
           </p>
         )}

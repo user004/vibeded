@@ -57,7 +57,6 @@ function StatusList({ title }) {
       />
       <List
         title={title}
-        className="status-list"
         columns={2}
         items={filteredStatuses} renderItem={(item) => <Status item={item} />} />
     </>

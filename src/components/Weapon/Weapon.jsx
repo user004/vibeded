@@ -4,16 +4,16 @@ import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
 import Card from '../Card/Card'
-import './Weapon.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Tooltip from '../Tooltip/Tooltip'
 import Title from '../Title/Title'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function Weapon({ item }) {
   const checkboxKey = `weapon-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <Card className="weapon-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -23,15 +23,15 @@ function Weapon({ item }) {
 
       <Accordion summary="Details">
         {Array.isArray(item.status) && item.status.length > 0 && (
-          <div className="weapon-card__section">
-            <Title title="Status" className="weapon-card__heading" />
-            <ul className="weapon-card__list">
+          <div>
+            <Title title="Status" className="mb-2" />
+            <ListGroup as="ul">
               {item.status.map((status, index) => (
-                <li className="weapon-card__list-item" key={`${item.name}-status-${index}`}>
+                <ListGroup.Item as="li" key={`${item.name}-status-${index}`}>
                   <Tooltip name={status} />
-                </li>
+                </ListGroup.Item>
               ))}
-            </ul>
+            </ListGroup>
           </div>
         )}
 

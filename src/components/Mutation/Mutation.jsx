@@ -1,13 +1,13 @@
 import Checkbox from '../Checkbox/Checkbox'
 import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
-import './Mutation.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Title, { TitleScope } from '../Title/Title'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function Mutation({ item }) {
   return (
-    <Card className="mutation-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -22,20 +22,20 @@ function Mutation({ item }) {
       {Array.isArray(item.ranks) && item.ranks.length > 0 && (
         <TitleScope>
           <div>
-            <ul className="mutation-card__ranks">
+            <ListGroup as="ul">
               {item.ranks.map((rankInfo, index) => (
-                <li className="mutation-card__rank" key={`${item.name}-rank-${index}`}>
-                  <Title title={`Rank ${rankInfo.rank}`} className="mutation-card__rank-title" />
+                <ListGroup.Item as="li" key={`${item.name}-rank-${index}`}>
+                  <Title title={`Rank ${rankInfo.rank}`} className="mb-2" />
                   <Checkbox
                     checkboxKey={`mutation-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${rankInfo.rank}`}
                     icon="🔓"
                     label={`Unlock rank ${rankInfo.rank}`}
                   />
-                  <p className="mutation-card__text">{rankInfo.effect}</p>
-                  <p className="mutation-card__text">Obtained: {rankInfo.obtained}</p>
-                </li>
+                  <p>{rankInfo.effect}</p>
+                  <p className="mb-0">Obtained: {rankInfo.obtained}</p>
+                </ListGroup.Item>
               ))}
-            </ul>
+            </ListGroup>
           </div>
         </TitleScope>
       )}

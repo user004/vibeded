@@ -78,7 +78,6 @@ function CreatureList({ title }) {
       />
       <List
         title={title}
-        className="creature-list"
         columns={4}
         items={filteredCreatures}
         renderItem={(item, index) => <Creature item={item} key={`${item.name}-${item.category}-${item.tier}-${index}`} />}

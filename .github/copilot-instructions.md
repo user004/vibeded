@@ -26,13 +26,15 @@ There is no dedicated test runner configured in this repo right now, so there is
 For UI changes, prefer Storybook review (`npm run storybook`) plus the app build (`npm run build`) when the change affects shared render logic or category data.
 
 ## High-level architecture
-- `src/main.jsx` mounts the app and imports `open-props/style` at the root.
+- `src/main.jsx` mounts the app and imports Bootstrap's stylesheet plus `src/theme.css`.
 - `src/components/App/App.jsx` wraps the app in `FieldGuideProvider` and renders the hero plus tabbed catalog shell.
 - `src/components/Tabs/Tabs.jsx` is the primary nav shell; each tab renders a category-specific list component.
 - `src/data/*.json` is the source of truth for list content and item metadata; keep new content there instead of hard-coding data in components.
 - `src/components/*List/*.jsx` components read the JSON, build derived filter values, and render the UI for a given category.
 - `src/utils/listFilterUtils.js` handles the shared normalization and filter logic so list code stays consistent across categories.
-- `src/styles/*.css` and local component CSS hold shared styling tokens and component styling.
+- UI structure and controls use [React-Bootstrap](https://react-bootstrap.netlify.app/docs/getting-started/introduction/) components with Bootstrap 5 styles and utilities.
+- `index.html` activates Bootstrap's dark color mode; `src/theme.css` provides the shared dark green theme and per-tier badge colors.
+- `.storybook/preview.jsx` loads the same Bootstrap stylesheet and application theme as the main app.
 - `src/stories/Components.stories.jsx` is a living catalog of important examples and edge states for the UI.
 
 ## Key conventions
@@ -40,7 +42,8 @@ For UI changes, prefer Storybook review (`npm run storybook`) plus the app build
 - Prefer extending the existing list/filter patterns instead of introducing one-off logic for each category. Reuse `normalizeValue`, `getUniqueFilterValues`, `getFilterValueCounts`, and `filterBySelectedFilters` from `src/utils/listFilterUtils.js`.
 - Preserve the slug-like checkbox key pattern used throughout the app: `name.toLowerCase().replace(/[^a-z0-9]+/g, '-')`. This is how crafted/checked state is mapped back to items.
 - Use the shared React context for item toggles instead of creating another global state mechanism for simple checkbox-backed features.
-- Follow the existing styling pattern: import `open-props/style` at the app root and keep component-local CSS close to the component it styles.
+- Compose new UI from React-Bootstrap components and Bootstrap utilities; avoid component-specific stylesheets for routine presentation.
+- Put shared Bootstrap theme-variable overrides and application-specific colors in `src/theme.css`. Preserve the dark green palette and tier-specific `.tier-badge--*` color variants when changing visual styles.
 - This codebase is JavaScript-first; keep new files in `.jsx`/`.js` unless the repo has already moved to a different language.
 - For new categories, mirror the established pattern: source JSON -> list component -> filter configuration -> tab registration in `Tabs.jsx`.
 
