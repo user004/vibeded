@@ -1,63 +1,97 @@
-# React + Vite
+# Vibeded
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Vibeded is a Vite + React field guide for Grounded 2. It presents category-based catalog data for armor, creatures, mutations, resources, statuses, trinkets, and weapons with search, filters, and persistent crafted-item state.
 
-## Storybook
+## Features
+- Category tabs for the main Grounded 2 collections
+- Search and facet-style filtering across item metadata
+- Crafted-state tracking persisted in `localStorage`
+- Data-driven rendering from static JSON files
+- Storybook coverage for the shared UI and catalog components
 
-Storybook documents and previews the component library independently from the main application. The configuration lives in `.storybook/`, and the component stories live in `src/stories/Components.stories.jsx`.
+## Quick start
 
-### Run Storybook locally
-
-Install dependencies, then start the Storybook development server:
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Start the app locally:
+
+```bash
+npm run dev
+```
+
+Run a production build:
+
+```bash
+npm run build
+```
+
+Run the repository linter:
+
+```bash
+npm run lint
+```
+
+Run Storybook locally:
+
+```bash
 npm run storybook
 ```
 
-Open [http://localhost:6006](http://localhost:6006). Changes to components and stories are reflected through Vite hot module replacement.
-
-### Build Storybook
-
-Create a static Storybook build for deployment or review:
+Build Storybook for deployment or review:
 
 ```bash
 npm run build-storybook
 ```
 
-The generated site is written to `storybook-static/`. This directory is ignored by Git. Serve it with any static web server when you need to preview the production build.
+There is no dedicated automated test runner configured in this repository. For targeted linting of a single file, run the repo linter directly:
 
-### Story coverage
+```bash
+npx oxlint src/components/ArmorList/ArmorList.jsx
+```
 
-The current story collection includes:
+## Architecture
 
-- The complete application and all catalog/list views.
-- Data-backed armor, armor set, creature, mutation, resource, status, trinket, and weapon cards.
-- Shared UI components such as cards, headers, lists, tags, tiers, accordions, filters, checkboxes, tooltips, recipes, recipe lists, and repair lists.
-- Important variations including open and closed accordions, checked and unchecked checkboxes, numeric and string tiers, empty repair data, tooltip fallback content, multiple recipes, and selected filter values.
+The app is intentionally organized around reusable list components and shared data helpers:
 
-Stories use the JSON fixtures from `src/data/` so the documented examples stay aligned with the application. Components that use checkbox state are wrapped with `FieldGuideProvider` by the story-level decorator.
+- `src/main.jsx` mounts the React app and loads the global Open Props style layer.
+- `src/components/App/App.jsx` renders the app shell and wraps it in `FieldGuideProvider`.
+- `src/components/Tabs/Tabs.jsx` controls the category navigation.
+- `src/context/FieldGuideContext.jsx` stores checkbox state and persists it to `localStorage` under `grounded2FieldGuideData`.
+- `src/data/*.json` is the source of truth for item content for each catalog section.
+- `src/components/*List/*.jsx` read JSON data, derive filter values, and render category views.
+- `src/utils/listFilterUtils.js` centralizes filtering and normalization logic used by multiple lists.
+- `src/stories/Components.stories.jsx` documents important UI states and uses the same fixtures as the app.
 
-### Add or update a story
+## Conventions
 
-Add stories to `src/stories/Components.stories.jsx`, or create another `*.stories.jsx` file below `src/`. Storybook discovers JavaScript, JSX, MJS, TypeScript, and TSX story files through the pattern configured in `.storybook/main.js`.
+- Keep catalog data in `src/data/*.json` and keep presentation logic in components.
+- Reuse the shared filter helpers in `src/utils/listFilterUtils.js` instead of repeating inline logic in each list.
+- Preserve the checkbox key naming pattern used across the app: `name.toLowerCase().replace(/[^a-z0-9]+/g, '-')`.
+- Use the shared React context for crafted-item toggles rather than introducing another global state layer for simple checkboxes.
+- Keep styling consistent with the existing Vite + Open Props setup: import `open-props/style` at the app root and keep local styles near the component they affect.
+- This repo is JavaScript-first; new files should follow the existing `.jsx` and `.js` conventions unless a different language is already in use.
 
-When adding a component story:
+## Contribution patterns
 
-1. Import the component and any representative fixture data.
-2. Render the component with its required props and context providers.
-3. Add stories for meaningful prop, empty, interactive, and boundary states.
-4. Run `npm run storybook` to review the story and `npm run build-storybook` to verify the production build.
+When adding new content or tabs, follow this pattern:
 
-Currently, two official plugins are available:
+1. Add or update the category data in `src/data/*.json`
+2. Create or extend a matching list component under `src/components/`
+3. Reuse the shared filter helpers for the new category
+4. Register the category in `src/components/Tabs/Tabs.jsx`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This keeps the app consistent with the existing data-driven structure.
 
-## React Compiler
+## Adding a new category
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To add a new catalog section, mirror the established combination of data + list UI + filters + tab registration:
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Add the source data file under `src/data/` with the same JSON shape used by neighboring categories.
+2. Create a list component such as `src/components/ExampleList/ExampleList.jsx` that imports the JSON, derives filter values, and renders the item cards.
+3. Reuse `src/utils/listFilterUtils.js` for normalization, unique filter values, facet counts, and matching logic rather than hard-coding custom logic in the list.
+4. Wire the new list into `src/components/Tabs/Tabs.jsx` and add any category-specific styling alongside the component or in the shared stylesheet pattern.
+5. Validate with `npm run lint` and, for UI changes, run `npm run build` or review in `npm run storybook` when the change affects rendering or shared filters.
