@@ -1,5 +1,13 @@
 import { Chip } from '@mui/material'
 
+const tierColors = {
+  1: { backgroundColor: '#868e96', color: '#fff' },
+  2: { backgroundColor: '#0ca678', color: '#fff' },
+  3: { backgroundColor: '#4263eb', color: '#fff' },
+  4: { backgroundColor: '#ae3ec9', color: '#fff' },
+  5: { backgroundColor: '#fcc419', color: '#212529' },
+}
+
 function toRomanNumeral(value) {
   const numerals = [
     ['M', 1000],
@@ -41,10 +49,10 @@ function Tier({ tier }) {
   return (
     <Chip
       size="small"
-      color={isNumericTier ? 'primary' : 'default'}
       label={isNumericTier ? toRomanNumeral(tier) : tier}
       aria-label={isNumericTier ? `Tier ${tier}` : undefined}
       title={isNumericTier ? `Tier ${tier}` : undefined}
+      sx={isNumericTier ? (tierColors[Number(tier)] ?? tierColors[1]) : undefined}
     />
   )
 }
