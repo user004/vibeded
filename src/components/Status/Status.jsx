@@ -10,7 +10,7 @@ function Status({ item }) {
     <Card className="status-card">
       <ItemHeader
         title={item.name}
-        icon={<img className="status-card__icon" src={item.icon} alt="" />}
+        icon={<img className="status-card__icon" src={`${import.meta.env.BASE_URL}${item.icon}`} alt="" />}
         tags={item.categories.map((category) => <Tag key={category} tag={category} />)}
       />
 

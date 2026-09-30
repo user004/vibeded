@@ -1,7 +1,7 @@
 [
   {
     "name": "Aggressively Perfect Block",
-    "icon": "/src/assets/icons/statuses/Aggressively_Perfect_Block.png",
+    "icon": "assets/icons/statuses/Aggressively_Perfect_Block.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -14,7 +14,7 @@
   },
   {
     "name": "Battering Ram",
-    "icon": "/src/assets/icons/statuses/Battering_Ram.png",
+    "icon": "assets/icons/statuses/Battering_Ram.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -27,7 +27,7 @@
   },
   {
     "name": "Burning Criticals",
-    "icon": "/src/assets/icons/statuses/Burning_Criticals.png",
+    "icon": "assets/icons/statuses/Burning_Criticals.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -40,7 +40,7 @@
   },
   {
     "name": "Cheap Shot",
-    "icon": "/src/assets/icons/statuses/Cheap_Shot.png",
+    "icon": "assets/icons/statuses/Cheap_Shot.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -53,7 +53,7 @@
   },
   {
     "name": "Charged Blastwave",
-    "icon": "/src/assets/icons/statuses/Charged_Blastwave.png",
+    "icon": "assets/icons/statuses/Charged_Blastwave.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -66,7 +66,7 @@
   },
   {
     "name": "Chilling Attack",
-    "icon": "/src/assets/icons/statuses/Chilling_Attack.png",
+    "icon": "assets/icons/statuses/Chilling_Attack.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -82,7 +82,7 @@
   },
   {
     "name": "Critical Hit Chance",
-    "icon": "/src/assets/icons/statuses/Critical_Hit_Chance.png",
+    "icon": "assets/icons/statuses/Critical_Hit_Chance.png",
     "categories": [
       "Positive",
       "Weapons",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Critical Hit: Venom",
-    "icon": "/src/assets/icons/statuses/Critical_Hit_Venom.png",
+    "icon": "assets/icons/statuses/Critical_Hit_Venom.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -110,7 +110,7 @@
   },
   {
     "name": "Desperate Criticals",
-    "icon": "/src/assets/icons/statuses/Desperate_Criticals.png",
+    "icon": "assets/icons/statuses/Desperate_Criticals.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -123,7 +123,7 @@
   },
   {
     "name": "Desperate Defense",
-    "icon": "/src/assets/icons/statuses/Desperate_Defense.png",
+    "icon": "assets/icons/statuses/Desperate_Defense.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -136,7 +136,7 @@
   },
   {
     "name": "Finale Parry",
-    "icon": "/src/assets/icons/statuses/Finale_Parry.png",
+    "icon": "assets/icons/statuses/Finale_Parry.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -151,7 +151,7 @@
   },
   {
     "name": "Finale Short Circuit",
-    "icon": "/src/assets/icons/statuses/Finale_Short_Circuit.png",
+    "icon": "assets/icons/statuses/Finale_Short_Circuit.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -164,7 +164,7 @@
   },
   {
     "name": "Finale Warmth",
-    "icon": "/src/assets/icons/statuses/Finale_Warmth.png",
+    "icon": "assets/icons/statuses/Finale_Warmth.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -177,7 +177,7 @@
   },
   {
     "name": "Flyer Stun",
-    "icon": "/src/assets/icons/statuses/Stun.png",
+    "icon": "assets/icons/statuses/Stun.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -191,7 +191,7 @@
   },
   {
     "name": "Gas Hazard",
-    "icon": "/src/assets/icons/statuses/Gas_Hazard.png",
+    "icon": "assets/icons/statuses/Gas_Hazard.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -204,7 +204,7 @@
   },
   {
     "name": "Guard Breach",
-    "icon": "/src/assets/icons/statuses/Guard_Breach.png",
+    "icon": "assets/icons/statuses/Guard_Breach.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -217,7 +217,7 @@
   },
   {
     "name": "Gaping Wound",
-    "icon": "/src/assets/icons/statuses/Gaping_Wound.png",
+    "icon": "assets/icons/statuses/Gaping_Wound.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -230,7 +230,7 @@
   },
   {
     "name": "Greater Draw",
-    "icon": "/src/assets/icons/statuses/Greater_Draw.png",
+    "icon": "assets/icons/statuses/Greater_Draw.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -243,7 +243,7 @@
   },
   {
     "name": "Life Steal",
-    "icon": "/src/assets/icons/statuses/Life_Steal.png",
+    "icon": "assets/icons/statuses/Life_Steal.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -257,7 +257,7 @@
   },
   {
     "name": "Infection",
-    "icon": "/src/assets/icons/statuses/Infection.png",
+    "icon": "assets/icons/statuses/Infection.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -272,7 +272,7 @@
   },
   {
     "name": "Major Threat",
-    "icon": "/src/assets/icons/statuses/Major_Threat.png",
+    "icon": "assets/icons/statuses/Major_Threat.png",
     "categories": [
       "Positive",
       "Weapons",
@@ -288,7 +288,7 @@
   },
   {
     "name": "O.R.C. Bane",
-    "icon": "/src/assets/icons/statuses/Stun.png",
+    "icon": "assets/icons/statuses/Stun.png",
     "categories": [
       "Positive",
       "Weapons",
@@ -303,7 +303,7 @@
   },
   {
     "name": "Parry Buggie Heal",
-    "icon": "/src/assets/icons/statuses/Parry_Buggie_Heal.png",
+    "icon": "assets/icons/statuses/Parry_Buggie_Heal.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -316,7 +316,7 @@
   },
   {
     "name": "Reaping Blades",
-    "icon": "/src/assets/icons/statuses/Reaping_Blades.png",
+    "icon": "assets/icons/statuses/Reaping_Blades.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -329,7 +329,7 @@
   },
   {
     "name": "Soothing Sonata",
-    "icon": "/src/assets/icons/statuses/Soothing_Sonata.png",
+    "icon": "assets/icons/statuses/Soothing_Sonata.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -342,7 +342,7 @@
   },
   {
     "name": "Song of Discord",
-    "icon": "/src/assets/icons/statuses/Song_of_Discord.png",
+    "icon": "assets/icons/statuses/Song_of_Discord.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -355,7 +355,7 @@
   },
   {
     "name": "Sizzling Attack",
-    "icon": "/src/assets/icons/statuses/Sizzling_Attack.png",
+    "icon": "assets/icons/statuses/Sizzling_Attack.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -374,7 +374,7 @@
   },
   {
     "name": "Slow",
-    "icon": "/src/assets/icons/statuses/Movement_Disabled.png",
+    "icon": "assets/icons/statuses/Movement_Disabled.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -388,7 +388,7 @@
   },
   {
     "name": "Spicy Parry",
-    "icon": "/src/assets/icons/statuses/Perfect_Block.png",
+    "icon": "assets/icons/statuses/Perfect_Block.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -401,7 +401,7 @@
   },
   {
     "name": "Sizzling Block",
-    "icon": "/src/assets/icons/statuses/Sizzling_Block.png",
+    "icon": "assets/icons/statuses/Sizzling_Block.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -414,7 +414,7 @@
   },
   {
     "name": "Spider Criticals",
-    "icon": "/src/assets/icons/statuses/Critical_Hit_Chance.png",
+    "icon": "assets/icons/statuses/Critical_Hit_Chance.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -427,7 +427,7 @@
   },
   {
     "name": "Stun",
-    "icon": "/src/assets/icons/statuses/Stun.png",
+    "icon": "assets/icons/statuses/Stun.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -440,7 +440,7 @@
   },
   {
     "name": "Tang Attack",
-    "icon": "/src/assets/icons/statuses/Tang_Attack.png",
+    "icon": "assets/icons/statuses/Tang_Attack.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -457,7 +457,7 @@
   },
   {
     "name": "Tangy Parry",
-    "icon": "/src/assets/icons/statuses/Tangy_Parry.png",
+    "icon": "assets/icons/statuses/Tangy_Parry.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -470,7 +470,7 @@
   },
   {
     "name": "Venom Attack",
-    "icon": "/src/assets/icons/statuses/Venom_Attack.png",
+    "icon": "assets/icons/statuses/Venom_Attack.png",
     "categories": [
       "Positive",
       "Weapons"
@@ -486,7 +486,7 @@
   },
   {
     "name": "Attack Damage",
-    "icon": "/src/assets/icons/statuses/Attack.png",
+    "icon": "assets/icons/statuses/Attack.png",
     "categories": [
       "Positive",
       "Armor",
@@ -502,7 +502,7 @@
   },
   {
     "name": "Attack Stamina: Ant",
-    "icon": "/src/assets/icons/statuses/Attack_Stamina_Ant.png",
+    "icon": "assets/icons/statuses/Attack_Stamina_Ant.png",
     "categories": [
       "Positive",
       "Armor",
@@ -516,7 +516,7 @@
   },
   {
     "name": "Bargain Block",
-    "icon": "/src/assets/icons/statuses/Bargain_Block.png",
+    "icon": "assets/icons/statuses/Bargain_Block.png",
     "categories": [
       "Positive",
       "Armor",
@@ -534,7 +534,7 @@
   },
   {
     "name": "Block Stun",
-    "icon": "/src/assets/icons/statuses/Block_Stun.png",
+    "icon": "assets/icons/statuses/Block_Stun.png",
     "categories": [
       "Positive",
       "Armor",
@@ -548,7 +548,7 @@
   },
   {
     "name": "Bow Attack",
-    "icon": "/src/assets/icons/statuses/Bow_Attack.png",
+    "icon": "assets/icons/statuses/Bow_Attack.png",
     "categories": [
       "Positive",
       "Armor",
@@ -562,7 +562,7 @@
   },
   {
     "name": "Buggy Criticals",
-    "icon": "/src/assets/icons/statuses/Buggy_Criticals.png",
+    "icon": "assets/icons/statuses/Buggy_Criticals.png",
     "categories": [
       "Positive",
       "Armor",
@@ -576,7 +576,7 @@
   },
   {
     "name": "Chill Reduction",
-    "icon": "/src/assets/icons/statuses/Chill_Reduction.png",
+    "icon": "assets/icons/statuses/Chill_Reduction.png",
     "categories": [
       "Positive",
       "Armor",
@@ -598,7 +598,7 @@
   },
   {
     "name": "Critical Haste",
-    "icon": "/src/assets/icons/statuses/Critical_Haste.png",
+    "icon": "assets/icons/statuses/Critical_Haste.png",
     "categories": [
       "Positive",
       "Armor",
@@ -613,7 +613,7 @@
   },
   {
     "name": "Critical Recovery",
-    "icon": "/src/assets/icons/statuses/Critical_Recovery.png",
+    "icon": "assets/icons/statuses/Critical_Recovery.png",
     "categories": [
       "Positive",
       "Armor",
@@ -629,7 +629,7 @@
   },
   {
     "name": "Diving Ballast",
-    "icon": "/src/assets/icons/statuses/Diving_Ballast.png",
+    "icon": "assets/icons/statuses/Diving_Ballast.png",
     "categories": [
       "Positive",
       "Armor",
@@ -643,7 +643,7 @@
   },
   {
     "name": "Double Deal",
-    "icon": "/src/assets/icons/statuses/Double_Deal.png",
+    "icon": "assets/icons/statuses/Double_Deal.png",
     "categories": [
       "Positive",
       "Armor",
@@ -657,7 +657,7 @@
   },
   {
     "name": "Dual Dasher",
-    "icon": "/src/assets/icons/statuses/Dual_Dasher.png",
+    "icon": "assets/icons/statuses/Dual_Dasher.png",
     "categories": [
       "Positive",
       "Armor",
@@ -671,7 +671,7 @@
   },
   {
     "name": "Feeding Frenzy",
-    "icon": "/src/assets/icons/statuses/Feeding_Frenzy.png",
+    "icon": "assets/icons/statuses/Feeding_Frenzy.png",
     "categories": [
       "Positive",
       "Armor",
@@ -686,7 +686,7 @@
   },
   {
     "name": "Finale Quickening",
-    "icon": "/src/assets/icons/statuses/Finale_Quickening.png",
+    "icon": "assets/icons/statuses/Finale_Quickening.png",
     "categories": [
       "Positive",
       "Armor",
@@ -700,7 +700,7 @@
   },
   {
     "name": "Frosty Focus",
-    "icon": "/src/assets/icons/statuses/Frosty_Focus.png",
+    "icon": "assets/icons/statuses/Frosty_Focus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -715,7 +715,7 @@
   },
   {
     "name": "Hasty Riposte",
-    "icon": "/src/assets/icons/statuses/Hasty_Riposte.png",
+    "icon": "assets/icons/statuses/Hasty_Riposte.png",
     "categories": [
       "Positive",
       "Armor",
@@ -729,7 +729,7 @@
   },
   {
     "name": "Lucky Break",
-    "icon": "/src/assets/icons/statuses/Lucky_Break.png",
+    "icon": "assets/icons/statuses/Lucky_Break.png",
     "categories": [
       "Positive",
       "Armor",
@@ -743,7 +743,7 @@
   },
   {
     "name": "Major Woozy Reduction",
-    "icon": "/src/assets/icons/statuses/Major_Woozy_Reduction.png",
+    "icon": "assets/icons/statuses/Major_Woozy_Reduction.png",
     "categories": [
       "Positive",
       "Armor",
@@ -757,7 +757,7 @@
   },
   {
     "name": "Master Diver",
-    "icon": "/src/assets/icons/statuses/Master_Diver.png",
+    "icon": "assets/icons/statuses/Master_Diver.png",
     "categories": [
       "Positive",
       "Armor",
@@ -771,7 +771,7 @@
   },
   {
     "name": "Major Swim Speed",
-    "icon": "/src/assets/icons/statuses/Major_Swim_Speed.png",
+    "icon": "assets/icons/statuses/Major_Swim_Speed.png",
     "categories": [
       "Positive",
       "Armor",
@@ -785,7 +785,7 @@
   },
   {
     "name": "Max Health",
-    "icon": "/src/assets/icons/statuses/Max_Health.png",
+    "icon": "assets/icons/statuses/Max_Health.png",
     "categories": [
       "Positive",
       "Armor",
@@ -801,7 +801,7 @@
   },
   {
     "name": "More Better Draw",
-    "icon": "/src/assets/icons/statuses/More_Better_Draw.png",
+    "icon": "assets/icons/statuses/More_Better_Draw.png",
     "categories": [
       "Positive",
       "Armor",
@@ -815,7 +815,7 @@
   },
   {
     "name": "Opportunistic Parry",
-    "icon": "/src/assets/icons/statuses/Opportunistic_Parry.png",
+    "icon": "assets/icons/statuses/Opportunistic_Parry.png",
     "categories": [
       "Positive",
       "Armor",
@@ -829,7 +829,7 @@
   },
   {
     "name": "Parry Criticals",
-    "icon": "/src/assets/icons/statuses/Parry_Criticals.png",
+    "icon": "assets/icons/statuses/Parry_Criticals.png",
     "categories": [
       "Positive",
       "Armor",
@@ -843,7 +843,7 @@
   },
   {
     "name": "Parrier Barrier",
-    "icon": "/src/assets/icons/statuses/Parrier_Barrier.png",
+    "icon": "assets/icons/statuses/Parrier_Barrier.png",
     "categories": [
       "Positive",
       "Armor",
@@ -857,7 +857,7 @@
   },
   {
     "name": "Parry Shock",
-    "icon": "/src/assets/icons/statuses/Parry_Shock.png",
+    "icon": "assets/icons/statuses/Parry_Shock.png",
     "categories": [
       "Positive",
       "Armor",
@@ -871,7 +871,7 @@
   },
   {
     "name": "Perfect Block Timing",
-    "icon": "/src/assets/icons/statuses/Perfect_Block_Timing.png",
+    "icon": "assets/icons/statuses/Perfect_Block_Timing.png",
     "categories": [
       "Positive",
       "Armor",
@@ -885,7 +885,7 @@
   },
   {
     "name": "Perfect Quickdraw",
-    "icon": "/src/assets/icons/statuses/Perfect_Quickdraw.png",
+    "icon": "assets/icons/statuses/Perfect_Quickdraw.png",
     "categories": [
       "Positive",
       "Armor",
@@ -899,7 +899,7 @@
   },
   {
     "name": "Playful Pinch",
-    "icon": "/src/assets/icons/statuses/Playful_Pinch.png",
+    "icon": "assets/icons/statuses/Playful_Pinch.png",
     "categories": [
       "Positive",
       "Armor",
@@ -913,7 +913,7 @@
   },
   {
     "name": "Quickcharge",
-    "icon": "/src/assets/icons/statuses/Quickcharge.png",
+    "icon": "assets/icons/statuses/Quickcharge.png",
     "categories": [
       "Positive",
       "Armor",
@@ -927,7 +927,7 @@
   },
   {
     "name": "Sizzle Reduction",
-    "icon": "/src/assets/icons/statuses/Sizzle_Reduction.png",
+    "icon": "assets/icons/statuses/Sizzle_Reduction.png",
     "categories": [
       "Positive",
       "Armor",
@@ -944,7 +944,7 @@
   },
   {
     "name": "Sourmancy",
-    "icon": "/src/assets/icons/statuses/Sourmancy.png",
+    "icon": "assets/icons/statuses/Sourmancy.png",
     "categories": [
       "Positive",
       "Armor",
@@ -959,7 +959,7 @@
   },
   {
     "name": "Tangy Eruption",
-    "icon": "/src/assets/icons/statuses/Tangy_Eruption.png",
+    "icon": "assets/icons/statuses/Tangy_Eruption.png",
     "categories": [
       "Positive",
       "Armor",
@@ -973,7 +973,7 @@
   },
   {
     "name": "Tangy Purification",
-    "icon": "/src/assets/icons/statuses/Tangy_Purification.png",
+    "icon": "assets/icons/statuses/Tangy_Purification.png",
     "categories": [
       "Positive",
       "Armor",
@@ -987,7 +987,7 @@
   },
   {
     "name": "The Quickness",
-    "icon": "/src/assets/icons/statuses/The_Quickness.png",
+    "icon": "assets/icons/statuses/The_Quickness.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1002,7 +1002,7 @@
   },
   {
     "name": "Venom Parry",
-    "icon": "/src/assets/icons/statuses/Venom.png",
+    "icon": "assets/icons/statuses/Venom.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1016,7 +1016,7 @@
   },
   {
     "name": "Veteran Diver",
-    "icon": "/src/assets/icons/statuses/Veteran_Diver.png",
+    "icon": "assets/icons/statuses/Veteran_Diver.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1030,7 +1030,7 @@
   },
   {
     "name": "Venomous Dasher",
-    "icon": "/src/assets/icons/statuses/Venomous_Dasher.png",
+    "icon": "assets/icons/statuses/Venomous_Dasher.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1044,7 +1044,7 @@
   },
   {
     "name": "Water Chill Reduction",
-    "icon": "/src/assets/icons/statuses/Water_Chill_Reduction.png",
+    "icon": "assets/icons/statuses/Water_Chill_Reduction.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1058,7 +1058,7 @@
   },
   {
     "name": "Woozy Reduction",
-    "icon": "/src/assets/icons/statuses/Woozy_Reduction.png",
+    "icon": "assets/icons/statuses/Woozy_Reduction.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1073,7 +1073,7 @@
   },
   {
     "name": "Aphkid",
-    "icon": "/src/assets/icons/statuses/Aphkid.png",
+    "icon": "assets/icons/statuses/Aphkid.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1087,7 +1087,7 @@
   },
   {
     "name": "Burn Resistance",
-    "icon": "/src/assets/icons/statuses/Burn_Resistance.png",
+    "icon": "assets/icons/statuses/Burn_Resistance.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1102,7 +1102,7 @@
   },
   {
     "name": "Bowed Over",
-    "icon": "/src/assets/icons/statuses/Bowed_Over.png",
+    "icon": "assets/icons/statuses/Bowed_Over.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1116,7 +1116,7 @@
   },
   {
     "name": "Busting Power",
-    "icon": "/src/assets/icons/statuses/Busting_Power.png",
+    "icon": "assets/icons/statuses/Busting_Power.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1130,7 +1130,7 @@
   },
   {
     "name": "Charged Shot Stamina",
-    "icon": "/src/assets/icons/statuses/Charged_Shot_Stamina.png",
+    "icon": "assets/icons/statuses/Charged_Shot_Stamina.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1144,7 +1144,7 @@
   },
   {
     "name": "Crit Hyperstamina",
-    "icon": "/src/assets/icons/statuses/Crit_Hyperstamina.png",
+    "icon": "assets/icons/statuses/Crit_Hyperstamina.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1158,7 +1158,7 @@
   },
   {
     "name": "Critical Inspiration",
-    "icon": "/src/assets/icons/statuses/Critical_Inspiration.png",
+    "icon": "assets/icons/statuses/Critical_Inspiration.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1172,7 +1172,7 @@
   },
   {
     "name": "Critical Opportunity",
-    "icon": "/src/assets/icons/statuses/Critical_Opportunity.png",
+    "icon": "assets/icons/statuses/Critical_Opportunity.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1186,7 +1186,7 @@
   },
   {
     "name": "Dash Damage",
-    "icon": "/src/assets/icons/statuses/Dash_Damage.png",
+    "icon": "assets/icons/statuses/Dash_Damage.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1200,7 +1200,7 @@
   },
   {
     "name": "Dash Stamina",
-    "icon": "/src/assets/icons/statuses/Dash_Stamina.png",
+    "icon": "assets/icons/statuses/Dash_Stamina.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1214,7 +1214,7 @@
   },
   {
     "name": "Dash Strike Window",
-    "icon": "/src/assets/icons/statuses/Dash_Strike_Window.png",
+    "icon": "assets/icons/statuses/Dash_Strike_Window.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1228,7 +1228,7 @@
   },
   {
     "name": "Draw Breath",
-    "icon": "/src/assets/icons/statuses/Draw_Breath.png",
+    "icon": "assets/icons/statuses/Draw_Breath.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1242,7 +1242,7 @@
   },
   {
     "name": "Emergency Repair",
-    "icon": "/src/assets/icons/statuses/Emergency_Repair.png",
+    "icon": "assets/icons/statuses/Emergency_Repair.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1256,7 +1256,7 @@
   },
   {
     "name": "Empowered Devastation",
-    "icon": "/src/assets/icons/statuses/Empowered_Devastation.png",
+    "icon": "assets/icons/statuses/Empowered_Devastation.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1270,7 +1270,7 @@
   },
   {
     "name": "Explosive Resist",
-    "icon": "/src/assets/icons/statuses/Explosive_Resist.png",
+    "icon": "assets/icons/statuses/Explosive_Resist.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1284,7 +1284,7 @@
   },
   {
     "name": "Fatal Frenzy",
-    "icon": "/src/assets/icons/statuses/Fatal_Frenzy.png",
+    "icon": "assets/icons/statuses/Fatal_Frenzy.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1298,7 +1298,7 @@
   },
   {
     "name": "Final Mash",
-    "icon": "/src/assets/icons/statuses/Final_Mash.png",
+    "icon": "assets/icons/statuses/Final_Mash.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1312,7 +1312,7 @@
   },
   {
     "name": "Fleet Creep",
-    "icon": "/src/assets/icons/statuses/Fleet_Creep.png",
+    "icon": "assets/icons/statuses/Fleet_Creep.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1326,7 +1326,7 @@
   },
   {
     "name": "Freeze Resistance",
-    "icon": "/src/assets/icons/statuses/Freeze_Resistance.png",
+    "icon": "assets/icons/statuses/Freeze_Resistance.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1341,7 +1341,7 @@
   },
   {
     "name": "Guard Breaker",
-    "icon": "/src/assets/icons/statuses/Guard_Breaker.png",
+    "icon": "assets/icons/statuses/Guard_Breaker.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1355,7 +1355,7 @@
   },
   {
     "name": "Hyperstamina",
-    "icon": "/src/assets/icons/statuses/Hyperstamina.png",
+    "icon": "assets/icons/statuses/Hyperstamina.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1375,7 +1375,7 @@
   },
   {
     "name": "Increased Healing",
-    "icon": "/src/assets/icons/statuses/Increased_Healing.png",
+    "icon": "assets/icons/statuses/Increased_Healing.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1391,7 +1391,7 @@
   },
   {
     "name": "Loot Luck",
-    "icon": "/src/assets/icons/statuses/Loot_Luck.png",
+    "icon": "assets/icons/statuses/Loot_Luck.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1405,7 +1405,7 @@
   },
   {
     "name": "Minor Threat",
-    "icon": "/src/assets/icons/statuses/Minor_Threat.png",
+    "icon": "assets/icons/statuses/Minor_Threat.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1420,7 +1420,7 @@
   },
   {
     "name": "Omophagia",
-    "icon": "/src/assets/icons/statuses/Omophagia.png",
+    "icon": "assets/icons/statuses/Omophagia.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1434,7 +1434,7 @@
   },
   {
     "name": "Shock Resistance",
-    "icon": "/src/assets/icons/statuses/Shock_Resistance.png",
+    "icon": "assets/icons/statuses/Shock_Resistance.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1448,7 +1448,7 @@
   },
   {
     "name": "Spicy Attack",
-    "icon": "/src/assets/icons/statuses/Spicy_Attack.png",
+    "icon": "assets/icons/statuses/Spicy_Attack.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1463,7 +1463,7 @@
   },
   {
     "name": "Slashing Resistance",
-    "icon": "/src/assets/icons/statuses/Slashing_Resistance.png",
+    "icon": "assets/icons/statuses/Slashing_Resistance.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1477,7 +1477,7 @@
   },
   {
     "name": "Tang Reduction",
-    "icon": "/src/assets/icons/statuses/Tang_Reduction.png",
+    "icon": "assets/icons/statuses/Tang_Reduction.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1494,7 +1494,7 @@
   },
   {
     "name": "Trickle Regen",
-    "icon": "/src/assets/icons/statuses/Trickle_Regen.png",
+    "icon": "assets/icons/statuses/Trickle_Regen.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1512,7 +1512,7 @@
   },
   {
     "name": "Venomous Ambush",
-    "icon": "/src/assets/icons/statuses/Venomous_Ambush.png",
+    "icon": "assets/icons/statuses/Venomous_Ambush.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1526,7 +1526,7 @@
   },
   {
     "name": "Venom Reduction",
-    "icon": "/src/assets/icons/statuses/Venom_Reduction.png",
+    "icon": "assets/icons/statuses/Venom_Reduction.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1544,7 +1544,7 @@
   },
   {
     "name": "Adaptive Resistance",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1558,7 +1558,7 @@
   },
   {
     "name": "Apex Pollinator",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1572,7 +1572,7 @@
   },
   {
     "name": "Barmy Buccaneer",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1586,7 +1586,7 @@
   },
   {
     "name": "Bubble Struggle",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1600,7 +1600,7 @@
   },
   {
     "name": "Chilly Dodge",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1614,7 +1614,7 @@
   },
   {
     "name": "Crippling Strike",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1628,7 +1628,7 @@
   },
   {
     "name": "Critical Momentum",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1642,7 +1642,7 @@
   },
   {
     "name": "Deadly Venom",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1656,7 +1656,7 @@
   },
   {
     "name": "Devastation",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1670,7 +1670,7 @@
   },
   {
     "name": "Dreadful Duo",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1684,7 +1684,7 @@
   },
   {
     "name": "Exertion",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1698,7 +1698,7 @@
   },
   {
     "name": "Finale Force",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1712,7 +1712,7 @@
   },
   {
     "name": "Formic Retort",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1726,7 +1726,7 @@
   },
   {
     "name": "Hardy Defense",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1740,7 +1740,7 @@
   },
   {
     "name": "Healthy Harmony",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1754,7 +1754,7 @@
   },
   {
     "name": "Lone Ranger",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1768,7 +1768,7 @@
   },
   {
     "name": "Moist",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1782,7 +1782,7 @@
   },
   {
     "name": "Perfect Combo",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1796,7 +1796,7 @@
   },
   {
     "name": "Power Surge",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1810,7 +1810,7 @@
   },
   {
     "name": "Puck Luck",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1824,7 +1824,7 @@
   },
   {
     "name": "Retaliation",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1838,7 +1838,7 @@
   },
   {
     "name": "Scarlet Embrace",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1852,7 +1852,7 @@
   },
   {
     "name": "Searing Strikes",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1866,7 +1866,7 @@
   },
   {
     "name": "Spud Bud",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1880,7 +1880,7 @@
   },
   {
     "name": "Strength in Numbers",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1894,7 +1894,7 @@
   },
   {
     "name": "Swarm Crusher",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1908,7 +1908,7 @@
   },
   {
     "name": "Under Pressure",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1922,7 +1922,7 @@
   },
   {
     "name": "Whizzy Wizard",
-    "icon": "/src/assets/icons/statuses/Set_Bonus.png",
+    "icon": "assets/icons/statuses/Set_Bonus.png",
     "categories": [
       "Positive",
       "Armor",
@@ -1936,7 +1936,7 @@
   },
   {
     "name": "Attack Stamina",
-    "icon": "/src/assets/icons/statuses/Attack_Stamina.png",
+    "icon": "assets/icons/statuses/Attack_Stamina.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -1949,7 +1949,7 @@
   },
   {
     "name": "Bandaged",
-    "icon": "/src/assets/icons/statuses/Bandaged.png",
+    "icon": "assets/icons/statuses/Bandaged.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -1965,7 +1965,7 @@
   },
   {
     "name": "Brain Freeze",
-    "icon": "/src/assets/icons/statuses/Brain_Freeze.png",
+    "icon": "assets/icons/statuses/Brain_Freeze.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -1978,7 +1978,7 @@
   },
   {
     "name": "Cool Off",
-    "icon": "/src/assets/icons/statuses/Warm_Up.png",
+    "icon": "assets/icons/statuses/Warm_Up.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -1992,7 +1992,7 @@
   },
   {
     "name": "Cooling Gel",
-    "icon": "/src/assets/icons/statuses/Cooling_Gel.png",
+    "icon": "assets/icons/statuses/Cooling_Gel.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2005,7 +2005,7 @@
   },
   {
     "name": "Damage Resist",
-    "icon": "/src/assets/icons/statuses/Damage_Resist.png",
+    "icon": "assets/icons/statuses/Damage_Resist.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2019,7 +2019,7 @@
   },
   {
     "name": "Fall Defense",
-    "icon": "/src/assets/icons/statuses/Fall_Defense.png",
+    "icon": "assets/icons/statuses/Fall_Defense.png",
     "categories": [
       "Positive",
       "Consumables",
@@ -2034,7 +2034,7 @@
   },
   {
     "name": "Gas Guard",
-    "icon": "/src/assets/icons/statuses/Gas_Guard.png",
+    "icon": "assets/icons/statuses/Gas_Guard.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2047,7 +2047,7 @@
   },
   {
     "name": "Hauling Strength",
-    "icon": "/src/assets/icons/statuses/Hauling_Strength.png",
+    "icon": "assets/icons/statuses/Hauling_Strength.png",
     "categories": [
       "Positive",
       "Consumables",
@@ -2061,7 +2061,7 @@
   },
   {
     "name": "Max Stamina",
-    "icon": "/src/assets/icons/statuses/Max_Stamina.png",
+    "icon": "assets/icons/statuses/Max_Stamina.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2075,7 +2075,7 @@
   },
   {
     "name": "Meal",
-    "icon": "/src/assets/icons/statuses/Meals.png",
+    "icon": "assets/icons/statuses/Meals.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2088,7 +2088,7 @@
   },
   {
     "name": "Sugar Rush",
-    "icon": "/src/assets/icons/statuses/Sugar_Rush.png",
+    "icon": "assets/icons/statuses/Sugar_Rush.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2104,7 +2104,7 @@
   },
   {
     "name": "Thorns",
-    "icon": "/src/assets/icons/statuses/Thorns.png",
+    "icon": "assets/icons/statuses/Thorns.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2117,7 +2117,7 @@
   },
   {
     "name": "Venom Cure",
-    "icon": "/src/assets/icons/statuses/Venom_Cure.png",
+    "icon": "assets/icons/statuses/Venom_Cure.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2130,7 +2130,7 @@
   },
   {
     "name": "Venom Resistance",
-    "icon": "/src/assets/icons/statuses/Venom_Resistance.png",
+    "icon": "assets/icons/statuses/Venom_Resistance.png",
     "categories": [
       "Positive",
       "Consumables",
@@ -2145,7 +2145,7 @@
   },
   {
     "name": "Warm Up",
-    "icon": "/src/assets/icons/statuses/Warm_Up.png",
+    "icon": "assets/icons/statuses/Warm_Up.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2159,7 +2159,7 @@
   },
   {
     "name": "Warmth",
-    "icon": "/src/assets/icons/statuses/Warmth.png",
+    "icon": "assets/icons/statuses/Warmth.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2175,7 +2175,7 @@
   },
   {
     "name": "Weakpoint Damage",
-    "icon": "/src/assets/icons/statuses/Weakpoint_Damage.png",
+    "icon": "assets/icons/statuses/Weakpoint_Damage.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2188,7 +2188,7 @@
   },
   {
     "name": "Web Crawler",
-    "icon": "/src/assets/icons/statuses/Web_Crawler.png",
+    "icon": "assets/icons/statuses/Web_Crawler.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2201,7 +2201,7 @@
   },
   {
     "name": "Well Fed",
-    "icon": "/src/assets/icons/statuses/Well_Fed.png",
+    "icon": "assets/icons/statuses/Well_Fed.png",
     "categories": [
       "Positive",
       "Consumables"
@@ -2214,7 +2214,7 @@
   },
   {
     "name": "Ambush Steal",
-    "icon": "/src/assets/icons/statuses/Ambush_Steal.png",
+    "icon": "assets/icons/statuses/Ambush_Steal.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2225,7 +2225,7 @@
   },
   {
     "name": "Ant Damage",
-    "icon": "/src/assets/icons/statuses/Ant_Damage.png",
+    "icon": "assets/icons/statuses/Ant_Damage.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2236,7 +2236,7 @@
   },
   {
     "name": "Buggy Vampirism",
-    "icon": "/src/assets/icons/statuses/Buggy_Vampirism.png",
+    "icon": "assets/icons/statuses/Buggy_Vampirism.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2247,7 +2247,7 @@
   },
   {
     "name": "Burning Brand",
-    "icon": "/src/assets/icons/statuses/Burning_Brand.png",
+    "icon": "assets/icons/statuses/Burning_Brand.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2258,7 +2258,7 @@
   },
   {
     "name": "Candy Overload",
-    "icon": "/src/assets/icons/statuses/Candy_Overload.png",
+    "icon": "assets/icons/statuses/Candy_Overload.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2269,7 +2269,7 @@
   },
   {
     "name": "Charged Shot Damage",
-    "icon": "/src/assets/icons/statuses/More_Better_Draw.png",
+    "icon": "assets/icons/statuses/More_Better_Draw.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2280,7 +2280,7 @@
   },
   {
     "name": "Chilly Charge",
-    "icon": "/src/assets/icons/statuses/Chilly_Charge.png",
+    "icon": "assets/icons/statuses/Chilly_Charge.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2291,7 +2291,7 @@
   },
   {
     "name": "Death's Door",
-    "icon": "/src/assets/icons/statuses/Death's_Door.png",
+    "icon": "assets/icons/statuses/Death's_Door.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2302,7 +2302,7 @@
   },
   {
     "name": "Finale Blastwave",
-    "icon": "/src/assets/icons/statuses/Finale_Blastwave.png",
+    "icon": "assets/icons/statuses/Finale_Blastwave.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2313,7 +2313,7 @@
   },
   {
     "name": "Finale Venom",
-    "icon": "/src/assets/icons/statuses/Finale_Venom.png",
+    "icon": "assets/icons/statuses/Finale_Venom.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2324,7 +2324,7 @@
   },
   {
     "name": "Food Generation",
-    "icon": "/src/assets/icons/statuses/Food_Generation.png",
+    "icon": "assets/icons/statuses/Food_Generation.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2335,7 +2335,7 @@
   },
   {
     "name": "Fresh Attack",
-    "icon": "/src/assets/icons/statuses/Fresh_Attack.png",
+    "icon": "assets/icons/statuses/Fresh_Attack.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2346,7 +2346,7 @@
   },
   {
     "name": "Friendly Fire Defense Up",
-    "icon": "/src/assets/icons/statuses/Friendly_Fire_Defense_Up.png",
+    "icon": "assets/icons/statuses/Friendly_Fire_Defense_Up.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2357,7 +2357,7 @@
   },
   {
     "name": "Haywire",
-    "icon": "/src/assets/icons/statuses/Haywire.png",
+    "icon": "assets/icons/statuses/Haywire.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2368,7 +2368,7 @@
   },
   {
     "name": "Low Health: Attack Up",
-    "icon": "/src/assets/icons/statuses/Low_Health-_Attack_Up.png",
+    "icon": "assets/icons/statuses/Low_Health-_Attack_Up.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2379,7 +2379,7 @@
   },
   {
     "name": "Lucky Flurry",
-    "icon": "/src/assets/icons/statuses/Lucky_Flurry.png",
+    "icon": "assets/icons/statuses/Lucky_Flurry.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2390,7 +2390,7 @@
   },
   {
     "name": "O.R.C. Attack Down",
-    "icon": "/src/assets/icons/statuses/O.R.C._Attack_Down.png",
+    "icon": "assets/icons/statuses/O.R.C._Attack_Down.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2401,7 +2401,7 @@
   },
   {
     "name": "Quickdraw",
-    "icon": "/src/assets/icons/statuses/Quickdraw.png",
+    "icon": "assets/icons/statuses/Quickdraw.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2412,7 +2412,7 @@
   },
   {
     "name": "Raging Venom",
-    "icon": "/src/assets/icons/statuses/Raging_Venom.png",
+    "icon": "assets/icons/statuses/Raging_Venom.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2423,7 +2423,7 @@
   },
   {
     "name": "Shock Attack",
-    "icon": "/src/assets/icons/statuses/Shock_Attack.png",
+    "icon": "assets/icons/statuses/Shock_Attack.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2434,7 +2434,7 @@
   },
   {
     "name": "Sizzle Finale",
-    "icon": "/src/assets/icons/statuses/Sizzle_Finale.png",
+    "icon": "assets/icons/statuses/Sizzle_Finale.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2445,7 +2445,7 @@
   },
   {
     "name": "Sour Attack",
-    "icon": "/src/assets/icons/statuses/Sour_Attack.png",
+    "icon": "assets/icons/statuses/Sour_Attack.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2456,7 +2456,7 @@
   },
   {
     "name": "Vampirism",
-    "icon": "/src/assets/icons/statuses/Vampirism.png",
+    "icon": "assets/icons/statuses/Vampirism.png",
     "categories": [
       "Positive",
       "Trinkets"
@@ -2467,7 +2467,7 @@
   },
   {
     "name": "Ambush",
-    "icon": "/src/assets/icons/statuses/Ambush.png",
+    "icon": "assets/icons/statuses/Ambush.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2478,7 +2478,7 @@
   },
   {
     "name": "Assassin",
-    "icon": "/src/assets/icons/statuses/Assassin.png",
+    "icon": "assets/icons/statuses/Assassin.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2489,7 +2489,7 @@
   },
   {
     "name": "Blademaster",
-    "icon": "/src/assets/icons/statuses/Blademaster.png",
+    "icon": "assets/icons/statuses/Blademaster.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2500,7 +2500,7 @@
   },
   {
     "name": "Bow Master",
-    "icon": "/src/assets/icons/statuses/Bow_Master.png",
+    "icon": "assets/icons/statuses/Bow_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2511,7 +2511,7 @@
   },
   {
     "name": "Buggy Threat",
-    "icon": "/src/assets/icons/statuses/Major_Threat.png",
+    "icon": "assets/icons/statuses/Major_Threat.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2522,7 +2522,7 @@
   },
   {
     "name": "Cloak and Dagger",
-    "icon": "/src/assets/icons/statuses/Cloak_and_Dagger.png",
+    "icon": "assets/icons/statuses/Cloak_and_Dagger.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2533,7 +2533,7 @@
   },
   {
     "name": "Club Master",
-    "icon": "/src/assets/icons/statuses/Club_Master.png",
+    "icon": "assets/icons/statuses/Club_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2544,7 +2544,7 @@
   },
   {
     "name": "Dagger Master",
-    "icon": "/src/assets/icons/statuses/Dagger_Master.png",
+    "icon": "assets/icons/statuses/Dagger_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2555,7 +2555,7 @@
   },
   {
     "name": "Defender: Attack Up",
-    "icon": "/src/assets/icons/statuses/Defender_Attack_Up.png",
+    "icon": "assets/icons/statuses/Defender_Attack_Up.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2566,7 +2566,7 @@
   },
   {
     "name": "Exhaustion",
-    "icon": "/src/assets/icons/statuses/Exhaustion.png",
+    "icon": "assets/icons/statuses/Exhaustion.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2577,7 +2577,7 @@
   },
   {
     "name": "Fist Master",
-    "icon": "/src/assets/icons/statuses/Fist_Master.png",
+    "icon": "assets/icons/statuses/Fist_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2588,7 +2588,7 @@
   },
   {
     "name": "Frenzy",
-    "icon": "/src/assets/icons/statuses/Frenzy.png",
+    "icon": "assets/icons/statuses/Frenzy.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2599,7 +2599,7 @@
   },
   {
     "name": "Gas Resistance",
-    "icon": "/src/assets/icons/statuses/Gas_Resistance.png",
+    "icon": "assets/icons/statuses/Gas_Resistance.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2610,7 +2610,7 @@
   },
   {
     "name": "Javelineer",
-    "icon": "/src/assets/icons/statuses/Javelineer.png",
+    "icon": "assets/icons/statuses/Javelineer.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2621,7 +2621,7 @@
   },
   {
     "name": "Lil Fist",
-    "icon": "/src/assets/icons/statuses/Lil_Fist.png",
+    "icon": "assets/icons/statuses/Lil_Fist.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2632,7 +2632,7 @@
   },
   {
     "name": "Parry Master",
-    "icon": "/src/assets/icons/statuses/Parry_Master.png",
+    "icon": "assets/icons/statuses/Parry_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2643,7 +2643,7 @@
   },
   {
     "name": "Pheromone Shot",
-    "icon": "/src/assets/icons/statuses/More_Better_Draw.png",
+    "icon": "assets/icons/statuses/More_Better_Draw.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2654,7 +2654,7 @@
   },
   {
     "name": "Revive Speed",
-    "icon": "/src/assets/icons/statuses/Revive_Speed.png",
+    "icon": "assets/icons/statuses/Revive_Speed.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2665,7 +2665,7 @@
   },
   {
     "name": "Sharpshooter",
-    "icon": "/src/assets/icons/statuses/Sharpshooter.png",
+    "icon": "assets/icons/statuses/Sharpshooter.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2676,7 +2676,7 @@
   },
   {
     "name": "Shatter Resistance",
-    "icon": "/src/assets/icons/statuses/Shatter_Resistance.png",
+    "icon": "assets/icons/statuses/Shatter_Resistance.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2687,7 +2687,7 @@
   },
   {
     "name": "Smasher",
-    "icon": "/src/assets/icons/statuses/Smasher.png",
+    "icon": "assets/icons/statuses/Smasher.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2698,7 +2698,7 @@
   },
   {
     "name": "Spear Master",
-    "icon": "/src/assets/icons/statuses/Spear_Master.png",
+    "icon": "assets/icons/statuses/Spear_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2709,7 +2709,7 @@
   },
   {
     "name": "Staff Master",
-    "icon": "/src/assets/icons/statuses/Staff_Master.png",
+    "icon": "assets/icons/statuses/Staff_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2720,7 +2720,7 @@
   },
   {
     "name": "Sword Master",
-    "icon": "/src/assets/icons/statuses/Sword_Master.png",
+    "icon": "assets/icons/statuses/Sword_Master.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2731,7 +2731,7 @@
   },
   {
     "name": "Whittle Wizard",
-    "icon": "/src/assets/icons/statuses/Whittle_Wizard.png",
+    "icon": "assets/icons/statuses/Whittle_Wizard.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2742,7 +2742,7 @@
   },
   {
     "name": "Yoked Blows",
-    "icon": "/src/assets/icons/statuses/Yoked_Blows.png",
+    "icon": "assets/icons/statuses/Yoked_Blows.png",
     "categories": [
       "Positive",
       "Mutations"
@@ -2753,7 +2753,7 @@
   },
   {
     "name": "Comfy Defense",
-    "icon": "/src/assets/icons/statuses/Comfy_Defense.png",
+    "icon": "assets/icons/statuses/Comfy_Defense.png",
     "categories": [
       "Positive",
       "Misc"
@@ -2767,7 +2767,7 @@
   },
   {
     "name": "Comfy Energy",
-    "icon": "/src/assets/icons/statuses/Comfy_Energy.png",
+    "icon": "assets/icons/statuses/Comfy_Energy.png",
     "categories": [
       "Positive",
       "Misc"
@@ -2781,7 +2781,7 @@
   },
   {
     "name": "Comfy Hunger",
-    "icon": "/src/assets/icons/statuses/Comfy_Hunger.png",
+    "icon": "assets/icons/statuses/Comfy_Hunger.png",
     "categories": [
       "Positive",
       "Misc"
@@ -2795,7 +2795,7 @@
   },
   {
     "name": "Comfy Thirst",
-    "icon": "/src/assets/icons/statuses/Comfy_Thirst.png",
+    "icon": "assets/icons/statuses/Comfy_Thirst.png",
     "categories": [
       "Positive",
       "Misc"
@@ -2809,7 +2809,7 @@
   },
   {
     "name": "Relaxed",
-    "icon": "/src/assets/icons/statuses/Relaxed.png",
+    "icon": "assets/icons/statuses/Relaxed.png",
     "categories": [
       "Positive",
       "Misc"
@@ -2820,7 +2820,7 @@
   },
   {
     "name": "Damage Resist Down",
-    "icon": "/src/assets/icons/statuses/Damage_Resist_Down.png",
+    "icon": "assets/icons/statuses/Damage_Resist_Down.png",
     "categories": [
       "Negative",
       "Tools & Armor",
@@ -2832,7 +2832,7 @@
   },
   {
     "name": "Sick",
-    "icon": "/src/assets/icons/statuses/Sick.png",
+    "icon": "assets/icons/statuses/Sick.png",
     "categories": [
       "Negative",
       "Consumables",
@@ -2848,7 +2848,7 @@
   },
   {
     "name": "Arachnophobia",
-    "icon": "/src/assets/icons/statuses/Arachnophobia.png",
+    "icon": "assets/icons/statuses/Arachnophobia.png",
     "categories": [
       "Negative",
       "Trinkets"
@@ -2859,7 +2859,7 @@
   },
   {
     "name": "Shivering",
-    "icon": "/src/assets/icons/statuses/Shivering.png",
+    "icon": "assets/icons/statuses/Shivering.png",
     "categories": [
       "Negative",
       "Misc"
@@ -2873,7 +2873,7 @@
   },
   {
     "name": "Sweaty",
-    "icon": "/src/assets/icons/statuses/Sweaty.png",
+    "icon": "assets/icons/statuses/Sweaty.png",
     "categories": [
       "Negative",
       "Misc"
@@ -2884,7 +2884,7 @@
   },
   {
     "name": "Incognito",
-    "icon": "/src/assets/icons/statuses/Incognito.png",
+    "icon": "assets/icons/statuses/Incognito.png",
     "categories": [
       "Positive",
       "Armor",
@@ -2898,7 +2898,7 @@
   },
   {
     "name": "Shock Therapy",
-    "icon": "/src/assets/icons/statuses/Shock_Therapy.png",
+    "icon": "assets/icons/statuses/Shock_Therapy.png",
     "categories": [
       "Positive",
       "Armor",
@@ -2912,7 +2912,7 @@
   },
   {
     "name": "Junior Diver",
-    "icon": "/src/assets/icons/statuses/Junior_Diver.png",
+    "icon": "assets/icons/statuses/Junior_Diver.png",
     "categories": [
       "Positive",
       "Armor",
@@ -2926,7 +2926,7 @@
   },
   {
     "name": "Swim Speed",
-    "icon": "/src/assets/icons/statuses/Swim_Speed.png",
+    "icon": "assets/icons/statuses/Swim_Speed.png",
     "categories": [
       "Positive",
       "Armor",
@@ -2940,7 +2940,7 @@
   },
   {
     "name": "Sprint Stamina",
-    "icon": "/src/assets/icons/statuses/Sprint_Stamina.png",
+    "icon": "assets/icons/statuses/Sprint_Stamina.png",
     "categories": [
       "Positive",
       "Armor",
