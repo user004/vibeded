@@ -4,7 +4,6 @@ import { useContext } from 'react'
 import Accordion from '../Accordion/Accordion'
 import Tag from '../Tag/Tag'
 import Card from '../Card/Card'
-import './Creature.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Title from '../Title/Title'
 
@@ -29,7 +28,7 @@ function Creature({ item }) {
   }
 
   return (
-    <Card className="creature-card" data-gold-card={isGoldCard}>
+    <Card className={isGoldCard ? 'ring-2 ring-amber-400' : ''} data-gold-card={isGoldCard}>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -48,11 +47,11 @@ function Creature({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="creature-card__grid">
+        <div className="grid gap-3 sm:grid-cols-2">
           {Array.isArray(item.environments) && item.environments.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Environments" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <div className="grid content-start gap-2 rounded-lg bg-muted p-3">
+              <Title title="Environments" />
+              <ul className="list-disc pl-5">
                 {item.environments.map((environment, index) => (
                   <li key={`${item.name}-environment-${index}`}>{environment}</li>
                 ))}
@@ -61,9 +60,9 @@ function Creature({ item }) {
           )}
 
           {Array.isArray(item.loot) && item.loot.length > 0 && (
-            <div className="creature-card__section">
-              <Title title="Loot" className="creature-card__heading" />
-              <ul className="creature-card__list">
+            <div className="grid content-start gap-2 rounded-lg bg-muted p-3">
+              <Title title="Loot" />
+              <ul className="list-disc pl-5">
                 {item.loot.map((lootItem, index) => (
                   <li key={`${item.name}-loot-${index}`}>{lootItem}</li>
                 ))}

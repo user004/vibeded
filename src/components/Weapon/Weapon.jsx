@@ -4,7 +4,6 @@ import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
 import Accordion from '../Accordion/Accordion'
 import Card from '../Card/Card'
-import './Weapon.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Tooltip from '../Tooltip/Tooltip'
 import Title from '../Title/Title'
@@ -13,7 +12,7 @@ function Weapon({ item }) {
   const checkboxKey = `weapon-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <Card className="weapon-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -23,11 +22,11 @@ function Weapon({ item }) {
 
       <Accordion summary="Details">
         {Array.isArray(item.status) && item.status.length > 0 && (
-          <div className="weapon-card__section">
-            <Title title="Status" className="weapon-card__heading" />
-            <ul className="weapon-card__list">
+          <div className="grid gap-2">
+            <Title title="Status" />
+            <ul className="flex flex-wrap gap-2">
               {item.status.map((status, index) => (
-                <li className="weapon-card__list-item" key={`${item.name}-status-${index}`}>
+                <li className="rounded-lg border p-2" key={`${item.name}-status-${index}`}>
                   <Tooltip name={status} />
                 </li>
               ))}

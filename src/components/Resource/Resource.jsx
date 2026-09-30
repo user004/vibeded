@@ -2,7 +2,6 @@ import RecipeList from '../RecipeList/RecipeList'
 import Tag from '../Tag/Tag'
 import Checkbox from '../Checkbox/Checkbox'
 import Card from '../Card/Card'
-import './Resource.css'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Accordion from '../Accordion/Accordion'
 import Title from '../Title/Title'
@@ -11,7 +10,7 @@ function Resource({ item }) {
   const checkboxKey = `resource-analyzed-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
 
   return (
-    <Card className="resource-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -20,11 +19,11 @@ function Resource({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="resource-card__collections">
+        <div className="grid gap-3 sm:grid-cols-2">
           {Array.isArray(item.creatures) && item.creatures.length > 0 && (
-            <div className="resource-card__section">
-              <Title title="Creatures" className="resource-card__heading" />
-              <ul className="resource-card__list">
+            <div className="grid content-start gap-2 rounded-lg bg-muted p-3">
+              <Title title="Creatures" />
+              <ul className="list-disc pl-5">
                 {item.creatures.map((creature, index) => (
                   <li key={`${item.name}-creature-${index}`}>{creature}</li>
                 ))}
@@ -33,9 +32,9 @@ function Resource({ item }) {
           )}
 
           {Array.isArray(item.locations) && item.locations.length > 0 && (
-            <div className="resource-card__section">
-              <Title title="Locations" className="resource-card__heading" />
-              <ul className="resource-card__list">
+            <div className="grid content-start gap-2 rounded-lg bg-muted p-3">
+              <Title title="Locations" />
+              <ul className="list-disc pl-5">
                 {item.locations.map((location, index) => (
                   <li key={`${item.name}-location-${index}`}>{location}</li>
                 ))}

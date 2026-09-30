@@ -1,4 +1,3 @@
-import './Recipe.css'
 
 function Recipe({ recipe, itemName, recipeIndex }) {
   const ingredients = Array.isArray(recipe?.ingredients)
@@ -8,16 +7,16 @@ function Recipe({ recipe, itemName, recipeIndex }) {
       : []
 
   return (
-    <div className="recipe">
-      {recipe?.station && <p className="recipe__station">Station: {recipe.station}</p>}
+    <div className="grid gap-2">
+      {recipe?.station && <p className="text-muted-foreground">Station: {recipe.station}</p>}
       {ingredients.length > 0 && (
-        <ul className="recipe__ingredients">
+        <ul className="grid gap-2">
           {ingredients.map((entry, index) => {
             const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)
             const quantity = entry?.quantity
 
             return (
-              <li className="recipe__ingredient" key={`${itemName}-recipe-${recipeIndex}-${name}-${index}`}>
+              <li className="flex justify-between gap-3 rounded-lg bg-muted p-2" key={`${itemName}-recipe-${recipeIndex}-${name}-${index}`}>
                 <span>{name}</span>
                 <span>{quantity !== undefined ? quantity : '—'}</span>
               </li>

@@ -1,17 +1,15 @@
 import Recipe from '../Recipe/Recipe'
 import Title from '../Title/Title'
-import './RecipeList.css'
 
 function RecipeList({ recipes = [], itemName = 'item' }) {
   const normalizedRecipes = Array.isArray(recipes) ? recipes : []
 
   return (
-    <ul className="recipe-list">
+    <ul className="grid gap-3">
       {normalizedRecipes.map((recipe, index) => (
-        <li className="recipe-list__item" key={`${itemName}-recipe-${index}`}>
+        <li className="grid gap-3 rounded-lg border p-4" key={`${itemName}-recipe-${index}`}>
           <Title
             title={`Recipe${normalizedRecipes.length > 1 ? ` ${index + 1}` : ''}`}
-            className="recipe-list__title"
           />
           <Recipe recipe={recipe} itemName={itemName} recipeIndex={index} />
         </li>

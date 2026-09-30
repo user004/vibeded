@@ -21,7 +21,7 @@ function ArmorSet({ setName, items }) {
   const checked = pieces.every((item) => Boolean(checkboxState[getArmorCheckboxKey(item.name)]))
 
   return (
-    <Card className="armor-set-card">
+    <Card>
       <ItemHeader
         title={setName}
         tier={tier}
@@ -46,7 +46,7 @@ function ArmorSet({ setName, items }) {
       />
 
       <List
-        className="armor-set-card__pieces"
+        className="w-full"
         columns={3}
         items={pieces}
         renderItem={(item) => <Armor item={item} />}

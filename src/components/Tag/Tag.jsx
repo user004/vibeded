@@ -1,7 +1,7 @@
-import './Tag.css'
+import { Badge } from '../ui/badge'
 
 function Tag({ tag }) {
-  return <span className="tag">{tag}</span>
+  return <Badge variant="secondary">{tag}</Badge>
 }
 
 export default Tag

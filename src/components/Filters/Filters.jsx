@@ -1,5 +1,7 @@
-import './Filters.css'
 import { sortFilterValues } from '../../utils/listFilterUtils.js'
+import { Input } from '../ui/input'
+import { Button } from '../ui/button'
+import { NativeSelect, NativeSelectOption } from '../ui/native-select'
 
 function Filters({
   categories,
@@ -12,43 +14,41 @@ function Filters({
   onClearFilters,
 }) {
   return (
-    <section className="filters">
-      <label className="filters__group filters__group--search">
-        <span className="filters__label">Search</span>
-        <input
+    <section className="mb-6 flex flex-wrap items-end gap-3" aria-label="Filters">
+      <label className="grid min-w-48 flex-1 gap-1 text-sm">
+        <span>Search</span>
+        <Input
           type="search"
-          className="filters__search"
           value={searchValue}
           onChange={(event) => onSearchChange(event.target.value)}
           placeholder="Search by name"
         />
       </label>
       {categories.map((category) => (
-        <label className="filters__group" key={category}>
-          <span className="filters__label">{category}</span>
-          <select
-            className="filters__select"
+        <label className="grid gap-1 text-sm" key={category}>
+          <span>{category}</span>
+          <NativeSelect
             value={selectedFilters[category] ?? 'all'}
             onChange={(event) => onFilterChange(category, event.target.value)}
           >
-            <option value="all">All ({counts[category]?.all ?? 0})</option>
+            <NativeSelectOption value="all">All ({counts[category]?.all ?? 0})</NativeSelectOption>
             {sortFilterValues(category, values[category]).map((value) => {
               const stringValue = String(value)
               const optionCount = counts[category]?.[stringValue] ?? 0
               const optionLabel = value === null ? 'None' : String(value)
 
               return (
-                <option key={stringValue} value={stringValue}>
+                <NativeSelectOption key={stringValue} value={stringValue}>
                   {optionLabel} ({optionCount})
-                </option>
+                </NativeSelectOption>
               )
             })}
-          </select>
+          </NativeSelect>
         </label>
       ))}
-      <button type="button" className="filters__clear" onClick={onClearFilters}>
+      <Button type="button" variant="outline" onClick={onClearFilters}>
         Clear
-      </button>
+      </Button>
     </section>
   )
 }

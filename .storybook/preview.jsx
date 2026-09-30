@@ -1,17 +1,16 @@
-import 'open-props/style'
 import '../src/index.css'
+import { TooltipProvider } from '../src/components/ui/tooltip'
+
+document.documentElement.classList.add('dark')
 
 const preview = {
   parameters: {
     layout: 'padded',
-    backgrounds: {
-      default: 'field-guide',
-      values: [{ name: 'field-guide', value: '#11140f' }],
-    },
     controls: {
       expanded: true,
     },
   },
+  decorators: [(Story) => <TooltipProvider><Story /></TooltipProvider>],
 }
 
 export default preview

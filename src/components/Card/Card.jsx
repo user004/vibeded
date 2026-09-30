@@ -1,10 +1,10 @@
-import './Card.css'
+import { Card as CardRoot, CardContent } from '../ui/card'
 
 function Card({ children, className = '', ...props }) {
   return (
-    <article {...props} className={['card', className].filter(Boolean).join(' ')}>
-      {children}
-    </article>
+    <CardRoot {...props} className={className}>
+      <CardContent className="grid gap-4">{children}</CardContent>
+    </CardRoot>
   )
 }
 

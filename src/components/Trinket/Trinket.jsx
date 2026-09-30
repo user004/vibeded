@@ -6,14 +6,13 @@ import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Tooltip from '../Tooltip/Tooltip'
 import Title from '../Title/Title'
-import './Trinket.css'
 
 function Trinket({ item }) {
   const checkboxKey = `trinket-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
   const isCrafted = item.recipes.length > 0
 
   return (
-    <Card className="trinket-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -22,16 +21,16 @@ function Trinket({ item }) {
       />
 
       <Accordion summary="Details">
-        <p className="trinket-card__description">{item.description}</p>
+        <p>{item.description}</p>
 
-        {item.unlockedBy && <p className="trinket-card__text">Unlocked by: {item.unlockedBy}</p>}
+        {item.unlockedBy && <p>Unlocked by: {item.unlockedBy}</p>}
 
         {item.perks.length > 0 && (
-          <div className="trinket-card__section">
-            <Title title="Perks" className="trinket-card__heading" />
-            <ul className="trinket-card__list">
+          <div className="grid gap-2">
+            <Title title="Perks" />
+            <ul className="flex flex-wrap gap-2">
               {item.perks.map((perk) => (
-                <li className="trinket-card__list-item" key={`${item.name}-${perk}`}>
+                <li className="rounded-lg border p-2" key={`${item.name}-${perk}`}>
                   <Tooltip name={perk} />
                 </li>
               ))}
@@ -42,10 +41,10 @@ function Trinket({ item }) {
         {item.recipes.length > 0 && <RecipeList recipes={item.recipes} itemName={item.name} />}
 
         {item.sources.length > 0 && (
-          <div className="trinket-card__section">
-            <Title title={isCrafted ? 'Natural Source' : 'Sources'} className="trinket-card__heading" />
-            <ul className="trinket-card__list">
-              {item.sources.map((source) => <li key={`${item.name}-${source}`}>{source}</li>)}
+          <div className="grid gap-2">
+            <Title title={isCrafted ? 'Natural Source' : 'Sources'} />
+            <ul className="flex flex-wrap gap-2">
+              {item.sources.map((source) => <li className="rounded-lg border p-2" key={`${item.name}-${source}`}>{source}</li>)}
             </ul>
           </div>
         )}

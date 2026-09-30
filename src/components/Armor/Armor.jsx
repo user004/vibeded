@@ -6,7 +6,6 @@ import Accordion from '../Accordion/Accordion'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Card from '../Card/Card'
 import Tooltip from '../Tooltip/Tooltip'
-import './Armor.css'
 
 export const getArmorCheckboxKey = (name) =>
   `armor-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
@@ -15,7 +14,7 @@ function Armor({ item }) {
   const checkboxKey = getArmorCheckboxKey(item.name)
 
   return (
-    <Card className="armor-card">
+    <Card>
       <ItemHeader
         title={item.name}
         tier={item.tier}
@@ -29,28 +28,28 @@ function Armor({ item }) {
       />
 
       <Accordion summary="Details">
-        <div className="armor-card__stats">
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DUR</span>
-            <p className="armor-card__stat-value">{item.durability}</p>
+        <div className="grid grid-cols-3 gap-3">
+          <div className="grid gap-1 rounded-lg bg-muted p-3">
+            <span className="text-xs text-muted-foreground">DUR</span>
+            <p>{item.durability}</p>
           </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">DEF</span>
-            <p className="armor-card__stat-value">{item.defense}</p>
+          <div className="grid gap-1 rounded-lg bg-muted p-3">
+            <span className="text-xs text-muted-foreground">DEF</span>
+            <p>{item.defense}</p>
           </div>
-          <div className="armor-card__stat">
-            <span className="armor-card__stat-label">RES</span>
-            <p className="armor-card__stat-value">{item.resistance}</p>
+          <div className="grid gap-1 rounded-lg bg-muted p-3">
+            <span className="text-xs text-muted-foreground">RES</span>
+            <p>{item.resistance}</p>
           </div>
         </div>
 
         {item.pieceEffect && (
-          <p className="armor-card__text">
+          <p>
             Piece Effect: <Tooltip name={item.pieceEffect} />
           </p>
         )}
         {item.sleekEffect != null && (
-          <p className="armor-card__text">
+          <p>
             Sleek Effect: <Tooltip name={item.sleekEffect} />
           </p>
         )}

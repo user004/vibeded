@@ -1,4 +1,12 @@
-import './Tier.css'
+import { Badge } from '../ui/badge'
+
+const tierColors = {
+  1: 'border-slate-500 bg-slate-600 text-white',
+  2: 'border-teal-500 bg-teal-700 text-white',
+  3: 'border-indigo-500 bg-indigo-700 text-white',
+  4: 'border-purple-500 bg-purple-800 text-white',
+  5: 'border-yellow-400 bg-yellow-500 text-slate-950',
+}
 
 function toRomanNumeral(value) {
   const numerals = [
@@ -39,14 +47,15 @@ function Tier({ tier }) {
   const isNumericTier = typeof tier === 'number' || (typeof tier === 'string' && /^\d+$/.test(tier))
 
   return (
-    <span
-      className="tier"
+    <Badge
+      variant="outline"
+      className={isNumericTier ? tierColors[String(tier)] : undefined}
       data-tier={isNumericTier ? String(tier) : undefined}
       aria-label={isNumericTier ? `Tier ${tier}` : undefined}
       title={isNumericTier ? `Tier ${tier}` : undefined}
     >
-      {isNumericTier ? <span>{toRomanNumeral(tier)}</span> : tier}
-    </span>
+      {isNumericTier ? toRomanNumeral(tier) : tier}
+    </Badge>
   )
 }
 

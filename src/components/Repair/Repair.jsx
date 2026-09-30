@@ -1,4 +1,3 @@
-import './Repair.css'
 import Title from '../Title/Title'
 
 function Repair({ repairs = [], itemName = 'item' }) {
@@ -7,15 +6,15 @@ function Repair({ repairs = [], itemName = 'item' }) {
   }
 
   return (
-    <div className="repair">
-      <Title title="Repair" className="repair__title" />
-      <ul className="repair__list">
+    <div className="grid gap-2">
+      <Title title="Repair" />
+      <ul className="grid gap-2">
         {repairs.map((entry, index) => {
           const name = entry?.name ?? entry?.ingredient ?? entry?.item ?? String(entry)
           const quantity = entry?.quantity
 
           return (
-            <li className="repair__item" key={`${itemName}-repair-${name}-${index}`}>
+            <li className="rounded-lg bg-muted p-2" key={`${itemName}-repair-${name}-${index}`}>
               {quantity !== undefined ? `${name}: ${quantity}` : name}
             </li>
           )
