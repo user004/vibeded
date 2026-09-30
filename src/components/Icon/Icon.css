@@ -1,0 +1,12 @@
+.icon {
+    aspect-ratio: 1;
+    inline-size: var(--size, var(--size-7));
+
+    &.sm {
+        --size: var(--size-5);
+    }
+
+    &.lg {
+        --size: var(--size-9);
+    }
+}

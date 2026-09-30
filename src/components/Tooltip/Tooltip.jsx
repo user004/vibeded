@@ -1,4 +1,5 @@
 import statuses from '../../data/statuses.json'
+import Icon from '../Icon/Icon'
 import './Tooltip.css'
 
 function Tooltip({ name, label, children = name, fitContent = false }) {
@@ -24,10 +25,10 @@ function Tooltip({ name, label, children = name, fitContent = false }) {
 
   return (
     <span className="tooltip" tabIndex="0">
-      <img className="tooltip__trigger-icon" src={`${import.meta.env.BASE_URL}${status.icon}`} alt={status.name} />
+      <Icon className="tooltip__trigger-icon" src={status.icon} alt={status.name} size="sm" />
       <span className={contentClassName} role="tooltip">
         <span className="tooltip__header">
-          <img className="tooltip__icon" src={`${import.meta.env.BASE_URL}${status.icon}`} alt="" />
+          <Icon className="tooltip__icon" src={status.icon} alt={status.name} size="lg" />
           <strong className="tooltip__name">{status.name}</strong>
         </span>
         <span className="tooltip__description">{status.description}</span>

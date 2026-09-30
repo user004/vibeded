@@ -10,6 +10,7 @@ import Creature from '../components/Creature/Creature'
 import CreatureList from '../components/CreatureList/CreatureList'
 import Filters from '../components/Filters/Filters'
 import Hero from '../components/Hero/Hero'
+import Icon from '../components/Icon/Icon'
 import ItemHeader from '../components/ItemHeader/ItemHeader'
 import List from '../components/List/List'
 import Mutation from '../components/Mutation/Mutation'
@@ -94,6 +95,15 @@ export const CheckboxStates = {
 }
 export const TierVariations = {
   render: () => <div style={{ display: 'flex', gap: '1rem' }}><Tier tier={1} /><Tier tier="4" /><Tier tier="Special" /></div>,
+}
+export const StatusIcon = {
+  render: () => (
+    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+      <Icon src={first(statuses).icon} alt={first(statuses).name} size="small" />
+      <Icon src={first(statuses).icon} alt={first(statuses).name} />
+      <Icon src={first(statuses).icon} alt={first(statuses).name} size="large" />
+    </div>
+  ),
 }
 export const Tags = {
   render: () => <div style={{ display: 'flex', gap: '0.5rem' }}><Tag tag="Crafted" /><Tag tag="Neutral" /><Tag tag="Rare" /></div>,

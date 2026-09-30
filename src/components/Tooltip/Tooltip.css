@@ -9,14 +9,6 @@
     vertical-align: middle;
   }
 
-  .tooltip__trigger-icon {
-    inline-size: var(--size-6);
-    block-size: var(--size-6);
-    object-fit: contain;
-    image-rendering: pixelated;
-    vertical-align: middle;
-  }
-
   .tooltip__content {
     position: absolute;
     z-index: 10;
@@ -55,13 +47,6 @@
     display: flex;
     align-items: center;
     gap: var(--size-2);
-  }
-
-  .tooltip__icon {
-    inline-size: var(--size-6);
-    block-size: var(--size-6);
-    object-fit: contain;
-    image-rendering: pixelated;
   }
 
   .tooltip__description {

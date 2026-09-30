@@ -1,4 +1,5 @@
 import Card from '../Card/Card'
+import Icon from '../Icon/Icon'
 import ItemHeader from '../ItemHeader/ItemHeader'
 import Tag from '../Tag/Tag'
 import Accordion from '../Accordion/Accordion'
@@ -10,7 +11,7 @@ function Status({ item }) {
     <Card className="status-card">
       <ItemHeader
         title={item.name}
-        icon={<img className="status-card__icon" src={`${import.meta.env.BASE_URL}${item.icon}`} alt="" />}
+        icon={<Icon className="status-card__icon" src={item.icon} alt={item.name} />}
         tags={item.categories.map((category) => <Tag key={category} tag={category} />)}
       />
 
