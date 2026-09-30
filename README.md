@@ -47,6 +47,16 @@ Build Storybook for deployment or review:
 npm run build-storybook
 ```
 
+## Deploying to GitHub Pages
+
+This repository deploys the Vite production build with the GitHub Actions workflow in `.github/workflows/deploy.yml`. To enable deployment:
+
+1. In the repository settings, open **Pages → Build and deployment** and set **Source** to **GitHub Actions**.
+2. Push or merge a change to `main`, or run **Deploy to GitHub Pages** manually from the **Actions** tab.
+3. When the workflow finishes, open the published site at `https://<owner>.github.io/vibeded/`. The deployed URL is also shown in the workflow's `github-pages` environment.
+
+The Vite base path is set to `/vibeded/` in `vite.config.js` for this repository's project site. If the repository is renamed, update the base path to match its new URL path. For a site served from a custom domain or the account's root Pages site, use `/` instead.
+
 There is no dedicated automated test runner configured in this repository. For targeted linting of a single file, run the repo linter directly:
 
 ```bash
